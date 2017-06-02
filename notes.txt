@@ -1,0 +1,102 @@
+notes
+... 
+
+06.02.17 - github notes
+...
+01. push changes
+03. commit changes
+04. sync
+
+06.02.17 - setup node dev http server
+...
+01. install node
+02. create project folder
+03. cmd prompt run "npm init" to install node_modules folders/files
+04. cd to your project folder for example c:\catjia\bebe
+05. run "node c:\catjia\node_modules\http-server\bin\http-server
+
+
+
+test to see if x exists >>>
+. if(typeof x !== 'undefined'){
+    console.log('Exist');
+} else {
+    console.log('Not Exisit');
+}
+
+
+strict mode >>>
+instert at top of code >>>
+'use strict';
+
+
+iife >>>
+immediately invoked function expression >>>
+
+format numbers to 2 decimal points >>>
+document.write(parseFloat(jia(48,793)).toFixed(2));
+
+use \ backslash to escape a character >>>
+in front of what you want escaped for example >>>
+'Peter O\'Toole'
+
+naming convention - the Hungarian notation >>>
+beginning of name is a 3 letter code for data type for example >>>
+intJia
+
+convert string to number >>>
+var x = "0";
+var y = parseInt(x) + 2; (answer is 2)
+
+how to declare a new array >>>
+var myArray = new Array();
+
+what is SCOPE , it is the extent of a variable's availability >>>
+
+error handling >>>
+try ... catch statement
+
+joining arrays >>>
+the concat() method
+
+modern web developer >>>
+Javascript - typescript, es2017, coffeescript, jsx/tsx
+libraries / frameworks - RxJS, jQuery, Handlebars, Angular, React
+Architecture - MVC, Redux, Flux
+Module Loading System / Package Managers - System.js, AMD, JSPM, Bower
+Build Pipelines - Webpack, Babel, Traceur, Minifiers, Grunt/Gulp
+CSS - LESS SASS
+
+melissa swymer - (813) 944-8315
+
+tools of titans
+tim ferris
+
+axis of awesome 4 or 5 chords play almost every pop song
+
+stickk dotcom
+
+perfection is achieved not when there's nothing more to add but when there's nothing more to take away
+
+the 9 habits to stop now - the not to do list
+1. do not answer phone calls from unknown phone numbers
+2. do not email first thing in the morning or last thing at night
+email can wait until after you complete one important thing first
+3. do not agree to meetings or calls with no clear agenda or endtime
+no meeting or calls should last more than 30 mins
+4. don't check email constantly check @ set times twice per day
+5. 
+6. do not overcommunicate with low profit high maintenance customers
+7. 
+8. do not carry a digital leash 24 x 7 - sat leave phone at home
+9. 
+
+focus on top goals of the day instead of
+manufactured emergencies
+defining the few things that can change your business and life
+think harder not work harder
+
+crack hit aha moment
+
+kato stoic
+
