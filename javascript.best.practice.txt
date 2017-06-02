@@ -1,0 +1,25 @@
+4 - behaviors
+. intro
+. global variables
+. strict mode 
+. read only properties
+. deleting properties
+. duplicates
+. octals and hexidecimals, oh my
+. with
+. what is this anyway
+. this is new objects 
+. summary
+5 - async patterns
+. intro
+. callbacks
+. promises 
+. es6 and babel
+. async - await
+. summary
+6 - production code 
+. intro 
+. npm settings 
+. environmental variables
+. cross platform concerns
+. simplify your world
