@@ -1,6 +1,25 @@
 notes
 ... 
 
+50cc Sports Scooter, 
+50cc Ninja Scooter, 
+50cc Viper Scooter, 
+50cc Tommy Scooter, 
+50cc Milan Scooter, 
+50cc Scorpion Scooter, 
+50cc Italia Scooter, 
+50cc Scooter Spyder. 
+All around $1000
+
+Tampa Bay Powersports
+13521 N Florida Ave
+Tampa, FL 33613-3214
+(813)968-7888
+
+
+
+
+
 06.02.17 - node server
 ...
 const http = require('http');
