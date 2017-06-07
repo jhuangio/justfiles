@@ -208,6 +208,27 @@ ASP.NET
 
 typescript
 ...
-. Getting Started with typescript by Brice Wilson (4h30m)
+. Getting Started with typescript by Brice Wilson (3h8m)
 . Using Visual Studio Code for ASP.NET Core Projects by Shawn Wildermuth (2h26min)
+. typescript fundamentals by dan wahlin and john papa (4h25m)
+. a practical start with typescript by roland guijt (1h39m)
+
+angular 2
+...
+. angular 2: getting started by deborah kurata (5h26m)
+. angular 2 fundamentals by jim cooper and joe eames (9h59m)
+
+RxJS
+...
+. getting started with reactive programming using rxjs by scott allen (1h52m)
+
+sharepoint
+...
+. sharepoint framework - getting started by sahil malik (2h16m)
+
+REST API
+...
+
+
+
 
