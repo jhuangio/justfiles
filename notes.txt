@@ -1,6 +1,8 @@
 notes
 ... 
 
+TypeScript - 2.3.4
+
 ADMIN
 
 SUB-ADMIN
