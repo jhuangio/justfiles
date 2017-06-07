@@ -209,4 +209,5 @@ ASP.NET
 typescript
 ...
 . Getting Started with typescript by Brice Wilson (4h30m)
+. Using Visual Studio Code for ASP.NET Core Projects by Shawn Wildermuth (2h26min)
 
