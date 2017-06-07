@@ -192,3 +192,19 @@ crack hit aha moment
 
 kato stoic
 
+pluralsight courses
+...
+
+VR
+...
+. Creating VR Experiences with JavaScript by Alex Mackey
+
+ASP.NET
+...
+01. ASP.NET Core: The MVC Request Life Cycle by Alex Wolf
+02. ASP.NET Core wiht the New MSBuild Based Tooling by Wes Higbee
+
+typescript
+...
+. Getting Started with typescript by Brice Wilson (4h30m)
+
