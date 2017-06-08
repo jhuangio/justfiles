@@ -25,3 +25,11 @@
 04:55 - 05:15 >>>
 05:15 - 05:35 >>> 
 05:35 - 05:55 >>> 
+
+git notes
+...
+git add .
+git commit -m 'add changes'
+git push origin master
+
+
