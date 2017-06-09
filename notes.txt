@@ -236,6 +236,8 @@ sharepoint
 REST API
 ...
 
+. javascript objects and prototypes by jim cooper (48min)
+
 
 
 
