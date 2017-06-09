@@ -1,6 +1,13 @@
 notes
 ... 
 
+m . 
+t . 
+w . 2 hours 6 reg
+r . 1.5 hours internal meeting 6.5 reg 5.5 reg
+f . 
+
+
 TypeScript - 2.3.4
 
 ADMIN
