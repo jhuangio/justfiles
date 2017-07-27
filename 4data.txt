@@ -473,10 +473,18 @@ MOMENT RECEIVER
 . namespace
 . c:\windows\microsoft.net\framework\v4.0.30319\csc - visual c# complier
 
+js
+..
+. constructor funcions should be named with Initial caps
+
+books
+...
+. the elements of style - william strunk
+
 p s
 ...
 
-(001) - c# fundamentals with visual studio 2015 by scott allen - 5h21m (07.27.17)
+(001) - c# fundamentals with visual studio 2015 by scott allen - 5h21m (07.27.17) 3.3 numbers
 002 - building a js dev environment by cory house - 5h19m
 003 - basics of programming with js by kyle simpson - 2h40m
 004 - front-end web dev quick start with html5, css, and js - by shawn wildermuth - 3h4m
@@ -495,7 +503,7 @@ p s
 017 - js fundamentals for es6 - scott allen - 4h51m
 018 - quick start to js: vol 2 - susan simkins - 1h53m
 019 - choosing a js framework - brian holt - 5h31m
-020 - js: the good parts - douglas crockford - 4h52m
+(020) - js: the good parts - douglas crockford - 4h52m (07.27.17)
 021 - js for c# developers - shawn widermuth - 2h5
 022 - js module fundamentals - brice wilson - 2h16m 
 023 - hardcore functional programming in js - brian lonsdorf - 6h3m
@@ -530,6 +538,115 @@ p s
 052 - asp.net ajax javascript and jquery - fritz onion - 2h22
 053 - fundamentals of functional programming in js - nate taylor - 1h26
 054 - become a full-stack .net developer - mosh hamedani - 5h34
+055 - jquery fundamentals - dan wahlin - 5h18
+056 - learn to program part 1: getting started - scott allen - 3h12
+057 - getting started with typescript - brice wilson - 3h8m
+058 - creating a responsive and flexible slideshow in javascript - alfredo lopez - 2h37
+059 - fundamentals of building office add-ins with office js api - john brown - 2h36
+060 - hands-on javascript project: json - paul cheney - 1h25
+061 - building windows 8 apps with js and html - craig shoemaker 429
+062 - extending bootstrap with css, js, and jquery - paul sheriff - 3h19
+063 - angular cli - john pappa - 2h26min
+064 - building web apps with open-source software on windows - jesse liberty - 2h30
+065 - building stronger front-end practices - christina truong - 2h2
+066 - jquery forms and bootstrap3 - mark zamoyta - 3h34
+067 - jquery adv topics - joe eames - 3h3
+068 - become a full-stack .net dev - architecture and testing - mosh hamedani - 3h59
+069 - visual studio code - john papa - 4h11
+070 - jquery animation - mark zamoyta - 3h41
+071 - jquery template fundamentals - matt milner - 1h1
+072 - getting started with progressive web apps - bill stavoulakis - 2h12
+073 - jquery ui - scott allen - 1h54
+074 - typescript in-depth - brice wilson - 4h40
+075 - jquery tips and tricks - dan wahlin - 4h25m
+076 - building scalable apis with graphql - samer buna - 2h10m
+077 - jquery in depth - karl swedberg - 3h35
+078 - getting started with es2017/es8 - roland gujit - 1h10
+079 - jquery plugins & jquery ui - scott gonzalez - 3h26
+080 - useful jquery plugins - robert boedighei - 3h16m
+081 - fixing common jquery bugs - elijah manor - 2h27m
+082 - asp.net core fundamentals - scott allen -5h57
+083 - practical guide to vanilla web components - leon revill - 2h10m
+084 - bootstrap 3 - shawn wildermuth - 3h50
+085 - webpack fundamentals - joe eames - 2h23
+086 - building app with asp.net mvc 4 - scott allen - 7h23
+087 - intro to bootstrap - scott allen - 2h39m
+088 - angular material fundamentals - ajden towfeek - 2h45
+089 - asp.net mvc 5 fundamentals - scott allen - 6h14
+090 - creating web apis what developers will lovew - kirsten hunter - 2h10m
+091 - the journey from mvc to angular - paul sheriff - 2h26min
+092 - html5 web component fundamentals - cory house - 5h18
+093 - enhancing web uis with parallax scrolling - anthony harris - 1h1
+094 - building bus components using angular - paul sheriff - 3h10m
+095 - defeating cross-site scripting with content security policy - christian wenz - 2h10m
+096 - practical html 5 - gill cleeren - 4
+097 - C# fundamentals with C# 5.0 - scott allen - 6
+098 - leveraging fluid-width principles for responsive design in jquery - saif ebrahim - 2
+099 - amazing things you can do with a web browser - dan appleman - 1
+100 - learn basic html 5 and css3 by building your first web page - mario duilio marcari - 2
+101 - tactics and tools for troubleshooting front-end web dev - shelley benhoff - 1
+102 - the geolocation api: using maps and location in your web pages - elizabeth robson - 1
+103 - intro to web dev - nina zakharenko - 10
+104 - creating a chrome extension - john sonmez - 2
+105 - date and time fundamentals - matt johnson - 6
+106 - angular: getting started - deborah kurata - 5
+107 - angular fundamentals - joe eames - 9
+108 - angular: first look - john papa - 4
+109 - angular fundamentals - joe eames - 6
+110 - play by play: angular 2 / rxjs / http and restful svc with john papas - dan wahlin - 1
+111 - play by play: angular 2 quick start with john papa and ward bell - 2
+112 - play by play: angular with typescript with john papa - 2
+113 - building a responsive spa framework angular - mark zamoyta - 5
+114 - code with us: angular quick start - john papa - 3
+115 - angular forms - mark zamoyta - 2
+116 - angular routing - deborah kurata - 4
+117 - the journey from mvc to angular - 2
+118 - angular material fundamentals - ajden towfeek - 2
+119 - angular cli - john papa - 2
+120 - angular reactive forms - deborah kurata - 3
+121 - angular 2 end-to-end - reggie dawson - 2
+122 - integrating angular with node.js restful svc - dan wahlin - 4
+123 - play by play: angular testing with john papa and ward bell - 1
+124 - adv angular workflows - johnathan mills - 1
+125 - working with angular animations - gary simon - 1
+126 - styling angular app - brian treese - 1
+127 - add angular to mvc apps - paul sheriff - 2
+128 - building bus components using angular - paul sheriff - 3
+129 - become a full-stack .net dev - mosh hamedani - 5
+130 - become a full-stack net dev - adv topics - mosh hamedani - 4
+131 - asp.net core fundamentals - scott allen - 5
+132 - building your first asp.net core web app - gill cleeren - 4
+133 - builidng your first api with asp.net core - kevin dockx - 4
+134 - building a restful api with asp.net core - kevin dockx - 8
+135 - implementing and securing an api with asp.net core - shawn wildermuth - 6
+136 - getting started with .net core for windows dev - wes higbee - 3
+137 - asp.net core: the mvc request life cycle - alex wolf - 3
+138 - asp.net mvc adv topics - scott allen - 5
+139 - become a full-stack .net developer - architecture and testing - mos hamedani - 3
+140 - using asp.net core to build single-page app - ajden towfeek - 1
+141 - asp.net mvc fundamentals - scott allen - 4
+142 - using visual studio code for asp.net core projects - shawn wildermuth - 2
+143 - understanding asp.net core (update) - roland guijt - 2
+144 - asp.net core with the new msbuild based tooling - wes higbee - 4
+145 - building apps with asp.net mvc 4 - scott allen - 7
+146 - understanding asp.net core security - goland guijt - 3
+147 - migrating legacy http modules to asp.net core - chad mccallum - 2
+148 - implementing an api in asp.net web api - shawn wildermuth - 6
+149 - asp.net 5: first look - scott allen - 2
+150 - c# fundamentals with visual studio 2015 - scott allen - 5
+151 - implementing custom middleware components in asp.net core - galvin lanata - 1
+152 - asp.net ajax js and jquery - fritz onion - 2
+153 - 10 ways to build web services in .net - chad mccallum - 6
+154 - building cross-platform apps with .net core - wes higbee - 7
+
+
+
+
+
+
+
+
+
 
 
 
