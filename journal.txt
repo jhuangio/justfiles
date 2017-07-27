@@ -1,5 +1,0 @@
-2017
-...
-06.02 - github
-06.02 - node http-server
-05.31 - mow yard
