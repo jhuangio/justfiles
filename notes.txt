@@ -381,6 +381,63 @@ Columns are accessed as @InternalColumnName
 </xsl:template>
 </xsl:stylesheet>
 
+07.24.17
+angular
+...
+
+const appRoutes: Routes = [
+  { path: 'crisis-center', component: CrisisListComponent },
+  { path: 'hero/:id',      component: HeroDetailComponent },
+  {
+    path: 'heroes',
+    component: HeroListComponent,
+    data: { title: 'Heroes List' }
+  },
+  { path: '',
+    redirectTo: '/heroes',
+    pathMatch: 'full'
+  },
+  { path: '**', component: PageNotFoundComponent }
+];
+
+Elasticsearch
+. no sql document based database
+. blog storage engine
+. log analytics tools
+. document / index / shard / nodes / cluster
+. www.elasticsearch.org
+. Marvel plugin
+. . Sense - nice query dashboard
+. schemas (mappings)
+
+(POST) http://localhost:9200/my_blog
+
+{
+    "mappings": {
+        "post": {
+            "properties": {
+                "user_id": {
+                    "type": "integer"
+                },
+                "post_text": {
+                    "type": "string"
+                },
+                "post_date": {
+                    "type": "date"
+                }
+            }
+        }
+    }
+}
+
+p s 
+...
+getting started with elasticsearch for .net developers
+
+atlassian - jira
+confulence
+
+
 
 
 
