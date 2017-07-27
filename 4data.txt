@@ -467,6 +467,80 @@ PARTNER ADMIN OR SUB ADMIN
 MOMENT GIVER
 MOMENT RECEIVER
 
+.net
+...
+. the CLR manages your app common language runtime
+. namespace
+. c:\windows\microsoft.net\framework\v4.0.30319\csc - visual c# complier
+
+p s
+...
+
+(001) - c# fundamentals with visual studio 2015 by scott allen - 5h21m (07.27.17)
+002 - building a js dev environment by cory house - 5h19m
+003 - basics of programming with js by kyle simpson - 2h40m
+004 - front-end web dev quick start with html5, css, and js - by shawn wildermuth - 3h4m
+005 - advanced js by kyle simpson - 6h55m
+006 - practical design patterns in js by jonathan mills - 3h10m
+007 - object-oriented programming in js - es6 by mark zamoyta - 2h27m
+008 - quick start to js: vol 1 by susan simkins - 1h43m
+009 - js async module definition (amd) explained by kevin Murray - 3h4m
+010 - rapid js training by mark zamoyta - 5h43m
+011 - js: from fundamentals to functional js - bianca gandolfo - 7h9m
+012 - js objects and prototypes - jim cooper - 48min
+013 - js best practices - jonatha mills - 2h39m
+014 - js from scratch - jesse liberty - 1h52m
+015 - js: adv fundaments to jquery & pure dom scripting - justin meyer - 8h59m
+016 - js fundamentals - lia mclennan - 2h53m
+017 - js fundamentals for es6 - scott allen - 4h51m
+018 - quick start to js: vol 2 - susan simkins - 1h53m
+019 - choosing a js framework - brian holt - 5h31m
+020 - js: the good parts - douglas crockford - 4h52m
+021 - js for c# developers - shawn widermuth - 2h5
+022 - js module fundamentals - brice wilson - 2h16m 
+023 - hardcore functional programming in js - brian lonsdorf - 6h3m
+024 - quick start to js: vol 3 - susan simkins - 1h24m
+025 - modern async js - wes higbee - 6h35m
+026 - structuring js code - dan wahlin - 2h10m
+027 - testing clientside js - joe eames - 4h50m
+028 - js design patterns - aaron powell - 2h2
+029 - increase productivity: add a dev console to your app with js - carlos saloio - 2h34
+030 - solve math programs with js - terry toy - 3h40
+031 - prototype.js fundamentals - geoffrey grosenb - 3h3
+032 - hands-on js project: solar calculator - paul cheney 2h6
+033 - js.next: es6 - aaron frost - 5h24
+034 - intro to js & jquery - karl swedberg - 3h34
+035 - sweet.js: get started - aaron powell - 3h22
+036 - reasoning about async js - wes higbee - 2h5
+037 - front-end first: testing and prototyping js apps - elijah manor - 3h21
+038 - large scale js on client and server - shawn wildermuth - 2h49
+039 - play by play: html, css, and js with lea verou - 2h15
+040 - adv techniques in js and jquery - kevin murray - 3h16m
+041 - fixing common js bugs - elijah manor - 3h42
+042 - front end web dev: get started - joe eames - 3h47
+043 - jquery-free js - elijah manor - 2h26min
+044 - modern, modular js with systemjs and jspm - wes higbee - 7h25
+045 - building adv js animations with GSAP - todd shelton - 2h38
+046 - shifting js into high gear with web workers - mike van sickle - 1h57m
+047 - adv typescript - brice wilson - 2h55
+048 - html5 fundamentals - craig shoemaker - 3h47
+049 - creating vr experiences with js - alex mackey - 1h38m
+050 - rapid es6 training - mark zamoyta - 4h16
+051 - typescript fundamentals - dan wahlin - 4h25m
+052 - asp.net ajax javascript and jquery - fritz onion - 2h22
+053 - fundamentals of functional programming in js - nate taylor - 1h26
+054 - become a full-stack .net developer - mosh hamedani - 5h34
+
+
+
+
+
+
+
+
+
+
+
 
 
 
