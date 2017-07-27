@@ -476,6 +476,7 @@ sql
 . the CLR manages your app common language runtime
 . namespace
 . c:\windows\microsoft.net\framework\v4.0.30319\csc - visual c# complier
+. ctor (tab/tab) Constructor shortcut
 
 js
 ..
@@ -488,7 +489,7 @@ books
 p s
 ...
 
-(001) - c# fundamentals with visual studio 2015 by scott allen - 5h21m (07.27.17) 3.3 numbers
+(001) - c# fundamentals with visual studio 2015 by scott allen - 5h21m (07.27.17) 3.6 ref type
 002 - building a js dev environment by cory house - 5h19m
 003 - basics of programming with js by kyle simpson - 2h40m
 004 - front-end web dev quick start with html5, css, and js - by shawn wildermuth - 3h4m
