@@ -467,6 +467,10 @@ PARTNER ADMIN OR SUB ADMIN
 MOMENT GIVER
 MOMENT RECEIVER
 
+sql
+...
+. microsoft sql server management studio
+
 .net
 ...
 . the CLR manages your app common language runtime
