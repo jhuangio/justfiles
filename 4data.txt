@@ -84,8 +84,8 @@ https://jonhilton.net/2016/10/06/adding-web-api-to-your-net-core-application/
 barbara oakley: "learning how to learn" >>>
 https://www.youtube.com/watch?v=vd2dtkMINIw
 
-you don't know js - kyle simpson
-https://github.com/specter01wj/Book-you_dont_know_js
+>>> you don't know js - kyle simpson
+>>> https://github.com/specter01wj/Book-you_dont_know_js
 
 notes
 ... 
@@ -508,10 +508,24 @@ oop
 books
 ...
 . the elements of style - william strunk
+. high performance javascript
+. javascript patterns
+
+SRP - Single responsibility principles
+...
+. a computer programming principle that states that every module or class should have a responsibility over a single part of the functionality provided by the software, and that responsibility should be entirely encapsulated by the class.
+
+angular style guide
+...
+. limiting files to 400 lines of code
+. make code more reusable, easier to read and less mistake prone
+
+www
+...
+. https://developer.mozilla.org/en-US/docs/JavaScript
 
 p s
 ...
-
 (001) - c# fundamentals with visual studio 2015 by scott allen - 5h21m (07.27.17) 3.10 computation
 002 - building a js dev environment by cory house - 5h19m
 003 - basics of programming with js by kyle simpson - 2h40m
@@ -676,7 +690,7 @@ p s
 162 - intro to docker on win with visual studio 2017 - marcel de vries - 4
 163 - getting started with docker datacenter - elton stoneman - 1
 164 - managing docker images - david clinton - 1
-165 - deploying .net app with octopus deploy - kenneth truyers - 1
+(165) - deploying .net app with octopus deploy - kenneth truyers - 1 (07.28.17)
 166 - play by play: modernizing your deployment strategy with octopus - damian brady - 1
 
 docker
@@ -687,6 +701,18 @@ elasticsearch
 
 octopus
 ...
+. 
+
+.net
+...
+. entity framework - data oriented apps
+. code first ddd domain driven design - creating classes first rather than db first. code first api will create db on the fly based on your classes and config.
+. mvc model view controller
+
+http-server
+...
+. run http-server
+. http://127.0.0.1:8080/jia.html
 
 
 
