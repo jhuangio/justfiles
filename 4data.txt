@@ -482,6 +482,29 @@ js
 ..
 . constructor funcions should be named with Initial caps
 
+angular 4
+...
+. ng build --prod --aot=false
+. index.html
+. favicon
+. polyfills 1
+. main 2
+. styles 3 
+. vendor 4
+. inline 5
+
+oop
+...
+. three pillars
+.. 1 encapsulation (primary)
+.. 2 inheritance
+.. 3 polymorphism
+. inheritance
+. polymorphism
+. abstract classes
+. interfaces
+. common interfaces
+
 books
 ...
 . the elements of style - william strunk
@@ -489,7 +512,7 @@ books
 p s
 ...
 
-(001) - c# fundamentals with visual studio 2015 by scott allen - 5h21m (07.27.17) 3.6 ref type
+(001) - c# fundamentals with visual studio 2015 by scott allen - 5h21m (07.27.17) 3.10 computation
 002 - building a js dev environment by cory house - 5h19m
 003 - basics of programming with js by kyle simpson - 2h40m
 004 - front-end web dev quick start with html5, css, and js - by shawn wildermuth - 3h4m
@@ -609,10 +632,10 @@ p s
 118 - angular material fundamentals - ajden towfeek - 2
 119 - angular cli - john papa - 2
 120 - angular reactive forms - deborah kurata - 3
-121 - angular 2 end-to-end - reggie dawson - 2
+(121) - angular 2 end-to-end - reggie dawson - 2 (07.28.17)
 122 - integrating angular with node.js restful svc - dan wahlin - 4
 123 - play by play: angular testing with john papa and ward bell - 1
-124 - adv angular workflows - johnathan mills - 1
+(124) - adv angular workflows - johnathan mills - 1 (07.28.17)
 125 - working with angular animations - gary simon - 1
 126 - styling angular app - brian treese - 1
 127 - add angular to mvc apps - paul sheriff - 2
@@ -643,6 +666,30 @@ p s
 152 - asp.net ajax js and jquery - fritz onion - 2
 153 - 10 ways to build web services in .net - chad mccallum - 6
 154 - building cross-platform apps with .net core - wes higbee - 7
+(155) - asp.net mvc fundamentals - scott allen - 4 (07.28.17) 
+156 - asp.net mvc adv topics - scott allen - 5
+157 - docker for web dev - dan wahlin - 5
+158 - play by play: docker for web dev with john papa - 1
+159 - getting started with docker - nigel poulton - 2
+160 - docker deep dive - getting started with docker on win - wes higbee - 5
+161 - docker and containers: the big picture - nigel poulton - 1
+162 - intro to docker on win with visual studio 2017 - marcel de vries - 4
+163 - getting started with docker datacenter - elton stoneman - 1
+164 - managing docker images - david clinton - 1
+165 - deploying .net app with octopus deploy - kenneth truyers - 1
+166 - play by play: modernizing your deployment strategy with octopus - damian brady - 1
+
+docker
+...
+
+elasticsearch
+...
+
+octopus
+...
+
+
+
 
 
 
