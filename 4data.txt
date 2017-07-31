@@ -523,6 +523,7 @@ angular style guide
 www
 ...
 . https://developer.mozilla.org/en-US/docs/JavaScript
+. http://jsforcats.com/
 
 p s
 ...
@@ -692,6 +693,8 @@ p s
 164 - managing docker images - david clinton - 1
 (165) - deploying .net app with octopus deploy - kenneth truyers - 1 (07.28.17)
 166 - play by play: modernizing your deployment strategy with octopus - damian brady - 1
+(167) - advanced techniques in js and jquery - kevin murray - 3 - (7/31/17)
+(168) - basics of programming with js - kyle simpson - 2 - (7/31/17)
 
 docker
 ...
