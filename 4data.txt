@@ -481,6 +481,7 @@ sql
 js
 ..
 . constructor funcions should be named with Initial caps
+. strict mode es5
 
 angular 4
 ...
@@ -695,6 +696,8 @@ p s
 166 - play by play: modernizing your deployment strategy with octopus - damian brady - 1
 (167) - advanced techniques in js and jquery - kevin murray - 3 - (7/31/17)
 (168) - basics of programming with js - kyle simpson - 2 - (7/31/17)
+(169) - advanced js - kyle simpson - 6 - (7/31/17)
+(170) - intro to sql - john flanders - 3 (8/1/17)
 
 docker
 ...

@@ -2,6 +2,7 @@ today
 ...
 . daily review
 . weekly review
+. cancel pluralsight for cardinalsolutions id
 
 this.week
 ...
@@ -31,8 +32,6 @@ thr
 
 fri
 ...
-. 1000 - standup
-. 1200 - personal lines - month lunch - CF4 WhiteIbisRoom - Haley Cook
 
 sat
 ...
