@@ -698,6 +698,11 @@ p s
 (168) - basics of programming with js - kyle simpson - 2 - (7/31/17)
 (169) - advanced js - kyle simpson - 6 - (7/31/17)
 (170) - intro to sql - john flanders - 3 (8/1/17)
+(171) - play by play: angular testing with john papa and ward bell - 1 (8/4/17) [1,2]
+(172) - visual studio code - john papa - 4 (8/4/17) [1,2,3,4,5,6,7,8,9]
+(173) - intro to node.js - paul o'fallon - 2 [1,2,3,4,5,6,7]
+(174) - advanced node.js - samer buna - 3 [1,2,3,4,5,6,7,8,9,10]
+(175) - rapid es6 training - mark zamoyta - 4 [1,2,3,4,5,6,7,8,9]
 
 docker
 ...
@@ -719,6 +724,21 @@ http-server
 ...
 . run http-server
 . http://127.0.0.1:8080/jia.html
+
+node.js
+...
+. created 2009
+. server side js
+. 3 parts = libuv + v8 + custom js c++
+
+clarity
+...
+
+es6 - ecmascript 2015
+...
+
+
+
 
 
 
