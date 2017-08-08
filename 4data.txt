@@ -737,6 +737,10 @@ clarity
 es6 - ecmascript 2015
 ...
 
+js
+...
+. var newJia = oldJia.replace('jia', 'cat');
+
 
 
 
