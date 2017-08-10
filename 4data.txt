@@ -798,6 +798,12 @@ launch.json
 
 typescript
 ...
+. based on ECMAScript 2015
+. designed by anders hejlsberg the designer of c# - 10/2012
+. classes
+  . fields- any var declared in a class
+  . constructors
+  . functions or methods
 . numbers - property
   . MAX_VALUE
   . MIN_VALUE
@@ -858,7 +864,7 @@ typescript
   . splice()
   . toString()
   . unshift()
-  
+
 . prototype - the prototype property allows you to add properties and methods to an object
 . Enums
 . tuples - let myTuple: [number,string] = [25, 'truck'];
@@ -991,7 +997,12 @@ books
 ...
 . design patterns: elements of reusable object-oriented software by erich gamma, richard helm, ralph johnson and john vlissides "gang of four"
 
-
+all about fat arrow functions
+...
+. you don't need to keep typing function
+. it lexically captures the meaning of this
+. it lexically captures the meaning of arguments
+. sample - var inc = (x)=>x+1;
 
 
 
