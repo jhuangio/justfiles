@@ -798,12 +798,200 @@ launch.json
 
 typescript
 ...
+. numbers - property
+  . MAX_VALUE
+  . MIN_VALUE
+  . NaN 
+  . NEGATIVE_INFINITY
+  . POSITIVE_INFINITY
+  . prototype
+  . constructor
+. numbers - methods
+  . toExponential()
+  . toFixed()
+  . toLocaleString()
+  . toPrecision()
+  . toString()
+  . valueOf()
+. string - property
+  . constructor
+  . length
+  . prototype
+. string - methods
+  . charAt()
+  . charCodeAt()
+  . concat()
+  . indexOf()
+  . lastIndexOf()
+  . localCompare()
+  . match()
+  . replace()
+  . search()
+  . slice()
+  . split()
+  . substr()
+  . substring()
+  . toLcaleLowerCase()
+  . toLocaleUpperCase()
+  . toLowerCase()
+  . toString()
+  . toUpperCase()
+  . valueOf()
+. array - methods
+  . concat()
+  . every()
+  . filter()
+  . forEach()
+  . indexOf()
+  . join()
+  . lastIndexOf()
+  . map()
+  . pop() - remove last element from array and returns that element
+  . push() - adds one more element to the end of the array and returns the length of the array
+  . reduce()
+  . reduceRight()
+  . reverse()
+  . shift() - remove 1st element and return element
+  . slice() 
+  . some()
+  . sort()
+  . splice()
+  . toString()
+  . unshift()
+  
+. prototype - the prototype property allows you to add properties and methods to an object
+. Enums
+. tuples - let myTuple: [number,string] = [25, 'truck'];
+. functions - building blocks of readable, maintainable, and reusable code
+  . lambda - fat arrow function
+    1. parameters
+    2. fat arrow notation => aka goes to operators
+    3. statements - functions instruction set
+    . var foo = (x:number)=>10+x
+  . defining a function what and how task to be done
+  . calling a function - executing function
+  . returning functions - return values
+  . parameterized function - pass values
+  . anonymous function
+    . var msg = function() {
+      return "hello";
+    . }
+    . console.log(msg())
+. loops
+  . break - break out of loops
+  . continue
+  . definite loop - for loop
+  . indefinite loop 
+    . do...while
+    . while loop
+. types
+  . boolean
+  . number
+  . string
+  . array
+  . Enum - friendly names to finite set of numeric values
+  . any - string, number, or object
+  . void - function does not return a value
+. let and const - scope inside block not function (var hoisted to top of function) name only allowed once in each code block
+. operators
+  . arithmetic
+  . logical
+  . relational 
+  . bitwise
+  . assignment
+  . ternary/conditional - test ? expr1 : expr2
+  . string
+  . decision
+    . if statement
+    . if..else statement
+    . else... if and nested if statements
+    . switch statement
+  . type
+    . typeof
+    . instanceof
+. SCOPE
+  . global scope
+  . class scope (fields) 
+  . local scope - inside methods, loops, etc.
+. type assertion - changing a var from one type to another
 . superset of js
 . strong typing fewer bugs
 . compiles to js
 . cross platform
 . open sourceMapPathOverrides
 . tsc -v (check for version)
+. variable declaration in tsc
+  . var id: type = value;
+  . var id: type; (value=undefined)
+  . var id = value; (type=any)
+  . var id; (type=any,value=undefined)
+. var names
+  . alpha and numeric (cannot start with number)
+  . no special char or spaces (except _ and $)
+. user-defined types
+  . enumerations (enums)
+  . classes
+  . interfaces
+  . arrays
+  . tuple
+. null and undefined
+  . undefined - var has no value or object assitned to it
+  . null - var set to object with value undefined
+. keywords
+  . break
+  . as
+  . any
+  . switch
+  . case
+  . if
+  . throw
+  . else
+  . var
+  . number
+  . string
+  . get
+  . module
+  . type
+  . instanceof
+  . typeof
+  . public
+  . private
+  . enum
+  . export
+  . finally
+  . for
+  . while
+  . void
+  . null
+  . super
+  . this
+  . new
+  . in
+  . return
+  . true
+  . false
+  . any
+  . extends
+  . static
+  . letter
+  . package
+  . implements
+  . interfaces
+  . function
+  . new
+  . try
+  . yield
+  . const
+  . continue
+  . do
+  . catch
+  . name? new?
+
+books
+...
+. design patterns: elements of reusable object-oriented software by erich gamma, richard helm, ralph johnson and john vlissides "gang of four"
+
+
 
 
 
