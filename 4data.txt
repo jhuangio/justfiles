@@ -1004,6 +1004,57 @@ all about fat arrow functions
 . it lexically captures the meaning of arguments
 . sample - var inc = (x)=>x+1;
 
+ng4 notes
+...
+. component classes manage html templates
+. app logic in services
+. organizing components and services in modules
+. bootstrapping the root module
+. decorators - functions that modify js classes - angular uses decorators to attach metadata to classes so that it knows what those classes mean and how they should work
+. declarations - view classes that belongs to this module
+  1. components
+  2. directives
+  3. pipes
+. exports
+. imports 
+. providers - services
+. bootstrap - link to root component
+. components
+  . controls a patch of screen called a view
+  . define app logic (what it does to support the view) inside a class
+  . the class interacts with the view through an API of properties and methods
+. lifecycle hooks - creates, updates, destroys - ngOnInit()
+. templates - html
+. metadata - tells angular how to process a class
+. @Component decorators
+  1. selector - CSS selector that tells angular to create and insert an instance of this component where it finds a <component-name> tag in parent html
+  2. templateUrl - relative address to html template
+  3. providers - array of dependency injection providers for services that the component requires
+. other decorators
+  1. @Injectable
+  2. @Input
+  3. @output
+. data binding - bind component data to html template single or both directions
+. interpolation {{name}}
+. property binding [hero] pass selectedHero from parent to child
+. event binding (click) calls component methods from browser events like button clicks for example
+. 2 way data binding with <input [(ngModel)]="hero.name">
+. structural directives
+  1. <li *ngFor="let hero of heroes"></li>
+  2. <hero-detail *ngIf="selectedHero"></hero-detail>
+. attribute directive - ngModel - <input [(ngModel)]="hero.name">
+  . ngSwitch
+  . ngStyle
+  . ngClass
+
+
+
+
+
+
+
+
+
 
 
 
