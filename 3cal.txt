@@ -2,7 +2,6 @@ today
 ...
 . daily review
 . weekly review
-. cancel pluralsight for cardinalsolutions id
 
 this.week
 ...
@@ -16,7 +15,7 @@ later
 
 cal
 ...
- 8/18/97 - call trulieve for order? from dr. Daniel Rodriquez
+
 
 mon
 ...
