@@ -707,6 +707,8 @@ p s
 (177) - adv typescript - brice wilson - 2 (8/9/17) [1,2.1,3]
 (178) - typescript in-depth - 4 (8/9/17) [1,2,3,4,5,6,7,8,9,10,11]
 (179) - a pratical start with typescript - roland guijt - 1 (8/9/17) [1,2]
+(180) - add angular to mvc apps - paul sheriff - 2 (8/10/17) [1,2,3,4,5,6,7,8]
+(181) - angular fundamentals - jim cooper and joe eames - 9 (8/11/17) [1,2,3.9,4,5,6,7,8,9,10,11,12,13,14,15,16,17]
 
 docker
 ...
@@ -1046,6 +1048,60 @@ ng4 notes
   . ngSwitch
   . ngStyle
   . ngClass
+. service - value, function or feature taht your app needs - shared service
+  . a class with a narrow well-defined purpose it should do something specific and do it well
+  . logging svc
+  . data svc
+  . message bus
+  . tax calculator
+  . app config
+. dependenc injection - provide new components with services they need
+. animations
+. change detection
+. events
+. forms
+. http
+. lifecycle hooks
+. pipes
+. router
+. testing
+. lifecycle hooks
+  . ngOnChanges - called before ngOnInit()
+  . ngOnInit
+  . ngDoCheck
+    . ngAFterContentInit
+    . ngAfterContentChecked
+    . ngAfterViewInit
+    . ngAfterViewChecked
+  . ngOnDestroy - cleanup just before angular destroys the directive/component
+. safe namespace css
+
+functional js
+..
+. eloquent js - http://eloquentjavascript.net/1st_edition/chapter6.html
+. mostly adequate guide to fp - https://github.com/MostlyAdequate/mostly-adequate-guide
+. fun fun functions video series - https://www.youtube.com/watch?v=BMUiFMZr7vk
+. a nettut's paid video course on fp - http://code.tutsplus.com/courses/functional-programming-in-javascript
+. js allonge - https://leanpub.com/javascriptallongesix/read
+. dry - don't repeat yourself
+. yagni - ya ain't gonna need it
+. loose coupling high cohesion
+. principle of least surprise
+. single responsibility
+. pure function - given same input will always return same output does not have any observable side effect
+. currying - you can call a functon with fewer arguments than it expects. it returns a function that takes the remaining arguments
+. hindley-milner type signatures
+
+
+angular
+...
+. @Input() - pass from parent to child put on child component file
+  . <event-thumbnail [event]="event1"></event-thumbnail>
+
+smacss.com
+...
+. scalable and modular architecture for css
+
 
 
 
