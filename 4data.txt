@@ -709,6 +709,7 @@ p s
 (179) - a pratical start with typescript - roland guijt - 1 (8/9/17) [1,2]
 (180) - add angular to mvc apps - paul sheriff - 2 (8/10/17) [1,2,3,4,5,6,7,8]
 (181) - angular fundamentals - jim cooper and joe eames - 9 (8/11/17) [1,2,3.9,4,5,6,7,8,9,10,11,12,13,14,15,16,17]
+(182) - typescript in-depth - brice wilson - 4 - (8/14/17) [1,2,3,4,5.3,6,7,8,9,10,11]
 
 docker
 ...
@@ -994,6 +995,21 @@ typescript
   . do
   . catch
   . name? new?
+. template strings
+  . surrounded by backticks ` and embedded expressions ${ name }`
+. array
+  . let list: number[] = [1,2,3];
+  . let list: Array<number> = [1,2,3];
+. tuple - array with mixed type for examle string and number
+  . let x: [string, number];
+  . x = ["hello", 10];
+. enum - a way of giving more friendly names to set of numeric values
+. any - let notSure: any = 4;
+. void - function that does not return a value
+  . function warnUrser(): void {
+    alert('test');
+  }
+
 
 books
 ...
@@ -1097,10 +1113,21 @@ angular
 ...
 . @Input() - pass from parent to child put on child component file
   . <event-thumbnail [event]="event1"></event-thumbnail>
+. date
+  . today: number = Date.now();
+  . {{ today | date: 'yyyy' }}
 
 smacss.com
 ...
-. scalable and modular architecture for css
+
+interfaces 
+...
+. are the way to type anything more complicated than our basic types, including function and classes\
+  interface IMyInterface {
+    value: string;
+    method(): number;
+    (): boolean;
+  }
 
 
 
