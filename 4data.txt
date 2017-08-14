@@ -1128,6 +1128,237 @@ interfaces
     method(): number;
     (): boolean;
   }
+. contracts that define types
+. defines how a type can and cannot be used
+. defines shape of an object
+. interface is a contract without the implementation details
+
+  arrow functions
+  ...
+  . concise syntax for anonymous functions - with fat arrow, you don't have to write the "function" keyword or "return" keyword - much more concise - aka Lamda  functions
+  . js 
+    let arr allBooks.filter(function(book) {
+      return book.author === 'Herman Melville';
+    });
+  . tsc
+    let arr = allBooks.filter(book => book.author === 'Herman Melville');
+
+classes
+. template for creating objects
+. provides state storage and behaviors
+. encapsulates resuable functionality
+
+constructors
+...
+. constructors are functions that perform initialization for new instances of a class
+. in ts only one constructor per class
+. constructor(title: string, publisher?: string) {} "?" makes it optional
+
+properties and methods
+...
+. classes provide the actual implementation details
+
+generics
+...
+. bits of code designed to work with multiple types
+
+array
+...
+. let poetryBooks: Book[];
+. let poetryBooks: Array<Book>;
+
+destructuring arrays
+...
+. let medals: string[] = ['gold', 'silver', 'bronze'];
+. let [first, second, third] = medals;
+
+destructuring objects
+...
+. let person = {
+    name: 'jia',
+    addres: '304 fern rd',
+    phone: '813-415-5571'
+  }
+. let { name, address, phone } = person;
+
+decorators
+...
+. proposed feature for future js
+. implemented as ts functions
+
+callback functions
+...
+. higher order functions
+. commonly used to process async results
+. node accept error and data parameterized 
+. interface LibMgrCallback {
+    (err: Error, titles: string[]): void;
+  }
+
+interface
+...
+. code contract
+. interface IEngine {
+    start(
+      callback: (
+        startStatus: boolean,
+        engineType: string) => void): void;
+    stop(
+      callback: (stopStatus: boolean,
+      engineType: string) => void): void;
+    )
+      )
+    )
+}
+
+ts - class
+...
+. class is the blueprint house is the object
+. define data in a class with fields
+. object of a class is also instance of a class
+. fuction in a class is also method of a class
+
+ts - data types
+...
+. built-in types
+  . boolean
+  . string
+  . number
+. custom types
+  . enum
+  . array
+  . interface
+  . class
+
+type inference - when you try to assign a string to a number ts will give you an error even if you don't specify the type due to type inference based on the number value assigned to the var
+
+type assertions - assert the data type after first declaring it <any> type
+. let fixedString: string = (<number>value).toFixed(4);
+. let fixedString: string = (value as number).toFixed(4);
+
+interfaces vs classes
+...
+. interface
+  . define a new type
+  . properties (signatures)
+  . methods (signatures)
+  . cannot be instantiated (contract)
+. classes
+  . define a new type
+  . properties (with inplementation)
+  . methods (with implementation)
+  . can be instantiated
+
+  creating an interface - interface can extend another interface
+  . interface Manager extends Employee {}
+
+  constructor
+  . special type of function to create new instances of a class
+  . constructor {} { console.log ('test')}
+
+  super();
+  . calling super is how you call the parent class's constructor from a child class
+
+  hoisting
+  . anytime a var keyword is used inside a function, it is hoisted to the top of the function regardless of where it is in the function
+
+const
+...
+. block scoped
+. const startTime = Date.now();
+
+namespace - ts only concept
+
+naming
+...
+. pascal casing - InitialCaps
+. camel casing - initialLowerCase
+
+js - prototyping
+...
+. every object is built by a constructor function 
+. a constructor makes an object based on it's own prototype
+. a constructor makes an object that is "linked to" it's prototype
+
+notes
+...
+. objects as squares
+. functions as circles
+. before line 1
+  . function named object
+  . object named .prototype link from function to object
+    . toString
+. line 1
+  . fuction named "Foo"
+  . object named .prototype link from function to object
+  . .constructor link from object to function
+. line 4
+  . add property "identify" to object
+. line 8 - create new a1 object
+  . create a new object
+  . set "this" focus on object
+  . add a new property ".me" in object
+  . return this give object label "a1"
+. line 9 - create a new a2 object
+  . create a new object
+  . set this focus on object
+  . add a new property.me in object
+  . return this give object label "a2"
+. line 11 - add speak method to object
+
+[[Prototype]] - bracket bracket P
+
+.prototype - dot prototype
+
+__proto__ - dunder proto
+. getter function returns internal prototype linkage
+. public property
+. es6 standard
+. IE 11
+
+Object.getPrototypeOf(a1)
+
+shadowing prototype chain
+
+"this" keyword always reference the call site
+
+
+
+
+go up the prototype chain to find constructor
+
+
+
+
+
+
+pluralsight
+...
+    (182) - typescript in-depth - brice wilson - 4 - (8/14/17) [1,2,3,4,5,6,7.2,8,9,10,11]
+    (183) - adv ts - brice wilson - 2 - (8/14/17) [1,2,3,4,5,6,7]
+    (184) - ts fundamentals - dan wahlin - (8/14/17) 4 [1,2,3,4]
+    (185) - a practical start with ts - roland guijt - (8/14/17) 1 [1,2,3.3,4,5]
+    (186) - getting started with ts - brice wilson - 3 (8/14/17) [1,2,3,4,5,6,7]
+    (187) - using es6 with ts - steve ognibene - 2 (8/14/17) [1,2,3,4]
+    (188) - basics of pro with js - kyle s - 2 (8/14/17) [1.2]
+    (189) - adv js - kyle s - 6 (8/14/17) [1,2,3,4.4,5]
+    190 - oop in js es6 - mark z - 4 []
+    191 - solid principles of oo design - steve s - 4 []
+    192 - quick start to js vol 3 - susan s - 1 []
+    193 - software eng essentials - mohamad h - 4 []
+    194 - what is programming - simon a - 2 []
+    195 - beginning powershell scripting for dev - robert c - 6 []
+    196 - js for c# dev - shawn w - 2 []
+
+
+
+
+
+
+
+
+
+
 
 
 
