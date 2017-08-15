@@ -1322,13 +1322,77 @@ shadowing prototype chain
 
 "this" keyword always reference the call site
 
-
-
-
 go up the prototype chain to find constructor
 
+currying in js
+...
+. is a way to reduce functions of more than one argument to functions of one argument
+. partial evaluation
 
+Object.create
+. create a new object
+. link it
+. no return data
+. no constructor
+. Bar.prototype = Object.create(Foo.prototype);
 
+oop
+...
+. classes = classification
+
+objects aka
+...
+. representation
+. abstraction
+. model
+. thing
+. entity
+. business object
+. object
+
+class
+. blueprint used to stamp out objects
+. class = classification
+. object = instances of class
+. name class Pascal case for ex "Drone"
+. a class is a function
+. you use the class function to create a new instance of Drone an object
+. let drone = new Drone();
+. static properties or class properties you can add properties to the class itself
+. method is a function that gets attached to an instance
+. when working with an instance of a class, always use the "this" keyword to refer to the object property
+. static method only exists on the class not the instance
+. when a variable name begins with an underscore, it usuall means it's private for example "_id"
+. getters and setter
+. each html element can be a class
+
+ocp - the open/closed principle
+... 
+. the open / closed principle states that software entities (classes, modules, functions, etc.) should be open for extension, but closed for modification
+
+srp - the single responsibility principle
+...
+. the srp states that every object should have a single responsibility, and that responsibility should be entirely encapsulated by the class
+
+the liskov substitution principle
+...
+. states that subtypes must be substitutable for their base types
+
+isp - the interface segregation principle
+...
+. states that clients should not be forced to depend on methods they do not use
+
+dip - the dependency inversion principle
+...
+. high level modules should not depend on low level modules. both should depend on abstractions
+. abstractions should not depend on details.
+. details should depend on abstractions
+
+dry - don't repeat yourself
+...
+. every piece of knowledge must have a single, unambiguous representation in the systemjs
+. repetition in logic calls for abstractions.
+. repetition in process calls for automation
 
 
 
@@ -1342,8 +1406,8 @@ pluralsight
     (187) - using es6 with ts - steve ognibene - 2 (8/14/17) [1,2,3,4]
     (188) - basics of pro with js - kyle s - 2 (8/14/17) [1.2]
     (189) - adv js - kyle s - 6 (8/14/17) [1,2,3,4.4,5]
-    190 - oop in js es6 - mark z - 4 []
-    191 - solid principles of oo design - steve s - 4 []
+    (190) - oop in js es6 - mark z - 4 (8/15/17)  [1,2,3.10,4,5,6,7]
+    (191) - solid principles of oo design - steve s - 4 (8/15/17) [1,2,3,4,5,6,7,8,9]
     192 - quick start to js vol 3 - susan s - 1 []
     193 - software eng essentials - mohamad h - 4 []
     194 - what is programming - simon a - 2 []
