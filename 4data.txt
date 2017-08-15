@@ -1448,6 +1448,119 @@ pluralsight
     196 - js for c# dev - shawn w - 2 []
     (197) - quick start to js vol 2 - susa s -(8/15/17) [1,2]
 
+    sprint 15
+    ...
+    01. testing effect
+    02. eft email notification
+    03. eft - endorsements, cancels, other changes
+    04. payment screen modification for eft
+    05. create hamburger menu to save with options
+    06. pos screen mods for pho - discounts /surcharges
+    07. modify deductible screen to accomodate three deductibles for pho
+    08. modify deductible screen to accommodate three deductibiles for pho
+    09. outstanding pho rating
+    10. pho edits
+    11. quote pdf
+    12. ux/ui cleanup
+    13. applicant date of birth - tx pho
+    14. load testing
+    15. ux imporvements and optomization
+    16. regression testing sprint 15
+    17. bho2172 is triggering as uw and it should not
+    18. sprint 15 production support 8/2 - 8/15
+    19. fl ho - dummy policy number for m p d 
+    20. eft payment option not displaying on the application
+
+    backlog
+    ...
+    01. spike: ca/uat environment
+    02. state validation for pos 
+    03. pho tx - distance to water and coast
+    04. 5) coverage edits (2)
+    05. pho - make credit mandatory
+    06. pos mod for pho - run credit via lexis nexis (3)
+    07. test rating
+    08. application (research, validate, program and test)
+    09. check writer
+    10. push front end data to backend
+    11. transaction testing (froom front-end nb policy)
+    12. month end set up
+    13. lockbox setup
+    14. doc package testing
+    15. lender and payemnt screen adjustments
+    16. eft - endoresments cancels other changes long term
+    17. spring 16 regressing testing 8/16 - 8/29
+    18. sprint 16 product support 8/16/-8/29
+    19. add property edits (pos and pho)
+    20. deploy pos ui and web api to ca environment
+    21. rename field on producer screen
+    22. pos - cross sell for flood
+    23. append quote cover letter to pdf
+    24. google analytics: screen progression
+    25. screen progression for bi 
+    26. pl rater fl - modifyfor pos platform
+    27. agent set up
+    28. establish fully functional uat /ca environment
+    29. run def rater state driven
+    30. elastic search for street address in pos
+    31. elastic address search
+    32. pre-fill for property characteristics in pos 
+    33. lexis nexis - no score no hit and zero score
+    34. 360 value update xml for exterior pool
+    35. production - fix la hail deductible backend edit
+    36. display print pre-app
+    37. run clue - back end integration 
+    38. run clue service call to lexis nexis
+    39. private label ui modifications
+    40. inspection data irs integration
+    41. inpsection data millennium integration
+    42. maintenance screens
+    43. prior carriers add to 460
+    44. credible  year question should not be displayed for address with ppc2 as blank
+    45. ivans
+    46. ets 82596  increase binding limit for florida ho4
+    47. adis warehouse
+    48. statement & agreement
+    49. adis prefill
+    50. spike - technical discussion temp exposure
+    51. exposure closing temp
+    52. exposure closing perm 
+    53. spike - technical discussion instant dec 
+    54. spike - upload documents discussion / documentation
+    55. run credit long term solution part 2
+    56. run credit long term solution part 1
+    57.. ux/ui cusotm ui/ 3rd party
+    58. upload documents
+    60. __________ future release stories above this line
+    61. ets 82643 manually entered dist to coast error in rating fl
+    62. ets 82620 nb quote purge process
+    63. ets 82623 sc h06 only offering base package
+    64 fl ho unable to add additional insured in sqa 
+    65. ets 82625 homeowners wind mit values back end validation
+    66. create edit to send quotes with increased business property to underwriting
+    67. modify profit hurdle for def rater
+    68. ets 82602 optimize program call to 610 for homeowners agent portal screens
+    69. fix policy data mover for ho
+    70. pl rater secondary seasonal aop error message not firing 
+    71. pho ho4 and ho6 sotry placeholder for possible future release 
+    72. add eft functionality to homeowners consumer portal
+    73. add eft functionality to legacy homeowners agent portal
+    74. spike assess options for enhancing security for pps in immediate and medium terms
+    75. unable to print instant dec
+    76. date of purchase issue
+    77. incorrect wind mit uwr message
+    78. nacha file - change to entry hash calculation
+    79. eft backend bug - pps error message and subscription id in same field overwriting
+    80. eft backend notification if pps is unavailable
+    
+
+
+
+
+
+
+
+
 
 
 
