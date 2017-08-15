@@ -1394,7 +1394,40 @@ dry - don't repeat yourself
 . repetition in logic calls for abstractions.
 . repetition in process calls for automation
 
+js - functions
+...
+. function functionName(parameter){
+    }
+. functionName(argument);
 
+array
+...
+. store a list of information
+. var friends = [];
+
+objects
+...
+. host objects
+  . document
+  . window
+  . element
+  . event
+  . node
+  . comment
+  . console
+. core objects
+  . math
+  . object
+  . string
+  . boolean
+  . array
+  . date
+  . number
+. custom objects
+
+software eng
+...
+. discipline applied to 
 
 pluralsight
 ...
@@ -1408,11 +1441,12 @@ pluralsight
     (189) - adv js - kyle s - 6 (8/14/17) [1,2,3,4.4,5]
     (190) - oop in js es6 - mark z - 4 (8/15/17)  [1,2,3.10,4,5,6,7]
     (191) - solid principles of oo design - steve s - 4 (8/15/17) [1,2,3,4,5,6,7,8,9]
-    192 - quick start to js vol 3 - susan s - 1 []
-    193 - software eng essentials - mohamad h - 4 []
+    (192) - quick start to js vol 3 - susan s - 1 (8/15/17) [1,2]
+    (193) - software eng essentials - mohamad h - 4 (8/15/17)[1,2,3,4,5,6,7,8,9]
     194 - what is programming - simon a - 2 []
     195 - beginning powershell scripting for dev - robert c - 6 []
     196 - js for c# dev - shawn w - 2 []
+    (197) - quick start to js vol 2 - susa s -(8/15/17) [1,2]
 
 
 
