@@ -1429,25 +1429,6 @@ software eng
 ...
 . discipline applied to 
 
-pluralsight
-...
-    (182) - typescript in-depth - brice wilson - 4 - (8/14/17) [1,2,3,4,5,6,7.2,8,9,10,11]
-    (183) - adv ts - brice wilson - 2 - (8/14/17) [1,2,3,4,5,6,7]
-    (184) - ts fundamentals - dan wahlin - (8/14/17) 4 [1,2,3,4]
-    (185) - a practical start with ts - roland guijt - (8/14/17) 1 [1,2,3.3,4,5]
-    (186) - getting started with ts - brice wilson - 3 (8/14/17) [1,2,3,4,5,6,7]
-    (187) - using es6 with ts - steve ognibene - 2 (8/14/17) [1,2,3,4]
-    (188) - basics of pro with js - kyle s - 2 (8/14/17) [1.2]
-    (189) - adv js - kyle s - 6 (8/14/17) [1,2,3,4.4,5]
-    (190) - oop in js es6 - mark z - 4 (8/15/17)  [1,2,3.10,4,5,6,7]
-    (191) - solid principles of oo design - steve s - 4 (8/15/17) [1,2,3,4,5,6,7,8,9]
-    (192) - quick start to js vol 3 - susan s - 1 (8/15/17) [1,2]
-    (193) - software eng essentials - mohamad h - 4 (8/15/17)[1,2,3,4,5,6,7,8,9]
-    194 - what is programming - simon a - 2 []
-    195 - beginning powershell scripting for dev - robert c - 6 []
-    196 - js for c# dev - shawn w - 2 []
-    (197) - quick start to js vol 2 - susa s -(8/15/17) [1,2]
-
     sprint 15
     ...
     01. testing effect
@@ -1552,6 +1533,42 @@ pluralsight
     78. nacha file - change to entry hash calculation
     79. eft backend bug - pps error message and subscription id in same field overwriting
     80. eft backend notification if pps is unavailable
+
+    js - prototype object
+    ...
+    . each 'type' has a prototype object
+    . just an object (example can add properties to it)
+    . all instances of an 'type" share the members of the prototype
+
+    js notes
+    ...
+    . first class functions - functions treated like any other variable
+    . js is a prototype-based language
+    . each object has a prototype object, which acts as a template object that inherits methods and properties from
+    . the properties and methods are defined on the prototype property on the object's constructor functions not the object instances themselves
+    . prototype chain
+    
+
+
+
+pluralsight
+...
+    (182) - typescript in-depth - brice wilson - 4 - (8/14/17) [1,2,3,4,5,6,7.2,8,9,10,11]
+    (183) - adv ts - brice wilson - 2 - (8/14/17) [1,2,3,4,5,6,7]
+    (184) - ts fundamentals - dan wahlin - (8/14/17) 4 [1,2,3,4]
+    (185) - a practical start with ts - roland guijt - (8/14/17) 1 [1,2,3.3,4,5]
+    (186) - getting started with ts - brice wilson - 3 (8/14/17) [1,2,3,4,5,6,7]
+    (187) - using es6 with ts - steve ognibene - 2 (8/14/17) [1,2,3,4]
+    (188) - basics of pro with js - kyle s - 2 (8/14/17) [1.2]
+    (189) - adv js - kyle s - 6 (8/14/17) [1,2,3,4.4,5]
+    (190) - oop in js es6 - mark z - 4 (8/15/17)  [1,2,3.10,4,5,6,7]
+    (191) - solid principles of oo design - steve s - 4 (8/15/17) [1,2,3,4,5,6,7,8,9]
+    (192) - quick start to js vol 3 - susan s - 1 (8/15/17) [1,2]
+    (193) - software eng essentials - mohamad h - 4 (8/15/17)[1,2,3,4,5,6,7,8,9]
+    (194) - what is programming - simon a - 2 []
+    195 - beginning powershell scripting for dev - robert c - 6 []
+    (196) - js for c# dev - shawn w - 2 [1,2,3,4]
+    (197) - quick start to js vol 2 - susa s -(8/15/17) [1,2]
     
 
 
