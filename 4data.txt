@@ -1927,6 +1927,234 @@ js style (cont.)
   ...
   . https://standardjs.com/
 
+js style (cont.)
+...
+. function doNothing() {}
+. array literals make it "block-like"
+  const a = [
+     0,
+     1,
+     2
+  ];
+  someMethod(foo, [
+    0, 1, 2,
+  ], bar);
+. object literals "block-like"
+  const a = {
+    a: 0,
+    b: 1
+  };
+
+  someMethod(foo, {
+    a: 0, b: 1
+  }, bar);
+
+. Camel case: defined
+
+quotes
+...
+. the hardest thing of all is to find a black cat in a dark room, especially if there is no cat - confucius
+. when in the light, can't see anything in the darkness. when in the darkness, can see everything in the light. guan yin zi 
+
+polyfills
+...
+. babel
+  . transpiler - rewrites modern js code into previous standard
+  . 2 parts
+    1. transpiler program
+    2. polyfills - scripts that fill in the gaps and add missing implementations
+  . need to setup the transpiler and add polyfills for old engines to support modern features
+
+js - objects
+...
+. used to store keyed collections of various data and more complex entities
+. an object can be created with figure brackets { ... } witha an optional list of properties
+  . a property is a "key: value" pair where key is a string aka property name and value can be anything 
+  . imagine an object as a cabinet wiht signed files every piece of data is stored in it's file by the key
+  . let user = new Object();
+  . let user = {};
+. { ... } - object literals
+. let user = {
+    name: "john",
+    age: 30
+  }
+. propety has a key aka "name" or "identifier" before the colon ":" and a value to the right of it
+
+angular 4
+...
+. transpilation
+. @NgModule({
+    imports: [BrowserModule],
+    declarations: [JokeComponent],
+    bootstrap: [JokeComponent]
+  })
+  export class AppModule {
+
+  }
+ . component 
+   . building block of an angular app 
+   . it let us create new html and link them with js classes which describe the behaviour of html tags
+. interpolation
+  . class JokeComponent {
+      setup: string;
+      punchline: string;
+    }
+. classes
+  . blueprints for objects
+  . classification
+  . instructions on how to create an object
+  . to create an object using a class we use the "new" keywords
+  . let joke = new JokeComponent();
+    . console.log(joke.setup);
+    . console.log(joke.punchline);
+  . constructor
+    . instantiate an object
+    . special class function
+    . constructor() {
+        this.setup = "what did the cheese say when it looked in the mirror?";
+        this.punchline = "halloumi (hello me)";
+      }
+. string interpolation  
+  . {{ }}
+  . contains js which is run by angular and the output inserted in the html
+  . <h1>{{setup}}</h1>
+  . <p>{{punchline}}</p>
+. arrays
+  . Array<Object>
+  . Object[]
+. ngFor
+  . <div class="card card-block" *ngFor="let joke of jokes">
+      <h4 class="card-title"></h4>
+      <p class="card-text"></p>
+    </div>
+. directive 
+  . structural directive since it changes the structure of the DOM
+
+css
+...
+. id's
+  . id's and classes are 'hooks'
+  . id's are unique
+  . each element can only have 1 id
+  . each page can only have 1 element with that id
+  . like a serial number
+  . http://yourdomain.com#comments will auto scroll the page to show that element
+. classes
+  . classes are not unique
+  . you can use the same class on multiple elements
+  . you can use multiple classes on the same element
+  . like a product bar code
+. classes and id's don't have any styling info to them all by themselves they require css to target them and apply styling
+. elements can have both id and class
+  . <li id="comment-27299" class="item">
+. you can do the same thing with id and class css don't carriers
+. js - getElementById
+. html attribute vs dom property
+  . changing html doesn't auto update the webpage until refresh
+  . changing dom instantly updates the webpage
+  . when we write [hidden] we are manipulating the DOM property and not the HTML attribute 
+. input property binding
+  . <p class="card-text" [hidden]="true">{{joke.punchline}}</p>
+  . with the [] we are binding to an input of a component
+. output property binding
+  . with the () we are binding to an output of a component
+. object methods, 'this'
+  . objects are usually created to represent entities of the real world like users, orders and so on
+  . let user = {
+      name: "John",
+      age: 30
+    };
+
+    user.sayHi = function() {
+      alert("hello!");
+    };
+
+    user.sayHi();
+  
+  . a function that is the property of an object is called its method
+. oop  
+. closure
+. lexical environment
+  . every running function, code block and the script as a whole have an associated object named lexical environment
+  . the lexical environment object consists of 2 parts
+    1. environment record - an object that has all local variables as it's properties and some other info like the value of this
+    2. a reference to the outer lexical environment, usually the one associated with the code lexically right outside of it (outside of the current figure brackets)
+. iife - immeidately-invoked function expressions
+  . (function() {
+
+      let message = "hello";
+
+      alert(message);
+
+    })();
+. array - 2 ways to create
+  1. let arr = new Array();
+  2. let arr = [];
+. array - methods
+  . push - appends an element to the end
+  . shift - get an element from the beginning, advancing the queue, so that the 2nd element becomes the 1st
+  . pop - takes an element to the end
+  . unshift - adds items to the beginning
+. JSON.stringify
+  . converts objects into JSON
+  . JSON.parse to convert JSON back to an object
+  . objects skipped 
+    . function properties methods
+    . symbolic properties
+    . properties that store undefined
+. prototypal inheritance
+  . [[Prototype]] - hidden property that's either null or references another object that object is called "a prototype"
+  . __proto__ is not the same as [[Prototype]] that's a getter/setter for it 
+. try catch syntax 2 main blocks
+  1. first the code in try is executed
+  2. if there were no errors then catch(err) is ignored the esecution reaches the end of try and then jumps over catch
+  3. if an error occurs then try execution is stopped and the control flows to the beginning of catch(err) the err variable conta9ins an error object with detials about what is happening
+. getElementById
+  . let elem = document.getElementById('elem');
+. closures
+  . one of the nmost powerful features of js 
+  . js allows for the nesting of functions and grants the innter functions full access to all the var and functions defined inside the outer function (and all the other var and functions that the outer functions has access to).
+  . however, the outer function does not have access to the var and functions defined inside the inner function.
+  . this provides a sort of security for the var of the inner functions.
+  . also since the inner function has access to the scope of the outer function, the var and functions defined in the outer function will live longer thatn the duration of the intter function execution
+  . if the inner function manages to survive beyond the life of the outer function
+  . a closure is created when the inner function is somehow made available to any scope outside the outer function.
+  . pitfalls - if an enclosed function defines a var with the same name as the var in the outer scope, there is no way to refer to the var in the outer scope against
+  
+
+
+
+
+  
+
+
+
+  
+books
+...
+. design patterns: elements of reusable object-oriented software by e.gamma, r.helm, r.johnson, j.vlissides
+. object-oriented analysis and design with applications by g.booch
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
