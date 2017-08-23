@@ -2030,6 +2030,11 @@ angular 4
 . directive 
   . structural directive since it changes the structure of the DOM
 
+books
+...
+. design patterns: elements of reusable object-oriented software by e.gamma, r.helm, r.johnson, j.vlissides
+. object-oriented analysis and design with applications by g.booch
+
 css
 ...
 . id's
@@ -2119,21 +2124,18 @@ css
   . also since the inner function has access to the scope of the outer function, the var and functions defined in the outer function will live longer thatn the duration of the intter function execution
   . if the inner function manages to survive beyond the life of the outer function
   . a closure is created when the inner function is somehow made available to any scope outside the outer function.
-  . pitfalls - if an enclosed function defines a var with the same name as the var in the outer scope, there is no way to refer to the var in the outer scope against
-  
+  . pitfalls - if an enclosed function defines a var with the same name as the var in the outer scope, there is no way to refer to the var in the outer scope again 
 
 
-
-
-  
 
 
 
   
-books
-...
-. design patterns: elements of reusable object-oriented software by e.gamma, r.helm, r.johnson, j.vlissides
-. object-oriented analysis and design with applications by g.booch
+
+
+
+  
+
 
 
 
