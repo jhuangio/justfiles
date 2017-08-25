@@ -1955,6 +1955,7 @@ quotes
 ...
 . the hardest thing of all is to find a black cat in a dark room, especially if there is no cat - confucius
 . when in the light, can't see anything in the darkness. when in the darkness, can see everything in the light. guan yin zi 
+. design is not just what i looks like and feels like.  design is how it works. steve jobs 
 
 polyfills
 ...
@@ -2125,6 +2126,422 @@ css
   . if the inner function manages to survive beyond the life of the outer function
   . a closure is created when the inner function is somehow made available to any scope outside the outer function.
   . pitfalls - if an enclosed function defines a var with the same name as the var in the outer scope, there is no way to refer to the var in the outer scope again 
+
+node_modules/.bin/ng lint 
+...
+. applicatnt.component.ts
+
+  . 21.84 trailing whitespace [kk] jh
+  . 21.64 t [kk] jh
+  . 474.119 t [kk] jh
+  . 442.86 missing whitespace [kk] jh
+  . 470.24 m [kk] jh
+  . 483.22 m [kk] jh
+  . 452.63 m [kk] jh
+  . 452.65 m [kk] jh
+  . 474.17 m [kk] jh
+. payment.component.ts
+  . 165.1 trailing whitespace jh
+  . 649.1 t 
+
+js notes
+...
+. is object oriented
+. use prototypical inheritance
+
+angular 4 event binding
+...
+. (focus)
+. (blur)
+. (submit)
+. (scroll)
+. (cut)
+. (copy)
+. (paste)
+. (keydown)
+. (keypress)
+. (keyup)
+. (mouseenter)
+. (mousedown)
+. (moouseup)
+. (click)
+. (dblclick)
+. (drag)
+. (dragover)
+. (drop)
+
+js notes
+...
+. 6 primitive data types in js
+  1. string
+  2. number
+  3. boolean
+  4. symbol
+  5. null
+  6. undefined
+. object is another data type
+  var user = {
+    firstName: 'Justin',
+    lastName: 'Jones'
+  }
+  . examples of js built-in objects
+    . Array
+    . math
+    . JSON
+  . prototypical inheritance
+    function User(firstName, lastName) {
+      this.firstName = firstName;
+      this.lastName = lastName;
+    }
+
+    User.prototype.getFullName = function() {
+      retrun this.firstName + " " + this.lastName;
+    }
+  . closure
+    . inner function has access to the outer enclosing function's variables
+
+bootstrap 3
+...
+. media queries
+  . consists of an optional media type and zero or more expressions that limit the style sheets' scope by using media features, such as width, height, and color.
+  . added in css3 let the presentation of content be tailored to a specific range of output devices without having to change the content itself.
+
+js objects
+...
+. var obj = {};
+. var nextObj = Object.create(Object.prototype);
+. var lastObj = new Object();
+
+css preprocessor
+...
+. variable
+. loops
+. functions
+. types
+  . SASS
+  . less
+
+NG2+ CSS SASS
+...
+. vew encapsulation
+  . default emulated mode
+    . scope and encapsulation
+  . none
+    . import { Component, ViewEncapsulation } from '@angular/core';
+    . @Component({
+        encapsulation: ViewEncapsulation.None
+      })
+    . global style
+  . native
+    . use native shadow DOM
+
+shadow DOM
+...
+. ability of the browser to include a subtree of DOM elements into the rendering of a document, but not into the main document DOM tree.
+
+PrimeNG
+...
+. angular ui components
+. 3 step process to use component
+  1. import component app.module.ts
+  2. add markup place component on your page
+  3. code backing data provide data for component if required
+
+wip
+...
+. AlltimesComponent - <app-alltimes>
+. DashboardComponent - <app-dashboard>
+. ProfileComponent - <app-profile>
+. ProjectsComponent - <app-projects>
+. SettingsComponent - <app-settings>
+. TimesheetComponent - <app-timesheet>
+
+svg
+...
+. scalable vector graphics
+. xml code
+. when to use svg
+  . logos 
+  . icons 
+  . charts and graphs 
+. how to create an svg
+  . inkscape
+  . adobe illustrator
+  . sketch
+.  <svg height="100" width="100">
+   <circle cx="50" cy="50" r="50" fill="#ff0000" />
+   </svg>
+. how to use svg
+  . <img>
+  . <embed>
+  . <object>
+  . <iframe>
+  . inline <svg>
+. xml instructions on how image should look
+. svg layout
+  . canvas
+  . viewport - narrow focus
+  . viewBox - controls zoom level
+    . x coord 
+    . y coord
+    . width
+    . height
+  . svg property
+    1. shapes
+    2. filters
+    3. gradients
+
+  D3 - data visualization js and svg
+  ...
+
+  em and other style best practices
+  ...
+  . an em is a unit in the field of topography
+  . 1 em in a 16 point typeface is 16 points
+  . a font size of 1em is nice for body copy
+  . a font size of 1.2em is larger than a size 16 font
+  . use ems to make scalable style sheets
+  . always use em to set font sizes
+  . div menu { padding: 1.5em; }
+  . only use absolute length units when the physical characteristics of the output medium are known
+  . use floating elements instead of tables
+    DIV.menu {
+      float: right;
+      width: 15em;
+    }
+  . body { font-family: "Gill Sans", sans-serif }
+  . use nubmers, not names, for colors
+  . css supports 16 color names
+    01. aqua 
+    02. black
+    03. bule 
+    04. fuchsia 
+    05. gray 
+    06. green 
+    07. lime 
+    08. maroon 
+    09. navy 
+    10. olive 
+    11. purple
+    12. red 
+    13. silver 
+    14. teal 
+    15. yellow 
+    16. white 
+
+    css 
+    ...
+    . box model
+      . size
+      . position
+      . properties
+      . border edge
+      . margin edge
+      . each box is composed of four parts or areas defined by their edges
+        . content edge
+        . paddding edge
+        . border edge
+        . margin edge
+    . #menu - identify by "id"
+    . .bookTitle - identify by "class" name
+
+js notes
+...
+. this keyword refers to an object which ever object that is executing the code - global object
+. comment out "//"
+. way to create objects
+  var cat = Object.create(Object.prototype,
+{
+	name: {
+		value: 'fluffy',
+		enumerable: true,
+		writable: true,
+		configurable: true
+	},
+	color: {
+		value:'white',
+		enumerable: true,
+		writable: true,
+		configurable: true
+	}
+})
+
+es6 
+...
+. use class to create
+  class Cat {
+	  constructor(name, color) {
+		  this.name = name;
+		  this.color = color;
+	  }
+  }
+ 
+js notes 
+...
+. you can call an object value 2 ways
+  1. display(cat.color);
+  2. display(cat['color']);  
+. print out PropertyDescriptor
+  . display(Object.getOwnPropertyDescriptor(cat, 'name'));
+  . setting enumerable to false affects JSON.stringify results
+  . Object.defineProperty(cat, 'name', {enumerable: false});
+    . if false then cannot serialize it JSON
+  . 3 things if you make a property configurable: false
+    1. you cannot change the enumerable attribute
+    2. you cannot change the configurable attribute
+    3. you cannot delete the property
+    . you can change the property's writable attribute
+    . getters and setters
+      . getters
+        . Object.defineProperty(cat, 'fullName',
+            {
+              get: function() {
+                return this.name.first + " " + this.name.last
+              }
+            })
+
+          display(cat.fullName);
+      . setters
+        . Object.defineProperty(cat, 'fullName',
+            {
+              get: function() {
+                return this.name.first + " " + this.name.last
+              },
+              set: function(value) {
+                var nameParts = value.split(' ');
+                this.name.first = nameParts[0];
+                this.name.last = nameParts[1];
+              }
+            })
+
+          cat.fullName = 'muffin top';
+          display(cat.fullName);
+    . js object property summary
+      . writable
+      . enumerable
+      . configurable
+      . getters / setters
+
+prototypes.sc
+...
+var arr = [
+    'red',
+    'blue',
+    'green'
+];
+
+Object.defineProperty(arr, 'last', {get: function() {
+    return this[this.length-1];
+}});
+var last = arr.last;
+display(last);
+
+array-prototypes.sc
+...
+var arr = [
+    'red',
+    'blue',
+    'green'
+];
+
+Object.defineProperty(Array.prototype, 'last', {get: function() {
+    return this[this.length-1];
+}});
+var last = arr.last;
+
+var arr2 = ['one', 'two', 'three', 'four', 'five'];
+display(arr.last);
+display(arr2.last);
+
+what is the "Array" object?
+...
+. function Array() {[native code]}
+. shorthand to call the Arry constructor with new
+
+what is a prototype
+...
+. a prototype is an object that exists in every function in js
+. sc
+...
+var myFunc = function() {
+
+};
+
+display(myFunc.prototype);
+. in browser shows "{}" an empty object
+
+objects do not have a prototype property
+. if you try to view an object's prototype it's "undefined"
+. object does have a "__proto__" property however
+. sc
+...
+var cat = {name: 'fluffy'};
+display(cat.__proto__);
+. this displays "Object{}" in browser
+
+so ...
+...
+. "prototype" property belongs to js functions
+. "__proto__" property belongs to js objects
+. a functions prototype ad an objects prototypes are used differently
+
+[js]
+...
+. A FUNCTIONS PROTOTYPE: 
+  . a function's prototype is the object instance that will become the protype for all objects created using this function as a constructor.
+. AN OBJECT'S PROTOTYPE:
+  . an object's prototype is the object instance from which the object is interited.
+
+(198) front-end web dev quick start with html5, css, and js - shawn w - 3 (8/23/17) [1,2,3,4]
+(199) chrome dev tools - john s - 2 n(8/23/17) [1,2,3,4,5]
+(200) practical design patterns in js - jonathan mills - 3 (8/23/17) [1,2,3,4,5,6]
+(201) hands-on responsive design using a css preprossor - paul c - 2 (8/23/17) [1,2,3,4,5,6,7,8,9,10]
+(202) simplifying CSS in VS with SASS - jason r - 1 (8/24/17) [1,2,3,4]
+NG2+ (203) styling angular apps - brian t - 1 (8/24/17) [1,2,3,4,5,6]
+204 - html5 web component fundamentals - cory h (8/24/17)
+NG2+ (205) - building beautiful angular apps with PrimeNG - glen s - 3 (8/24/17) [1,2,3.1,4,5,6,7,8]
+(206) svg fundamentals - brian treese - 1 (8/24/17) [1,2,3,4,5]
+===>>> (207) js objects and prototypes - jim c - 1 (8/24/17) [1,2,3(3)]
+
+
+
+    
+  
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+eof.999
+
+
+
+
 
 
 
