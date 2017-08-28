@@ -2617,6 +2617,19 @@ prototype
 . maintained internally by js and only accessible occationally
 . the prototype property is simply an object
 
+jade 
+...
+
+skeleton css 
+...
+
+generator ui prototype
+...
+https://github.com/dfernandez79/generator-ui-prototype
+
+
+
+
 
 
 
