@@ -2491,6 +2491,38 @@ so ...
   . a function's prototype is the object instance that will become the protype for all objects created using this function as a constructor.
 . AN OBJECT'S PROTOTYPE:
   . an object's prototype is the object instance from which the object is interited.
+. a prototype is an object
+. an object's instance is used before it's prototype is used. the prototype is only used if an object's instance does not have what the prototype has
+. prototypes are objects that are pointers created in memory
+. all prototypes inherit from Object - Object does not have prototype
+. to setup cat functio to inherit from animal function for example >>>
+  . Cat.prototype = Object.create(Animal.prototype);
+  . Cat.prototype.constructor = Cat;
+
+sample js class like code for inheritance sc
+...
+"use strict";
+
+class Animal {
+    constructor(voice) {
+        this.voice = voice || 'grunt';
+    }
+
+    speak() {
+        display(this.voice);
+    }
+}
+
+class Cat extends Animal {
+    constructor(name, color) {
+        super('Meow');
+        this.name = name;
+        this.color = color;
+    }
+}
+
+var fluffy = new Cat('fluffy', 'white');
+fluffy.speak();
 
 (198) front-end web dev quick start with html5, css, and js - shawn w - 3 (8/23/17) [1,2,3,4]
 (199) chrome dev tools - john s - 2 n(8/23/17) [1,2,3,4,5]
@@ -2500,8 +2532,104 @@ so ...
 NG2+ (203) styling angular apps - brian t - 1 (8/24/17) [1,2,3,4,5,6]
 204 - html5 web component fundamentals - cory h (8/24/17)
 NG2+ (205) - building beautiful angular apps with PrimeNG - glen s - 3 (8/24/17) [1,2,3.1,4,5,6,7,8]
-(206) svg fundamentals - brian treese - 1 (8/24/17) [1,2,3,4,5]
-===>>> (207) js objects and prototypes - jim c - 1 (8/24/17) [1,2,3(3)]
+(206) svg fundamentals - brian tree
+se - 1 (8/24/17) [1,2,3,4,5]
+(207) js objects and prototypes - jim c - 1 (8/24/17) [1,2,3(3)]
+(208) modern async js - wes higbee - 6 (8/28/17) [1,2,3,4,5,6,7,8]
+(209) getting started with reactive programming using RxJS 5 - scott a - 1 (8/28/17) [1,2,3,4]
+210 - javascript from scratch - jessie l - 1 (8/28/17) [1,2,3,4,5,6]
+(211) - rapid js training - mark z - 5 (8/28/17) [1,2,3,4,5.4,6,7,8,9,10,11]
+
+js
+...
+. primitive type
+  . number
+  . string
+  . boolean
+  . values get copied and passed around alot each var has a memory storage space
+. js works in 2 passes
+  . 1st pass picks up global var and looks for variables
+  . 2nd pass execution
+. hoisting access to variables before they are declared
+  1. pass one - look for identifiers
+  2. pass two - executions occurs
+  . describe behavior because it's as if the declarations are lifted (hoisted) to the top of the function before execution
+  . during hoisting, hoisted variables are set to undefined
+  . can be confusing
+. arrays and reference types
+  . arrays and objects are reference types
+  . what is reference types?
+    . array
+    . dates 
+    . regular expressions
+    . object
+    . var o = {
+        name: 'jia';
+      }
+      . memory created for "o" but only a pointer points to an unknown memory location
+      . memory created for "o2" but o2 = o points to the same pointer that points to the memory location
+    . common types
+      . objects
+      . Arrays  
+      . dates
+      . RegExp's 
+      . Functions 
+      . Primitives (via Wrappers) 
+
+array in js
+...
+. var entries = new Array('trains', 42, true);
+. array content can be different types
+. another way to do it
+  . var entries = ['trains', 'planes', 'autos'];
+. ratings.pop() - last value
+. ratings.shift() - first value
+. ratings.unshift(3) - 3 gets added to the [0] left position
+. ratings.concat(7,8) - add to end of current ratings array
+. ratings.slice(2)  - contains position 3 and pass that to the end of the array
+. var ratings = [1,2,3,4];
+  var newRatings = ratings.slice(1,3);
+  console.log(newRatings.toString()); 
+  answer = 2,3 (starts at first position all the way to position before last number or last number - 1)
+
+date
+...
+. date
+  . var dt = new Date();
+    document.write(dt.toDateString());
+. time
+  . var dt = new Date();
+    document.write(dt.toTimeString());
+. year
+  . var dt = new Date();
+    document.write(dt.getFullYear());
+
+regular expressions
+...
+. how to set up a REgular expression
+  var blogText = "sam i am";
+  var pattern = new RegExp('am', 'g');
+  document.write(pattern instanceof RegExp);
+
+prototype
+...
+. every js object has a prototype property - but we don't alwyas have access to it
+. maintained internally by js and only accessible occationally
+. the prototype property is simply an object
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
 
 
 
