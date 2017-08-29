@@ -2540,6 +2540,12 @@ se - 1 (8/24/17) [1,2,3,4,5]
 210 - javascript from scratch - jessie l - 1 (8/28/17) [1,2,3,4,5,6]
 (211) rapid js training - mark z - 5 (8/28/17) [1,2,3,4,5.4,6,7,8,9,10,11]
 (212) html5 web component fundamentals - cory h - 5 (8/29/17) [1,2,3,4,5,6,7,8,9]
+213 - getting started with polymer.js - bill s - 1 [1,2,3,4,5,6]
+214 - working with polymer.js element - bill s - 1 [1,2,3,4,5]
+215 - buyilding a web app with polymer.js and material design - bill s - 2 [1,2,3,4,5,6,7,8,9,10]
+216 - intro to kendo ui - keith b - 2 [1,2,3,4,5,6]
+217 - dev a real world app with kendo ui - keith b - 1 [1,2,3,4]
+
 
 js
 ...
@@ -2623,10 +2629,200 @@ jade
 
 skeleton css 
 ...
+. http://getskeleton.com/
 
 generator ui prototype
 ...
 https://github.com/dfernandez79/generator-ui-prototype
+
+google polymer web components
+...
+. https://www.polymer-project.org/
+
+Plunker
+...
+. https://plnkr.co 
+
+Kendo ui
+...
+
+html5 - template
+...
+. <template> tag
+. power of template is that it can be cloned an used 
+. 3 important things to understand about the template tag
+  1. markup inside is "inert" does nothing until cloned and used - non of the assets will run until cloned and used
+  2. hidden from selectors
+  3. flexible placement - be consistent where you place the template code
+. how to activate a template? 3 steps
+  1. var template = document.querySelector('#mytemplate');
+  2. var clone = document.importNode(template.content, true);
+  3. document.body.appendChild(clone);
+. sc
+...
+var template = document.querySelector('template');
+var clone = document.importNode(template.content, true);
+document.body.appendChild(clone);
+
+setps to inject data into the template
+...
+1. get a ref to the template
+   . var template = document.querySelector('template');
+2. use document.importNode to clone the template's content
+   . var clone = document.importNode(template.content, true);
+3. change the target element within the template as desired
+   .  clone.querySelector('.verb').textContent  = 'awesome';
+4. append element to the page
+   . document.body..appendChild(clone);
+
+sc
+...
+
+<template>
+  <p>
+    this <span class="adjective"></span> template has 
+    been copied <span class="number-of-copies"></span> times.
+  </p>    
+</template>
+
+<button onclick="copyTemplate()">Copy Template</button>
+
+<script>
+
+var numberOfCopies = 0;
+
+function copyTemplate() {
+  var template = document.querySelector('template');
+  var clone = document.importNode(template.content, true);
+  // replace placeholders
+  clone.querySelector('.adjective').textContent = "awesome";
+  clone.querySelector('.number-of-copies').textContent = ++numberOfCopies;
+
+  document.body.appendChild(clone);
+}
+
+</script>
+
+sc - how to handle nested templates
+...
+
+<template id="header">
+  <div>Header</div>
+  <template id="body">
+    <div>Body</div>
+  </template>
+</template>
+
+<script>
+
+var template = document.querySelector('#header');
+var clone = document.importNode(template.content, true);
+document.body.appendChild(clone);
+
+var template = document.querySelector('#body');
+var clone = document.importNode(template.content, true);
+document.body.appendChild(clone);
+
+</script>
+
+polymer.js
+...
+
+web components
+...
+. custom elements - component declaration
+. templates - component template declaration
+. shadow DOM - encapsulation of the component
+
+polymer - google
+...
+. web component tools
+. https://www.polymer-project.org 
+
+Bower
+...
+. https://bower.io
+. package Manager 
+. websites are made of lots of things - frameworks, libraries, assets, and utilities.  bower manages all these things for you.
+. bower works by fetching and installing packages from all over, taking care of hunting, finding, downloading, and saving the stuff you're looking for.
+
+html import
+...
+. <link rel="import" href="../polymer/polymer-element.html">
+
+shadow DOM 
+...
+. lets you add scoped DOM tree inside an element, with local styles and markup that are decoulpled from the rest of the web page.
+. shadow dom is based on the shadow dom spec and works with native shadow dom where available
+
+real mixins with js classes
+...
+
+geolocation in html5
+...
+
+kendo ui
+...
+. kendo ui is a js framework for building modern web apps
+
+D3
+...
+. <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+sc
+...
+<script>
+  d3.select("body")
+  .append("svg")
+  .append("rect")
+  .attr("width",10)
+  .attr("height",20)
+  .style("fill", "blue")
+</script>
+
+. principles
+  . selections
+    . d3.select("body") // selects the <body> html element
+  . append operators
+    . .append("svg") // adds new <svg> object
+
+sc - barchart example
+...
+
+<script>
+
+var w = 100;
+var h = 100;
+var padding = 2;
+var dataset = [50, 10, 15, 20, 25];
+var svg = d3.select("body")
+              .append("svg")
+              .attr("width",w)
+              .attr("height",h);
+svg.selectAll("rect")
+  .data(dataset)
+  .enter()
+  .append("rect")
+    .attr("x",function(d,i){
+      return (i * (w/dataset.length));
+    })
+    .attr("y",function(d) {
+      return h - (d*4);
+    })
+    .attr("width",( (w/dataset.length)-padding))
+    .attr("height",function(d){
+      return (d*4);
+    });      
+
+
+</script>
+
+
+
+
+
+
+
+
 
 
 
