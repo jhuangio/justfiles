@@ -2538,7 +2538,8 @@ se - 1 (8/24/17) [1,2,3,4,5]
 (208) modern async js - wes higbee - 6 (8/28/17) [1,2,3,4,5,6,7,8]
 (209) getting started with reactive programming using RxJS 5 - scott a - 1 (8/28/17) [1,2,3,4]
 210 - javascript from scratch - jessie l - 1 (8/28/17) [1,2,3,4,5,6]
-(211) - rapid js training - mark z - 5 (8/28/17) [1,2,3,4,5.4,6,7,8,9,10,11]
+(211) rapid js training - mark z - 5 (8/28/17) [1,2,3,4,5.4,6,7,8,9,10,11]
+(212) html5 web component fundamentals - cory h - 5 (8/29/17) [1,2,3,4,5,6,7,8,9]
 
 js
 ...
