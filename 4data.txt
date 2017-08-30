@@ -2524,29 +2524,6 @@ class Cat extends Animal {
 var fluffy = new Cat('fluffy', 'white');
 fluffy.speak();
 
-(198) front-end web dev quick start with html5, css, and js - shawn w - 3 (8/23/17) [1,2,3,4]
-(199) chrome dev tools - john s - 2 n(8/23/17) [1,2,3,4,5]
-(200) practical design patterns in js - jonathan mills - 3 (8/23/17) [1,2,3,4,5,6]
-(201) hands-on responsive design using a css preprossor - paul c - 2 (8/23/17) [1,2,3,4,5,6,7,8,9,10]
-(202) simplifying CSS in VS with SASS - jason r - 1 (8/24/17) [1,2,3,4]
-NG2+ (203) styling angular apps - brian t - 1 (8/24/17) [1,2,3,4,5,6]
-204 - html5 web component fundamentals - cory h (8/24/17)
-NG2+ (205) - building beautiful angular apps with PrimeNG - glen s - 3 (8/24/17) [1,2,3.1,4,5,6,7,8]
-(206) svg fundamentals - brian tree
-se - 1 (8/24/17) [1,2,3,4,5]
-(207) js objects and prototypes - jim c - 1 (8/24/17) [1,2,3(3)]
-(208) modern async js - wes higbee - 6 (8/28/17) [1,2,3,4,5,6,7,8]
-(209) getting started with reactive programming using RxJS 5 - scott a - 1 (8/28/17) [1,2,3,4]
-210 - javascript from scratch - jessie l - 1 (8/28/17) [1,2,3,4,5,6]
-(211) rapid js training - mark z - 5 (8/28/17) [1,2,3,4,5.4,6,7,8,9,10,11]
-(212) html5 web component fundamentals - cory h - 5 (8/29/17) [1,2,3,4,5,6,7,8,9]
-213 - getting started with polymer.js - bill s - 1 [1,2,3,4,5,6]
-214 - working with polymer.js element - bill s - 1 [1,2,3,4,5]
-215 - buyilding a web app with polymer.js and material design - bill s - 2 [1,2,3,4,5,6,7,8,9,10]
-216 - intro to kendo ui - keith b - 2 [1,2,3,4,5,6]
-217 - dev a real world app with kendo ui - keith b - 1 [1,2,3,4]
-
-
 js
 ...
 . primitive type
@@ -2813,8 +2790,224 @@ svg.selectAll("rect")
       return (d*4);
     });      
 
+kpi
+...
+. key performance indicators
+
+svg - draw bar chart / color bars / label bars with data values - sc
+...
+
+
+var w = 300;
+var h = 100;
+var padding = 2;
+var dataset = [5, 10, 14, 20, 8, 11, 25, 22, 18, 7];
+
+var svg = 
+d3.select("body").append("svg")
+          .attr("width",w)
+          .attr("height",h);
+
+function colorPicker(v) {
+  if (v <= 15) {
+    return "#c1c1c1";
+  }
+  else if (v>15) {
+    return "#ff0033";
+  }
+}
+
+svg.selectAll("rect")
+    .data(dataset)
+    .enter()
+    .append("rect")
+.attr({
+  x: function(d, i) {
+    return i * (w / dataset.length);
+  },
+  y: function(d) {
+    return h - (d*4);
+  },
+  width: (w / dataset.length) - padding,
+  height: function(d) {
+    return d * 4;
+  },
+  fill: function(d) {
+    return colorPicker(d);
+  }
+});
+
+svg.selectAll("text")
+  .data(dataset)
+  .enter()
+  .append("text")
+  .text(function (d) {
+    return d;
+  })
+  .attr({
+    "text-anchor": "middle",
+    x: function(d,i) {
+      return i * (w / dataset.length) + (w/dataset.length - padding)/2;},
+    y: function (d) {
+      return h - (d * 4) +  14;
+    },
+    
+  });
+
+svg - line sample - sc
+...
+var h = 100;
+var w = 200;
+
+monthlySales = [
+  {"month":10, "sales":20},
+  {"month":20, "sales":14},
+  {"month":30, "sales":20},
+  {"month":40, "sales":21},
+  {"month":50, "sales":15},
+  {"month":60, "sales":22},
+  {"month":70, "sales":9},
+  {"month":80, "sales":6},
+  {"month":90, "sales":23},
+  {"month":100, "sales":7}
+];
+
+var lineFun = d3.svg.line()
+  .x(function(d) {
+    return d.month*2;
+  })
+  .y(function(d) {
+    return d.sales;
+  })
+  .interpolate("linear");
+
+  var svg =
+    d3.select("body").append("svg").attr({width:w, height:h});
+
+  var viz = svg.append("path")
+    .attr({
+      d: lineFun(monthlySales),
+      "stroke": "red",
+      "stroke-width":2,
+      "fill": "none"
+    });
 
 </script>
+
+scatter plot 
+...
+. put  data points ou t to see where they fall?
+
+svg - scatter plot with min max values - sc
+...
+var h = 350;
+var w = 400;
+
+monthlySales = [
+  {"month":10, "sales":100},
+  {"month":20, "sales":130},
+  {"month":30, "sales":250},
+  {"month":40, "sales":300},
+  {"month":50, "sales":265},
+  {"month":60, "sales":225},
+  {"month":70, "sales":180},
+  {"month":80, "sales":120},
+  {"month":90, "sales":145},
+  {"month":100, "sales":130}
+];
+
+// KPI color
+function salesKPI(d) {
+  if (d>=250) {
+    return "#33cc66";
+  } 
+  else if (d<250) {
+    return "#c1c1c1";
+  }
+}
+
+function showMinMax(ds, col, val, type) {
+  var max = d3.max(ds, function(d) {
+    return d[col]; 
+  });
+  var min = d3.min(ds, function(d) {
+    return d[col];
+  });
+
+  if (type=='minmax' && (val == max || val == min)) {
+    return val;
+  } else {
+    if (type == 'all') {
+      return val;
+    }
+  }
+}
+
+// create our svg
+var svg = d3.select("body").append("svg").attr({width:w,height:h});
+
+// add dots
+var dots = svg.selectAll("circle")
+  .data(monthlySales)
+  .enter()
+  .append("circle")
+.attr({
+  cx: function(d) {
+    return d.month*3; 
+  },
+  cy: function(d) {
+    return h-d.sales;
+  },
+  r: 5,
+  "fill": function(d) {
+    return salesKPI(d.sales);
+  }
+});
+
+// add labels
+var labels = svg.selectAll("text")
+  .data(monthlySales)
+  .enter()
+  .append("text")
+.text(function(d) {
+  return showMinMax(monthlySales, 'sales', d.sales, 'minmax');
+})
+.attr({
+  x: function(d) {
+    return (d.month*3)-25;
+  },
+  y: function(d) {
+    return h-d.sales;
+  },
+  "font-size": "12px",
+  "fill":"#000000",
+  "text-anchor": "start"
+});
+
+(198) front-end web dev quick start with html5, css, and js - shawn w - 3 (8/23/17) [1,2,3,4]
+(199) chrome dev tools - john s - 2 n(8/23/17) [1,2,3,4,5]
+(200) practical design patterns in js - jonathan mills - 3 (8/23/17) [1,2,3,4,5,6]
+(201) hands-on responsive design using a css preprossor - paul c - 2 (8/23/17) [1,2,3,4,5,6,7,8,9,10]
+(202) simplifying CSS in VS with SASS - jason r - 1 (8/24/17) [1,2,3,4]
+NG2+ (203) styling angular apps - brian t - 1 (8/24/17) [1,2,3,4,5,6]
+204 - html5 web component fundamentals - cory h (8/24/17)
+NG2+ (205) - building beautiful angular apps with PrimeNG - glen s - 3 (8/24/17) [1,2,3.1,4,5,6,7,8]
+(206) svg fundamentals - brian tree
+se - 1 (8/24/17) [1,2,3,4,5]
+(207) js objects and prototypes - jim c - 1 (8/24/17) [1,2,3(3)]
+(208) modern async js - wes higbee - 6 (8/28/17) [1,2,3,4,5,6,7,8]
+(209) getting started with reactive programming using RxJS 5 - scott a - 1 (8/28/17) [1,2,3,4]
+210 - javascript from scratch - jessie l - 1 (8/28/17) [1,2,3,4,5,6]
+(211) rapid js training - mark z - 5 (8/28/17) [1,2,3,4,5.4,6,7,8,9,10,11]
+(212) html5 web component fundamentals - cory h - 5 (8/29/17) [1,2,3,4,5,6,7,8,9]
+213 - getting started with polymer.js - bill s - 1 [1,2,3,4,5,6]
+214 - working with polymer.js element - bill s - 1 [1,2,3,4,5]
+215 - buyilding a web app with polymer.js and material design - bill s - 2 [1,2,3,4,5,6,7,8,9,10]
+216 - intro to kendo ui - keith b - 2 [1,2,3,4,5,6]
+217 - dev a real world app with kendo ui - keith b - 1 [1,2,3,4]
+218 - data analysis fundamentals
+219 - business dashboards
+(220) d3.js data visualization fundamentals - ben s - 2 (8/30/17) [1,2,3(3),4,5,6,7,8]
 
 
 
