@@ -3007,7 +3007,310 @@ se - 1 (8/24/17) [1,2,3,4,5]
 217 - dev a real world app with kendo ui - keith b - 1 [1,2,3,4]
 218 - data analysis fundamentals
 219 - business dashboards
-(220) d3.js data visualization fundamentals - ben s - 2 (8/30/17) [1,2,3(3),4,5,6,7,8]
+(220) d3.js data visualization fundamentals - ben s - 2 (8/30/17) [1,2,3,4,5(4.5),6,7,8]
+
+project notes 
+...
+
+. [1629:deploy to prod] - add ui logic to make credit manditory for certain sceanarios
+. [1635:deploy to prod] - update ui changes with the static changes
+. [1767:deploy to prod] - api update to accommodate discount surcharge edit
+. 1772 - update ui and api for coverage edits
+. 1773 - update ui and api to handle the payment plans for pho to display correctly
+
+d3 - sc for line chart with total and average (csv file import)
+...
+var h=100;
+var w=400;
+var ds; // global var for data
+var salesTotal = 0.0;
+var salesAvg = 0.0;
+var metrics = [];
+
+function buildLine() {
+  var lineFun = d3.svg.line()
+    .x(function(d) {
+      return ((d.month - 20130001)/3.25);
+    })
+    .y(function(d) {
+      return h - d.sales;
+    })
+    .interpolate("linear");
+
+    var svg = d3.select("body")
+      .append("svg")
+      .attr({ width:w, height:h });
+
+    var viz = svg.append("path")
+      .attr({
+        d: lineFun(ds),
+        "stroke": "purple",
+        "stroke-width": 2,
+        "fill": "none"
+      });
+}
+
+function showTotals() {
+
+  var t = d3.select("body").append("table");
+
+  // get total
+  for (var i = 0; i < ds.length; i++) {
+    salesTotal += ds[i]['sales']*1; // convert to number
+  }
+
+  salesAvg = salesTotal / ds.length;
+
+  // add metrics to array
+  metrics.push("Sales total: "+ salesTotal);
+  metrics.push("Sales avg: "+ salesAvg.toFixed(2));
+
+  // add total to table
+  var tr = t.selectAll("tr")
+    .data(metrics)
+    .enter()
+    .append("tr")
+    .append("td")
+    .text(function(d){
+      return d;
+    });
+}
+
+d3.csv("MonthlySales.csv", function(error, data) {
+  if(error) {
+    console.log(error);
+  } else {
+    console.log(data); // we're golden
+    ds = data;
+  }
+
+  buildLine();
+  showTotals();
+
+});
+
+sprint name 
+...
+. UnPHOGettable
+
+. PHONominal
+
+. PHOnatic
+
+. PHO Far PHO Good
+
+. PHO Close
+
+. 17 PHO Ever
+
+d3 - sc - lne chart json with different categories 
+...
+var h=100;
+var w=400;
+
+function buildLine(ds) {
+  var lineFun = d3.svg.line()
+    .x(function(d) {
+      return ((d.month - 20130001)/3.25);
+    })
+    .y(function(d) {
+      return h - d.sales;
+    })
+    .interpolate("linear");
+
+    var svg = d3.select("body")
+      .append("svg")
+      .attr({ width:w, height:h });
+
+    var viz = svg.append("path")
+      .attr({
+        d: lineFun(ds.monthlySales),
+        "stroke": "purple",
+        "stroke-width": 2,
+        "fill": "none"
+      });
+}
+
+function showHeader(ds) {
+  d3.select("body").append("h1")
+    .text(ds.category + " Sales (2013)");
+}
+
+d3.json("MonthlySalesbyCategoryMultiple.json", function(error, data) {
+  if(error) {
+    console.log(error);
+  } else {
+    console.log(data); // we're golden
+  }
+
+  data.contents.forEach(function(ds) {
+    console.log(ds);
+    showHeader(ds);
+    buildLine(ds);
+  })
+
+});
+
+d3 notes 
+...
+. the basics
+. working with data
+. mappings
+. basic charting
+. enhancing your viz
+. pulling it all together
+
+web api notes
+...
+. https://data.gov
+. same origin policy 
+. https://api.github.com/repos/bsullins/d3js-resources/contents/monthlySalesbyCategoryMultiple.json
+. encoding "base64"
+. Windows.atob();
+
+d3 sc json from github api 
+...
+var h=100;
+var w=400;
+
+function buildLine(ds) {
+  var lineFun = d3.svg.line()
+    .x(function(d) {
+      return ((d.month - 20130001)/3.25);
+    })
+    .y(function(d) {
+      return h - d.sales;
+    })
+    .interpolate("linear");
+
+    var svg = d3.select("body")
+      .append("svg")
+      .attr({ width:w, height:h });
+
+    var viz = svg.append("path")
+      .attr({
+        d: lineFun(ds.monthlySales),
+        "stroke": "purple",
+        "stroke-width": 2,
+        "fill": "none"
+      });
+}
+
+function showHeader(ds) {
+  d3.select("body").append("h1")
+    .text(ds.category + " Sales (2013)");
+}
+
+d3.json("https://api.github.com/repos/bsullins/d3js-resources/contents/monthlySalesbyCategoryMultiple.json", function(error, data) {
+  if(error) {
+    console.log(error);
+  } else {
+    console.log(data); // we're golden
+  }
+
+  var decodedData = JSON.parse(window.atob(data.content));
+
+  console.log(decodedData.contents[0]);
+  console.log(decodedData.contents[1]);
+
+  
+
+  decodedData.contents.forEach(function(ds) {
+    console.log(ds);
+    showHeader(ds);
+    buildLine(ds);
+  })
+  
+
+});
+
+ d3 scales 
+ ...
+ . functions that map from an input domain to an output range
+
+ d3 - sc - json data from github api with x and y scale applied 
+ ...
+ var h=50;
+var w=300;
+
+function buildLine(ds) {
+
+  var xScale = d3.scale.linear()
+                  .domain([
+                    d3.min(ds.monthlySales, function(d) {
+                      return d.month;
+                    }),
+                    d3.max(ds.monthlySales, function(d) {
+                      return d.month;
+                    })
+                  ])
+                  .range([0, w]);
+
+  var yScale = d3.scale.linear()
+                  .domain([
+                    0,
+                    d3.max(ds.monthlySales, function(d) {
+                      return d.sales;
+                    })
+                  ])
+                  .range([h, 0]);
+
+  var lineFun = d3.svg.line()
+    .x(function(d) {
+      return xScale(d.month);
+    })
+    .y(function(d) {
+      return yScale(d.sales);
+    })
+    .interpolate("linear");
+
+    var svg = d3.select("body")
+      .append("svg")
+      .attr({ width:w, height:h });
+
+    var viz = svg.append("path")
+      .attr({
+        d: lineFun(ds.monthlySales),
+        "stroke": "purple",
+        "stroke-width": 2,
+        "fill": "none"
+      });
+}
+
+function showHeader(ds) {
+  d3.select("body").append("h1")
+    .text(ds.category + " Sales (2013)");
+}
+
+d3.json("https://api.github.com/repos/bsullins/d3js-resources/contents/monthlySalesbyCategoryMultiple.json", function(error, data) {
+  if(error) {
+    console.log(error);
+  } else {
+    console.log(data); // we're golden
+  }
+
+  var decodedData = JSON.parse(window.atob(data.content));
+
+  console.log(decodedData.contents[0]);
+  console.log(decodedData.contents[1]);
+
+  
+
+  decodedData.contents.forEach(function(ds) {
+    console.log(ds);
+    showHeader(ds);
+    buildLine(ds);
+  })
+  
+
+});
+
+
+
+
+
+
+
 
 
 
