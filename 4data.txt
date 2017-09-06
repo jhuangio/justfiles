@@ -2984,31 +2984,6 @@ var labels = svg.selectAll("text")
   "text-anchor": "start"
 });
 
-(198) front-end web dev quick start with html5, css, and js - shawn w - 3 (8/23/17) [1,2,3,4]
-(199) chrome dev tools - john s - 2 n(8/23/17) [1,2,3,4,5]
-(200) practical design patterns in js - jonathan mills - 3 (8/23/17) [1,2,3,4,5,6]
-(201) hands-on responsive design using a css preprossor - paul c - 2 (8/23/17) [1,2,3,4,5,6,7,8,9,10]
-(202) simplifying CSS in VS with SASS - jason r - 1 (8/24/17) [1,2,3,4]
-NG2+ (203) styling angular apps - brian t - 1 (8/24/17) [1,2,3,4,5,6]
-204 - html5 web component fundamentals - cory h (8/24/17)
-NG2+ (205) - building beautiful angular apps with PrimeNG - glen s - 3 (8/24/17) [1,2,3.1,4,5,6,7,8]
-(206) svg fundamentals - brian tree
-se - 1 (8/24/17) [1,2,3,4,5]
-(207) js objects and prototypes - jim c - 1 (8/24/17) [1,2,3(3)]
-(208) modern async js - wes higbee - 6 (8/28/17) [1,2,3,4,5,6,7,8]
-(209) getting started with reactive programming using RxJS 5 - scott a - 1 (8/28/17) [1,2,3,4]
-210 - javascript from scratch - jessie l - 1 (8/28/17) [1,2,3,4,5,6]
-(211) rapid js training - mark z - 5 (8/28/17) [1,2,3,4,5.4,6,7,8,9,10,11]
-(212) html5 web component fundamentals - cory h - 5 (8/29/17) [1,2,3,4,5,6,7,8,9]
-213 - getting started with polymer.js - bill s - 1 [1,2,3,4,5,6]
-214 - working with polymer.js element - bill s - 1 [1,2,3,4,5]
-215 - buyilding a web app with polymer.js and material design - bill s - 2 [1,2,3,4,5,6,7,8,9,10]
-216 - intro to kendo ui - keith b - 2 [1,2,3,4,5,6]
-217 - dev a real world app with kendo ui - keith b - 1 [1,2,3,4]
-218 - data analysis fundamentals
-219 - business dashboards
-(220) d3.js data visualization fundamentals - ben s - 2 (8/30/17) [1,2,3,4,5(4.5),6,7,8]
-
 project notes 
 ...
 
@@ -3304,6 +3279,110 @@ d3.json("https://api.github.com/repos/bsullins/d3js-resources/contents/monthlySa
   
 
 });
+
+(198) front-end web dev quick start with html5, css, and js - shawn w - 3 (8/23/17) [1,2,3,4]
+(199) chrome dev tools - john s - 2 n(8/23/17) [1,2,3,4,5]
+(200) practical design patterns in js - jonathan mills - 3 (8/23/17) [1,2,3,4,5,6]
+(201) hands-on responsive design using a css preprossor - paul c - 2 (8/23/17) [1,2,3,4,5,6,7,8,9,10]
+(202) simplifying CSS in VS with SASS - jason r - 1 (8/24/17) [1,2,3,4]
+NG2+ (203) styling angular apps - brian t - 1 (8/24/17) [1,2,3,4,5,6]
+204 - html5 web component fundamentals - cory h (8/24/17)
+NG2+ (205) - building beautiful angular apps with PrimeNG - glen s - 3 (8/24/17) [1,2,3.1,4,5,6,7,8]
+(206) svg fundamentals - brian tree
+se - 1 (8/24/17) [1,2,3,4,5]
+(207) js objects and prototypes - jim c - 1 (8/24/17) [1,2,3(3)]
+(208) modern async js - wes higbee - 6 (8/28/17) [1,2,3,4,5,6,7,8]
+(209) getting started with reactive programming using RxJS 5 - scott a - 1 (8/28/17) [1,2,3,4]
+210 - javascript from scratch - jessie l - 1 (8/28/17) [1,2,3,4,5,6]
+(211) rapid js training - mark z - 5 (8/28/17) [1,2,3,4,5.4,6,7,8,9,10,11]
+(212) html5 web component fundamentals - cory h - 5 (8/29/17) [1,2,3,4,5,6,7,8,9]
+213 - getting started with polymer.js - bill s - 1 [1,2,3,4,5,6]
+214 - working with polymer.js element - bill s - 1 [1,2,3,4,5]
+215 - buyilding a web app with polymer.js and material design - bill s - 2 [1,2,3,4,5,6,7,8,9,10]
+216 - intro to kendo ui - keith b - 2 [1,2,3,4,5,6]
+217 - dev a real world app with kendo ui - keith b - 1 [1,2,3,4]
+218 - data analysis fundamentals
+219 - business dashboards
+220 - force layout graphs in d3 - ben s - 2 [1,2,3,4,5,6,7,8]
+221 - d3: the big picture - ben s - 1 [1,2,3,4,5,6]
+222 - geospatial mapping with d3 - ben s - 2 [1,2,3,4]
+223 - real-time web dashboards with highcharts - ben s - 3 [1,2,3,4,5,6,7,8]
+224 - data analytics: hands on - ben s - 5 [1,2,3,4,5,6,7,8,9,10,11,12]
+225 - business dashboard fundamentals - ben s - 3 1,2,3,4,5,6,7,8]
+(226) - play by play: design sprint - practical - nate w and richard b - 1 -[1,2,3,4]
+227 - hands-on responsive web design 2: responsive images and sliders - paul c - 1 [1,2,3,4,5,6,7,8,9]
+228 - oop with go - mike v s - 1 [1,2,3,4,5,6]
+(229) - getting started with es2017/es8 - roland g - 1 [1,2,3,4,5,6]
+230 - moving forward with mongoose.js - mark s - 1 [1,2,3,4,5,6,7,8,9]
+231 - intro to docker on windows with vs 2017 - marcel d v - 4 [1,2,3,4,5,6,7]
+(232) - fundamentals of functional programming in js - nate t - 1 - [1,2,3, 4,5,6]
+233 - creating vr experiences with js - alex m - 1 [1,2,3,4,5]
+234 - hands-on responsive web design 1: media queries a& css preprocessors - paul c - 1 1,2,3,4,5,6,7,8]
+235 - intro to inverted triangle css - jason s - 1 [1,2,3,4,5,6,7]
+236 - building websites with foundation 6 - gary s - 1 [1,2,3,4,5,6,7]
+237 - getting started with typescript - brice w - 3 
+238 - enhancing web uis with parallax scrolling - anthony h - 1
+239 - building adv js animations with GSAP - dodd s - 2
+240 - what every dev must know about https - troy hunt 3
+241 - a practical guide to vanilla web components - leon r - 2
+242 - learn basic html5 and css3 by building your fist web page - mario d m - 2
+243 - improving css with postCSS - gary s - 1
+244 - ux-driven software design - dino e - 3
+245 - user experience - the big picture - amber i - 2
+246 - using redux to manage state in angular - hendrik s - 1
+247 - hands-on js project: json - paul c - 1
+248 - html5 fundamentals - craig s - 3
+249 - pbp: understanding api functionality through swagger - john papa - 1
+250 - js async module definition (AMD) e3xplained - kevin m - 3
+251 - writing functional js using ramda - thiago t - 2
+252 - hands-on js project: solar calc - paul c - 2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+color
+...
+. http://colorbrewer2.org
+. hue 
+. lightness (value) 
+. intensity (chroma) 
+. analogous - similar shades
+. complementary - opposite of color wheel 
+. split complementary - opposite left and right - aka diverging scale
+
+design sprint
+...
+. phases
+  1. understand - ensuring the team is solving the right problem
+  2. diverge - developing potential solutions to the problem
+  3. converge - narrowing choices
+  4. build - build a testable prototype
+  5. test - testing with real end users
+
+itcss - inverted triangle css
+...
+. created by harry roberts
+. https://csswizardry.com
+. specificity calculator - http://specificity.keegan.st
+
+
+
+
+
+
+
+
 
 
 
