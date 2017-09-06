@@ -3332,24 +3332,15 @@ se - 1 (8/24/17) [1,2,3,4,5]
 246 - using redux to manage state in angular - hendrik s - 1
 247 - hands-on js project: json - paul c - 1
 248 - html5 fundamentals - craig s - 3
+
 249 - pbp: understanding api functionality through swagger - john papa - 1
+
 250 - js async module definition (AMD) e3xplained - kevin m - 3
 251 - writing functional js using ramda - thiago t - 2
 252 - hands-on js project: solar calc - paul c - 2
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+253 - security for hackers and dev: fuzzing - dr. jared d - 2
+254 - getting started with progressive web apps - bill s - 2
+255 - adv typescript - brice w - 2
 
 color
 ...
@@ -3375,6 +3366,12 @@ itcss - inverted triangle css
 . created by harry roberts
 . https://csswizardry.com
 . specificity calculator - http://specificity.keegan.st
+
+swagger
+...
+. config
+  . net core 
+    . startup
 
 
 
