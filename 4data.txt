@@ -3332,15 +3332,26 @@ se - 1 (8/24/17) [1,2,3,4,5]
 246 - using redux to manage state in angular - hendrik s - 1
 247 - hands-on js project: json - paul c - 1
 248 - html5 fundamentals - craig s - 3
-
 249 - pbp: understanding api functionality through swagger - john papa - 1
-
 250 - js async module definition (AMD) e3xplained - kevin m - 3
 251 - writing functional js using ramda - thiago t - 2
 252 - hands-on js project: solar calc - paul c - 2
 253 - security for hackers and dev: fuzzing - dr. jared d - 2
 254 - getting started with progressive web apps - bill s - 2
 255 - adv typescript - brice w - 2
+256 - web api design = shawn w - 2 
+257 - front end web dev: get started - joe e - 3
+258 - js the good parts
+(259) - using the chrome dev tools - john s - 2 [1<24>,2,3,4,5]
+260 - vs code - john p - 4
+261 - css3 from scratch - jessy l
+262 - mastering git - paolo p - 2
+263 - how git works - paolo p - 1
+264 - git fundamentals - mames k - 1
+265 - git for vs dev - esteban g - 2
+266 - adv git tips and tricks - enrico c - 2
+267 - intro to git - geoffrey g - 1
+268 - using git with a gui - xavier morera - 2
 
 color
 ...
@@ -3372,6 +3383,42 @@ swagger
 . config
   . net core 
     . startup
+
+js
+...
+. objects
+. async nature of js
+. hoisting
+. scope & closures 
+. context & .this
+. built in 10 days by brandon eich @ netscape
+. js is versatile
+. js is popular
+. in js eveything is an object
+
+chrome dev tools 
+...
+. console.log
+. console.warn 
+. console.error
+. console.dir 
+. console.time and console.timeEnd
+
+debugger
+...
+. debugger;
+
+command line api
+...
+. $('h1')
+. $$(selection)
+. $x(xpath)
+
+chrome - element panel
+...
+. $0 - inspect last element
+
+
 
 
 
