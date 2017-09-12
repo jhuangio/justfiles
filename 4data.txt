@@ -3352,6 +3352,7 @@ se - 1 (8/24/17) [1,2,3,4,5]
 266 - adv git tips and tricks - enrico c - 2
 267 - intro to git - geoffrey g - 1
 268 - using git with a gui - xavier morera - 2
+(269) - swagger
 
 color
 ...
@@ -3417,6 +3418,135 @@ command line api
 chrome - element panel
 ...
 . $0 - inspect last element
+
+js the good parts
+...
+. good ideas
+  . functions
+  . loose typing
+  . dynamic objects
+  . expressive object literal notation
+. bad ideas 
+  . model based on global variables
+. functions are first class objects
+. mostly lexical scoping
+. first lambda language to go mainstream
+. loosely typed language so not able to detect typed errors
+. powerful object literal notation
+. prototypal interitance
+. class free sys objects inherit from other objects
+. depends on global variables for linkage
+. common namespace - global object
+. light weight and expressive
+. comment with /* */ blocks and // lines
+. reserved words
+  . abstract
+  . boolean 
+  . break 
+  . byte
+  . case
+  . catch
+  . char
+  . class
+  . const
+  . continue
+  . debugger
+  . default
+  . delete
+  . do
+  . double
+  . else
+  . enum
+  . export
+  . extends
+  . false 
+  . final 
+  . finally 
+  . float 
+  . for 
+  . function 
+  . goto 
+  . if 
+  . implements 
+  . import 
+  . in 
+  . instanceof 
+  . int 
+  . interface 
+  . long 
+  . native 
+  . new 
+  . null 
+  . package 
+  . private 
+  . protected 
+  . public 
+  . return 
+  . short 
+  . static 
+  . super 
+  . switch 
+  . synchronized 
+  . this 
+  . throw 
+  . throws 
+  . transient 
+  . true 
+  . try 
+  . typeof 
+  . var 
+  . volatile 
+  . void 
+  . while 
+  . with 
+. single number type - 46-bit floating point same as java's double
+. the value NaN is a number value that is the result of an operation that cannot produce a normal result
+  . NaN is not equal to any value, including itself
+. js has a math object that contains a set of methods that act on numbers
+. string
+  . can be wrapped in single or double quotes 
+  . it can contain zero or more char
+  . the \ (backslash) is the escape char
+. js was built at a time when unicode was a 16-bit char set so all char in js are 16 bit widermuth
+. js does not have a character type - to represent a character make a string with just one character in it 
+. strings have a length prop for example 'seven'.length = 5;
+  . strings are immutable - once made, a string can never be changed
+  . but it's easy to make new strings by concatenating other strings together with the + operators
+  . 2 strings containing exactly the same char in the same order are considered to be the same string
+    . 'c' + 'a' + 't' === 'cat'; true
+    . strings have methods 'cat'.toUpperCase() === 'CAT';
+. a compilation unit contains a set of executable statements
+  . in web browsers - each <script> tag delivers a compilation unit that is compiled and immediately executed
+. when used inside of a function, the var statement defines the function's private variables 
+. the switch, while, for, and do statements are allowed to have an optional label prefix that interacts with the break statement
+. statements tends to be executed in order from top to bottom
+  . sequence of execution can be altered by
+    . the conditional statements (if and switch)
+      . if 
+        . if statement changes the flow of the program based on the value of the expression
+          . the then block is executed if the expression is truthy
+          . otherwise the optional else brance is taken
+      . switch
+    . by the looping statements (while, for, and do)
+      . while 
+      ' for 
+      . do 
+    . by the disruptive statements (break, return, and throw)
+      . break 
+      . return 
+      . throw 
+    . by function invocation
+  . a block is a set of statements wrapped in curly brackets
+    . blocks in js do not create a new scope 
+    . var should be defined at the top of the function not in blocks
+
+
+
+
+
+
+
+
 
 
 
