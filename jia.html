@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <title>d3</title>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="myStyles.css">	
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<script>
+writeRandomQuote = function () {
+    var quotes = new Array();
+    quotes[0] = '"Simplicity is the key to brilliance." - Bruce Lee';
+    quotes[1] = '"It is like a finger pointed to the moon. Do not concentrate on the finger or you will lose all the heavenly glory!" - Bruce Lee';
+    quotes[2] = '"If you love life, don\'t waste time, for time is what life is made up of." - Bruce Lee';
+    quotes[3] = '"A goal is not always meant to be reached, it often serves simply as something to aim at." - Bruce Lee';
+    quotes[4] = '"As you think, so shall you become." - Bruce Lee';
+    quotes[5] = '"Real living is living for others." - Bruce Lee';
+    quotes[6] = '"It\'s not the daily increase but daily decrease.  Hack qaway at the unessential." - Bruce Lee';
+    quotes[7] = '"The less effort, the faster and more powerful you will be." - Bruce Lee';
+    quotes[8] = '"All fixed patterns are incapable of adaptability or pliability.  The truth is outside of all fixed patterns." - Bruce Lee';
+    quotes[9] = '"Notice that the stiffest tree is most easily cracked, while the bamboo or willow survives by bending with the wind." - Bruce Lee';
+    quotes[10] = '"For every minute spent organizing, an hour is earned." - Benjamin Franklin';
+    quotes[11] = '"your mind is for having ideas, not holding them." - David Allen';
+    quotes[12] = '"You can do anything, but not everything." - David Allen';
+    quotes[13] = '"Your ability to generate power is directly proportional to your ability to relax." - David Allen';
+    quotes[14] = '"Anxiety is caused by a lack of control, organization, preparation, and action." - David Allen';
+    quotes[15] = '"Anything that causes you to overreact or underreact can control you, and often does." - David Allen';
+    quotes[16] = '"Everything should be made as simple as possible, but not simpler." - Albert Einstein';
+    quotes[17] = '"Everything in life worth achieving requires practice. In fact, life itself is nothing more than one long practice session, an endless effort of refining our motions. When the proper mechanics of practicing are understood, the task of learning something new becomes a stress-free experience of joy and calmness, a process which settles all areas in your life and promotes proper perspective on all of life’s difficulties." - Thomas Sterner';
+    quotes[18] = '"If you find yourself in a hole, the first thing to do is stop digging." - Will Rogers';
+    quotes[19] = '"You’ve got to think about the big things while you’re doing small things, so that all the small things go in the right direction." - Alvin Toffler';
+    quotes[20] = '"Your work is to discover your work and then with all your heart to give yourself to it." - Buddha';
+    quotes[21] = '"The beginning is half of every action." - David Allen';
+    quotes[22] = '"The secret of getting ahead is getting started. The secret of getting started is breaking your complex overwhelming tasks into small, manageable tasks, and then starting on the first one." - Mark Twain';
+    quotes[23] = '"There is no reason to ever have the same thought twice, unless you like having that thought." - David Allen';
+    quotes[24] = '"Reacting is automatic, but thinking is not." - David Allen';
+    quotes[25] = '"THE PURPOSE OF this whole method of workflow management is not to let your brain become lax, but rather to enable it to move toward more elegant and productive activity. In order to earn that freedom, however, your brain must engage on some consistent basis with all your commitments and activities. You must be assured that you’re doing what you need to be doing, and that it’s OK to be not doing what you’re not doing." - David Allen';
+    quotes[26] = '"We need to transform all the \“stuff\” we\’ve attracted and accumulated into a clear inventory of meaningful actions, projects, and usable information." - David Allen';
+    quotes[27] = '"Anything that causes you to overreact or under react can control you, and often does." - David Allen';
+    quotes[28] = '"If not controlled, work will flow to the competent man until he submerges." - Charles Boyle';
+    quotes[29] = '"(1) collect things that command our attention; (2) process what they mean and what to do about them; and (3) organize the results, which we (4) review as options for what we choose to (5) do." - David Allen';
+    quotes[30] = '"You are the captain of your own ship; the more you act from that perspective, the better things will go for you." - David Allen';
+    quotes[31] = '"When people know they have a process in place to handle any situation, they are more relaxed. When they’re relaxed, everything improves. More gets done, with less effort, and a host of other wonderful side effects emerge that add to the outcomes of their efforts and the quality of their life." - David Allen';
+    quotes[32] = '"Anything that does not belong where it is, the way it is, is an \“open loop,\” which will be pulling on your attention if it’s not appropriately managed." - David Allen';
+    quotes[33] = '"Anything that causes you to overreact or underreact can control you, and often does. Responding inappropriately to your e-mail, your thoughts about what you need to do, your children, or your boss will lead to less effective results than you’d like. Most people give either more or less attention to things than they deserve, simply because they don’t operate with a mind like water." - David Allen';
+    quotes[34] = '"You can try it for yourself right now, if you like. Choose one project that is new or stuck or that could simply use some improvement. Think of your purpose. Think of what a successful outcome would look like: where would you be physically, financially, in terms of reputation, or whatever? Brainstorm potential steps. Organize your ideas. Decide on the next actions. Are you any clearer about where you want to go and how to get there?" - David Allen';
+    quotes[35] = 'There are seven primary types of things that you’ll want to keep track of and manage from an organizational perspective: • A \“Projects\” list • Project support material • Calendared actions and information • \“Next Actions\” lists • A \“Waiting For\” list • Reference material • A \“Someday/Maybe\” list The Importance of Hard Edges It\’s critical that all of these categories be kept pristinely distinct from one another." - David Allen';
+    quotes[36] = '"You have to use your mind to get things off your mind." - David Allen';
+    quotes[37] = '"Write all your notes and quotes on separate three-by-five-inch cards. Then, when you get ready to organize your thinking, just spread them all out on the floor, see the natural structure that emerges, and figure out what’s missing." - David Allen';
+    quotes[38] = '"Trying to keep a list on the calendar, which must then be reentered on another day if items don’t get done, is demoralizing and a waste of time." - David Allen';
+    quotes[39] = '"art of resting the mind and the power of dismissing from it all care and worry is probably one of the secrets of our great men." - Capt. J. A. Hatfield';
+    quotes[40] = '"The world itself is never overwhelmed or confused—only we are, due to how we are engaged with it." - David Allen';
+    quotes[41] = '"Those who make the worst use of their time are the first to complain of its shortness." - Jean de La Bruyere';
+    quotes[42] = '"A task left undone remains undone in two places—at the actual location of the task, and inside your head. Incomplete tasks in your head consume the energy of your attention as they gnaw at your conscience." - Brahma Kumaris';
+    quotes[43] = '"This constant, unproductive preoccupation with all the things we have to do is the single largest consumer of time and energy." - Kerry Gleeson';
+    quotes[44] = '"Talk does not cook rice." - Chinese proverb';
+    quotes[45] = '"Complete the projects you begin, fulfill the commitments you have made, live up to your promises—then both your subconscious and conscious selves can have success, which leads to a feeling of fulfillment, worthiness and oneness." - David Allen';
+    quotes[46] = '"You can’t organize what’s incoming—you can only capture it and process it. Instead, you organize the actions you’ll need to take based on the decisions you’ve made about what needs to be done." - David Allen';
+    quotes[47] = '"Imagination is more important than knowledge." - Albert Einstein';
+    quotes[48] = '"Creating “ABC” priority codes and daily “to-do” lists were key techniques developed to help people sort through their choices in some meaningful way." - David Allen';
+    quotes[49] = '"Getting Things Done is not some new technology or invention—it simply makes explicit the principles at work within what we all do implicitly. But with that awareness, you can then leverage those principles consciously to create more elegant results." - David Allen';
+    quotes[50] = '"We need ways to validate and support our thinking, no matter how informal." - David Allen';
+    quotes[51] = '"Bailing water in a leaky boat diverts energy from rowing the boat." - David Allen';
+    quotes[52] = '"No matter how big and tough a problem may be, get rid of confusion by taking one little step toward solution. Do something." - George F. Nordenholt';
+    quotes[53] = '"The cognitive scientists have now proven the reality of \“decision fatigue\”—that every decision you make, little or big, diminishes a limited amount of your brain power." - David Allen';
+    quotes[54] = '"Rule your mind or it will rule you. " - Horace';
+    quotes[55] = '"Having an organizational tool that allows you to easily make lists such as these, ad hoc, is quite worthwhile." - David Allen';
+    quotes[56] = '"Start by doing what\’s necessary, then what\’s possible, and suddenly you are doing the impossible." - Saint Francis of Assisi';
+    quotes[57] = '"Plans get you into things but you\’ve got to work your way out." - Will Rogers';
+    quotes[58] = '"People are always blaming their circumstances for what they are. I don\’t believe in circumstances. The people who get on in this world are the people who get up and look for the circumstances they want, and, if they can’t find them, make them." - George Bernard Shaw';
+    quotes[59] = '"There are no problems, only projects." - David Allen';
+    quotes[60] = '"Getting Things Done is not simply about getting things done. It\’s about being appropriately engaged with your work and life." - David Allen';
+    quotes[61] = '"Imagine throwing a pebble into a still pond. How does the water respond? The answer is, totally appropriately to the force and mass of the input; then it returns to calm. It doesn\’t overreact or underreact." - David Allen';
+    quotes[62] = '"The Weekly Review is the time to: Gather and process all your stuff. Review your system. Update your lists. Get clean, clear, current, and complete. You have to use your mind to get things off your mind." - David Allen';
+    quotes[63] = 'Anything you consider unfinished in any way must be captured in a trusted system outside your mind, or what I call a collection tool, that you know you\’ll come back to regularly and sort through." - David Allen';
+    quotes[64] = '"It\’s a waste of time and energy to keep thinking about something that you make no progress on. And it only adds to your anxiety about what you should be doing and aren\’t." - David Allen';
+    quotes[65] = '"Here’s how I define \“stuff\”: anything you have allowed into your psychological or physical world that doesn’t belong where it is, but for which you haven\’t yet determined what, exactly, it means to you, with the desired outcome and the next action step." - David Allen';
+    quotes[65] = '"The reason most organizing systems haven\’t worked for most people is that they haven\’t yet transformed all the stuff they’re trying to organize. As long as it’s still stuff, it\’s not controllable.”" - David Allen';
+    quotes[66] = '"At any point in time, the first thing to consider is, what could you possibly do, where you are, with the tools you have?" - David Allen';
+    quotes[67] = '"Learn to enjoy every minute of your life. Be happy now. Don\'t wait for something outside of yourself to make you happy in the future. Think how really precious is the time you have to spend, whether it\'s at work or with your family. Every minute should be enjoyed and savored." - Earl Nightingale';
+    quotes[68] = '"Tell me and I forget. Teach me and I remember. Involve me and I learn." - Benjamin Franklin';
+    quotes[69] = '"Develop a passion for learning.  If you do , you will never cease to grow." - Anthony J. D\'Angelo';
+    quotes[70] = '"You cannot open a book without learning something." - Confucius';
+    quotes[71] = '"I hear and I forget.  I see and I remember.  I do and I understand." - Confucius';
+    quotes[72] = '"Life is really simple, but we insist on making it complicated." - Confucius';
+    quotes[73] = '"Wherever you go, go with all your heart." - Confucius';
+    quotes[74] = '"Our greatest glory is not in never falling, but in rising every time we fall." - Confucius';
+    quotes[75] = '"Everything has beauty, but not everyone sees it." - Confucius';
+    quotes[76] = '"Never impose on others what you would not choose for yourself." - Confucius';
+    quotes[77] = '"The superior man is modest in his speech, but exceeds in his actions." - Confucius';
+    quotes[78] = '"Forget injuries, never forget kindnesses." - Confucius';
+    quotes[79] = '"Wisdom, compassion, and courage are the three universally recognized moral qualities of men." - Confucius';
+    quotes[80] = '"When it is obvious that the goals cannot be reached, don’t adjust the goals, adjust the action steps.” " - Confucius';
+    quotes[81] = '"To practice five things under all circumstances constitutes perfect virtue; these five are gravity, generosity of soul, sincerity, earnestness, and kindness." - Confucius';
+    quotes[82] = '"Don\’t be concerned others not appreciating you. Be concerned about your not appreciating others." - Confucius';
+    quotes[83] = '"When anger rises, think of the consequences." - Confucius';
+    quotes[84] = '"Life is beautiful, as long as it consumes you. When it is rushing through you, destroying you, life is gorgeous, glorious. It’s when you burn a slow fire and save fuel, that life’s not worth having." - D. H. Lawrence';
+    quotes[85] = '"There are only two ways to live your life. One is as though nothing is a miracle. The other is as though everything is a miracle." - Albert Einstein';
+    quotes[86] = '"If you are depressed you are living in the past. If you are anxious you are living in the future. If you are at peace you are living in the present." - Lao Tzu';
+    quotes[87] = '"Do the difficult things while they are easy and do the great things while they are small. A journey of a thousand miles must begin with a single step." - Lao Tzu';
+    quotes[88] = '"Being deeply loved by someone gives you strength, while loving someone deeply gives you courage." - Lao Tzu';
+    quotes[89] = '"A good traveler has no fixed plans, and is not intent on arriving." - Lao Tzu';
+    quotes[90] = '"He who knows, does not speak. He who speaks, does not know." - Lao Tzu';
+    quotes[91] = '"Simplicity, patience, compassion These three are your greatest treasures. Simple in actions and thoughts, you return to the source of being. Patient with both friends and enemies, you accord with the way things are. Compassionate toward yourself, you reconcile all beings in the world." - Lao Tzu';
+    quotes[92] = '"Life is a series of natural and spontaneous changes. Don\'t resist them; that only creates sorrow. Let reality be reality. Let things flow naturally forward in whatever way they like." - Lao Tzu';
+    quotes[93] = '"When you are content to be simply yourself and don\'t compare or compete, everyone will respect you." - Lao Tzu';
+    quotes[94] = '"The best fighter is never angry." - Lao Tzu';
+    quotes[95] = '"Be content with what you have; rejoice in the way things are. When you realize there is nothing lacking, the whole world belongs to you." - Lao Tzu';
+    quotes[96] = '"Respond intelligently even to unintelligent treatment." - Lao Tzu';
+    quotes[97] = '"Patience is not simply the ability to wait - it\'s how we behave while we\'re waiting." - Joyce Meyer';
+    quotes[98] = '"If your mind is empty, it is always ready for anything; it is open for everything." - Shunryu Suzuki';
+    quotes[99] = '"Let our advance worrying become our advance thinking and planning." - Windton Churchill';
+    quotes[100] = '"The world can only be grasped by action, not by contemplation." - David Allen';
+    var rand = Math.floor(Math.random()*quotes.length);
+    document.write(quotes[rand]);
+  }
+  
+</script>
+
+
+</head>
+<body>
+
+
+
+
+<center><FORM method=GET action="http://www.google.com/search">
+<TABLE bgcolor="#FFFFFF"><tr><td>
+<A HREF="http://www.google.com/">
+<IMG SRC="http://www.google.com/logos/Logo_40wht.gif" <br></A>
+<INPUT TYPE=text name=q size=31 maxlength=255 value="">
+<INPUT TYPE=hidden name=hl value="en">
+<INPUT type=submit name=btnG VALUE="Google Search">
+</td></tr></TABLE>
+</FORM>
+</center>
+<!-- Search Google -->
+
+    hello.moto<hr>
+
+<script>
+
+
+
+writeRandomQuote();
+
+
+
+
+
+
+
+
+
+
+
+
+
+	 
+</script>
+
+
+
+
+
+  </body>
+
+
+</html>
