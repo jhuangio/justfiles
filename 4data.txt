@@ -3540,6 +3540,18 @@ js the good parts
     . blocks in js do not create a new scope 
     . var should be defined at the top of the function not in blocks
 
+gtd 
+...
+. 7 primary types of things you'll want to keep track of and manage
+  1. a project list
+  2. project support materials 
+  3. calendared actions and info 
+  4. next actions list 
+  5. a waiting for list 
+  6. reference materials 
+  7. a someday/maybe list 
+  
+
 
 
 
