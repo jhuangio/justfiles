@@ -3550,6 +3550,128 @@ gtd
   5. a waiting for list 
   6. reference materials 
   7. a someday/maybe list 
+
+js good parts (2)
+...
+. falsy values
+  . false
+  . null 
+  . undefined
+  . the empty string '' or ""
+  . the numberr 0
+  . the number NaN
+. truthy values
+  . true 
+  . string 'false' 
+  . all objects
+. switch statement - multiway branch 
+. case clause contains one or more case expressions.
+. while statement perform a simple loop if falsy loop will break 
+. do statement is like while except that the expression is tested after the block is executed instead of before
+. try statement executes a block and catches any exceptions that were thrown by the block.
+. throw statement raises an exception.
+. the return statement causes the early return from a function.  
+  . it can also specify value to be returned. 
+  . if a return expression is not specified, then the return value will be undefined 
+. break statements causes an exit from a loop statement or a switch statement
+. object literals are a convenient notation for specifying new objects.  
+  . object literal 
+  . array literal 
+  . regexp literal 
+. functions
+. simple types of js are immutable
+  . numbers
+  . strings
+  . booleans
+  . null
+  . undefined 
+. objects
+  . mutable keyed collections 
+  . arrays, functions, regular expressions, and objects are objects 
+  . container of properties where a prop has a name and vaule (any except undefined)
+  . class-free
+  . prototype linkage feature that allows one object to inherit the properties of another - when used well this can reduce object initialization time and memory consumption 
+  . object literals
+    var empty_object = {};
+
+    var sample = {
+      "first-name": "jia",
+      "last-name": "huang"
+    };
+. update - a value in an object can be updated by assignment 
+. prototype
+  . every object is linked to a prototype object from which it can inherit properties 
+  . all objects created from object leterals are linked to Object.prototype and object that comes standard with js 
+. typeof
+  . typeof flight.number
+. hasOwnProperty
+  . this method does not look at the prototype chain only if that object has a property itself 
+
+pho
+...
+. coverageFormData.otherMemberOfHousehold
+
+q for kev 
+...
+. otherMembersOfHouseholdItems: this.fb.array([]), // can it be set to 3 only? // can we use arr.slice(0,2) return elements in position 0 through 2 // arr.length = 3;
+. enhancedHomePackage
+. handleEnhancePackageLogic();
+
+. enhancedHomePackage
+. coverageFormData
+. coverageObject
+. CoverageField extends ModelField()
+. getRawValue
+. popover-sub-form
+
+ting 
+...
+. tomorrow is not guaranteed
+
+js good parts (3)
+...
+. function objects
+  . objects created with object literals are linked to Object.prototype
+  . function objects are linked to Function.prototype which itself linked to Object.prototype
+    . its value is an object with a constructor property whose value is the function 
+      . this is distinct from the hidden link to Function.prototype
+  . since functions are objects, they can be used like any other value.
+  . functions can be stored in variables, objects, and arrays
+  . functions can be passed as arguments to functions
+  . functions can be returned from functions
+  . functions can have methods
+  . they can be invoked
+  . function objects are created with function literals
+    . var add = function (a, b) {
+        return a + b;
+      };
+    . 4 parts
+      1. reserved word "function"
+      2. optional second part is the function's name (anonymous - no name)
+      3. parameter wrapped in parentheses
+         . set of zero or more parameter names, seperated by Commas 
+         . these names will be defined as var in the function
+         . instead of being initialized to undefined they will be initialized to the argument supplied when the function is invoked
+      4. set statement wrapped in curly brackets
+         . body of the function
+         . executed when the function is invoked
+    . can appear anywhere that an expression can appear 
+    . functions can be defined inside of other functions 
+    . inner function has access to its parameters and var 
+    . access to parameters and var of the functions it is nested within 
+    . the function object created by a function literal contains a link to that outer context - this is called closure
+      . source of enormous expressive power.
+
+
+
+
+
+
+
+  
+
+
+
   
 
 
