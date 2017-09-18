@@ -12,9 +12,15 @@ sprint 18 notes
   . disc - WNX
   . rules - if wind exclusion = y, cannot have wind mit and hail resistant Roof
   . status - Create edit - if Wind Exclusion = Y, do not allow Hail Resistant Roof (HRR) or Wind Mitigation Discounts (WN1, WN2, WN3)
+
+...
+
 . HOADHOC-1629: add ui logic to make credit manditory for certain scenarios - deploy to prod
+
 . HOADHOC-1635: update ui changes with the static changes - deploy to prod 
+
 . HOADHOC-1767: api update to accommodate discount surcharge edit - deploy to prod 
+
 . HOADHOC-1772: update ui and api for coverage edits - to do 
   1. enhanced home package
      . Update edit in UI - when EHP coverages grayed, should be checked and display cov limits based on table
@@ -23,9 +29,13 @@ sprint 18 notes
      . When the API saves the data for the coverages to the iSeries in the Coverage Controller - if they select the Enhanced Home package - it will set the values of the Coverages that are part of the package (Additional Replacement Cost, Personal Property Replacement Cost, etc.) to not selected (even though they are selected).
   2. other members of household - max 3 other residents, 4 or more not allowed 
      . Update popover-sub-form UI component to have an input of the maximum number of records. Once the user hits the maximum number of inputs hide the Add Item button since the user hit the maximum number of records. 
+
 . HOADHOC-1773: update ui and api to handle the payment plans for pho to display correctly - deploy to prod
+
 . HOADHOC-1807: add logic in api for x-wind - to do
   . For PHO only:
     If a user selects X-Wind disable fields (canEdit = false) and set selected value of false (or clear value) for: 
     Wind Mitigation Discount (and Wind Mitigation Selected Option), Hail Resistant Roof (and Hail Resistant Roof Install Date).
   . Logic would be in the Quote Aggregate when it sets the Discount/Surcharge (old Policy Modification data).
+
+...
