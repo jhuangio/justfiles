@@ -11,6 +11,7 @@ act
 . cho lon bad bro $400 by 10/24
 . day review
 . week review
+. pawn max st pete $150
 
 log
 ...
@@ -18,7 +19,7 @@ log
 
 cal
 ...
-0920.wed.09 - *abron, ^g
+0920.wed.09 - *abron, [pawn
 0921.thr.08 - 
 0922.fri.07 - ^g
 0923.sat.06 - mom
@@ -69,3 +70,16 @@ in
 ....
 . push to git - (Wed 9/20/2017 @2:44P)
 . 1807 add API wind logic - to hide wind discount and hail res roof - (Wed 9/20/2017 @2:44P)
+. data - PHO TX test - 842 Chestnut St., Abilene, TX 79602 - (Wed 9/20/2017 @2:48P)
+. HomeOwnersApi.WriteModel/Commands/Handlers/SubmitPropertyDetailsCommandHandler.cs - (Wed 9/20/2017 @3:02P)
+. quote.SetDiscountSurchargeOptions - update the aggregate to have the CanEdit, and the SelectedValue to False or ClearSelectedValue()  the other logic is just adding to the IF block so that it saves the dscount/surcharge values to the iSeries - (Wed 9/20/2017 @3:03P)
+. also would set the canEdit to the answer of the isExWind from the PropertyDetail selected value - (Wed 9/20/2017 @3:07P)
+. if a user says they don't want wind (exclude Wind => True) then disable those questions, set them to false, and clear out the values - (Wed 9/20/2017 @3:09P)
+.  so either the previous condition is TRUE or (isPho && XWindModified && XWind = true) - (Wed 9/20/2017 @3:10P)
+. discountSurcharge.HasHailResistantRoof.SetSelectedValue(false); - (Wed 9/20/2017 @3:11P)
+. discountSurcharge.HasWindMitigationDiscount.SetSelectedValue(false); - (Wed 9/20/2017 @3:12P)
+. discountSurcharge.WindMitigationDiscounts.ClearSelectedValue(); - (Wed 9/20/2017 @3:12P)
+. discountSurcharge.HailResistantRoofInstallationDate.ClearSelectedValue(); - (Wed 9/20/2017 @3:13P)
+. call - pawn max ii - (727)547-1800 - (Wed 9/20/2017 @3:14P)
+. log - pawn max ii - st. pete - 7561 49th st. n, st. pete, fl - (727)547-1800 - (Wed 9/20/2017 @3:14P)
+. in quote.cs under ConfigureDiscountSurcharges - (Wed 9/20/2017 @3:18P)
