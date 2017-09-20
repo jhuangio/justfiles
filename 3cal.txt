@@ -12,64 +12,60 @@ act
 . day review
 . week review
 
+log
+...
+0919.tue.10 - sk8, wbebe
+
 cal
 ...
-0920.wed - 09 abron.pu, gar
-0921.thr - 08
-0922.fri - 07 gar
-0923.sat - 06 mom.wh
-0924.sun - 05
-0925.mon - 04
-0926.tue - 03 gar
-0927.wed - 02 es#18
-0928.thr - 01 
-0929.fri - 14 pd, gmf$600, skyw$300, gar
-0930.sat - 13
-1001.sun - 12
-1002.mon - 11
-1003.tue - 10 gar
-1004.wed - 09
-1005.thr - 08
-1006.fri - 07 gar
-1007.sat - 06
-1008.sun - 05
-1009.mon - 04
-1010.tue - 03 gar
-1011.wed - 02 wg.add.pu
-1012.thr - 01
-1013.fri - 14 pd, cholon.badbro$400, gar
-1014.sat - 13 eye.dr@11a
-1015.sun - 12
-1016.mon - 11
-1017.tue - 10 gar
-1018.wed - 09
-1019.thr - 08
-1020.fri - 07 gar
-1021.sat - 06
-1022.sun - 05
-1023.mon - 04
-1024.tue - 03 gar
-1025.wed - 02
-1026.thr - 01
-1027.fri - 14 pd, gar
-1028.sat - 13 
-1029.sun - 12 wg.xan.pu
-1030.mon - 11
-1031.tue - 10 gar
+0920.wed.09 - *abron, ^g
+0921.thr.08 - 
+0922.fri.07 - ^g
+0923.sat.06 - mom
+0924.sun.05 -
+0925.mon.04 -
+0926.tue.03 - ^g
+0927.wed.02 - s#18
+0928.thr.01 -
+0929.fri.14 - [p], gm$600, sky$300, g
+0930.sat.13 -
+1001.sun.12 -
+1002.mon.11 -
+1003.tue.10 - ^g
+1004.wed.09 -
+1005.thr.08 -
+1006.fri.07 - ^g
+1007.sat.06 -
+1008.sun.05 -
+1009.mon.04 -
+1010.tue.03 - ^g
+1011.wed.02 - *wg.add.pu
+1012.thr.01 -
+1013.fri.14 - [p], cholon.badbro$400, ^g
+1014.sat.13 - eye.dr@11a
+1015.sun.12 -
+1016.mon.11 -
+1017.tue.10 - ^g
+1018.wed.09 -
+1019.thr.08 -
+1020.fri.07 - ^g
+1021.sat.06 -
+1022.sun.05 -
+1023.mon.04 -
+1024.tue.03 - ^g
+1025.wed.02 -
+1026.thr.01 -
+1027.fri.14 - [p], ^g
+1028.sat.13 -
+1029.sun.12 - *wg.xan.pu
+1030.mon.11 -
+1031.tue.10 - ^g
 
 www
 ...
 . https://fl-tampa.pogoalerts.net
 
 in
-...
-
-
-
-
-
-
-
-
-
-
+....
+. push to git - (Wed 9/20/2017 @2:44P)
+. 1807 add API wind logic - to hide wind discount and hail res roof - (Wed 9/20/2017 @2:44P)
