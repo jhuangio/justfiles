@@ -1,4 +1,4 @@
-#[fm.mon.08.18.17]
+#[fm.tue.08.19.17]
 
 #[i]
 ...
@@ -12,12 +12,12 @@
 #[c]
 ...
 . mon.18 >s, >w, <ch
-. tue.19 <gr
+. tue.19 <gr>, <ch>
 . wed.20
 . thr.21
 . fri.22
 . sat.23 >mw@1p
-. sun.24 <m, (2mon)
+. sun.24 <m>, (2mon)
 . mon.25
 . tue.26
 . wed.27

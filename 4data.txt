@@ -3662,6 +3662,61 @@ js good parts (3)
     . the function object created by a function literal contains a link to that outer context - this is called closure
       . source of enormous expressive power.
 
+(270) - building your first api with asp.net core - kevin d - 4
+...
+. ASP.NET Core MVC
+. MVC
+  . model-view-controller
+  . architectural pattern
+  . loose coupling
+  . separation of concerns 
+  . testability 
+  . reusable
+  . not the full 
+
+(271) - asp.net core with the new msbuild based tooling - wes h - 4
+...
+
+c# code
+...
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.IO;
+
+namespace sampleapp
+{
+    class Program
+    {
+
+        static void Main(string[] args)
+        {
+            string pathw;
+            pathw = @"c:\d3\d3\jiawrite.txt";
+            StreamWriter writer;
+            writer = new StreamWriter(pathw);
+            writer.WriteLine("this is so cool");
+            writer.Close();
+
+            string path;
+            path = @"c:\d3\d3\jiad3.txt";
+            StreamReader reader = new StreamReader(path);
+            while (reader.EndOfStream == false)
+            {
+                string line = reader.ReadLine();
+                Console.WriteLine(line);
+            }
+                reader.Close();
+        }
+        
+    }
+}
+
+
+
 
 
 
@@ -3881,4 +3936,16 @@ eof.999
 
 
 
+
+...
+Pokemon: Lugia
+Gym: Oldsmar Gym
+StartTime: 7p
+...
+
+...
+Pokemon: test
+Gym: test
+StartTime: test
+...
 

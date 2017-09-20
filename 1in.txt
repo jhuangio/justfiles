@@ -39,3 +39,51 @@ sprint 18 notes
   . Logic would be in the Quote Aggregate when it sets the Discount/Surcharge (old Policy Modification data).
 
 ...
+
+notes
+...
+HomeOwnersApi.iSeries.Web/Controllers/PropertyDetailController.cs 
+HomeOwnersApi.WriteMode/Aggregates/Quote/Quote.cs 
+HomeOwnersApi.WriteMode/Commands/Handlers/SubmitCoverageCommandHandler.cs 
+HomeOwnersApi.WriteModel/Commands/Handlers/SubmitPropertyDetailsCommandHandler.cs 
+
+If Wind Exclusion = y
+
+cannot have
+...
+. wind Mitigation Discount
+. Hail Resistant Roof
+
+kev
+...
+. dynamic comment or text - when does it refresh? t changed text did not refresh when she exited page only refreshed when she changed property details from roof Modification
+. predate - postdate range does not look up on saved quotes with effective dates outside the range of predate - post dates
+
+code 
+...
+.ClearSelectedValue();
+
+if (isPho && XWindModified && XWind = true)
+{
+  PropertyDetail.XWind.CanEdit=false
+}
+
+            if (ProductId == "PHO")
+            {
+              if (XWind = true)
+              {
+                discountSurcharge.HasHailREsistantRoof.SetSelectedValue(false);
+                discountSurcharge.HasWindMitigationDiscount.SetSelectedValue(false);
+	              discountSurcharge.WindMitigationDiscounts.ClearnSelectedValue();
+                discountSurcharge.HailResistantRoofInstallationDate.ClearSelectedValue();
+              }
+
+                discountSurcharge.PriorInsurance.CanView = false;
+                ...
+
+            }
+            else
+            {
+                discountSurcharge.NewHomePurchaseDate.CanView = false;
+                ...
+            }
