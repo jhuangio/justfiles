@@ -1,41 +1,60 @@
-today
+act
 ...
-. daily review
-. weekly review
-
-this.week
-...
-. register boat
-. register trailer
-. print charles papers
-
-later
-...
+. reg boat
+. reg trailer
+. print charles.r docs
 . cannasense ca
+. amscot loan
+. abron
+. trulieve rec
+. cho lon good bro $400
+. cho lon bad bro $400 by 10/24
 
 cal
 ...
+0920.wed - 09
+0921.thr - 08
+0922.fri - 07
+0923.sat - 06 mom wh
+0924.sun - 05
+0925.mon - 04
+0926.tue - 03
+0927.wed - 02 es#18
+0928.thr - 01 
+0929.fri - 14 pd, gmf$600, skyw$300
+0930.sat - 13
+1001.sun - 12
+1002.mon - 11
+1003.tue - 10
+1004.wed - 09
+1005.thr - 08
+1006.fri - 07
+1007.sat - 06
+1008.sun - 05
+1009.mon - 04
+1010.tue - 03
+1011.wed - 02
+1012.thr - 01
+1013.fri - 14 pd, cho lon bad bro $400
+1014.sat - 13
+1015.sun - 12
+1016.mon - 11
+1017.tue - 10
+1018.wed - 09
+1019.thr - 08
+1020.fri - 07
+1021.sat - 06
+1022.sun - 05
+1023.mon - 04
+1024.tue - 03
+1025.wed - 02
+1026.thr - 01
+1027.fri - 14 pd
 
-mon
+in
 ...
 
-tue
-...
 
-wed
-...
-
-thr
-...
-
-fri
-...
-
-sat
-...
-
-sun
-...
 
 
 

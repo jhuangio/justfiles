@@ -3921,31 +3921,3 @@ eof.999
 
 
 
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-...
-Pokemon: Lugia
-Gym: Oldsmar Gym
-StartTime: 7p
-...
-
-...
-Pokemon: test
-Gym: test
-StartTime: test
-...
-
