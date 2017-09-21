@@ -1,21 +1,25 @@
 act
 ...
-. reg boat
-. reg trailer
-. print charles.r docs
-. cannasense ca
-. amscot loan
-. trulieve rec
-. cho lon good bro $400
-. cho lon bad bro $400 by 10/24
-. pawn max st pete $150
-. apple store ipad pro
-. cell phone vm password
+. d  - reg boat
+. d  - reg trailer
+. ca - law.update
+. d  - law docs
+. am - new.loan
+. tr - rec.me
+. cg - $400
+. cb -  $400.10/24
+. pm -  $150
+. g  - apple store ipad.pro
+. d  - cell phone vm.pass
+. d  - order seatcov
+. $  - cable bill
+. d  - truck fluids
+. d  - coolant rebate
 
 log
 ...
 0919.tue.10 - sk8, wbebe
-0920.wed.09 - *abron
+0920.wed.09 - *abron, 2pk.ci
 
 cal
 ...
@@ -71,13 +75,13 @@ www
 day
 ...
 0730 .
-0745
-0800
-0815
-0830 [8]
-0845
-0900
-0915
+0745 .
+0800 .
+0815 .
+0830 .
+0845 .
+0900 > test api
+0915 > call pawn max st.pete
 0930 [7] ins meeting whiteibis cf4
 0945 >
 1000 > standup
@@ -130,9 +134,57 @@ day
 2145 >
 2200
 
+dd
+...
+$  - pay
+4  - for
+7  - 711
+am - amscot
+b  - bike
+bi - bankers
+c  - cal
+ca - call
+cb - cho lon bad bro
+cg - cho lon good bro
+ch - clean house
+ci - cig
+d  - do
+e  - eye dr
+f  - file
+g  - go
+gm - gm fin
+gr - garbage out
+i  - inbox
+js - javascript
+l  - laundry
+m  - mow yard
+mw - mom wh
+p  - payday
+pm - pawnmax
+ps - pluralsight
+ra - reis auto
+s  - sk8te
+sk - skyway moto
+sp - spectrum
+sw - speedway
+t  - today
+tr - trulieve
+w  - walk bebe
+wm - walmart
+
+icons
+...
+g  >
+ca [  
+d  <
+f  ^
+bi #
+
 in
 ....
-. call - pawn max for date - (Thu 9/21/2017 @7:34A)
-. 6:45p - m2raid@starbucks - (Thu 9/21/2017 @7:36A)
-. data - pawn max st pete - (727) 547-1800 - (Thu 9/21/2017 @7:47A)
-. pluralsight - get id to loginto phone - (Thu 9/21/2017 @7:54A)
+. #  - api mod - (Thu 9/21/2017 @8:21A)
+. wm - candy, tp, vita.c, water - (Thu 9/21/2017 @8:29A)
+. d  - coolant rebate - (Thu 9/21/2017 @8:34A)
+. 7  - nos, white, amp - (Thu 9/21/2017 @8:37A)
+. sw - zero, gas - (Thu 9/21/2017 @8:38A)
+. g  - super target @ 6:30p - (Thu 9/21/2017 @8:53A)
