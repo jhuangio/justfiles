@@ -5,22 +5,21 @@ act
 . print charles.r docs
 . cannasense ca
 . amscot loan
-. abron
 . trulieve rec
 . cho lon good bro $400
 . cho lon bad bro $400 by 10/24
-. day review
-. week review
 . pawn max st pete $150
+. apple store ipad pro
+. cell phone vm password
 
 log
 ...
 0919.tue.10 - sk8, wbebe
+0920.wed.09 - *abron
 
 cal
 ...
-0920.wed.09 - *abron, [pawn
-0921.thr.08 - 
+0921.thr.08 - m2raid@7p
 0922.fri.07 - ^g
 0923.sat.06 - mom
 0924.sun.05 -
@@ -61,39 +60,79 @@ cal
 1029.sun.12 - *wg.xan.pu
 1030.mon.11 -
 1031.tue.10 - ^g
+1101.wed.09 - 
+1102.thr.08 - 
+1103.fri.07 - 
 
 www
 ...
 . https://fl-tampa.pogoalerts.net
 
+day
+...
+0730 .
+0745
+0800
+0815
+0830 [8]
+0845
+0900
+0915
+0930 [7] ins meeting whiteibis cf4
+0945 >
+1000 > standup
+1015 
+1030 [6]
+1045
+1100
+1115
+1130 [5]
+1145 > lunch
+1200 >
+1215 >
+1230 [4]
+1245
+1300
+1315
+1330 [3]
+1345
+1400
+1415
+1430 [2]
+1445
+1500
+1515
+1530 [1]
+1545
+1600
+1615
+1630 > leave work
+1645
+1700
+1715
+1730
+1745
+1800
+1815
+1830
+1845 > super target
+1900 >
+1915 >
+1930 >
+1945 >
+2000
+2015
+2030
+2045
+2100
+2115
+2130 > sk8+wbebe
+2145 >
+2200
+
 in
 ....
-. push to git - (Wed 9/20/2017 @2:44P)
-. 1807 add API wind logic - to hide wind discount and hail res roof - (Wed 9/20/2017 @2:44P)
-. data - PHO TX test - 842 Chestnut St., Abilene, TX 79602 - (Wed 9/20/2017 @2:48P)
-
-. HomeOwnersApi.WriteModel/Commands/Handlers/SubmitPropertyDetailsCommandHandler.cs - (Wed 9/20/2017 @3:02P)
-
-. quote.SetDiscountSurchargeOptions - update the aggregate to have the CanEdit, and the SelectedValue to False or ClearSelectedValue()  the other logic is just adding to the IF block so that it saves the dscount/surcharge values to the iSeries - (Wed 9/20/2017 @3:03P)
-. also would set the canEdit to the answer of the isExWind from the PropertyDetail selected value - (Wed 9/20/2017 @3:07P)
-. if a user says they don't want wind (exclude Wind => True) then disable those questions, set them to false, and clear out the values - (Wed 9/20/2017 @3:09P)
-.  so either the previous condition is TRUE or (isPho && XWindModified && XWind = true) - (Wed 9/20/2017 @3:10P)
-. discountSurcharge.HasHailResistantRoof.SetSelectedValue(false); - (Wed 9/20/2017 @3:11P)
-. discountSurcharge.HasWindMitigationDiscount.SetSelectedValue(false); - (Wed 9/20/2017 @3:12P)
-. discountSurcharge.WindMitigationDiscounts.ClearSelectedValue(); - (Wed 9/20/2017 @3:12P)
-. discountSurcharge.HailResistantRoofInstallationDate.ClearSelectedValue(); - (Wed 9/20/2017 @3:13P)
-. call - pawn max ii - (727)547-1800 - (Wed 9/20/2017 @3:14P)
-. log - pawn max ii - st. pete - 7561 49th st. n, st. pete, fl - (727)547-1800 - (Wed 9/20/2017 @3:14P)
-. in quote.cs under ConfigureDiscountSurcharges - (Wed 9/20/2017 @3:18P)
-.  in quotes.cs - add the following - (Wed 9/20/2017 @3:28P)
-. discountSurcharge.HasWindMitigationDiscount.CanEdit = (isXWind == false); - (Wed 9/20/2017 @3:28P)
-. line 2713 - discountSurcharge.HasHailResistantRoof.CanEdit = (isXWind == false); - (Wed 9/20/2017 @3:29P)
-. if (isXWind == true) { discountSurcharge.HasHailResistantRoof.SetSelectedValue(false); discountSurcharge.HasWindMitigationDiscount.SetSelectedValue(false); discountSurcharge.WindMitigationDiscounts.ClearSelectedValue();  - (Wed 9/20/2017 @3:30P)
-. discountSurcharge.HailResistantRoofInstallationDate.ClearSelectedValue(); } - (Wed 9/20/2017 @3:32P)
-. HomeOwnersApi.WriteModel/Aggregates/Quote/Quote.cs - (Wed 9/20/2017 @3:33P)
-. HomeOwnersApi.WriteModel/Commands/Handlers/SubmitPropertyDetailsCommandHandler.cs - (Wed 9/20/2017 @3:33P)
-. handler code - .FirstOrDefault() - (Wed 9/20/2017 @3:36P)
-. elasticsearch - run from c:\elasticsearch-5.5.0 - (Wed 9/20/2017 @3:37P)
-. npm run dev - (Wed 9/20/2017 @3:41P)
-. quote.cs - line 2711 and line 2566 - (Wed 9/20/2017 @4:30P)
-. submitpropertydetailcommandhandler - line 440 - (Wed 9/20/2017 @4:31P)
+. call - pawn max for date - (Thu 9/21/2017 @7:34A)
+. 6:45p - m2raid@starbucks - (Thu 9/21/2017 @7:36A)
+. data - pawn max st pete - (727) 547-1800 - (Thu 9/21/2017 @7:47A)
+. pluralsight - get id to loginto phone - (Thu 9/21/2017 @7:54A)
