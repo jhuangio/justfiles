@@ -19,6 +19,10 @@ act
 . $  - gm600.9/29
 . bi - api test
 . d  - coolant rebate
+. ca - hl.expire?3/19?
+. d  - law.chg.name.cat
+. ca - call ch.law.6mon.4/18
+. d  - law.will+
 
 log
 ...
@@ -113,6 +117,7 @@ uk
 . uk - 8/30@09:28a - 4708 w iowa ave, tampa, fl 33616 - (Fri 9/22/2017 @11:27A)
 . uk - 8/28@08:41a - 4809   culbreath isles rd, tampa, fl 33629 - (Fri 9/22/2017 @11:28A)
 . uk - 8/28@12:57p - 5595 w laurel st., tampa, fl 33607 - (Fri 9/22/2017 @11:29A)
+. uk - 9/22@03:42p - 6501 s west shore blvd, tampa, fl 33616 - (Fri 9/22/2017 @3:16P)
 
 day
 ...
@@ -137,8 +142,8 @@ day
 1200 >
 1215 >
 1230 [4]
-1245 
-1300 
+1245 .
+1300 .
 1315 
 1330 [3]
 1345 
@@ -176,6 +181,7 @@ f  - file
 g  - go
 gm - gm fin
 gr - garbage out
+hi - hyatt.leg
 i  - inbox
 js - javascript
 l  - laundry
@@ -203,6 +209,13 @@ ca [
 d  <
 f  ^
 bi #
+
+sat 
+...
+. 11:30a - leave house - (Fri 9/22/2017 @3:28P)
+. 11:45a - amscot - (Fri 9/22/2017 @3:29P)
+. 12:00p - oceanic, bitter mellon, chinese eggplant - (Fri 9/22/2017 @3:28P)
+. 01:00p - arrive @mom - (Fri 9/22/2017 @3:27P)
 
 in
 ....
