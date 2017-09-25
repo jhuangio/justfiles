@@ -29,13 +29,14 @@ log
 0919.tue.10 - sk8, wbebe
 0920.wed.09 - *abron, 2pk.ci
 0921.thr.08 - m2raid@7p, sk8, wbebe
+0922.fri.07 - ^gr, spoke.ln
+0923.sat.06 - mom, got am.lo$500
+0924.sun.05 - ch
 
 cal
 ...
-0922.fri.07 - ^gr, spoke.ln
-0923.sat.06 - mom
-0924.sun.05 -
-0925.mon.04 - d.coolant.r
+
+0925.mon.04 - d.coolant.r, wg.x, kl
 0926.tue.03 - ^gr
 0927.wed.02 - s#18
 0928.thr.01 -
@@ -53,7 +54,7 @@ cal
 1010.tue.03 - ^gr
 1011.wed.02 - *wg.add.pu
 1012.thr.01 -
-1013.fri.14 - [p], cholon.badbro$400, ^g, pm$150.min$25
+1013.fri.14 - [p], cholon.badbro$400, ^g, pm$150.min$25, am.lo$552
 1014.sat.13 - eye.dr@11a
 1015.sun.12 -
 1016.mon.11 -
@@ -76,11 +77,12 @@ cal
 1102.thr.08 - 
 1103.fri.07 - bi>open.enroll.11/17
 1104.sat.06 -
+1105.sun.05 - 
+1106.mon.04 - 
 
 www
 ...
 . https://fl-tampa.pogoalerts.net
-. https://maps.po
 
 uk
 ...
@@ -121,16 +123,16 @@ uk
 
 day
 ...
-0730 .
+0730 . arrived @ 7:40a
 0745 .
-0800 . arrived
-0815 .
+0800 
+0815 
 0830 [8]
-0845 .
-0900 .
-0915 .
+0845 
+0900 
+0915 
 0930 [7]
-0945 .
+0945 
 1000 > standup
 1015 .
 1030 [6]
@@ -139,11 +141,11 @@ day
 1115 .
 1130 [5]
 1145 > lunch
-1200 >
+1200 ? Personal Lines - Mon Lunch  CF4_Boardroom, CF4_SpoonbillRoom
 1215 >
 1230 [4]
-1245 .
-1300 .
+1245 
+1300 
 1315 
 1330 [3]
 1345 
@@ -160,6 +162,9 @@ day
 1630 [0] > leave work
 1645
 1700
+1715
+1730 > wg.x
+1800 > kl
 
 dd
 ...
@@ -184,15 +189,18 @@ gr - garbage out
 hi - hyatt.leg
 i  - inbox
 js - javascript
+kl - kitty.l
 l  - laundry
 ln - louie.ny
+lo - loan
 m  - mow yard
 mw - mom wh
 p  - payday
 pm - pawnmax
 ps - pluralsight
 ra - reis auto
-s  - sk8te
+s  - sprint
+s8 - sk8te
 sk - skyway moto
 sp - spectrum
 sw - speedway
@@ -200,6 +208,7 @@ t  - today
 tr - trulieve
 uk - unknown
 w  - walk bebe
+wg - walgreens
 wm - walmart
 
 icons
@@ -209,13 +218,6 @@ ca [
 d  <
 f  ^
 bi #
-
-sat 
-...
-. 11:30a - leave house - (Fri 9/22/2017 @3:28P)
-. 11:45a - amscot - (Fri 9/22/2017 @3:29P)
-. 12:00p - oceanic, bitter mellon, chinese eggplant - (Fri 9/22/2017 @3:28P)
-. 01:00p - arrive @mom - (Fri 9/22/2017 @3:27P)
 
 in
 ....
