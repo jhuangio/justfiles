@@ -3715,6 +3715,176 @@ namespace sampleapp
     }
 }
 
+js reserved words
+...
+. break
+. case 
+. catch 
+. continue 
+. debugger 
+. default 
+. delete 
+. do 
+. else 
+. false 
+. finally 
+. for 
+. function 
+. if 
+. in 
+. instanceof 
+. new 
+. null 
+. return 
+. switch 
+. this 
+. throw 
+. true 
+. try 
+. typeof 
+. var 
+. void 
+. while 
+. with 
+
+ecmascript 5 reserve words
+...
+. class 
+. const 
+. enum 
+. export 
+. extends 
+. import 
+. super 
+
+reserved in strict mode 
+...
+. implements 
+. interface 
+. let 
+. package 
+. private 
+. protected 
+. public 
+. static 
+. yield 
+. strict mode also imposes restrictions on the use of the following identifiers
+  . arguments 
+  . eval 
+
+ecmascript 3 reserved words 
+...
+. abstract
+. boolean 
+. byte 
+. char 
+. class 
+. const 
+. double
+. enum 
+. export 
+. extends 
+. final 
+. float 
+. goto 
+. implements 
+. import 
+. int 
+. interface 
+. long 
+. native 
+. package 
+. private 
+. protected 
+. public 
+. short 
+. static 
+. super 
+. synchronized 
+. throws 
+. transient 
+. volatile 
+
+js predefines a number of global var and functions
+...
+. arguments 
+. Array 
+. Boolean 
+. Date 
+. decodeURI 
+. decodeURIComponent 
+. encodeURI
+. encodeURIComponent 
+. Error
+. eval 
+. EvalError 
+. Function 
+. Infinity 
+. isFinite 
+. isNaN
+. JSON 
+. Math 
+. NaN 
+. Number 
+. Object 
+. parseFloat 
+. parseInt 
+. RangeError 
+. ReferenceError 
+. RegExp 
+. String 
+. SyntaxError 
+. TypeError 
+. undefined 
+. URIError 
+
+js - primitive types
+... 
+. numbers
+. strings 
+. boolean 
+. null 
+. undefined 
+. any js value that is not primitive is an object 
+
+js - notes
+...
+. js var are "untyped" you can assign a value of any type to a var later you can assign a value of a different type to the same var 
+. all numbers in js are represented as floating-point values (double type c and c++)
+. string immutable ordered sequence of 16-bit values
+
+js - escaped sequences
+...
+. \0 - the nul char (\u0000)
+. \b - backspace (\u0008)
+. \t - horizontal tab (\u0009) 
+. \n - newline (\u000A)
+. \v - vertical tab (\u000B)
+. \f - form feed (\u000C) 
+. \r - carriage return (\u000D) 
+. \" - double quote (\u0022)
+. \' - apostrophe or single quote (\u0027) 
+. \\ backslash (\u005C) 
+
+js string methods
+...
+. var s = "hello, world";
+. s.charAt(0) - "h": first char
+. s.charAt(s.length-1) - "d": last char 
+. s.substring(1,4) - "ell": the 2nd, 3rd, 4th char 
+. s.slice(1,4) - "ell": same as above 
+. s.indexOf("l") - 2: position of first letter l 
+. s.lastIndexOf("l") - 10: position of last letter l 
+. s.indexOf("1", 3) - 3: positon of the first "l" at or after 3
+
+
+
+
+
+
+
+
+
 
 
 

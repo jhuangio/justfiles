@@ -23,6 +23,8 @@ act
 . d  - law.chg.name.cat
 . ca - call ch.law.6mon.4/18
 . d  - law.will+
+. ca - call tr
+. g  - at.4.ut
 
 log
 ...
@@ -39,8 +41,8 @@ cal
 0925.mon.04 - d.coolant.r, wg.x, kl
 0926.tue.03 - ^gr
 0927.wed.02 - s#18
-0928.thr.01 -
-0929.fri.14 - [p], gm$600, sky$300, g
+0928.thr.01 - kevin.k.in
+0929.fri.14 - [p], gm$600, sky$300, g, kevin.k.in
 0930.sat.13 -
 1001.sun.12 -
 1002.mon.11 -
@@ -120,19 +122,20 @@ uk
 . uk - 8/28@08:41a - 4809   culbreath isles rd, tampa, fl 33629 - (Fri 9/22/2017 @11:28A)
 . uk - 8/28@12:57p - 5595 w laurel st., tampa, fl 33607 - (Fri 9/22/2017 @11:29A)
 . uk - 9/22@03:42p - 6501 s west shore blvd, tampa, fl 33616 - (Fri 9/22/2017 @3:16P)
+. uk - 9/25@01:59p - 7207 s shamrock rd, tampa, fl 33616 - (Mon 9/25/2017 @3:31P)
 
 day
 ...
 0730 . arrived @ 7:40a
 0745 .
-0800 
-0815 
+0800 .
+0815 .
 0830 [8]
-0845 
-0900 
-0915 
+0845 .
+0900 .
+0915 .
 0930 [7]
-0945 
+0945 .
 1000 > standup
 1015 .
 1030 [6]
@@ -141,7 +144,7 @@ day
 1115 .
 1130 [5]
 1145 > lunch
-1200 ? Personal Lines - Mon Lunch  CF4_Boardroom, CF4_SpoonbillRoom
+1200 
 1215 >
 1230 [4]
 1245 
@@ -172,6 +175,7 @@ $  - pay
 4  - for
 7  - 711
 am - amscot
+at - alex.ut
 b  - bike
 bi - bankers
 c  - cal

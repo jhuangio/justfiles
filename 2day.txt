@@ -29,22 +29,11 @@
 1430.1445 .
 1445.1500 .
 1500.1515 .
-1515.1530 .
+1515.1530 
 1530.1545 
 1545.1600 
 1600.1615 -3
 1615.1630 ? leave at 4:30p today
-
-friday
-...
-. fedex - fax to dmj
-. pto
-
-today
-...
-. fri - drop off car
-. dr
-. wr
 
 next week
 ...
