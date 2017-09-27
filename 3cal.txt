@@ -34,19 +34,17 @@ log
 0922.fri.07 - ^gr, spoke.ln
 0923.sat.06 - mom, got am.lo$500
 0924.sun.05 - ch
+0926.tue.03 - ^gr, wg.x
 
 cal
 ...
-
-0925.mon.04 - d.coolant.r, wg.x, kl
-0926.tue.03 - ^gr
-0927.wed.02 - s#18
+0927.wed.02 - s#18, kl
 0928.thr.01 - kevin.k.in
-0929.fri.14 - [p], gm$600, sky$300, g, kevin.k.in
-0930.sat.13 -
+0929.fri.14 - [p], gm$600, sky$300, g, kevin.k.in, call tr
+0930.sat.13 - d.coolant.r
 1001.sun.12 -
 1002.mon.11 -
-1003.tue.10 - ^gr
+1003.tue.10 - ^gr, po.egg.end
 1004.wed.09 -
 1005.thr.08 -
 1006.fri.07 - ^gr
@@ -81,6 +79,10 @@ cal
 1104.sat.06 -
 1105.sun.05 - 
 1106.mon.04 - 
+1107.tue.03 -
+1108.wed.02 -
+1109.thr.01
+1110.fri.14 - [p]
 
 www
 ...
@@ -126,15 +128,15 @@ uk
 
 day
 ...
-0730 . arrived @ 7:40a
+0730 . arrived @ 7:30a
 0745 .
-0800 .
+0800 . @8:10a
 0815 .
-0830 [8]
+0830 [8] 
 0845 .
 0900 .
 0915 .
-0930 [7]
+0930 [7] 
 0945 .
 1000 > standup
 1015 .
@@ -144,30 +146,30 @@ day
 1115 .
 1130 [5]
 1145 > lunch
-1200 
+1200 .
 1215 >
 1230 [4]
-1245 
-1300 
-1315 
+1245 .
+1300 > Small Horizon Planning CF4_Pterodactyl
+1315 >
 1330 [3]
-1345 
-1400 
-1415 
+1345 >
+1400 >
+1415 >
 1430 [2]
-1445 
-1500 
-1515 
+1445 .
+1500 > Interview - Carl Napoli - CF3 IT_DeathStar
+1515 > 
 1530 [1]
-1545 
-1600 
-1615
-1630 [0] > leave work
+1545 .
+1600 .
+1615 .
+1630 [0] > leave work @ 4:30p
 1645
 1700
 1715
-1730 > wg.x
-1800 > kl
+1730 
+1800 
 
 dd
 ...
@@ -192,6 +194,7 @@ gm - gm fin
 gr - garbage out
 hi - hyatt.leg
 i  - inbox
+it - in time
 js - javascript
 kl - kitty.l
 l  - laundry
@@ -201,6 +204,7 @@ m  - mow yard
 mw - mom wh
 p  - payday
 pm - pawnmax
+po - pokemon
 ps - pluralsight
 ra - reis auto
 s  - sprint
@@ -225,3 +229,9 @@ bi #
 
 in
 ....
+2.31
+1.99
+----
+0.32
+. next - 11.2 - (Wed 9/27/2017 @7:46A)
+. now - .32 - (Wed 9/27/2017 @7:47A)
