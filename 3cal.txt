@@ -1,3 +1,7 @@
+----------------------------------
+act.dd.icons.log.cal.www.uk.day.in
+----------------------------------
+
 act
 ...
 . d  - reg boat
@@ -26,6 +30,62 @@ act
 . ca - call tr
 . g  - at.4.ut
 
+dd
+...
+$  - pay
+4  - for
+7  - 711
+am - amscot
+at - alex.ut
+b  - bike
+bi - bankers
+c  - cal
+ca - call
+cb - cho lon bad bro
+cg - cho lon good bro
+ch - clean house
+ci - cig
+d  - do
+e  - eye dr
+f  - file
+g  - go
+gm - gm fin
+gr - garbage out
+hi - hyatt.leg
+i  - inbox
+it - in time
+js - javascript
+kl - kitty.l
+l  - laundry
+ln - louie.ny
+lo - loan
+m  - mow yard
+mw - mom wh
+p  - payday
+pm - pawnmax
+po - pokemon
+ps - pluralsight
+ra - reis auto
+s  - sprint
+s8 - sk8te
+sk - skyway moto
+sp - spectrum
+sw - speedway
+t  - today
+tr - trulieve
+uk - unknown
+w  - walk bebe
+wg - walgreens
+wm - walmart
+
+icons
+...
+g  >
+ca [  
+d  <
+f  ^
+bi #
+
 log
 ...
 0919.tue.10 - sk8, wbebe
@@ -38,9 +98,8 @@ log
 
 cal
 ...
-0927.wed.02 - s#18, kl
-0928.thr.01 - kevin.k.in
-0929.fri.14 - [p], gm$600, sky$300, g, kevin.k.in, call tr
+0928.thr.01 - kevin.k.in, kl, s#19
+0929.fri.14 - [p], gm$600, sky$300, g, kevin.k.in, call tr, 3-4p.interview.DEATHSTAR
 0930.sat.13 - d.coolant.r
 1001.sun.12 -
 1002.mon.11 -
@@ -128,110 +187,50 @@ uk
 
 day
 ...
-0730 . arrived @ 7:30a
+0730 . arrived @ 7:45a
 0745 .
-0800 . @8:10a
+0800 .
 0815 .
-0830 [8] 
+0830 . [8] 
 0845 .
-0900 .
-0915 .
-0930 [7] 
-0945 .
-1000 > standup
-1015 .
-1030 [6]
-1045 .
-1100 .
-1115 .
-1130 [5]
-1145 > lunch
-1200 .
+0900 . sprint CF3Woodstork 
+0915 . > 
+0930 . [7] 
+0945 . >
+1000 . > standup
+1015 . >
+1030 . [6]
+1045 . >
+1100 . >
+1115 . >
+1130 . [5]
+1145 . > lunch
+1200 >
 1215 >
 1230 [4]
-1245 .
-1300 > Small Horizon Planning CF4_Pterodactyl
-1315 >
+1245 
+1300 
+1315 
 1330 [3]
-1345 >
-1400 >
-1415 >
-1430 [2]
-1445 .
-1500 > Interview - Carl Napoli - CF3 IT_DeathStar
-1515 > 
+1345 
+1400 
+1415 
+1430 [2] > CF3Deathstar
+1445 >
+1500 
+1515 
 1530 [1]
-1545 .
-1600 .
-1615 .
+1545 
+1600 
+1615 
 1630 [0] > leave work @ 4:30p
-1645
-1700
-1715
-1730 
-1800 
 
-dd
-...
-$  - pay
-4  - for
-7  - 711
-am - amscot
-at - alex.ut
-b  - bike
-bi - bankers
-c  - cal
-ca - call
-cb - cho lon bad bro
-cg - cho lon good bro
-ch - clean house
-ci - cig
-d  - do
-e  - eye dr
-f  - file
-g  - go
-gm - gm fin
-gr - garbage out
-hi - hyatt.leg
-i  - inbox
-it - in time
-js - javascript
-kl - kitty.l
-l  - laundry
-ln - louie.ny
-lo - loan
-m  - mow yard
-mw - mom wh
-p  - payday
-pm - pawnmax
-po - pokemon
-ps - pluralsight
-ra - reis auto
-s  - sprint
-s8 - sk8te
-sk - skyway moto
-sp - spectrum
-sw - speedway
-t  - today
-tr - trulieve
-uk - unknown
-w  - walk bebe
-wg - walgreens
-wm - walmart
-
-icons
-...
-g  >
-ca [  
-d  <
-f  ^
-bi #
+----------------------------------
+act.dd.icons.log.cal.www.uk.day.in
+----------------------------------
 
 in
 ....
-2.31
-1.99
-----
-0.32
-. next - 11.2 - (Wed 9/27/2017 @7:46A)
-. now - .32 - (Wed 9/27/2017 @7:47A)
+. FRI @ 3P INTERVIEW DEATHSTAR 3-4 - (Thu 9/28/2017 @10:00A)
+. isleepeasy app - (Thu 9/28/2017 @1:04P)
+. drdorris.com sleep cd - (Thu 9/28/2017 @1:04P)
