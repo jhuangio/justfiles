@@ -35,6 +35,7 @@ dd
 $  - pay
 4  - for
 7  - 711
+ab - abron
 am - amscot
 at - alex.ut
 b  - bike
@@ -47,6 +48,7 @@ ch - clean house
 ci - cig
 c# - conf#
 d  - do
+dr - day.rev
 e  - eye dr
 f  - file
 g  - go
@@ -64,6 +66,7 @@ m  - mow yard
 mp - metro.pcs
 mw - mom wh
 ol - online
+op - onphone
 p  - payday
 pd - paid
 pm - pawnmax
@@ -82,6 +85,7 @@ uk - unknown
 w  - walk bebe
 wg - walgreens
 wm - walmart
+wr - week.rev
 
 icons
 ...
@@ -103,10 +107,10 @@ log
 
 cal
 ...
-0929.fri.14 - [p], gm$600, sky$300, gr, call tr, 3-4p.interview.DEATHSTAR, pd$500.me, pd$30.mp.ol.c#797970894
-0930.sat.13 - d.coolant.r
+0929.fri.14 - [p], gm$600, gr, call tr, pd$500.me, pd$30.mp.ol.c#797970894, sk.pd$200.op.bal$1800, interviewed.bei.liu
+0930.sat.13 - d.coolant.r, tr$300, ab$150
 1001.sun.12 -
-1002.mon.11 -
+1002.mon.11 - dr, wr
 1003.tue.10 - ^gr, po.egg.end
 1004.wed.09 -
 1005.thr.08 -
@@ -117,7 +121,7 @@ cal
 1010.tue.03 - ^gr
 1011.wed.02 - *wg.add.pu
 1012.thr.01 -
-1013.fri.14 - [p], cholon.badbro$400, ^g, pm$150.min$25, am.lo$552
+1013.fri.14 - [p], cholon.badbro$400, ^g, pm$150.min$25, am.lo$552, sk$200?
 1014.sat.13 - eye.dr@11a
 1015.sun.12 -
 1016.mon.11 -
@@ -195,10 +199,11 @@ uk
 . uk - 8/28@12:57p - 5595 w laurel st., tampa, fl 33607 - (Fri 9/22/2017 @11:29A)
 . uk - 9/22@03:42p - 6501 s west shore blvd, tampa, fl 33616 - (Fri 9/22/2017 @3:16P)
 . uk - 9/25@01:59p - 7207 s shamrock rd, tampa, fl 33616 - (Mon 9/25/2017 @3:31P)
+. uk - 9/27@04:30p - 3303 w price ave, tampa, fl 33611 - (Fri 9/29/2017 @8:47A)
 
 day
 ...
-0730 . arrived @ 7:45a
+0730 . arrived @ 7:40a
 0745 .
 0800 .
 0815 .
@@ -211,28 +216,28 @@ day
 1000 . > standup
 1015 . >
 1030 . [6]
-1045 . >
-1100 . >
-1115 . >
+1045 .
+1100 . 
+1115 . 
 1130 . [5]
-1145 . > lunch
-1200 >
-1215 >
-1230 [4]
-1245 
-1300 
-1315 
-1330 [3]
-1345 
-1400 
-1415 
-1430 [2] > CF3Deathstar
-1445 >
-1500 
-1515 
-1530 [1]
-1545 
-1600 
+1145 .
+1200 . > lunch
+1215 . >
+1230 . > [4]
+1245 . > 
+1300 .
+1315 .
+1330 . [3]
+1345 .
+1400 .
+1415 .
+1430 . [2]
+1445 .
+1500 . > bei.liu.interview.d3.deathstar
+1515 . >
+1530 . > [1]
+1545 . >
+1600 . 
 1615 
 1630 [0] > leave work @ 4:30p
 
@@ -242,10 +247,8 @@ act.dd.icons.log.cal.www.uk.day.in
 
 in
 ....
-. FRI @ 3P INTERVIEW DEATHSTAR 3-4 - (Thu 9/28/2017 @10:00A)
 . isleepeasy app - (Thu 9/28/2017 @1:04P)
 . drdorris.com sleep cd - (Thu 9/28/2017 @1:04P)
-. ca - skyway $150? - (Fri 9/29/2017 @8:07A)
 . ca - att$500? - (Fri 9/29/2017 @8:07A)
 . ca - gmf$300? - (Fri 9/29/2017 @8:08A)
 . ca - water.status - (Fri 9/29/2017 @8:08A)
@@ -253,3 +256,5 @@ in
 . ca - spectrum.status - (Fri 9/29/2017 @8:09A)
 . ca - directtv.status - (Fri 9/29/2017 @8:09A)
 . ca - water.status - (Fri 9/29/2017 @8:40A)
+. WMT - GET TABS FOR BOOK, CANDY, INDEX CARDS - (Fri 9/29/2017 @9:46A)  
+. 309.249
