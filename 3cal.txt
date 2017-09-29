@@ -62,9 +62,11 @@ lo - loan
 m  - mow yard
 mw - mom wh
 p  - payday
+pd - paid
 pm - pawnmax
 po - pokemon
 ps - pluralsight
+px - publix
 ra - reis auto
 s  - sprint
 s8 - sk8te
@@ -98,8 +100,7 @@ log
 
 cal
 ...
-0928.thr.01 - kevin.k.in, kl, s#19
-0929.fri.14 - [p], gm$600, sky$300, g, kevin.k.in, call tr, 3-4p.interview.DEATHSTAR
+0929.fri.14 - [p], gm$600, sky$300, gr, call tr, 3-4p.interview.DEATHSTAR, pd$500.me
 0930.sat.13 - d.coolant.r
 1001.sun.12 -
 1002.mon.11 -
@@ -142,6 +143,13 @@ cal
 1108.wed.02 -
 1109.thr.01
 1110.fri.14 - [p]
+1111.sat.13 - 
+1112.sun.12 - 
+1113.mon.11 - 
+1114.tue.10 - 
+1115.wed.09 - 
+1116.thr.08 - 
+1117.fri.07 - 
 
 www
 ...
@@ -234,17 +242,3 @@ in
 . FRI @ 3P INTERVIEW DEATHSTAR 3-4 - (Thu 9/28/2017 @10:00A)
 . isleepeasy app - (Thu 9/28/2017 @1:04P)
 . drdorris.com sleep cd - (Thu 9/28/2017 @1:04P)
-. 65.8 - (Thu 9/28/2017 @1:16P)
-. load bank card - (Thu 9/28/2017 @3:31P)
-. header/header.component.html - line 11 addd {{formatDate(jdate)} - (Thu 9/28/2017 @3:52P)
-. header/header.component.ts line 57 add jdate: number = Date.now(); - (Thu 9/28/2017 @3:53P)
-. predate - (Thu 9/28/2017 @4:08P)
-. postdate - (Thu 9/28/2017 @4:08P)
-. update git - (Thu 9/28/2017 @4:08P)
-. new file - HCFFP370 - (Thu 9/28/2017 @4:08P)
-. quote number SyWJaocsW - (Thu 9/28/2017 @4:26P)
-. meds, water, smoke, fiber zero, vita c water, pets water, clean.trash, note, dress, shower, feed.cats, food, candy, fruit, energy drinks - (Thu 9/28/2017 @4:27P)
-. publix < 10p  - (Thu 9/28/2017 @4:29P)
-. 7 - nrg.drinks - (Thu 9/28/2017 @4:29P)
-. wm - candy - (Thu 9/28/2017 @4:29P)
-. sw - zeros - (Thu 9/28/2017 @4:30P)
