@@ -29,6 +29,10 @@ act
 . d  - law.will+
 . ca - call tr
 . g  - at.4.ut
+. g  - wm get new bikes? or get never flat tires (4)
+. d  - isleepeasy.app order
+. d  - order drdorris.com audio cd
+. d  - order seat covers
 
 dd
 ...
@@ -38,7 +42,9 @@ $  - pay
 ab - abron
 am - amscot
 at - alex.ut
+aw - arrived.work
 b  - bike
+bb - best.buys
 bi - bankers
 c  - cal
 ca - call
@@ -48,6 +54,7 @@ ch - clean house
 ci - cig
 c# - conf#
 d  - do
+da - data
 dr - day.rev
 e  - eye dr
 f  - file
@@ -60,6 +67,7 @@ it - in time
 js - javascript
 kl - kitty.l
 l  - laundry
+lw - leave.work
 ln - louie.ny
 lo - loan
 m  - mow yard
@@ -104,18 +112,17 @@ log
 0923.sat.06 - mom, got am.lo$500
 0924.sun.05 - ch
 0926.tue.03 - ^gr, wg.x
+0929.fri.14 - [p], gm$600, pd$30.mp.ol.c#797970894, sk.pd$200.op.bal$1800, interviewed.bei.liu
+0930.sat.13 - ab$150
 
 cal
 ...
-0929.fri.14 - [p], gm$600, gr, call tr, pd$500.me, pd$30.mp.ol.c#797970894, sk.pd$200.op.bal$1800, interviewed.bei.liu
-0930.sat.13 - d.coolant.r, tr$300, ab$150
-1001.sun.12 -
-1002.mon.11 - dr, wr
-1003.tue.10 - ^gr, po.egg.end
+1002.mon.11 - 
+1003.tue.10 - ^gr, po.egg.end, dr.wr, wg.add.me
 1004.wed.09 -
 1005.thr.08 -
 1006.fri.07 - ^gr
-1007.sat.06 -
+1007.sat.06 - d.coolant.r
 1008.sun.05 -
 1009.mon.04 -
 1010.tue.03 - ^gr
@@ -157,6 +164,9 @@ cal
 1115.wed.09 - 
 1116.thr.08 - 
 1117.fri.07 - 
+1118.sat.06 - 
+1119.sun.05 - 
+1120.mon.04 - 
 
 www
 ...
@@ -203,9 +213,9 @@ uk
 
 day
 ...
-0730 . arrived @ 7:40a
+0730 . 
 0745 .
-0800 .
+0800 . 
 0815 .
 0830 . [8] 
 0845 .
@@ -247,14 +257,18 @@ act.dd.icons.log.cal.www.uk.day.in
 
 in
 ....
-. isleepeasy app - (Thu 9/28/2017 @1:04P)
-. drdorris.com sleep cd - (Thu 9/28/2017 @1:04P)
-. ca - att$500? - (Fri 9/29/2017 @8:07A)
-. ca - gmf$300? - (Fri 9/29/2017 @8:08A)
-. ca - water.status - (Fri 9/29/2017 @8:08A)
-. ca - teco.status - (Fri 9/29/2017 @8:09A)
-. ca - spectrum.status - (Fri 9/29/2017 @8:09A)
-. ca - directtv.status - (Fri 9/29/2017 @8:09A)
-. ca - water.status - (Fri 9/29/2017 @8:40A)
 . WMT - GET TABS FOR BOOK, CANDY, INDEX CARDS - (Fri 9/29/2017 @9:46A)  
-. 309.249
+. context.id - 112355b8-811a-4e9f-807f-83ee0de39efb - (Mon 10/2/2017 @8:07A)
+. correlation.id - 18189c55-4476-4f97-a94c-a7e4b877c743 - (Mon 10/2/2017 @8:08A)
+. d - order new pokemon bracelet today - (Mon 10/2/2017 @8:17A)
+. g - wg - drop off script - (Mon 10/2/2017 @8:18A)
+. g - bb - after tr get cd player for me - (Mon 10/2/2017 @8:20A)
+. d - find cho.lon.bad receipt - (Mon 10/2/2017 @8:21A)
+. d - bills - (Mon 10/2/2017 @8:21A)
+. d < 9:30a @ 9:15a - check out correlation and context id on kibana - (Mon 10/2/2017 @8:30A)
+. context.id - 2610c09b-329a-4bee-a7ce-fbfee2c9fd05 - (Mon 10/2/2017 @8:31A)
+. correlation.id - 9f357894-3a3b-468f-8132-d6e870a19c25 - (Mon 10/2/2017 @8:32A)
+. d - put thumb.dr back on keys - (Mon 10/2/2017 @8:50A)
+. ca - dr mj @ 10:30a - (Mon 10/2/2017 @8:51A)
+. g - grow.$400 - (Mon 10/2/2017 @8:56A)
+. ca - manny.ins draw.date? - (Mon 10/2/2017 @8:57A)
