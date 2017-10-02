@@ -33,6 +33,13 @@ act
 . d  - isleepeasy.app order
 . d  - order drdorris.com audio cd
 . d  - order seat covers
+. ca - manny.ins date?
+. ca - dr.mj
+. d  - find cho.lon.bad.receipt
+. g  - bb < tr - get cd.player
+. g  - wg drop.add.script
+. d  - order.po.braclet.new
+. g  - wmt get.tabs.index.cards.candy
 
 dd
 ...
@@ -85,7 +92,9 @@ ra - reis auto
 s  - sprint
 s8 - sk8te
 sk - skyway moto
+sn - sprint.test
 sp - spectrum
+st - sub.task
 sw - speedway
 t  - today
 tr - trulieve
@@ -219,35 +228,35 @@ day
 0815 .
 0830 . [8] 
 0845 .
-0900 . sprint CF3Woodstork 
-0915 . > 
-0930 . [7] 
-0945 . >
-1000 . > standup
-1015 . >
-1030 . [6]
-1045 .
-1100 . 
-1115 . 
-1130 . [5]
-1145 .
-1200 . > lunch
-1215 . >
-1230 . > [4]
-1245 . > 
-1300 .
-1315 .
-1330 . [3]
-1345 .
-1400 .
-1415 .
-1430 . [2]
-1445 .
-1500 . > bei.liu.interview.d3.deathstar
-1515 . >
-1530 . > [1]
-1545 . >
-1600 . 
+0900 . 
+0915   
+0930 [7] > 3.deathstar
+0945 >
+1000 > standup
+1015 >
+1030 [6]
+1045 
+1100 
+1115  
+1130 [5]
+1145 
+1200 > lunch
+1215 >
+1230 > [4]
+1245 > 
+1300 
+1315 
+1330 [3]
+1345 
+1400 
+1415 
+1430 [2]
+1445 
+1500 
+1515 
+1530 [1]
+1545 
+1600 
 1615 
 1630 [0] > leave work @ 4:30p
 
@@ -255,20 +264,17 @@ day
 act.dd.icons.log.cal.www.uk.day.in
 ----------------------------------
 
+sn 
+...
+. kibana
+. st
+
 in
 ....
-. WMT - GET TABS FOR BOOK, CANDY, INDEX CARDS - (Fri 9/29/2017 @9:46A)  
 . context.id - 112355b8-811a-4e9f-807f-83ee0de39efb - (Mon 10/2/2017 @8:07A)
 . correlation.id - 18189c55-4476-4f97-a94c-a7e4b877c743 - (Mon 10/2/2017 @8:08A)
-. d - order new pokemon bracelet today - (Mon 10/2/2017 @8:17A)
-. g - wg - drop off script - (Mon 10/2/2017 @8:18A)
-. g - bb - after tr get cd player for me - (Mon 10/2/2017 @8:20A)
-. d - find cho.lon.bad receipt - (Mon 10/2/2017 @8:21A)
 . d - bills - (Mon 10/2/2017 @8:21A)
-. d < 9:30a @ 9:15a - check out correlation and context id on kibana - (Mon 10/2/2017 @8:30A)
 . context.id - 2610c09b-329a-4bee-a7ce-fbfee2c9fd05 - (Mon 10/2/2017 @8:31A)
 . correlation.id - 9f357894-3a3b-468f-8132-d6e870a19c25 - (Mon 10/2/2017 @8:32A)
 . d - put thumb.dr back on keys - (Mon 10/2/2017 @8:50A)
-. ca - dr mj @ 10:30a - (Mon 10/2/2017 @8:51A)
 . g - grow.$400 - (Mon 10/2/2017 @8:56A)
-. ca - manny.ins draw.date? - (Mon 10/2/2017 @8:57A)
