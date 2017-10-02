@@ -40,6 +40,10 @@ act
 . g  - wg drop.add.script
 . d  - order.po.braclet.new
 . g  - wmt get.tabs.index.cards.candy
+. g  - grow get $400 @ lunch
+. ca - spectrum find out about remote
+. g  - spectrum get remote
+. d  - redbox.dvds
 
 dd
 ...
@@ -48,6 +52,7 @@ $  - pay
 7  - 711
 ab - abron
 am - amscot
+ap - amazon.prime
 at - alex.ut
 aw - arrived.work
 b  - bike
@@ -89,6 +94,7 @@ po - pokemon
 ps - pluralsight
 px - publix
 ra - reis auto
+rd - redbox.dvd
 s  - sprint
 s8 - sk8te
 sk - skyway moto
@@ -126,9 +132,9 @@ log
 
 cal
 ...
-1002.mon.11 - 
-1003.tue.10 - ^gr, po.egg.end, dr.wr, wg.add.me
-1004.wed.09 -
+1002.mon.11 - tr@4:30p, bb@6:00p
+1003.tue.10 - ^gr, po.egg.end, dr/wr, wg.add.me, check ap.order
+1004.wed.09 - ap(2) 
 1005.thr.08 -
 1006.fri.07 - ^gr
 1007.sat.06 - d.coolant.r
@@ -229,13 +235,13 @@ day
 0830 . [8] 
 0845 .
 0900 . 
-0915   
-0930 [7] > 3.deathstar
-0945 >
-1000 > standup
-1015 >
-1030 [6]
-1045 
+0915 .
+0930 . [7] > 3.deathstar
+0945 . >
+1000 . > standup
+1015 . >
+1030 . [6]
+1045 .
 1100 
 1115  
 1130 [5]
@@ -259,6 +265,37 @@ day
 1600 
 1615 
 1630 [0] > leave work @ 4:30p
+1645
+1700
+1715 > tr
+1730 >
+1745 >
+1800 > bb.cd.player
+1815
+1830
+1845
+1900
+1915
+1930
+1945
+2000
+2015
+2030
+2045
+2100
+2115
+2130
+2145
+2200 > w, s8
+2215
+2230 > rd
+2245
+2300
+2315
+2330
+2345
+2400
+
 
 ----------------------------------
 act.dd.icons.log.cal.www.uk.day.in
@@ -267,14 +304,14 @@ act.dd.icons.log.cal.www.uk.day.in
 sn 
 ...
 . kibana
-. st
+. st - effective date test predate postdate
+. setup iphone to receive corp.emails
+
+da
+...
+. PHO test address
+  . 110 Inner Campus Dr.
+  . Austin, TX
 
 in
 ....
-. context.id - 112355b8-811a-4e9f-807f-83ee0de39efb - (Mon 10/2/2017 @8:07A)
-. correlation.id - 18189c55-4476-4f97-a94c-a7e4b877c743 - (Mon 10/2/2017 @8:08A)
-. d - bills - (Mon 10/2/2017 @8:21A)
-. context.id - 2610c09b-329a-4bee-a7ce-fbfee2c9fd05 - (Mon 10/2/2017 @8:31A)
-. correlation.id - 9f357894-3a3b-468f-8132-d6e870a19c25 - (Mon 10/2/2017 @8:32A)
-. d - put thumb.dr back on keys - (Mon 10/2/2017 @8:50A)
-. g - grow.$400 - (Mon 10/2/2017 @8:56A)
