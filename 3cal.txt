@@ -40,7 +40,6 @@ act
 . g  - wg drop.add.script
 . d  - order.po.braclet.new
 . g  - wmt get.tabs.index.cards.candy
-. g  - grow get $400 @ lunch
 . ca - spectrum find out about remote
 . g  - spectrum get remote
 . d  - redbox.dvds
@@ -73,6 +72,7 @@ f  - file
 g  - go
 gm - gm fin
 gr - garbage out
+hc - haircut
 hi - hyatt.leg
 i  - inbox
 it - in time
@@ -109,6 +109,7 @@ w  - walk bebe
 wg - walgreens
 wm - walmart
 wr - week.rev
+zz - zoom.zoom
 
 icons
 ...
@@ -129,10 +130,10 @@ log
 0926.tue.03 - ^gr, wg.x
 0929.fri.14 - [p], gm$600, pd$30.mp.ol.c#797970894, sk.pd$200.op.bal$1800, interviewed.bei.liu
 0930.sat.13 - ab$150
+1002.mon.11 - tr$280, zz
 
 cal
 ...
-1002.mon.11 - tr@4:30p, bb@6:00p
 1003.tue.10 - ^gr, po.egg.end, dr/wr, wg.add.me, check ap.order
 1004.wed.09 - ap(2) 
 1005.thr.08 -
@@ -229,24 +230,24 @@ uk
 day
 ...
 0730 . 
-0745 .
+0745 . aw@7:50a
 0800 . 
 0815 .
 0830 . [8] 
 0845 .
 0900 . 
 0915 .
-0930 . [7] > 3.deathstar
-0945 . >
-1000 . > standup
-1015 . >
-1030 . [6]
-1045 .
+0930 
+0945 
+1000 > standup
+1015 >
+1030 [6]
+1045 
 1100 
 1115  
 1130 [5]
 1145 
-1200 > lunch
+1200 > lunch.spectrum?, c.me
 1215 >
 1230 > [4]
 1245 > 
@@ -267,10 +268,10 @@ day
 1630 [0] > leave work @ 4:30p
 1645
 1700
-1715 > tr
-1730 >
-1745 >
-1800 > bb.cd.player
+1715 
+1730 
+1745 
+1800 
 1815
 1830
 1845
@@ -312,6 +313,23 @@ da
 . PHO test address
   . 110 Inner Campus Dr.
   . Austin, TX
+. quote # - HJnbm7Z3Z
 
 in
 ....
+. dateRange - from AgentService - (Mon 10/2/2017 @1:14P)
+. header.component.ts - effectiveDatePanel - (Mon 10/2/2017 @1:17P)
+. @Input() effectiveDate: Date; - (Mon 10/2/2017 @1:18P)
+. effectiveDateRange: DateRange; - (Mon 10/2/2017 @1:19P)
+. 'popover-container' - (Mon 10/2/2017 @1:38P)
+. date-range.model.ts - (Mon 10/2/2017 @1:43P)
+. startDate and endDate - (Mon 10/2/2017 @1:43P)
+. DateRange.getStartDate() DateRange.getEndDate() - (Mon 10/2/2017 @1:45P)
+. landing.component.ts from pos/landing - isValidEffectiveDate - (Mon 10/2/2017 @1:52P)
+. effectiveDateRange: DateRange; - (Mon 10/2/2017 @2:01P)
+. this.popoverAsModalHelper.disableComponentsOutsideOfId('change-effective-date-panel'); - (Mon 10/2/2017 @2:35P)
+. dateRange - (Mon 10/2/2017 @3:16P)
+. ca - me@lunch.time - (Tue 10/3/2017 @7:53A)
+. spectrum - gandy after work 4540 s dale mabry hwy, tampa, fl 33611 (813) 222-0102 - (Tue 10/3/2017 @9:29A)
+. hc - today or tomorrow @ lunch - (Tue 10/3/2017 @9:30A)
+. test - (Tue 10/3/2017 @11:13A)
