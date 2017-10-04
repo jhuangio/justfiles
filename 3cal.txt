@@ -35,6 +35,7 @@ act
 . af - daily cleanser target
 . af - wg.pu.meds
 . g  - tr.get.my.rec
+. d  - ap.pkg.11:15a
 
 dd
 ...
@@ -59,6 +60,7 @@ ci - cig
 c# - conf#
 d  - do
 da - data
+df - drop.off
 dr - day.rev
 e  - eye dr
 f  - file
@@ -85,6 +87,7 @@ pd - paid
 pm - pawnmax
 po - pokemon
 ps - pluralsight
+pu - pick.up
 px - publix
 ra - reis auto
 rd - redbox.dvd
@@ -125,11 +128,12 @@ log
 0929.fri.14 - [p], gm$600, pd$30.mp.ol.c#797970894, sk.pd$200.op.bal$1800, interviewed.bei.liu
 0930.sat.13 - ab$150
 1002.mon.11 - tr$280, zz
+1003.tue.10 - ^gr
 
 cal
 ...
-1003.tue.10 - ^gr, po.egg.end, dr/wr, wg.add.me, check ap.order
-1004.wed.09 - ap(2) 
+1003.tue.10 - ^gr
+1004.wed.09 - ap(2), wg.zy.pu, wg.add.df
 1005.thr.08 -
 1006.fri.07 - ^gr, do email copy kk. for time helped @ 3p
 1007.sat.06 - d.coolant.rs
@@ -177,6 +181,10 @@ cal
 1118.sat.06 - 
 1119.sun.05 - 
 1120.mon.04 - 
+1121.tue.03 -
+1122.wed.02 - 
+1123.thr.01 -
+1125.fri.14 - [P] 
 
 www
 ...
@@ -254,10 +262,10 @@ day
 1430 [2]
 1445 .
 1500 .
-1515 
+1515 .
 1530 [1]
-1545 
-1600 
+1545 .
+1600 .
 1615 > git.ud
 1630 [0] > leave work @ 4:30p
 1645
