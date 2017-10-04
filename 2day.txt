@@ -1,47 +1,18 @@
-0730.0745 . arrived at 7:40a today
-0745.0800 .
-0800.0815 .
-0815.0830 .
-0830.0845 .
-0845.0900 .
-0900.0915 .
-0915.0930 .
-0930.0945 .
-0945.1000 .
-1000.1015 > standup meeting
-1015.1030 .
-1030.1045 .
-1045.1100 .
-1100.1115 .
-1115.1130 .
-1130.1145 .
-1145.1200 > lunch
-1200.1215 >
-1215.1230 >
-1230.1245 >
-1245.1300 > back
-1300.1315 .
-1315.1330 .
-1330.1345 .
-1345.1400 .
-1400.1415 .
-1415.1430 .
-1430.1445 .
-1445.1500 .
-1500.1515 .
-1515.1530 
-1530.1545 
-1545.1600 
-1600.1615 -3
-1615.1630 ? leave at 4:30p today
+import {DateRange} from '../../models/date-range.model';
 
-next week
-...
-. sat - mom in wh
+/**
+ * Subline that has access to
+ */
+export class SublineAccess {
+  readonly id: string;
+  readonly name: string;
+  readonly effectiveDateRange: DateRange;
 
-
-
-
-
-
-
+  constructor (sublineAccessJson: any) {
+    this.id = sublineAccessJson.id;
+    this.name = sublineAccessJson.name;
+    if (sublineAccessJson.effectiveDateRange) {
+      this.effectiveDateRange = new DateRange(new Date(sublineAccessJson.effectiveDateRange.startDate), new Date(sublineAccessJson.effectiveDateRange.endDate));
+    }
+  }
+}

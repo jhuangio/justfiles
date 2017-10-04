@@ -329,7 +329,4 @@ in
 . effectiveDateRange: DateRange; - (Mon 10/2/2017 @2:01P)
 . this.popoverAsModalHelper.disableComponentsOutsideOfId('change-effective-date-panel'); - (Mon 10/2/2017 @2:35P)
 . dateRange - (Mon 10/2/2017 @3:16P)
-. ca - me@lunch.time - (Tue 10/3/2017 @7:53A)
-. spectrum - gandy after work 4540 s dale mabry hwy, tampa, fl 33611 (813) 222-0102 - (Tue 10/3/2017 @9:29A)
 . hc - today or tomorrow @ lunch - (Tue 10/3/2017 @9:30A)
-. test - (Tue 10/3/2017 @11:13A)
