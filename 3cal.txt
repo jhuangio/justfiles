@@ -9,40 +9,32 @@ act
 . ca - law.update
 . d  - law docs
 . am - new.loan
-. tr - rec.me
 . cg - $400
 . cb - $400.10/24
 . pm - $150
 . g  - apple store ipad.pro
-. d  - cell phone vm.pass
 . d  - order seatcov
 . $  - cable bill
 . d  - truck fluids
 . d  - coolant rebate
 . $  - sk300.9/29
 . $  - gm600.9/29
-. bi - api test
 . d  - coolant rebate
 . ca - hl.expire?3/19?
 . d  - law.chg.name.cat
 . ca - call ch.law.6mon.4/18
 . d  - law.will+
-. ca - call tr
-. g  - at.4.ut
 . g  - wm get new bikes? or get never flat tires (4)
 . d  - isleepeasy.app order
 . d  - order drdorris.com audio cd
-. d  - order seat covers
-. ca - manny.ins date?
-. ca - dr.mj
+. ca - manny.ins date? 4th
 . d  - find cho.lon.bad.receipt
-. g  - bb < tr - get cd.player
 . g  - wg drop.add.script
-. d  - order.po.braclet.new
-. g  - wmt get.tabs.index.cards.candy
-. ca - spectrum find out about remote
-. g  - spectrum get remote
-. d  - redbox.dvds
+. d  - redbox.dvd
+. hc - today or tomorrow @ lunch
+. af - daily cleanser target
+. af - wg.pu.meds
+. g  - tr.get.my.rec
 
 dd
 ...
@@ -50,6 +42,7 @@ $  - pay
 4  - for
 7  - 711
 ab - abron
+af - after.work
 am - amscot
 ap - amazon.prime
 at - alex.ut
@@ -104,6 +97,7 @@ st - sub.task
 sw - speedway
 t  - today
 tr - trulieve
+ud - update
 uk - unknown
 w  - walk bebe
 wg - walgreens
@@ -137,8 +131,8 @@ cal
 1003.tue.10 - ^gr, po.egg.end, dr/wr, wg.add.me, check ap.order
 1004.wed.09 - ap(2) 
 1005.thr.08 -
-1006.fri.07 - ^gr
-1007.sat.06 - d.coolant.r
+1006.fri.07 - ^gr, do email copy kk. for time helped @ 3p
+1007.sat.06 - d.coolant.rs
 1008.sun.05 -
 1009.mon.04 -
 1010.tue.03 - ^gr
@@ -229,42 +223,42 @@ uk
 
 day
 ...
-0730 . 
-0745 . aw@7:50a
-0800 . 
+0730 . aw
+0745 .
+0800 .
 0815 .
-0830 . [8] 
+0830 [8] 
 0845 .
-0900 . 
+0900 .
 0915 .
-0930 
-0945 
+0930 .
+0945 .
 1000 > standup
 1015 >
 1030 [6]
-1045 
-1100 
-1115  
+1045 .
+1100 .
+1115 . 
 1130 [5]
 1145 
 1200 > lunch.spectrum?, c.me
 1215 >
 1230 > [4]
 1245 > 
-1300 
-1315 
+1300 .
+1315 .
 1330 [3]
-1345 
-1400 
-1415 
+1345 .
+1400 .
+1415 .
 1430 [2]
-1445 
-1500 
+1445 .
+1500 .
 1515 
 1530 [1]
 1545 
 1600 
-1615 
+1615 > git.ud
 1630 [0] > leave work @ 4:30p
 1645
 1700
@@ -317,16 +311,3 @@ da
 
 in
 ....
-. dateRange - from AgentService - (Mon 10/2/2017 @1:14P)
-. header.component.ts - effectiveDatePanel - (Mon 10/2/2017 @1:17P)
-. @Input() effectiveDate: Date; - (Mon 10/2/2017 @1:18P)
-. effectiveDateRange: DateRange; - (Mon 10/2/2017 @1:19P)
-. 'popover-container' - (Mon 10/2/2017 @1:38P)
-. date-range.model.ts - (Mon 10/2/2017 @1:43P)
-. startDate and endDate - (Mon 10/2/2017 @1:43P)
-. DateRange.getStartDate() DateRange.getEndDate() - (Mon 10/2/2017 @1:45P)
-. landing.component.ts from pos/landing - isValidEffectiveDate - (Mon 10/2/2017 @1:52P)
-. effectiveDateRange: DateRange; - (Mon 10/2/2017 @2:01P)
-. this.popoverAsModalHelper.disableComponentsOutsideOfId('change-effective-date-panel'); - (Mon 10/2/2017 @2:35P)
-. dateRange - (Mon 10/2/2017 @3:16P)
-. hc - today or tomorrow @ lunch - (Tue 10/3/2017 @9:30A)
