@@ -35,7 +35,7 @@ act
 . af - daily cleanser target
 . af - wg.pu.meds
 . g  - tr.get.my.rec
-. d  - ap.pkg.11:15a
+
 
 dd
 ...
@@ -90,6 +90,7 @@ ps - pluralsight
 pu - pick.up
 px - publix
 ra - reis auto
+rc - received
 rd - redbox.dvd
 s  - sprint
 s8 - sk8te
@@ -106,6 +107,7 @@ w  - walk bebe
 wg - walgreens
 wm - walmart
 wr - week.rev
+zo - zolphram
 zz - zoom.zoom
 
 icons
@@ -129,20 +131,19 @@ log
 0930.sat.13 - ab$150
 1002.mon.11 - tr$280, zz
 1003.tue.10 - ^gr
+1004.wed.09 - wg.pu.zo, ap.rc.go-cha
+1005.thr.08 - w, s8
 
 cal
 ...
-1003.tue.10 - ^gr
-1004.wed.09 - ap(2), wg.zy.pu, wg.add.df
-1005.thr.08 -
-1006.fri.07 - ^gr, do email copy kk. for time helped @ 3p
+1006.fri.07 - ^gr, wg.add.df4me
 1007.sat.06 - d.coolant.rs
 1008.sun.05 -
 1009.mon.04 -
 1010.tue.03 - ^gr
 1011.wed.02 - *wg.add.pu
 1012.thr.01 -
-1013.fri.14 - [p], cholon.badbro$400, ^g, pm$150.min$25, am.lo$552, sk$200?
+1013.fri.14 - [p], cholon.badbro$400, ^g, pm$150.min$25, am.lo$552, sk$200?, do email copy kk. for time helped @ 3p
 1014.sat.13 - eye.dr@11a
 1015.sun.12 -
 1016.mon.11 -
@@ -185,6 +186,9 @@ cal
 1122.wed.02 - 
 1123.thr.01 -
 1125.fri.14 - [P] 
+1126.sat.13 - 
+1127.sun.12 - 
+1128.mon.11 - 
 
 www
 ...
@@ -231,41 +235,41 @@ uk
 
 day
 ...
-0730 . aw
-0745 .
-0800 .
-0815 .
+0730 
+0745 
+0800 
+0815 
 0830 [8] 
-0845 .
-0900 .
-0915 .
-0930 .
-0945 .
+0845 
+0900 
+0915 
+0930 
+0945 
 1000 > standup
 1015 >
 1030 [6]
-1045 .
-1100 .
-1115 . 
+1045 
+1100 
+1115  
 1130 [5]
 1145 
-1200 > lunch.spectrum?, c.me
-1215 >
+1200 > lunch
+1215 
 1230 > [4]
-1245 > 
-1300 .
-1315 .
+1245 
+1300 
+1315 
 1330 [3]
-1345 .
-1400 .
-1415 .
+1345 
+1400 
+1415 
 1430 [2]
-1445 .
-1500 .
-1515 .
+1445 
+1500 
+1515 
 1530 [1]
-1545 .
-1600 .
+1545 
+1600 
 1615 > git.ud
 1630 [0] > leave work @ 4:30p
 1645
@@ -299,7 +303,6 @@ day
 2345
 2400
 
-
 ----------------------------------
 act.dd.icons.log.cal.www.uk.day.in
 ----------------------------------
@@ -316,6 +319,10 @@ da
   . 110 Inner Campus Dr.
   . Austin, TX
 . quote # - HJnbm7Z3Z
+. quote # - QT 90097275 99
+. FL HO3 address
+  . 521 85th Ave. N 
+  . St. Pete, FL 33702
 
 in
 ....
