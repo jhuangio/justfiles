@@ -28,23 +28,55 @@ act
 . ca - manny.ins date? 4th
 . d  - find cho.lon.bad.receipt
 . hc - today or tomorrow @ lunch
-. $  - 74
-
+. d  - find hair place for cat.trim
+. sk$200
+. dt$67
+. am$552
+. te$?ca
+. ai$300
+. 1900.bal
+. -200.sk
+. -300.gm
+. -150.tl
+. -000.ai
+. -300.ab
+. -100.am
+. -200.gl
+. -050.hc
+. -300.fo
+. -200.te
+. -100.dt 
+. 0000.ba
+. ca - sk$200 - (Fri 10/13/2017 @8:14A)
+. ca - gm$300 - (Fri 10/13/2017 @8:14A)
+. g  - tl$150 - (Fri 10/13/2017 @8:16A)
+. g  - ab$150 - (Fri 10/13/2017 @8:20A)
+. g  - am$552 - (Fri 10/13/2017 @8:22A)
+. g  - am$500+ - (Fri 10/13/2017 @8:22A)
+. g  - c.sat<4p.tl$150 - (Fri 10/13/2017 @8:25A)
+. g  - c.sat@11a.e$0 - (Fri 10/13/2017 @8:26A)
+. d  - hc$50.cat - (Fri 10/13/2017 @8:26A)
+. ca - te$200 - (Fri 10/13/2017 @8:27A)
+. ca - dt$100 - (Fri 10/13/2017 @8:27A)
 
 dd
 ...
+@  - at
 $  - pay
 4  - for
 7  - 711
 ab - abron
 af - after.work
+ai - auto.ins
 am - amscot
 ap - amazon.prime
 at - alex.ut
 aw - arrived.work
 b  - bike
+ba - bal
 bb - best.buys
 bi - bankers
+bs - bi.su
 c  - cal
 ca - call
 cb - cho lon bad bro
@@ -56,10 +88,13 @@ d  - do
 da - data
 df - drop.off
 dr - day.rev
+dt - dir.tv
 e  - eye dr
 f  - file
+fo - food
 ft - fight
 g  - go
+gl - glasses
 gm - gm fin
 gn - good.night
 gr - garbage out
@@ -95,14 +130,18 @@ sk - skyway moto
 sn - sprint.test
 sp - spectrum
 st - sub.task
+su - stand.up
 sw - speedway
 t  - today
+te - teco
 tr - trulieve
 ud - update
 uk - unknown
 w  - walk bebe
 wg - walgreens
+wi - wip
 wm - walmart
+wp - warby.parker
 wr - week.rev
 zo - zolphram
 zz - zoom.zoom
@@ -138,21 +177,21 @@ log
 
 cal
 ...
-1013.fri.14 - [p], cholon.badbro$400, ^g, am.lo$552, sk$200?
+1013.fri.14 - [p], ^g, am.lo$552, sk$200?
 1014.sat.13 - eye.dr@11a, tl<4p
 1015.sun.12 -
-1016.mon.11 -
+1016.mon.11 - am+$500loan
 1017.tue.10 - ^gr
 1018.wed.09 -
 1019.thr.08 -
-1020.fri.07 - ^gr
+1020.fri.07 - ^gr, g.ab$150
 1021.sat.06 -
 1022.sun.05 -
 1023.mon.04 -
 1024.tue.03 - [3mo] ^gr
 1025.wed.02 -
 1026.thr.01 -
-1027.fri.14 - [p], ^g
+1027.fri.14 - [p], ^g, cholon.badbro$400,
 1028.sat.13 -
 1029.sun.12 - *wg.xan.pu
 1030.mon.11 -
@@ -216,45 +255,6 @@ www
 ...
 . https://fl-tampa.pogoalerts.net
 
-uk
-...
-. stats - last 25 days ending on 9/22/17
-  . 31% - 33611
-  . 24% - 33629
-  . 20% - 33616
-. uk - 9/22@12:00a - 5240 w tyson ave, tampa 33611 - (Fri 9/22/2017 @11:03A)
-. uk - 9/21@10:41p - 6703 s mascotte st, tampa 33616 - (Fri 9/22/2017 @11:04A)
-. uk - 9/21@10:51p - 2919 w harbor view ave, tampa, fl 33611 - (Fri 9/22/2017 @11:05A)
-. uk - 9/21@12:51a - 2612 w lykes ct, tampa, fl 33611 - (Fri 9/22/2017 @11:06A)
-. uk - 9/20@04:14p - 3435   bayshore blvd, tampa, fl 33629 - (Fri 9/22/2017 @11:07A)
-. uk - 9/19@10:55p - 0421 s macdill ave, tampa, fl 33609 - (Fri 9/22/2017 @11:08A)
-. uk - 9/19@11:25p - 3806 w corona st, tampa, fl 33629 - (Fri 9/22/2017 @11:08A)
-. uk - 9/19@05:24p - 4110 treasure cir, tampa, fl 33616 - (Fri 9/22/2017 @11:09A)
-. uk - 9/19@05:53p - 6911 s dale mabry hwy, tampa, fl 33621 - (Fri 9/22/2017 @11:10A)
-. uk - 9/18@12:18p - 4003 s west shore blvd, tampa, fl 33611 - (Fri 9/22/2017 @11:10A)
-. uk - 9/17@11:22p - 5205 s elkins ave, tampa - (Fri 9/22/2017 @11:11A)
-. uk - 9/16@10:08p - 5409 s west shore blvd, tampa fl 33611 - (Fri 9/22/2017 @11:12A)
-. uk - 9/16@08:08p - 2609 w sunset dr, tampa, fl 33629 - (Fri 9/22/2017 @11:13A)
-. uk - 9/16@02:26a - 6212 s kelly rd, tampa, fl 33611 - (Fri 9/22/2017 @11:13A)
-. uk - 9/16@12:20a - 5206 w neptune way, tampa, fl 33609 - (Fri 9/22/2017 @11:14A)
-. uk - 9/15@08:20p - 3402 w leona st, tampa, fl 33629 - (Fri 9/22/2017 @11:14A)
-. uk - 9/13@08:03p - 2930 w alline ave, tampa, fl 33611 - (Fri 9/22/2017 @11:15A)
-. uk - 9/08@01:14p - 1202 s church ave, tampa, fl 33629 - (Fri 9/22/2017 @11:19A)
-. uk - 9/04@04:59a - 7499 picnic island blvd, tampa, fl 33616 - (Fri 9/22/2017 @11:21A)
-. uk - 9/04@04:04p - 3609 w renellie cir, tampa, fl 33629 - (Fri 9/22/2017 @11:22A)
-. uk - 9/02@11:17a - 4805 w laurel st, tampa, fl 33607 - (Fri 9/22/2017 @11:23A)
-. uk - 9/01@07:14a - 6926   frog pocket pl, tampa, fl 33616 - (Fri 9/22/2017 @11:23A)
-. uk - 8/31@08:37a - 5701 mariner st, tampa, fl 33609 - (Fri 9/22/2017 @11:24A)
-. uk - 8/31@11:21a - 4209 w bay view ave, tampa, fl 33611 - (Fri 9/22/2017 @11:25A)
-. uk - 8/30@08:29a - 2823 w shelton ave, tampa, fl 33611 - (Fri 9/22/2017 @11:26A)
-. uk - 8/30@08:36a - 7213 s shamrock rd, tampa fl 33616 - (Fri 9/22/2017 @11:26A)
-. uk - 8/30@09:28a - 4708 w iowa ave, tampa, fl 33616 - (Fri 9/22/2017 @11:27A)
-. uk - 8/28@08:41a - 4809   culbreath isles rd, tampa, fl 33629 - (Fri 9/22/2017 @11:28A)
-. uk - 8/28@12:57p - 5595 w laurel st., tampa, fl 33607 - (Fri 9/22/2017 @11:29A)
-. uk - 9/22@03:42p - 6501 s west shore blvd, tampa, fl 33616 - (Fri 9/22/2017 @3:16P)
-. uk - 9/25@01:59p - 7207 s shamrock rd, tampa, fl 33616 - (Mon 9/25/2017 @3:31P)
-. uk - 9/27@04:30p - 3303 w price ave, tampa, fl 33611 - (Fri 9/29/2017 @8:47A)
-
 day
 ...
 0730 . aw
@@ -293,8 +293,8 @@ day
 1545 
 1600 
 1615 
-1630 [0] . lw
-1645
+1630 [0] . lw, ca.sk$200, ca.gm$300, ca.te$?
+1645 g.ab$150
 1700 
 1715 
 1730 
@@ -317,7 +317,7 @@ day
 2145
 2200 > w, s8
 2215
-2230 > rd
+2230 
 2245
 2300
 2315
@@ -335,14 +335,9 @@ ps
 . introduction to regular expression (regex) - josh d - 3h - (Thu 10/12/2017 @8:41A)
 . regular expression fundamentals - juliette r - 2h - (Thu 10/12/2017 @8:42A)
 
-sn 
-...
-. kibana
-. st - effective date test predate postdate
-. setup iphone to receive corp.emails
-
 da
 ...
+. 2180810
 . PHO test address
   . 110 Inner Campus Dr.
   . Austin, TX
@@ -367,6 +362,10 @@ da
   . CORRELATION ID - 
 ...
   . DETAILS :
+. keycode - 44 = comma [^,]
 
 in
 ....
+. d  - bs@10a - (Fri 10/13/2017 @8:33A)
+. ca - cat@12p - (Fri 10/13/2017 @8:33A)
+. d  - [^,] - (Fri 10/13/2017 @8:35A)
