@@ -2,6 +2,9 @@
 act.dd.icons.log.cal.www.uk.day.in
 ----------------------------------
 
+cat.2107093
+me .2180810
+
 act
 ...
 . d  - reg boat
@@ -29,14 +32,15 @@ act
 . d  - find cho.lon.bad.receipt
 . hc - today or tomorrow @ lunch
 . d  - find hair place for cat.trim
-. sk$200
+. sk$150pd1013
 . dt$67
+. gm$300pd1013
 . am$552
-. te$?ca
+. te$101pd1013
 . ai$300
 . 1900.bal
-. -200.sk
-. -300.gm
+. -150.skpd1013
+. -300.gmpd1013
 . -150.tl
 . -000.ai
 . -300.ab
@@ -44,11 +48,11 @@ act
 . -200.gl
 . -050.hc
 . -300.fo
-. -200.te
+. -100.gcpd1013
+. -050.icpd1013
+. -101.tepd1013
 . -100.dt 
 . 0000.ba
-. ca - sk$200 - (Fri 10/13/2017 @8:14A)
-. ca - gm$300 - (Fri 10/13/2017 @8:14A)
 . g  - tl$150 - (Fri 10/13/2017 @8:16A)
 . g  - ab$150 - (Fri 10/13/2017 @8:20A)
 . g  - am$552 - (Fri 10/13/2017 @8:22A)
@@ -56,12 +60,12 @@ act
 . g  - c.sat<4p.tl$150 - (Fri 10/13/2017 @8:25A)
 . g  - c.sat@11a.e$0 - (Fri 10/13/2017 @8:26A)
 . d  - hc$50.cat - (Fri 10/13/2017 @8:26A)
-. ca - te$200 - (Fri 10/13/2017 @8:27A)
 . ca - dt$100 - (Fri 10/13/2017 @8:27A)
 
 dd
 ...
 @  - at
++  - get
 $  - pay
 4  - for
 7  - 711
@@ -76,14 +80,17 @@ b  - bike
 ba - bal
 bb - best.buys
 bi - bankers
+bm - bitter.mellon
 bs - bi.su
+c# - conf#
 c  - cal
 ca - call
 cb - cho lon bad bro
+ce - chinese.eggplant
 cg - cho lon good bro
 ch - clean house
 ci - cig
-c# - conf#
+co - $oh
 d  - do
 da - data
 df - drop.off
@@ -94,6 +101,7 @@ f  - file
 fo - food
 ft - fight
 g  - go
+gc - go.cha
 gl - glasses
 gm - gm fin
 gn - good.night
@@ -101,6 +109,7 @@ gr - garbage out
 hc - haircut
 hl - hyatt.leg
 i  - inbox
+ic - itunes
 it - in time
 js - javascript
 kl - kitty.l
@@ -112,6 +121,8 @@ m  - mow yard
 mp - metro.pcs
 mw - mom wh
 mo - mow
+oc - oceanic
+oh - on.hand
 ol - online
 op - onphone
 p  - payday
@@ -177,15 +188,15 @@ log
 
 cal
 ...
-1013.fri.14 - [p], ^g, am.lo$552, sk$200?
+1013.fri.14 - [p], ^g, sk$150pd, te$101pd, gm$300pd, ca.dt$67
 1014.sat.13 - eye.dr@11a, tl<4p
-1015.sun.12 -
-1016.mon.11 - am+$500loan
+1015.sun.12 - am$552
+1016.mon.11 - am+$500loan, ca.gm, 
 1017.tue.10 - ^gr
 1018.wed.09 -
 1019.thr.08 -
 1020.fri.07 - ^gr, g.ab$150
-1021.sat.06 -
+1021.sat.06 - oc+bm+ce, mw@1p
 1022.sun.05 -
 1023.mon.04 -
 1024.tue.03 - [3mo] ^gr
@@ -258,42 +269,42 @@ www
 day
 ...
 0730 . aw
-0745 
-0800 
-0815 
+0745 .
+0800 .
+0815 .
 0830 [8] 
-0845 
-0900 
-0915 
-0930 
-0945 
+0845 .
+0900 .
+0915 .
+0930 .
+0945 .
 1000 > standup
 1015 >
 1030 [6]
-1045 
-1100 
-1115 
+1045 .
+1100 .
+1115 .
 1130 [5]
-1145 
+1145 .
 1200 > lunch
-1215 
+1215 .
 1230 > [4]
-1245 
-1300 
-1315 
+1245 .
+1300 .
+1315 .
 1330 [3]
-1345 
+1345 .
 1400 > fun@work (it area)
-1415 
+1415 .
 1430 [2]
-1445 
-1500 
-1515 
+1445 .
+1500 .
+1515 .
 1530 [1]
 1545 
 1600 
 1615 
-1630 [0] . lw, ca.sk$200, ca.gm$300, ca.te$?
+1630 [0] . lw, ca.dt$100, ca.ab$150
 1645 g.ab$150
 1700 
 1715 
@@ -366,6 +377,4 @@ da
 
 in
 ....
-. d  - bs@10a - (Fri 10/13/2017 @8:33A)
-. ca - cat@12p - (Fri 10/13/2017 @8:33A)
 . d  - [^,] - (Fri 10/13/2017 @8:35A)
