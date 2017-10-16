@@ -9,7 +9,7 @@ act
 ...
 . d  - reg boat
 . d  - reg trailer
-. ca - law.update
+. ca - law.update                 
 . d  - law docs
 . am - new.loan
 . cg - $400
@@ -118,6 +118,7 @@ lw - leave.work
 ln - louie.ny
 lo - loan
 m  - mow yard
+me - me.tong
 mp - metro.pcs
 mw - mom wh
 mo - mow
@@ -185,17 +186,17 @@ log
 1010.tue.03 - ft, gr
 1011.wed.02 - ft, wg.add.pu
 1012.thr.01 - gn, w, s8
+1013.fri.14 - [p], sk$150pd, te$101pd, gm$300pd, dt$67pd
+1014.sat.13 - eye.dr, ab$150pd, zz, w, s8
+1015.sun.12 - zz
 
 cal
 ...
-1013.fri.14 - [p], ^g, sk$150pd, te$101pd, gm$300pd, ca.dt$67
-1014.sat.13 - eye.dr@11a, tl<4p
-1015.sun.12 - am$552
-1016.mon.11 - am+$500loan, ca.gm, 
+1016.mon.11 - ca.gm, g.am$500?l, w, s8
 1017.tue.10 - ^gr
-1018.wed.09 -
+1018.wed.09 - dev.meet@11a.cf3.osprey
 1019.thr.08 -
-1020.fri.07 - ^gr, g.ab$150
+1020.fri.07 - ^gr
 1021.sat.06 - oc+bm+ce, mw@1p
 1022.sun.05 -
 1023.mon.04 -
@@ -261,6 +262,13 @@ cal
 1222.fri.14 - [p]
 1223.sat.13 - 
 1224.sun.12 - [5mon]
+1225.mon.11 -
+1226.tue.10 - 
+1227.wed.09 - 
+1228.thr.08 - 
+1229.fri.07 - 
+1230.sat.06 - 
+1231.sun.05 - 
 
 www
 ...
@@ -268,8 +276,8 @@ www
 
 day
 ...
-0730 . aw
-0745 .
+0730 . 
+0745 . aw@7:50a
 0800 .
 0815 .
 0830 [8] 
@@ -286,16 +294,16 @@ day
 1115 .
 1130 [5]
 1145 .
-1200 > lunch
+1200 > lunch, ca.me
 1215 .
 1230 > [4]
 1245 .
 1300 .
 1315 .
-1330 [3]
-1345 .
-1400 > fun@work (it area)
-1415 .
+1330 [3] > review Chris Tate's Interview, prepare for interview
+1345 >
+1400 > Chris Tate Interview - interview.deathstar
+1415 >
 1430 [2]
 1445 .
 1500 .
@@ -304,8 +312,8 @@ day
 1545 
 1600 
 1615 
-1630 [0] . lw, ca.dt$100, ca.ab$150
-1645 g.ab$150
+1630 [0] . lw
+1645 
 1700 
 1715 
 1730 
@@ -374,7 +382,8 @@ da
 ...
   . DETAILS :
 . keycode - 44 = comma [^,]
+. rJX_wFMab - local test quote 10/15/17
 
 in
 ....
-. d  - [^,] - (Fri 10/13/2017 @8:35A)
+. tue.print.jessie.valladares.resume@3pm.review.4pm.interview

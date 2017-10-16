@@ -3938,6 +3938,84 @@ a+? - match as few as possible
 a{2,}? - match as few as possible 
 ab|cd - match ab or cd
 
+change.control.what.changed.comma.story.sprint#20
+...
+
+applicants.component.html
+...
+. additional insured/interest 
+  . <modal-header>
+    . changed to [show-close]="!jCommaInField"
+    . old = "true"
+  . <modal-footer><div class="float-right" 
+    . add *ngIf="!jCommaInField" 
+    . old = ""
+  . <input name="addressLine1"
+    . add (keypress) = "jTestForComma($event)
+  . warning text 
+    . <div class="text-center text-danger" *ngIf="jCommaInField">
+      <h3>One Sec! You cannot enter a comma in this field.</h3>
+      Please enter another character to continue.
+      </div>
+. mailing address
+  . <modal-header>
+    . change to [show-close]="!jCommaInField"
+    . old = "true"
+  . <modal-footer><div class="float-right" 
+    . change to *ngIf="!jCommaInField"
+    . old = "true"
+  . <input name="addressLine1"
+    . add (keypress) = "jTestForComma($event)
+  . warning text
+    . <div class="text-center text-danger" *ngIf="jCommaInField">
+      <h3>One Sec! You cannot enter a comma in this field.</h3>
+      Please enter another character to continue.
+      </div>
+
+applicants.component.ts
+...
+. add var 
+  . jCommaInField: boolean = false;
+. add function()
+  . jTestForComma(event) {
+    if (event.keyCode ==44) {
+      this.jCommaInField = true;
+      return false;
+    }
+    this.jCommaInField = false;
+    }
+
+property-detail.component.ts
+...
+. add var 
+  . jCommaInField: boolean = false;
+. add function()
+  . jTestForComma(event) {
+    if (event.keyCode ==44) {
+      this.jCommaInField = true;
+      return false;
+    }
+    this.jCommaInField = false;
+    }
+
+property-detail.component.html 
+...
+. additional insured/interest 
+  . <modal-header>
+    . add && !jCommaInField
+    . old = [show-close]="canCancelPropertyAddress"
+  . <modal-footer><div class="text-center" 
+    . add && !jCommaInField" 
+    . old = *ngIf="!isErrorWithAddress()"
+  . <input name="address1"
+    . add (keypress) = "jTestForComma($event)
+  . warning text 
+    . <div class="text-center text-danger" *ngIf="jCommaInField">
+      <h3>One Sec! You cannot enter a comma in this field.</h3>
+      Please enter another character to continue.
+      </div>
+
+
 
 
 
