@@ -95,8 +95,10 @@ d  - do
 da - data
 df - drop.off
 dr - day.rev
+ds - deathstar
 dt - dir.tv
 e  - eye dr
+em - email
 f  - file
 fo - food
 ft - fight
@@ -107,7 +109,9 @@ gm - gm fin
 gn - good.night
 gr - garbage out
 hc - haircut
+hd - help.desk
 hl - hyatt.leg
+hr - home.retro
 i  - inbox
 ic - itunes
 it - in time
@@ -128,6 +132,7 @@ ol - online
 op - onphone
 p  - payday
 pd - paid
+pi - phone.interview
 pm - pawnmax
 po - pokemon
 ps - pluralsight
@@ -138,9 +143,12 @@ rc - received
 rd - redbox.dvd
 s  - sprint
 s8 - sk8te
+sg - sprint.plan
+sh - sm.horizon.plan
 sk - skyway moto
 sn - sprint.test
 sp - spectrum
+sr - sprint.rev
 st - sub.task
 su - stand.up
 sw - speedway
@@ -155,6 +163,7 @@ wi - wip
 wm - walmart
 wp - warby.parker
 wr - week.rev
+ws - woodstork
 zo - zolphram
 zz - zoom.zoom
 
@@ -189,21 +198,21 @@ log
 1013.fri.14 - [p], sk$150pd, te$101pd, gm$300pd, dt$67pd
 1014.sat.13 - eye.dr, ab$150pd, zz, w, s8
 1015.sun.12 - zz
+1016.mon.11 - w, s8, zz
 
 cal
 ...
-1016.mon.11 - ca.gm, g.am$500?l, w, s8
-1017.tue.10 - ^gr
-1018.wed.09 - dev.meet@11a.cf3.osprey
-1019.thr.08 -
+1017.tue.10 - ^gr, g.am$500?, 4p.jessie.valladares.pi
+1018.wed.09 - 11a.dev.meet.cf3.osprey, 3p.chris.tate.pi.ds
+1019.thr.08 - 2:30p.diwali.celebration.hd
 1020.fri.07 - ^gr
 1021.sat.06 - oc+bm+ce, mw@1p
 1022.sun.05 -
-1023.mon.04 -
+1023.mon.04 - 9:30a.ins.vertical.mon.meet.cf4.whiteibis, 1:30p.sh.cfs.ws
 1024.tue.03 - [3mo] ^gr
-1025.wed.02 -
-1026.thr.01 -
-1027.fri.14 - [p], ^g, cholon.badbro$400,
+1025.wed.02 - 1p.sr.cf4.egret, 2p.hr.cf3.ws
+1026.thr.01 - 9a.sg.cf3.ws
+1027.fri.14 - [p], ^g, cb$400,
 1028.sat.13 -
 1029.sun.12 - *wg.xan.pu
 1030.mon.11 -
@@ -269,6 +278,13 @@ cal
 1229.fri.07 - 
 1230.sat.06 - 
 1231.sun.05 - 
+0101.mon.04 -
+0102.tue.03 - 
+0103.wed.02 - 
+0104.thr.01 - 
+0105.fri.14 - [p] 
+0106.sat.13 - 
+0107.sun.12 - 
 
 www
 ...
@@ -276,42 +292,42 @@ www
 
 day
 ...
-0730 . 
-0745 . aw@7:50a
+0730 . aw@7:30p
+0745 .
 0800 .
 0815 .
 0830 [8] 
-0845 .
-0900 .
-0915 .
-0930 .
-0945 .
+0845 
+0900 
+0915 
+0930 
+0945 
 1000 > standup
 1015 >
 1030 [6]
-1045 .
-1100 .
-1115 .
+1045 
+1100 
+1115 
 1130 [5]
-1145 .
-1200 > lunch, ca.me
-1215 .
+1145 
+1200 > lunch, ca.me, ca.am
+1215 
 1230 > [4]
-1245 .
-1300 .
-1315 .
-1330 [3] > review Chris Tate's Interview, prepare for interview
-1345 >
-1400 > Chris Tate Interview - interview.deathstar
-1415 >
+1245 
+1300 
+1315 
+1330 [3]
+1345 
+1400 
+1415 
 1430 [2]
-1445 .
-1500 .
-1515 .
+1445 
+1500 
+1515 
 1530 [1]
-1545 
-1600 
-1615 
+1545 > print resume for interview
+1600 > interview.jessie.valladares.813.420.4936
+1615 >
 1630 [0] . lw
 1645 
 1700 
@@ -387,3 +403,8 @@ da
 in
 ....
 . tue.print.jessie.valladares.resume@3pm.review.4pm.interview
+. gm.em.rec? - (Mon 10/16/2017 @3:53P)
+. update win 10 - (Tue 10/17/2017 @7:38A)
+. im help desk guy s - (Tue 10/17/2017 @7:39A)
+. ps test
+. ca.am.lunch - (Tue 10/17/2017 @8:55A)
