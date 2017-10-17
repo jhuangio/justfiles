@@ -414,3 +414,15 @@ in
 . tue@3p.print.jessie.valladares.resume
 . tue@4p.jessie.valladares.interview.call
 . wed@3p.chris.tate.interview.cf3.deathstar
+. Occupancy Use field - "occupancyUse" / "occupancyUseId" - (Tue 10/17/2017 @2:15P)
+. Number of Months Unoccupied - "numberOfMonthsUnoccupied" - (Tue 10/17/2017 @2:17P)
+. HomeOwnersApi.Infrastructure - (Tue 10/17/2017 @2:26P)
+. HomeOwnersApi.Infrastructure.DataService.HandleException - (Tue 10/17/2017 @2:27P)
+. HomeOwnersApi.Infrastructure\DataService.cs:line 200 - (Tue 10/17/2017 @2:27P)
+. HomeOwnersApi.Infrastructure\DataService.cs:line 140 - (Tue 10/17/2017 @2:28P)
+. OccupancyUseEndpoint - "/api/propertydetail/occupancyuse/" - (Tue 10/17/2017 @2:47P)
+. number of months unoccupied - numberOfMonthsUnoccupied - (Tue 10/17/2017 @3:02P)
+. occupancy identifier - occupancyId - (Tue 10/17/2017 @3:03P)
+. occupancy use identifier - occupancyUseId - (Tue 10/17/2017 @3:04P)
+. if (!isNullOrUndefined(propertyDetails)) - (Tue 10/17/2017 @3:43P)
+. occupancyId / occupancyUseId / numberOfMonthsUnoccupied - (Tue 10/17/2017 @3:52P)
