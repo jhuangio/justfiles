@@ -204,7 +204,7 @@ log
 cal
 ...
 1017.tue.10 - ^gr, g.am$500?, 4p.jessie.valladares.pi
-1018.wed.09 - 11a.dev.meet.cf3.osprey, 3p.chris.tate.pi.ds
+1018.wed.09 - 11a.dev.meet.cf3.osprey, 12p.drop.off.pc@severn.hd, 3p.chris.tate.pi.ds
 1019.thr.08 - 2:30p.diwali.celebration.hd
 1020.fri.07 - ^gr
 1021.sat.06 - oc+bm+ce, mw@1p
