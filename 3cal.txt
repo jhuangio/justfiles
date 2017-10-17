@@ -426,3 +426,5 @@ in
 . occupancy use identifier - occupancyUseId - (Tue 10/17/2017 @3:04P)
 . if (!isNullOrUndefined(propertyDetails)) - (Tue 10/17/2017 @3:43P)
 . occupancyId / occupancyUseId / numberOfMonthsUnoccupied - (Tue 10/17/2017 @3:52P)
+. test pos on dev  - (Tue 10/17/2017 @4:26P)
+. email kevin - (Tue 10/17/2017 @4:27P)
