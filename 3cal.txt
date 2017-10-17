@@ -100,6 +100,7 @@ dt - dir.tv
 e  - eye dr
 em - email
 f  - file
+fi - find
 fo - food
 ft - fight
 g  - go
@@ -311,7 +312,7 @@ day
 1115 
 1130 [5]
 1145 
-1200 > lunch, ca.me, ca.am, gm.em?
+1200 > lunch, ca.me, ca.am, gm.em?, find.cat.script
 1215 
 1230 > [4]
 1245 
@@ -411,3 +412,5 @@ in
 . tue@3p.print.jessie.valladares.resume
 . tue@4p.jessie.valladares.interview.call
 . wed@3p.chris.tate.interview.cf3.deathstar
+. @12p.fi.cat.script
+. >lw.g.wg.df.cat.script
