@@ -400,12 +400,12 @@ da
 . keycode - 44 = comma [^,]
 . rJX_wFMab - local test quote 10/15/17
 
+d3/d3/dist/justfiles/gitjia
+
 in
 ....
-. tue.print.jessie.valladares.resume@3pm.review.4pm.interview
+. tue@3p.print.jessie.valladares.resume
+. tue@4p.jessie.valladares.interview.call
+. wed@3p.chris.tate.interview.cf3.deathstar
 . gm.em.rec? - (Mon 10/16/2017 @3:53P)
-. update win 10 - (Tue 10/17/2017 @7:38A)
-. im help desk guy s - (Tue 10/17/2017 @7:39A)
-. ps test
 . ca.am.lunch - (Tue 10/17/2017 @8:55A)
-. test - (Tue 10/17/2017 @9:50A)
