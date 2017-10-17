@@ -108,6 +108,7 @@ gl - glasses
 gm - gm fin
 gn - good.night
 gr - garbage out
+gw - grow
 hc - haircut
 hd - help.desk
 hl - hyatt.leg
@@ -310,7 +311,7 @@ day
 1115 
 1130 [5]
 1145 
-1200 > lunch, ca.me, ca.am
+1200 > lunch, ca.me, ca.am, gm.em?
 1215 
 1230 > [4]
 1245 
@@ -373,6 +374,7 @@ ps
 da
 ...
 . 2180810
+. gw$280
 . PHO test address
   . 110 Inner Campus Dr.
   . Austin, TX
@@ -407,5 +409,3 @@ in
 . tue@3p.print.jessie.valladares.resume
 . tue@4p.jessie.valladares.interview.call
 . wed@3p.chris.tate.interview.cf3.deathstar
-. gm.em.rec? - (Mon 10/16/2017 @3:53P)
-. ca.am.lunch - (Tue 10/17/2017 @8:55A)
