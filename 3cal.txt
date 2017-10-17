@@ -390,6 +390,7 @@ da
   . Nick – week of 10/23-10/29
 . kibana production link
   . http://savpubuntuitlv01:5601/app/kibana#/discover?_g=(refreshInterval:(display:Off,pause:!f,value:0),time:(from:now%2Fw,mode:quick,to:now%2Fw))&_a=(columns:!(host,Level,Name,ContextId,CorrelationId),index:'filebeat-*',interval:auto,query:(query_string:(analyz
+
 . PRODUCTION ERROR SUMMARY
 ...
   . DATE - 
@@ -399,6 +400,7 @@ da
   . CORRELATION ID - 
 ...
   . DETAILS :
+
 . keycode - 44 = comma [^,]
 . rJX_wFMab - local test quote 10/15/17
 
