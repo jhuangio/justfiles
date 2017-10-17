@@ -4022,4 +4022,20 @@ PowerShell.exe -Command "git add ."
 PowerShell.exe -Command "git commit -m 'add'"
 PowerShell.exe -Command "git push origin master"
 
+git.notes 
+...
+. git add .
+. git commit -m "add"
+. git push origin master
+. git checkout -b feature/name - create branch and check out at the same time
+. git branch feature/name - create branch
+. git checkout feature/name - checkout branch
+. to merge
+  . goto the path of the merge to directory
+  . type "git merge path/name"
+  . then type "git push" to merge
+. to pull from developer
+  . git checkout develop 
+  . git pull
+
 [999.eof]

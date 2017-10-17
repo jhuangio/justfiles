@@ -307,19 +307,19 @@ day
 1000 > standup
 1015 >
 1030 [6]
-1045 
-1100 
-1115 
+1045 .
+1100 .
+1115 .
 1130 [5]
-1145 
-1200 > lunch, ca.me, ca.am, gm.em?, find.cat.script
-1215 
+1145 .
+1200 > lunch
+1215 .
 1230 > [4]
-1245 
-1300 
-1315 
+1245 .
+1300 .
+1315 .
 1330 [3]
-1345 
+1345 .
 1400 
 1415 
 1430 [2]
@@ -330,8 +330,8 @@ day
 1545 > print resume for interview
 1600 > interview.jessie.valladares.813.420.4936
 1615 >
-1630 [0] . lw
-1645 
+1630 [0] . lw, ca.am, gm.em?
+1645 g.wg.df.add.cat
 1700 
 1715 
 1730 
@@ -413,5 +413,3 @@ in
 . tue@3p.print.jessie.valladares.resume
 . tue@4p.jessie.valladares.interview.call
 . wed@3p.chris.tate.interview.cf3.deathstar
-. @12p.fi.cat.script
-. >lw.g.wg.df.cat.script
