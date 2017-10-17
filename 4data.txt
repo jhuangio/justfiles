@@ -4015,13 +4015,11 @@ property-detail.component.html
       Please enter another character to continue.
       </div>
 
-bat.files 
+bat.file.run.powershell.git.automation
 ...
 @echo off
-echo git add .
-pause
-echo git commit -m "add"
-pause
-echo git push origin master
+PowerShell.exe -Command "git add ."
+PowerShell.exe -Command "git commit -m 'add'"
+PowerShell.exe -Command "git push origin master"
 
 [999.eof]
