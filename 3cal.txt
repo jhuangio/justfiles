@@ -7,13 +7,13 @@ me .2180810
 
 act
 ...
-. d  - reg boat
-. d  - reg trailer
+. d  - reg.boat
+. d  - reg.trailer
 . ca - law.update                 
-. d  - law docs
-. am - new.loan
+. d  - law.docs
+. am - $521+25
 . cg - $400
-. cb - $400.10/24
+. cb - $375.10/24
 . pm - $150
 . g  - apple store ipad.pro
 . d  - order seatcov
@@ -28,9 +28,6 @@ act
 . g  - wm get new bikes? or get never flat tires (4)
 . d  - isleepeasy.app order
 . d  - order drdorris.com audio cd
-. ca - manny.ins date? 4th
-. d  - find cho.lon.bad.receipt
-. hc - today or tomorrow @ lunch
 . d  - find hair place for cat.trim
 . sk$150pd1013
 . dt$67
@@ -61,6 +58,8 @@ act
 . g  - c.sat@11a.e$0 - (Fri 10/13/2017 @8:26A)
 . d  - hc$50.cat - (Fri 10/13/2017 @8:26A)
 . ca - dt$100 - (Fri 10/13/2017 @8:27A)
+. gw$250
+. ins.manny$300
 
 dd
 ...
@@ -212,7 +211,7 @@ log
 1010.tue.03 - ft, gr
 1011.wed.02 - ft, wg.add.pu
 1012.thr.01 - gn, w, s8
-1013.fri.14 - [p], sk$150pd, te$101pd, gm$300pd, dt$67pd
+1013.fri.14 - [p], sk$150pd, te$101pd, gm$300pd, dt$67pd, hc
 1014.sat.13 - eye.dr, ab$150pd, zz, w, s8
 1015.sun.12 - zz
 1016.mon.11 - w, s8, zz
@@ -239,7 +238,7 @@ cal
 1103.fri.07 - bi>open.enroll.11/17
 1104.sat.06 -
 1105.sun.05 - 
-1106.mon.04 - 
+1106.mon.04 - hc?
 1107.tue.03 -
 1108.wed.02 -
 1109.thr.01 - pm.$125+1xint
@@ -391,8 +390,6 @@ ps
 
 da
 ...
-. (813)218-0810
-. gw$280
 . PHO test address
   . 110 Inner Campus Dr.
   . Austin, TX
