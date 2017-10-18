@@ -67,15 +67,19 @@ dd
 @  - at
 +  - get
 $  - pay
+3d - 3.deathstar
+3o - 3.osprey
 4  - for
 7  - 711
+a  - arrive
 ab - abron
 af - after.work
+ah - a.home
 ai - auto.ins
 am - amscot
 ap - amazon.prime
 at - alex.ut
-aw - arrived.work
+aw - a.work
 b  - bike
 ba - bal
 bb - best.buys
@@ -94,20 +98,24 @@ co - $oh
 d  - do
 da - data
 df - drop.off
+dm - dev.meet
 dr - day.rev
 ds - deathstar
 dt - dir.tv
 e  - eye dr
+ed - end.day
 em - email
 f  - file
 fi - find
 fo - food
+fr - fruit
 ft - fight
-g  - go
+g  - gym
 gc - go.cha
 gl - glasses
 gm - gm fin
 gn - good.night
+go - go
 gr - garbage out
 gw - grow
 hc - haircut
@@ -116,13 +124,18 @@ hl - hyatt.leg
 hr - home.retro
 i  - inbox
 ic - itunes
+ip - interview.phone
 it - in time
 js - javascript
 kl - kitty.l
-l  - laundry
-lw - leave.work
+l  - leave
+lf - late.fee
+lh - l.home
+lw - l.work
 ln - louie.ny
 lo - loan
+lu - lunch
+ly - laundry
 m  - mow yard
 me - me.tong
 mp - metro.pcs
@@ -137,9 +150,11 @@ pd - paid
 pi - phone.interview
 pm - pawnmax
 po - pokemon
+pr - print
 ps - pluralsight
 pu - pick.up
 px - publix
+r  - raids
 ra - reis auto
 rc - received
 rd - redbox.dvd
@@ -201,11 +216,11 @@ log
 1014.sat.13 - eye.dr, ab$150pd, zz, w, s8
 1015.sun.12 - zz
 1016.mon.11 - w, s8, zz
+1017.tue.10 - po.r.x3, w.s8
 
 cal
 ...
-1017.tue.10 - ^gr, g.am$500?, 4p.jessie.valladares.pi
-1018.wed.09 - 11a.dev.meet.cf3.osprey, 12p.drop.off.pc@severn.hd, 3p.chris.tate.pi.ds
+1018.wed.09 - 11a.dev.meet.cf3.osprey, 12p.drop.off.pc@severn.hd, 3p.chris.tate.pi.ds, 4p.jessie.valladares.pi
 1019.thr.08 - 2:30p.diwali.celebration.hd
 1020.fri.07 - ^gr
 1021.sat.06 - oc+bm+ce, mw@1p
@@ -214,7 +229,7 @@ cal
 1024.tue.03 - [3mo] ^gr
 1025.wed.02 - 1p.sr.cf4.egret, 2p.hr.cf3.ws
 1026.thr.01 - 9a.sg.cf3.ws
-1027.fri.14 - [p], ^g, cb$400,
+1027.fri.14 - [p], ^g, cb$400, am$552+25lf
 1028.sat.13 -
 1029.sun.12 - *wg.xan.pu
 1030.mon.11 -
@@ -294,73 +309,75 @@ www
 
 day
 ...
-0730 . aw@7:30p
-0745 .
-0800 .
-0815 .
-0830 [8] 
-0845 .
-0900 .
-0915 .
-0930 .
-0945 .
-1000 > standup
-1015 >
-1030 [6]
-1045 .
-1100 .
-1115 .
-1130 [5]
-1145 .
-1200 > lunch
-1215 .
-1230 > [4]
-1245 .
-1300 .
-1315 .
-1330 [3]
-1345 .
-1400 
-1415 
-1430 [2]
-1445 
-1500 
-1515 
-1530 [1]
-1545 > print resume for interview
-1600 > interview.jessie.valladares.813.420.4936
-1615 >
-1630 [0] . lw, ca.am, gm.em?
-1645 g.wg.df.add.cat
-1700 
-1715 
-1730 
-1745 
-1800 
-1815
-1830
-1845
-1900
-1915
-1930
-1945
-2000
-2015
-2030
-2045
-2100
-2115
-2130
-2145
-2200 > w, s8
-2215
-2230 
-2245
-2300
-2315
-2330
-2345
-2400
+00 .7a `
+15 ... `
+30 ... `
+45 ... ` aw@7:50a
+00 .8a `
+15 ... `
+30 (8) `
+45 ...
+00 .9a
+15 ...
+30 ...
+45 ...
+00 10a [su][1]
+15 ...
+30 (6)
+45 ...
+00 11a [dm.3o][2]
+15 ... |||
+30 (5)
+45 ...
+00 12p lu.30m
+15 ... |||
+30 (4) |||
+45 ... |||
+00 .1p
+15 ...
+30 (3)
+45 ...
+00 .2p
+15 ...
+30 (2)
+45 ... [pr.resumes.ip]
+00 .3p [chris.tate.ip.3d.30m][3]
+15 ... |||
+30 (1) 
+45 ... 
+00 .4p [jessie.valladares.813.420.4936.ip.30m][4]
+15 ... |||
+30 [0] lw, gm.em?
+45 ... |||
+00 .5p |||
+15 ... |||
+30 ... wg.pu.add.cat
+45 ... |||
+00 .6p ah
+15 ...
+30 ...
+45 ...
+00 .7p lh.p.r
+15 ... |||
+30 ... |||
+45 ... |||
+00 .8p |||
+15 ... |||
+30 ... p.g
+45 ... |||
+00 .9p |||
+15 ... |||
+30 ... |||
+45 ... px.fr$20
+00 10p w.s8
+15 ... |||
+30 ... |||
+45 ... po.g
+00 11p |||
+15 ... |||
+30 ... |||
+45 ... |||
+00 12a ed
 
 ----------------------------------
 act.dd.icons.log.cal.www.uk.day.in
@@ -409,11 +426,6 @@ da
 
 d3/d3/dist/justfiles/gitjia
 
-in
-....
-. tue@3p.print.jessie.valladares.resume
-. tue@4p.jessie.valladares.interview.call
-. wed@3p.chris.tate.interview.cf3.deathstar
 . Occupancy Use field - "occupancyUse" / "occupancyUseId" - (Tue 10/17/2017 @2:15P)
 . Number of Months Unoccupied - "numberOfMonthsUnoccupied" - (Tue 10/17/2017 @2:17P)
 . HomeOwnersApi.Infrastructure - (Tue 10/17/2017 @2:26P)
@@ -426,5 +438,6 @@ in
 . occupancy use identifier - occupancyUseId - (Tue 10/17/2017 @3:04P)
 . if (!isNullOrUndefined(propertyDetails)) - (Tue 10/17/2017 @3:43P)
 . occupancyId / occupancyUseId / numberOfMonthsUnoccupied - (Tue 10/17/2017 @3:52P)
-. test pos on dev  - (Tue 10/17/2017 @4:26P)
-. email kevin - (Tue 10/17/2017 @4:27P)
+
+in
+....
