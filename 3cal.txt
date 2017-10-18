@@ -221,7 +221,7 @@ log
 cal
 ...
 1018.wed.09 - 11a.dev.meet.cf3.osprey, 12p.drop.off.pc@severn.hd, 3p.chris.tate.pi.ds, 4p.jessie.valladares.pi
-1019.thr.08 - 2:30p.diwali.celebration.hd
+1019.thr.08 - 12p.df.pc.hd, 2:30p.diwali.celebration.hd
 1020.fri.07 - ^gr
 1021.sat.06 - oc+bm+ce, mw@1p
 1022.sun.05 -
@@ -325,15 +325,15 @@ day
 15 ... `
 30 (6) `
 45 ... `
-00 11a [dm.3o][2]
-15 ... |||
-30 (5)
-45 ...
-00 12p lu.30m, hd.df.laptop.win10.up
-15 ... |||
-30 (4) |||
-45 ... |||
-00 .1p
+00 11a ` [dm.3o][2]
+15 ... ` |||
+30 (5) `
+45 ... `
+00 12p ` lu.30m, hd.df.laptop.win10.up
+15 ... ` |||
+30 (4) ` |||
+45 ... ` |||
+00 .1p `
 15 ...
 30 (3)
 45 ...
@@ -439,7 +439,7 @@ d3/d3/dist/justfiles/gitjia
 
 in
 ....
-. drop off laptop @hd
+. thr - drop off laptop @hd
 . +3.up
 
 . Application Insights Telemetry (unconfigured): {
@@ -451,3 +451,10 @@ in
 
   (HomeOwnersApi.WriteModel.Commands.SubmitPropertyDetailsCommand) - ModelState is Valid","severityLevel":"Information","properties":{"CategoryName":"Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker","{OriginalFormat}":"Executing action method {ActionName} with arguments ({Arguments}) - ModelState is {ValidationState}","ValidationState":"Valid","ActionName":"HomeOwnersApi.Web.Controllers.QuoteController.PutPropertyDetail (HomeOwnersApi.Web)","DeveloperMode":"true","Arguments":"System.String[]","AspNetCoreEnvironment":"Development"}}}}
 Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker:Information: Executing action method HomeOwnersApi.Web.Controllers.QuoteController.PutPropertyDetail (HomeOwnersApi.Web) with arguments (HomeOwnersApi.WriteModel.Commands.SubmitPropertyDetailsCommand) - ModelState is Valid
+
+. test - (Wed 10/18/2017 @11:31A)
+. this.address.controls['address2']setValue(''); - (Wed 10/18/2017 @11:32A)
+. this.formData.controls['numberOfMonthsUnoccupied'].setValue(correctedValue); - (Wed 10/18/2017 @11:44A)
+. this.formData.controls['numberOfMonthsUnoccupied'].updateValueAndValidity(); - (Wed 10/18/2017 @11:44A)
+. property-detail.component.ts line 116 add - (Wed 10/18/2017 @11:56A)
+. property-form-control.model.ts PropertyFormControlData.numberOfMonthsUnoccupied - (Wed 10/18/2017 @1:15P)
