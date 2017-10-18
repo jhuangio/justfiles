@@ -4,6 +4,7 @@ act.dd.icons.log.cal.www.uk.day.in
 
 cat.2107093
 me .2180810
+$275
 
 act
 ...
@@ -317,13 +318,13 @@ day
 30 (8) `
 45 ... `
 00 .9a `
-15 ...
-30 ...
-45 ...
-00 10a [su][1]
-15 ...
-30 (6)
-45 ...
+15 ... `
+30 ... `
+45 ... `
+00 10a ` [su][1]
+15 ... `
+30 (6) `
+45 ... `
 00 11a [dm.3o][2]
 15 ... |||
 30 (5)
@@ -440,3 +441,13 @@ in
 ....
 . drop off laptop @hd
 . +3.up
+
+. Application Insights Telemetry (unconfigured): {
+  "name":"Microsoft.ApplicationInsights.Dev.Message",
+  "time":"2017-10-18T13:16:58.0918146Z",
+  "tags":{"ai.operation.id":"0HL8M58IJJVD8","ai.cloud.roleInstance":"BH650W08337","ai.operation.name":"PUT Quote/PutPropertyDetail","ai.internal.sdkVersion":"aspnet5c:2.0.0","ai.application.ver":"1.0.0.0","ai.internal.nodeName":"BH650W08337","ai.location.ip":"::1"},"data":{"baseType":"MessageData","baseData":{"ver":2,"message":"Executing action method 
+
+  HomeOwnersApi.Web.Controllers.QuoteController.PutPropertyDetail (HomeOwnersApi.Web) with arguments 
+
+  (HomeOwnersApi.WriteModel.Commands.SubmitPropertyDetailsCommand) - ModelState is Valid","severityLevel":"Information","properties":{"CategoryName":"Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker","{OriginalFormat}":"Executing action method {ActionName} with arguments ({Arguments}) - ModelState is {ValidationState}","ValidationState":"Valid","ActionName":"HomeOwnersApi.Web.Controllers.QuoteController.PutPropertyDetail (HomeOwnersApi.Web)","DeveloperMode":"true","Arguments":"System.String[]","AspNetCoreEnvironment":"Development"}}}}
+Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker:Information: Executing action method HomeOwnersApi.Web.Controllers.QuoteController.PutPropertyDetail (HomeOwnersApi.Web) with arguments (HomeOwnersApi.WriteModel.Commands.SubmitPropertyDetailsCommand) - ModelState is Valid
