@@ -4,7 +4,7 @@ act.dd.icons.log.cal.www.uk.day.in
 
 cat.2107093
 me .2180810
-$275
+$230.84
 
 act
 ...
@@ -85,15 +85,18 @@ ba - bal
 bb - best.buys
 bi - bankers
 bm - bitter.mellon
+br - bradenton
 bs - bi.su
 c# - conf#
 c  - cal
 ca - call
 cb - cho lon bad bro
+cd - cdb
 ce - chinese.eggplant
 cg - cho lon good bro
 ch - clean house
 ci - cig
+cl - clearwater
 co - $oh
 d  - do
 da - data
@@ -171,6 +174,7 @@ su - stand.up
 sw - speedway
 t  - today
 te - teco
+ta - tampa
 tr - trulieve
 ud - update
 uk - unknown
@@ -217,15 +221,15 @@ log
 1015.sun.12 - zz
 1016.mon.11 - w, s8, zz
 1017.tue.10 - po.r.x3, w.s8
+1018.wed.09 - chris.tate.pi, jessie.valladares.pi, tl.br.pu.cd, po.g20
 
 cal
 ...
-1018.wed.09 - 11a.dev.meet.cf3.osprey, 12p.drop.off.pc@severn.hd, 3p.chris.tate.pi.ds, 4p.jessie.valladares.pi
 1019.thr.08 - 12p.df.pc.hd, 2:30p.diwali.celebration.hd
-1020.fri.07 - ^gr
+1020.fri.07 - 12p.drop.off.pc@severn.hd, ^gr
 1021.sat.06 - oc+bm+ce, mw@1p
 1022.sun.05 -
-1023.mon.04 - 9:30a.ins.vertical.mon.meet.cf4.whiteibis, 1:30p.sh.cfs.ws
+1023.mon.04 - 9:30a.ins.vertical.mon.meet.cf4.whiteibis, 1:30p.sh.cfs.ws, 3:30p.matt.brown.pi
 1024.tue.03 - [3mo] ^gr
 1025.wed.02 - 1p.sr.cf4.egret, 2p.hr.cf3.ws
 1026.thr.01 - 9a.sg.cf3.ws
@@ -334,13 +338,13 @@ day
 30 (4) ` |||
 45 ... ` |||
 00 .1p `
-15 ...
-30 (3)
-45 ...
-00 .2p
-15 ...
-30 (2)
-45 ... [pr.resumes.ip]
+15 ... `
+30 (3) `
+45 ... `
+00 .2p `
+15 ... `
+30 (2) `
+45 ... `
 00 .3p [chris.tate.ip.3d.30m][3]
 15 ... |||
 30 (1) 
@@ -421,40 +425,10 @@ da
 . rJX_wFMab - local test quote 10/15/17
 . dev.test quote - 09 QT90097353 99
 . dev.pho.test - 42 QT 90097359 99
+. dev.pho.test - 42 QT90097362 99
+. dev.pho.test - 42 QT90097363 99
 
 d3/d3/dist/justfiles/gitjia
 
-. Occupancy Use field - "occupancyUse" / "occupancyUseId" - (Tue 10/17/2017 @2:15P)
-. Number of Months Unoccupied - "numberOfMonthsUnoccupied" - (Tue 10/17/2017 @2:17P)
-. HomeOwnersApi.Infrastructure - (Tue 10/17/2017 @2:26P)
-. HomeOwnersApi.Infrastructure.DataService.HandleException - (Tue 10/17/2017 @2:27P)
-. HomeOwnersApi.Infrastructure\DataService.cs:line 200 - (Tue 10/17/2017 @2:27P)
-. HomeOwnersApi.Infrastructure\DataService.cs:line 140 - (Tue 10/17/2017 @2:28P)
-. OccupancyUseEndpoint - "/api/propertydetail/occupancyuse/" - (Tue 10/17/2017 @2:47P)
-. number of months unoccupied - numberOfMonthsUnoccupied - (Tue 10/17/2017 @3:02P)
-. occupancy identifier - occupancyId - (Tue 10/17/2017 @3:03P)
-. occupancy use identifier - occupancyUseId - (Tue 10/17/2017 @3:04P)
-. if (!isNullOrUndefined(propertyDetails)) - (Tue 10/17/2017 @3:43P)
-. occupancyId / occupancyUseId / numberOfMonthsUnoccupied - (Tue 10/17/2017 @3:52P)
-
 in
 ....
-. thr - drop off laptop @hd
-. +3.up
-
-. Application Insights Telemetry (unconfigured): {
-  "name":"Microsoft.ApplicationInsights.Dev.Message",
-  "time":"2017-10-18T13:16:58.0918146Z",
-  "tags":{"ai.operation.id":"0HL8M58IJJVD8","ai.cloud.roleInstance":"BH650W08337","ai.operation.name":"PUT Quote/PutPropertyDetail","ai.internal.sdkVersion":"aspnet5c:2.0.0","ai.application.ver":"1.0.0.0","ai.internal.nodeName":"BH650W08337","ai.location.ip":"::1"},"data":{"baseType":"MessageData","baseData":{"ver":2,"message":"Executing action method 
-
-  HomeOwnersApi.Web.Controllers.QuoteController.PutPropertyDetail (HomeOwnersApi.Web) with arguments 
-
-  (HomeOwnersApi.WriteModel.Commands.SubmitPropertyDetailsCommand) - ModelState is Valid","severityLevel":"Information","properties":{"CategoryName":"Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker","{OriginalFormat}":"Executing action method {ActionName} with arguments ({Arguments}) - ModelState is {ValidationState}","ValidationState":"Valid","ActionName":"HomeOwnersApi.Web.Controllers.QuoteController.PutPropertyDetail (HomeOwnersApi.Web)","DeveloperMode":"true","Arguments":"System.String[]","AspNetCoreEnvironment":"Development"}}}}
-Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker:Information: Executing action method HomeOwnersApi.Web.Controllers.QuoteController.PutPropertyDetail (HomeOwnersApi.Web) with arguments (HomeOwnersApi.WriteModel.Commands.SubmitPropertyDetailsCommand) - ModelState is Valid
-
-. test - (Wed 10/18/2017 @11:31A)
-. this.address.controls['address2']setValue(''); - (Wed 10/18/2017 @11:32A)
-. this.formData.controls['numberOfMonthsUnoccupied'].setValue(correctedValue); - (Wed 10/18/2017 @11:44A)
-. this.formData.controls['numberOfMonthsUnoccupied'].updateValueAndValidity(); - (Wed 10/18/2017 @11:44A)
-. property-detail.component.ts line 116 add - (Wed 10/18/2017 @11:56A)
-. property-form-control.model.ts PropertyFormControlData.numberOfMonthsUnoccupied - (Wed 10/18/2017 @1:15P)

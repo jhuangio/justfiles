@@ -1,5 +1,8 @@
-bills
+data
 ...
+. trulieve bradenton
+  . accross from shannon's funeral home
+  . 1015 14th St W, Bradenton, FL 34205
 
 journal
 ...
@@ -4037,5 +4040,21 @@ git.notes
 . to pull from developer
   . git checkout develop 
   . git pull
+
+property-detail.component.ts
+...
+. line 115 - added if statement
+  . if (this.propertyFormControlData.numberOfMonthsUnoccupied.canView && !this.isSeasonalOrSecondary(occupancyUseId)) {
+        this.formData.controls['numberOfMonthsUnoccupied'].setValue(0);
+    }
+
+Hi Karen,  I checked with Danny and he discovered this bug while working on HOADHOC-1911: DEV Support for Rating Tests sub-story under HOADHOC-1618: Test Rating - Complete Rating story.  Can you create another sub-story under main story for me Front-End Bug Fix for Quote Refresh?  
+
+Sub-story details: 
+    Bug Fix - Coverages - Additional Checkboxes not refreshing the Quote Value correctly.  Backend calls POSCOVSAVE not including all checkboxes in one call.  Quote value not correct after UI checkbox changes until Page Save.
+
+Thank you!
+
+Jia Huang
 
 [999.eof]
