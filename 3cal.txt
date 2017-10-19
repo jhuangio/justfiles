@@ -330,25 +330,25 @@ day
 30 (8) `
 45 ... `
 00 .9a `
-15 ... 
-30 ... 
-45 ... 
-00 10a [su][1]
-15 ... 
-30 (6) 
-45 ... 
-00 11a 
-15 ... 
-30 (5) 
-45 ... 
-00 12p lu.30m
-15 ... |||
-30 (4) |||
-45 ... |||
-00 .1p 
-15 ... 
-30 (3) 
-45 ... 
+15 ... `
+30 ... `
+45 ... `
+00 10a ` [su][1]
+15 ... `
+30 (6) `
+45 ... `
+00 11a `
+15 ... `
+30 (5) `
+45 ... `
+00 12p `lu.30m
+15 ... `|||
+30 (4) `|||
+45 ... `|||
+00 .1p `
+15 ... `
+30 (3) `
+45 ... `
 00 .2p 
 15 ... 
 30 (2) [diwali.celebration.hd][2]
@@ -441,3 +441,6 @@ d3/d3/dist/justfiles/gitjia
 in
 ....
 . wg.pu.add.cat.aw - (Thu 10/19/2017 @9:05A)
+. http://vladikk.com/2017/03/20/tackling-complexity-in-cqrs/
+. https://dzone.com/articles/oracle-coherence-cqc-an-example-of-event-driven-ar
+. ask Danny TimerObservable.create(2000, 2000)

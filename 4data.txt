@@ -4050,6 +4050,21 @@ property-detail.component.ts
 
 thr.10/19/17
 ...
+[danny's.bug][1]
 
+. coverages
+
+  . special personal property cover
+  . ordance or law coverage
+  . optional animal liability
+  . residence glass coverage
+  . rep cost for certain non build
+  . service line coverage
+
+. backend
+  . poscovsave - save calc
+  . binpspdrv
+  . possrt - rate call
+  . app.boyipcvn
 
 [999.eof]
