@@ -100,6 +100,7 @@ cl - clearwater
 co - $oh
 d  - do
 da - data
+dc - document
 df - drop.off
 dm - dev.meet
 dr - day.rev
@@ -161,6 +162,7 @@ r  - raids
 ra - reis auto
 rc - received
 rd - redbox.dvd
+re - resume
 s  - sprint
 s8 - sk8te
 sg - sprint.plan
@@ -229,7 +231,7 @@ cal
 1020.fri.07 - 12p.drop.off.pc@severn.hd, ^gr
 1021.sat.06 - oc+bm+ce, mw@1p
 1022.sun.05 -
-1023.mon.04 - 9:30a.ins.vertical.mon.meet.cf4.whiteibis, 1:30p.sh.cfs.ws, 3:30p.matt.brown.pi
+1023.mon.04 - 9:30a.ins.vertical.mon.meet.cf4.whiteibis, 1:30p.sh.cfs.ws, 3p.pr.re, 3:30p.matt.brown.pi
 1024.tue.03 - [3mo] ^gr
 1025.wed.02 - 1p.sr.cf4.egret, 2p.hr.cf3.ws
 1026.thr.01 - 9a.sg.cf3.ws
@@ -322,45 +324,45 @@ day
 30 (8) `
 45 ... `
 00 .9a `
-15 ... `
-30 ... `
-45 ... `
-00 10a ` [su][1]
-15 ... `
-30 (6) `
-45 ... `
-00 11a ` [dm.3o][2]
-15 ... ` |||
-30 (5) `
-45 ... `
-00 12p ` lu.30m, hd.df.laptop.win10.up
-15 ... ` |||
-30 (4) ` |||
-45 ... ` |||
-00 .1p `
-15 ... `
-30 (3) `
-45 ... `
-00 .2p `
-15 ... `
-30 (2) `
-45 ... `
-00 .3p [chris.tate.ip.3d.30m][3]
+15 ... 
+30 ... 
+45 ... 
+00 10a [su][1]
+15 ... 
+30 (6) 
+45 ... 
+00 11a 
+15 ... 
+30 (5) 
+45 ... 
+00 12p lu.30m
 15 ... |||
+30 (4) |||
+45 ... |||
+00 .1p 
+15 ... 
+30 (3) 
+45 ... 
+00 .2p 
+15 ... 
+30 (2) [diwali.celebration.hd][2]
+45 ... |||
+00 .3p 
+15 ... 
 30 (1) 
 45 ... 
-00 .4p [jessie.valladares.813.420.4936.ip.30m][4]
-15 ... |||
+00 .4p 
+15 ... 
 30 [0] lw, gm.em?
-45 ... |||
-00 .5p |||
-15 ... |||
+45 ... 
+00 .5p 
+15 ... 
 30 ... wg.pu.add.cat
-45 ... |||
+45 ... 
 00 .6p ah
-15 ...
-30 ...
-45 ...
+15 ... |||
+30 ... |||
+45 ... |||
 00 .7p lh.p.r
 15 ... |||
 30 ... |||
@@ -432,3 +434,5 @@ d3/d3/dist/justfiles/gitjia
 
 in
 ....
+. gm.em.dc.fill+em.back - (Thu 10/19/2017 @8:59A)
+. wg.pu.add.cat.aw - (Thu 10/19/2017 @9:05A)
