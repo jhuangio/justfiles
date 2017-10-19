@@ -2,9 +2,14 @@
 act.dd.icons.log.cal.www.uk.day.in
 ----------------------------------
 
-cat.2107093
-me .2180810
-$230.84
+. cat.2107093
+. me .2180810
+. gm.lm - (877) 817-1332
+  . LossPrevExpLn@gmfinancial.com
+  . mon-thr: 9a-9p cst
+  . fri: 9a-.6p
+  . sat: 9a-1p
+. $230.84
 
 act
 ...
@@ -59,7 +64,6 @@ act
 . g  - c.sat@11a.e$0 - (Fri 10/13/2017 @8:26A)
 . d  - hc$50.cat - (Fri 10/13/2017 @8:26A)
 . ca - dt$100 - (Fri 10/13/2017 @8:27A)
-. gw$250
 . ins.manny$300
 
 dd
@@ -135,9 +139,11 @@ kl - kitty.l
 l  - leave
 lf - late.fee
 lh - l.home
+lm - loss.mit.dept
 lw - l.work
 ln - louie.ny
 lo - loan
+lt - laptop
 lu - lunch
 ly - laundry
 m  - mow yard
@@ -223,17 +229,17 @@ log
 1015.sun.12 - zz
 1016.mon.11 - w, s8, zz
 1017.tue.10 - po.r.x3, w.s8
-1018.wed.09 - chris.tate.pi, jessie.valladares.pi, tl.br.pu.cd, po.g20
+1018.wed.09 - chris.tate.pi, jessie.valladares.pi, tl.br.pu.cd$80, po.g20
 
 cal
 ...
 1019.thr.08 - 12p.df.pc.hd, 2:30p.diwali.celebration.hd
-1020.fri.07 - 12p.drop.off.pc@severn.hd, ^gr
+1020.fri.07 - ^gr
 1021.sat.06 - oc+bm+ce, mw@1p
 1022.sun.05 -
-1023.mon.04 - 9:30a.ins.vertical.mon.meet.cf4.whiteibis, 1:30p.sh.cfs.ws, 3p.pr.re, 3:30p.matt.brown.pi
+1023.mon.04 - 7:30a.pu.lt.hd.severn, 9:30a.ins.vertical.mon.meet.cf4.whiteibis, 12p.df.lt.hd.severn, 1:30p.pu.lt.hd.severn, 1:30p.sh.cf3.ws, 3p.pr.re, 3:30p.matt.brown.pi
 1024.tue.03 - [3mo] ^gr
-1025.wed.02 - 1p.sr.cf4.egret, 2p.hr.cf3.ws
+1025.wed.02 - 1p.sr.cf4.egret, 2p.hr.cf3.ws, ca.gm.lm.ud
 1026.thr.01 - 9a.sg.cf3.ws
 1027.fri.14 - [p], ^g, cb$400, am$552+25lf
 1028.sat.13 -
@@ -254,7 +260,7 @@ cal
 1112.sun.12 - 
 1113.mon.11 - 
 1114.tue.10 - 
-1115.wed.09 - 
+1115.wed.09 - [1.gm$342.10]
 1116.thr.08 - 
 1117.fri.07 - 
 1118.sat.06 - 
@@ -284,7 +290,7 @@ cal
 1212.tue.10 - 
 1213.wed.09 - 
 1214.thr.08 - 
-1215.fri.07 - 
+1215.fri.07 - [2.gm$342.10]
 1216.sat.06 - 
 1217.sun.05 - 
 1218.mon.04 - 
@@ -434,5 +440,4 @@ d3/d3/dist/justfiles/gitjia
 
 in
 ....
-. gm.em.dc.fill+em.back - (Thu 10/19/2017 @8:59A)
 . wg.pu.add.cat.aw - (Thu 10/19/2017 @9:05A)
