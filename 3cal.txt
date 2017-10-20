@@ -230,13 +230,13 @@ log
 1016.mon.11 - w, s8, zz
 1017.tue.10 - po.r.x3, w.s8
 1018.wed.09 - chris.tate.pi, jessie.valladares.pi, tl.br.pu.cd$80, po.g20
+1019.thr.08 - w.s8, po.g20
 
 cal
 ...
-1019.thr.08 - 12p.df.pc.hd, 2:30p.diwali.celebration.hd
-1020.fri.07 - ^gr
-1021.sat.06 - oc+bm+ce, mw@1p
-1022.sun.05 -
+1020.fri.07 - ^gr, 4:30p.df.lt.hd.severn
+1021.sat.06 - oc+bm+ce, mw@1p, po.r, po.g
+1022.sun.05 - po.r, po.g
 1023.mon.04 - 7:30a.pu.lt.hd.severn, 9:30a.ins.vertical.mon.meet.cf4.whiteibis, 12p.df.lt.hd.severn, 1:30p.pu.lt.hd.severn, 1:30p.sh.cf3.ws, 3p.pr.re, 3:30p.matt.brown.pi
 1024.tue.03 - [3mo] ^gr
 1025.wed.02 - 1p.sr.cf4.egret, 2p.hr.cf3.ws, ca.gm.lm.ud
@@ -323,8 +323,8 @@ day
 ...
 00 .7a `
 15 ... `
-30 ... `
-45 ... ` aw@7:50a
+30 ... ` aw@7:30a
+45 ... ` 
 00 .8a `
 15 ... `
 30 (8) `
@@ -333,38 +333,38 @@ day
 15 ... `
 30 ... `
 45 ... `
-00 10a ` [su][1]
+00 10a `[su][1]
 15 ... `
 30 (6) `
 45 ... `
 00 11a `
-15 ... `
-30 (5) `
-45 ... `
-00 12p `lu.30m
-15 ... `|||
-30 (4) `|||
-45 ... `|||
-00 .1p `
-15 ... `
-30 (3) `
-45 ... `
+15 ... 
+30 (5) 
+45 ... 
+00 12p lu.30m
+15 ... |||
+30 (4) |||
+45 ... |||
+00 .1p 
+15 ... 
+30 (3) 
+45 ... 
 00 .2p 
 15 ... 
-30 (2) [diwali.celebration.hd][2]
-45 ... |||
-00 .3p 
+30 (2) 
+45 ... 
+00 .3p
 15 ... 
 30 (1) 
 45 ... 
 00 .4p 
 15 ... 
 30 [0] lw, gm.em?
-45 ... 
-00 .5p 
-15 ... 
-30 ... wg.pu.add.cat
-45 ... 
+45 ... |||
+00 .5p |||
+15 ... |||
+30 ... |||
+45 ... |||
 00 .6p ah
 15 ... |||
 30 ... |||
@@ -418,6 +418,12 @@ da
   . Nick – week of 10/23-10/29
 . kibana production link
   . http://savpubuntuitlv01:5601/app/kibana#/discover?_g=(refreshInterval:(display:Off,pause:!f,value:0),time:(from:now%2Fw,mode:quick,to:now%2Fw))&_a=(columns:!(host,Level,Name,ContextId,CorrelationId),index:'filebeat-*',interval:auto,query:(query_string:(analyz
+  . servers
+    . dev:  http://savdubuntuitlv01:5601/app/kibana#/discover?_g=() 
+    . sqa:  http://savsubuntuitlv01:5701/ 
+    . uat:  http://savuubuntuitlv01:5601/ 
+    . prod: http://savpubuntuitlv01:5601/ 
+
 
 . PRODUCTION ERROR SUMMARY
 ...
@@ -429,6 +435,9 @@ da
 ...
   . DETAILS :
 
+. http://vladikk.com/2017/03/20/tackling-complexity-in-cqrs/
+. https://dzone.com/articles/oracle-coherence-cqc-an-example-of-event-driven-ar
+. ask Danny TimerObservable.create(2000, 2000)
 . keycode - 44 = comma [^,]
 . rJX_wFMab - local test quote 10/15/17
 . dev.test quote - 09 QT90097353 99
@@ -440,7 +449,8 @@ d3/d3/dist/justfiles/gitjia
 
 in
 ....
-. wg.pu.add.cat.aw - (Thu 10/19/2017 @9:05A)
-. http://vladikk.com/2017/03/20/tackling-complexity-in-cqrs/
-. https://dzone.com/articles/oracle-coherence-cqc-an-example-of-event-driven-ar
-. ask Danny TimerObservable.create(2000, 2000)
+. context id: 34da3d90-5a50-493e-ba1e-953566915c85 - (Fri 10/20/2017 @8:07A)
+. correlation id: ac8867dd-da01-445e-8abb-26fc0dfd3902 - (Fri 10/20/2017 @8:09A)
+. get sqa kilbana server link from binish
+. basequote(this.savingData);
+
