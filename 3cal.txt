@@ -4,11 +4,17 @@ act.dd.icons.log.cal.www.uk.day.in
 
 . cat.2107093
 . me .2180810
+...
+. be.westchase - (813) 792-0637
+  9912 W Linebaugh Ave.,
+  Tampa, FL 33626
+...
 . gm.lm - (877) 817-1332
   . LossPrevExpLn@gmfinancial.com
   . mon-thr: 9a-9p cst
   . fri: 9a-.6p
   . sat: 9a-1p
+...
 . $230.84
 
 act
@@ -87,6 +93,7 @@ aw - a.work
 b  - bike
 ba - bal
 bb - best.buys
+be - bright.eyes
 bi - bankers
 bm - bitter.mellon
 br - bradenton
@@ -338,14 +345,14 @@ day
 30 (6) `
 45 ... `
 00 11a `
-15 ... 
-30 (5) 
-45 ... 
-00 12p lu.30m
-15 ... |||
-30 (4) |||
-45 ... |||
-00 .1p 
+15 ... `
+30 (5) `
+45 ... `
+00 12p ` lu.30m
+15 ... ` |||
+30 (4) ` |||
+45 ... ` |||
+00 .1p `
 15 ... 
 30 (3) 
 45 ... 
@@ -358,8 +365,8 @@ day
 30 (1) 
 45 ... 
 00 .4p 
-15 ... 
-30 [0] lw, gm.em?
+15 ... df.lt.hd.severn
+30 [0] lw
 45 ... |||
 00 .5p |||
 15 ... |||
