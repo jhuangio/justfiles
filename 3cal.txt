@@ -463,4 +463,25 @@ coverages.component.ts - changes
 
 . import observables
   . [line 29]: import {Observable} from 'rxjs';
-  . test - (Fri 10/20/2017 @11:27A)
+
+. add var 
+  . [line 43]: jReRateObservable: Observable<any>;
+ 
+. comment /**     */
+
+. comment out [line 261]-[line 262]
+
+. change timer to jReRateObservable
+  . this.subscription = this.jReRateObserbable.subscribe(() => {
+
+. add jReRate(){}
+  . [line 264]
+
+. add ngDoCheck()
+  . [line 181]
+  
+
+
+
+
+
