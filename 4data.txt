@@ -4067,4 +4067,31 @@ thr.10/19/17
   . possrt - rate call
   . app.boyipcvn
 
+coverages.component.ts - changes
+
+. import ngDoCheck()
+  . [line 1]: add DoCheck
+
+. import observables
+  . [line 29]: import {Observable} from 'rxjs';
+
+. add var 
+  . [line 43]: jReRateObservable: Observable<any>;
+ 
+. comment /**     */
+
+. comment out [line 261]-[line 262]
+
+. change timer to jReRateObservable
+  . this.subscription = this.jReRateObserbable.subscribe(() => {
+
+. add jReRate(){}
+  . [line 264]
+
+. add ngDoCheck()
+  . [line 181]
+
+. basequote(this.savingData);
+  
+
 [999.eof]

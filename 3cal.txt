@@ -79,7 +79,9 @@ dd
 $  - pay
 3d - 3.deathstar
 3o - 3.osprey
+3w - 3.woodstork
 4  - for
+4p - 4.pelican
 7  - 711
 a  - arrive
 ab - abron
@@ -242,10 +244,10 @@ log
 cal
 ...
 1020.fri.07 - ^gr, 4:30p.df.lt.hd.severn
-1021.sat.06 - oc+bm+ce, mw@1p, po.r, po.g
+1021.sat.06 - oc+bm+ce, mw@1p, po.r, po.g, be.pu.glasses.9-2p
 1022.sun.05 - po.r, po.g
-1023.mon.04 - 7:30a.pu.lt.hd.severn, 9:30a.ins.vertical.mon.meet.cf4.whiteibis, 12p.df.lt.hd.severn, 1:30p.pu.lt.hd.severn, 1:30p.sh.cf3.ws, 3p.pr.re, 3:30p.matt.brown.pi
-1024.tue.03 - [3mo] ^gr
+1023.mon.04 - 7:30a.pu.lt.hd.severn, 9:30a.ins.vertical.mon.meet.cf4.whiteibis, 12p.df.lt.hd.severn, 1p.pu.lt.hd.severn, 1:30p.sh.cf3.ws, 2p.pho.deploy.3w, 3p.pr.re, 3:30p.matt.brown.pi
+1024.tue.03 - [3mo] ^gr, 9a.jessie.valladares.4p, 1p.sm.horizon.planning.3w
 1025.wed.02 - 1p.sr.cf4.egret, 2p.hr.cf3.ws, ca.gm.lm.ud
 1026.thr.01 - 9a.sg.cf3.ws
 1027.fri.14 - [p], ^g, cb$400, am$552+25lf
@@ -353,18 +355,18 @@ day
 30 (4) ` |||
 45 ... ` |||
 00 .1p `
-15 ... 
-30 (3) 
-45 ... 
-00 .2p 
-15 ... 
-30 (2) 
-45 ... 
-00 .3p
-15 ... 
-30 (1) 
-45 ... 
-00 .4p 
+15 ... `
+30 (3) `
+45 ... `
+00 .2p `
+15 ... `
+30 (2) `
+45 ... `
+00 .3p `
+15 ... `
+30 (1) `
+45 ... `
+00 .4p `
 15 ... df.lt.hd.severn
 30 [0] lw
 45 ... |||
@@ -451,45 +453,21 @@ da
 . dev.pho.test - 42 QT 90097359 99
 . dev.pho.test - 42 QT90097362 99
 . dev.pho.test - 42 QT90097363 99
+. dev.pho.test - 42 QT90097375 99
+. navigation.service.ts - updateCanEnable();
+. import {SpinnerService} from '../../core/ux/directive/spinner/spinner.service';
+. constructor(protected spinner: SpinnerService){};
+. this.spinner.start;
+. this.spinner.stop;
+. coverages.components.ts 
+  . [line 164]: this.spinner.start();
+  . [line 219]: this.spinner.start();
+  . [line 221]: this.spinner.stop();
+  . [line 262]: this.spinner.start();
+  . [line 270]: this.spinner.stop();
 
 d3/d3/dist/justfiles/gitjia
 
 in
 ....
-. context id: 34da3d90-5a50-493e-ba1e-953566915c85 - (Fri 10/20/2017 @8:07A)
-. correlation id: ac8867dd-da01-445e-8abb-26fc0dfd3902 - (Fri 10/20/2017 @8:09A)
-. get sqa kilbana server link from binish
-. basequote(this.savingData);
-. mailingAddressLookupList: Observable<any>;
-. import {Observable} from 'rxjs';
 
-coverages.component.ts - changes
-
-. import ngDoCheck()
-  . [line 1]: add DoCheck
-
-. import observables
-  . [line 29]: import {Observable} from 'rxjs';
-
-. add var 
-  . [line 43]: jReRateObservable: Observable<any>;
- 
-. comment /**     */
-
-. comment out [line 261]-[line 262]
-
-. change timer to jReRateObservable
-  . this.subscription = this.jReRateObserbable.subscribe(() => {
-
-. add jReRate(){}
-  . [line 264]
-
-. add ngDoCheck()
-  . [line 181]
-  
-
-
-
-
-
-. call bright eyes - (Fri 10/20/2017 @11:48A)
