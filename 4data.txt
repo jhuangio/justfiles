@@ -4092,6 +4092,804 @@ coverages.component.ts - changes
   . [line 181]
 
 . basequote(this.savingData);
+
+HomeOwnersApi.iSeries.Web/Controllers/CoveraageController.cs 
+...
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Web.Http;
+using System.Web.Http.Results;
+using HomeOwnersApi.Core.Extensions;
+using HomeOwnersApi.iSeries.Web.Extensions;
+using HomeOwnersApi.Infrastructure.DataModels;
+using IBM.Data.DB2.iSeries;
+using Newtonsoft.Json;
+
+namespace HomeOwnersApi.iSeries.Web.Controllers
+{
+    /// <summary>
+    /// Controller used for getting coverage information
+    /// </summary>
+    [RoutePrefix("api/coverage")]
+    public class CoverageController : ControllerBase
+    {
+        #pragma warning disable 1591
+        public const string SaveErrorMessage = "Error saving coverage: '{0}'";
+        public const string TableSeperator = " , ";
+        public const string StateAbbreviationFlorida = "FL";
+        public const string StateAbbreviationTexas = "TX";
+
+        // Base Coverages
+        public const string DwellingFieldName = "A";
+        public const string OtherStructuresFieldName = "B";
+        public const string PersonalPropertyFieldName = "C";
+        public const string LossOfUseFieldName = "D";
+        public const string PersonalLiabilityFieldName = "E";
+        public const string MedicalPaymentsToOthersFieldName = "F";
+
+        // Additional Coverages
+        public const string LimitedFungiFieldName = "MOLD";
+        public const string OrdinanceLawFieldName = "OLC";
+        public const string SpecialPersonalPropertyFieldName = "0015";
+        public const string FireDepartmentServiceChargeFieldName = "FDSC";
+        public const string GolfCartLiabilityFieldName = "GOLF";
+        public const string HomeComputerCoverageFieldName = "HOHC";
+        public const string LimitedHurricaneFieldName = "HSCR";
+        public const string WaterBackupSumpOverflowFieldName = "HWBU";
+        public const string LimitedDogLiabilityFieldName = "DOGL";
+        public const string SinkholeCoverageIncludeFieldName = "SINK";
+        public const string SinkholeCoverageExcludeFieldName = "SED";
+        public const string OtherStructuresLimitIncreasedFieldName = "0448";
+        public const string IdentityFraudExpenseFieldName = "0455";
+        public const string ScheduledPersonalPropertyFieldName = "0461";
+        public const string CoverageCIncreasedSpecialLimitsFieldName = "0465";
+        public const string PersonalPropertyReplacementCostFieldName = "0490";
+        public const string LossAssessmentFieldName = "0435";
+        public const string EquipmentBreakdownFieldName = "EQMB";
+        public const string UnitOwnersSpecialCoverageAFieldName = "1732";
+
+        // PHO Coverages
+        public const string AnimalLiabilityFieldName = "ANIM";
+        public const string FoundationAndWaterDamageFieldName = "FOUN";
+        public const string ResidenceGlassFieldName = "RGLA";
+        public const string ReplacementCostLossSettlementFieldName = "RCNO";
+        public const string ServiceLineCoverageFieldName = "SERL";
+        public const string AdditionalReplacementCostProtectionFieldName = "HOAR";
+        public const string EnhancedHomePackageFieldName = "EHP";
+        public string OtherMembersOfHouseholdFieldName = "OTHM";
+        public string PersonalInjuryFieldName = "PI";
+
+        /// <summary>
+        /// Method returns both Base and Additional Coverages 
+        /// </summary>
+        /// <param name="companyId">Company Id</param>
+        /// <param name="branchId">Branch Id</param>
+        /// <param name="productId">Product Id</param>
+        /// <param name="sublineId">Subline Id</param>
+        /// <param name="stateAbbreviation">State Abbreviation</param>
+        /// <param name="effectiveDate">Effective Date</param>
+        /// <param name="quoteNumber">Quote Number - Format ##QT######## ##</param>
+        /// <returns>Coverage options</returns>
+        [HttpGet]
+        [Route("{companyId}/{branchId}/{productId}/{sublineId}/{stateAbbreviation}/{effectiveDate}/{quoteNumber}")]
+        public JsonResult<Coverage> GetCoverage(string companyId,
+            string branchId,
+            string productId,
+            string sublineId,
+            string stateAbbreviation,
+            DateTime effectiveDate,
+            string quoteNumber)
+        {
+            // Set the Short Coverage Name by State
+            if (StateAbbreviationFlorida.Equals(stateAbbreviation))
+            {
+	            OtherMembersOfHouseholdFieldName = "OMYH";
+	            PersonalInjuryFieldName = "2482";
+			}
+
+			var quoteNumberMap = GetQuoteNumberMap(quoteNumber);
+            var prams = GetProductKeyParameters(companyId, branchId, productId, sublineId, stateAbbreviation);
+            prams.Add(new iDB2Parameter("quoteId", iDB2DbType.iDB2VarChar) {Value = quoteNumberMap.PolicyId});
+
+            var items = ExecuteReader(
+				"SELECT CCVDSP, CMNADD, CCVSHT, CDESC, CREQED, CSELECT, CLCODE, CLMTCD, CLDED, CCVDED, CINFPR, CLPERO, COCCOV  FROM " +
+                AppDataSchema +
+                ".B04IPCVN WHERE CCMPNY=? AND CBRNCH=? AND CPRDCT=? AND CSLOB=? AND CPOLST=? AND CPOLNO = ? ",
+                prams,
+                (p, r) =>
+                {
+                    using (r)
+                    {
+                        var readResult = new List<CoverageItem<string>>();
+                        while (r.Read())
+                        {
+                            readResult.Add(new CoverageItem<string>
+                            {
+                                SequenceNumber = r.GetInt32(0),
+                                CoverageType = r.GetString(1).Trim(),
+                                Id = r.GetString(2).Trim(),
+                                Description = r.GetString(3).Trim(),
+                                CoverageRequired = r.GetString(4).Trim().ToNullableBoolean(),
+                                CoverageSelected = r.GetString(5).Trim().ToNullableBoolean(),
+                                LimitCodeRequired = r.GetString(6).Trim().ToNullableBoolean(),
+                                LimitCode = r.GetString(7).Trim(),
+                                DeductibleRequired = r.GetString(8).Trim().ToNullableBoolean(),
+                                Deductible = r.GetInt32(9),
+                                Premium = r.GetDouble(10),
+	                            LimitPerOccurrenceRequired = r.GetString(11).Trim().ToNullableBoolean(),
+	                            LimitPerOccurrence = r.GetInt32(12)
+							});
+                        }
+
+                        return readResult;
+                    }
+                });
+
+            // Get Coverage Limits to build the lookup values for all Coverages (base & additional) that has Limit dropdown/popover
+            var coverageLimits = GetCoverageLimits(companyId,
+                branchId,
+                productId,
+                sublineId,
+                stateAbbreviation,
+                effectiveDate).ToList();
+
+            // Get Property Codes for "ScheduledPersonalProperty" to display the lookup values in "Item" field in the PopOver
+            var scheduledPersonalPropertyCodes = GetCoverageAdditionalInfoPropertyCodes(companyId,
+                branchId,
+                productId,
+                sublineId,
+                stateAbbreviation,
+                effectiveDate,
+                ScheduledPersonalPropertyFieldName).ToList();
+
+            // Get Property Codes for "CoverageCIncreasedSpecialLimits" to display the lookup values in "Item" field in the PopOver
+            var coverageCIncreasedSpecialLimitsPropertyCodes = GetCoverageAdditionalInfoPropertyCodes(companyId,
+                branchId,
+                productId,
+                sublineId,
+                stateAbbreviation,
+                effectiveDate,
+                CoverageCIncreasedSpecialLimitsFieldName).ToList();
+
+            // Get Property Code Limits for "CoverageCIncreasedSpecialLimits" to display the lookup values in "Value" field in the PopOver
+            // The option should be dynamically change when user selects the "Item" dropdown
+            var coverageCIncreasedSpecialLimitsPropertyCodeLimits =
+                GetCoverageAdditionalInfoPropertyCodeLimits(companyId,
+                    branchId,
+                    productId,
+                    sublineId,
+                    stateAbbreviation,
+                    effectiveDate,
+                    CoverageCIncreasedSpecialLimitsFieldName).ToList();
+
+            // Get Package Coverages
+            // This will be used to display on the front as Informational
+            // Also can be used to disable & uncheck if any of these Coverages are selected as Independently
+            var enhancedHomePackageCoverages = GetPackageCoverages(companyId,
+                branchId,
+                productId,
+                sublineId,
+                stateAbbreviation,
+                effectiveDate,
+                EnhancedHomePackageFieldName,
+                coverageLimits).ToList();
+
+            var result = new Coverage
+            {
+                // Base Coverages
+                Dwelling = items.FirstOrNew(i => i.Id == DwellingFieldName),
+                OtherStructures = items.FirstOrNew(i => i.Id == OtherStructuresFieldName),
+                PersonalProperty = items.FirstOrNew(i => i.Id == PersonalPropertyFieldName),
+                LossOfUse = items.FirstOrNew(i => i.Id == LossOfUseFieldName),
+                PersonalLiability = items.FirstOrNew(i => i.Id == PersonalLiabilityFieldName),
+                MedicalPaymentsToOthers = items.FirstOrNew(i => i.Id == MedicalPaymentsToOthersFieldName),
+                // Additional Coverages
+                LimitedFungi = items.FirstOrNew(i => i.Id == LimitedFungiFieldName),
+                OrdinanceLaw = items.FirstOrNew(i => i.Id == OrdinanceLawFieldName),
+                SpecialPersonalProperty = items.FirstOrNew(i => i.Id == SpecialPersonalPropertyFieldName),
+                FireDepartmentServiceCharge = items.FirstOrNew(i => i.Id == FireDepartmentServiceChargeFieldName),
+                GolfCartLiability = items.FirstOrNew(i => i.Id == GolfCartLiabilityFieldName),
+                HomeComputerCoverage = items.FirstOrNew(i => i.Id == HomeComputerCoverageFieldName),
+                LimitedHurricane = items.FirstOrNew(i => i.Id == LimitedHurricaneFieldName),
+                WaterBackupSumpOverflow = items.FirstOrNew(i => i.Id == WaterBackupSumpOverflowFieldName),
+                OtherMembersOfHousehold = items.FirstOrNew(i => i.Id == OtherMembersOfHouseholdFieldName),
+                LimitedDogLiability = items.FirstOrNew(i => i.Id == LimitedDogLiabilityFieldName),
+                SinkholeCoverage = items.FirstOrNew(i => i.Id == SinkholeCoverageIncludeFieldName),
+                SinkholeExclusionCoverage = items.FirstOrNew(i => i.Id == SinkholeCoverageExcludeFieldName),
+                OtherStructuresLimitIncreased =
+                    items.FirstOrNew(i => i.Id == OtherStructuresLimitIncreasedFieldName),
+                IdentityFraudExpense = items.FirstOrNew(i => i.Id == IdentityFraudExpenseFieldName),
+                ScheduledPersonalProperty = items.FirstOrNew(i => i.Id == ScheduledPersonalPropertyFieldName),
+                CoverageCIncreasedSpecialLimits =
+                    items.FirstOrNew(i => i.Id == CoverageCIncreasedSpecialLimitsFieldName),
+                PersonalPropertyReplacementCost =
+                    items.FirstOrNew(i => i.Id == PersonalPropertyReplacementCostFieldName),
+                PersonalInjury = items.FirstOrNew(i => i.Id == PersonalInjuryFieldName),
+                LossAssessment = items.FirstOrNew(i => i.Id == LossAssessmentFieldName),
+                EquipmentBreakdown = items.FirstOrNew(i => i.Id == EquipmentBreakdownFieldName),
+                UnitOwnersSpecialCoverageA = items.FirstOrNew(i => i.Id == UnitOwnersSpecialCoverageAFieldName),
+                // PHO Coverages
+                AnimalLiability = items.FirstOrNew(i => i.Id == AnimalLiabilityFieldName),
+                FoundationAndWaterDamage = items.FirstOrNew(i => i.Id == FoundationAndWaterDamageFieldName),
+                ResidenceGlass = items.FirstOrNew(i => i.Id == ResidenceGlassFieldName),
+                ReplacementCostLossSettlement = items.FirstOrNew(i => i.Id == ReplacementCostLossSettlementFieldName),
+                ServiceLineCoverage = items.FirstOrNew(i => i.Id == ServiceLineCoverageFieldName),
+                AdditionalReplacementCostProtection =
+                    items.FirstOrNew(i => i.Id == AdditionalReplacementCostProtectionFieldName),
+                EnhancedHomePackage = items.FirstOrNew(i => i.Id == EnhancedHomePackageFieldName)
+            };
+
+            result.OtherStructures.LimitOptions = coverageLimits.FirstOrDefault(i => i.Key == OtherStructuresFieldName).TryGetValue();
+            result.PersonalProperty.LimitOptions =
+                coverageLimits.FirstOrDefault(i => i.Key == PersonalPropertyFieldName).TryGetValue();
+			result.LossOfUse.LimitOptions =
+                coverageLimits.FirstOrDefault(i => i.Key == LossOfUseFieldName).TryGetValue();
+            result.PersonalLiability.LimitOptions =
+                coverageLimits.FirstOrDefault(i => i.Key == PersonalLiabilityFieldName).TryGetValue();
+            result.MedicalPaymentsToOthers.LimitOptions =
+                coverageLimits.FirstOrDefault(i => i.Key == MedicalPaymentsToOthersFieldName).TryGetValue();
+
+            // Set the Limit Options for applicable Additional Coverages
+            result.LimitedFungi.LimitOptions =
+                coverageLimits.FirstOrDefault(i => i.Key == LimitedFungiFieldName).TryGetValue();
+            result.OrdinanceLaw.LimitOptions =
+                coverageLimits.FirstOrDefault(i => i.Key == OrdinanceLawFieldName).TryGetValue();
+            result.HomeComputerCoverage.LimitOptions =
+                coverageLimits.FirstOrDefault(i => i.Key == HomeComputerCoverageFieldName).TryGetValue();
+            result.LimitedHurricane.LimitOptions =
+                coverageLimits.FirstOrDefault(i => i.Key == LimitedHurricaneFieldName).TryGetValue();
+            result.WaterBackupSumpOverflow.LimitOptions =
+                coverageLimits.FirstOrDefault(i => i.Key == WaterBackupSumpOverflowFieldName).TryGetValue();
+            result.LimitedDogLiability.LimitOptions =
+                coverageLimits.FirstOrDefault(i => i.Key == LimitedDogLiabilityFieldName).TryGetValue();
+            result.IdentityFraudExpense.LimitOptions =
+                coverageLimits.FirstOrDefault(i => i.Key == IdentityFraudExpenseFieldName).TryGetValue();
+            result.PersonalInjury.LimitOptions =
+                coverageLimits.FirstOrDefault(i => i.Key == PersonalInjuryFieldName).TryGetValue();
+            result.LossAssessment.LimitOptions =
+                coverageLimits.FirstOrDefault(i => i.Key == LossAssessmentFieldName).TryGetValue();
+            result.EquipmentBreakdown.LimitOptions =
+                coverageLimits.FirstOrDefault(i => i.Key == EquipmentBreakdownFieldName).TryGetValue();
+            result.AnimalLiability.LimitOptions =
+                coverageLimits.FirstOrDefault(i => i.Key == AnimalLiabilityFieldName).TryGetValue();
+            result.AdditionalReplacementCostProtection.LimitOptions =
+                coverageLimits.FirstOrDefault(i => i.Key == AdditionalReplacementCostProtectionFieldName).TryGetValue();
+            result.ServiceLineCoverage.LimitOptions = coverageLimits
+                .FirstOrDefault((i => i.Key == ServiceLineCoverageFieldName)).TryGetValue();
+            result.ResidenceGlass.LimitOptions = coverageLimits
+                .FirstOrDefault((i => i.Key == ResidenceGlassFieldName)).TryGetValue();
+
+            // Setting the Additional Info Details to be displayed on the PopOver
+            result.ScheduledPersonalPropertyCodes = scheduledPersonalPropertyCodes;
+            result.CoverageCIncreasedSpecialLimitsPropertyCodes = coverageCIncreasedSpecialLimitsPropertyCodes;
+            result.CoverageCIncreasedSpecialLimitsPropertyCodeLimits =
+                coverageCIncreasedSpecialLimitsPropertyCodeLimits;
+            result.EnhancedHomePackageCoverages = enhancedHomePackageCoverages;
+
+            return new JsonResult<Coverage>(result, new JsonSerializerSettings(), Encoding.UTF8, this);
+        }
+
+        
+        /// <summary>
+        /// Save the coverage options
+        /// </summary>
+        /// <param name="saveRequest">Coverage object</param>
+        /// <returns>List of edits if exist</returns>
+        [HttpPut]
+        [Route]
+        public IEnumerable<EditNotification> SaveCoverage(CoverageSaveRequest saveRequest)
+        {
+            var quoteNumberMap = GetQuoteNumberMap(saveRequest.PolicyKey.QuoteNumber);
+            var coverageSaveParameters = BuildSaveCoverageParameter(saveRequest);
+            var response = CommonDriverStoredProcedure(
+                "CallingProgram=POSCOVSAVE" +
+                ",Company=" + saveRequest.PolicyKey.CompanyId +
+                ",Branch=" + saveRequest.PolicyKey.BranchId +
+                ",Product=" + saveRequest.PolicyKey.ProductId +
+                ",Subline=" + saveRequest.PolicyKey.SublineId +
+                ",State=" + quoteNumberMap.StateCode +
+                ",QuoteID=" + quoteNumberMap.PolicyId +
+                ",QuoteCd=" + quoteNumberMap.PolicyCode +
+                ",QuoteOc=" + quoteNumberMap.PolicyOccurrence +
+                ",RateDate=" + saveRequest.PolicyKey.EffectiveDate.ToIsoString() +
+                coverageSaveParameters);
+
+	        var notifications = BuildEditNotifications(response.Messages, NotificationSource.Coverage);
+			return notifications;
+        }
+		
+		/// <summary>
+		/// Initialize the coverages for a given quote
+		/// </summary>
+		/// <param name="createCoverageRequest">Policy to generate the initial coverages</param>
+		/// <returns></returns>
+		[HttpPut]
+		[Route("create")]
+		public bool CreateCoverages(PolicyKey createCoverageRequest)
+		{
+			var quoteNumberMap = GetQuoteNumberMap(createCoverageRequest.QuoteNumber);
+            CommonDriverStoredProcedure(
+                "CallingProgram=POSCOVCALL" +
+                ",Company=" + createCoverageRequest.CompanyId +
+                ",Branch=" + createCoverageRequest.BranchId +
+                ",Product=" + createCoverageRequest.ProductId +
+                ",Subline=" + createCoverageRequest.SublineId +
+                ",State=" + quoteNumberMap.StateCode +
+                ",QuoteID=" + quoteNumberMap.PolicyId +
+                ",QuoteCd=" + quoteNumberMap.PolicyCode +
+                ",QuoteOc=" + quoteNumberMap.PolicyOccurrence +
+                ",RateDate=" + createCoverageRequest.EffectiveDate.ToIsoString());
+			return true;
+		}
+
+		// Method returns values for Limit dropdown values for Coverages for some of the Base & Additional Coverages like "E", "F", "MOLD", "OLC" etc.
+		private IEnumerable<KeyValuePair<string, IEnumerable<CoverageLimit>>> GetCoverageLimits(string companyId,
+            string branchId,
+            string productId,
+            string sublineId,
+            string stateAbbreviation,
+            DateTime effectiveDate
+        )
+        {
+            const string jobLibId = "QGPL";
+            productId = productId.ToUpperInvariant();
+            sublineId = sublineId.ToUpperInvariant();
+            var effectiveDateCyymmdd = effectiveDate.ToCyymmdd();
+
+            var result = ExecuteReader("call " + StoredProcedureCallerSchema +
+                                       ".BCFSPLMTCD(?, ?, ?, ?, ?, ?, ?, ?)",
+                p =>
+                {
+                    p[0].Value = companyId;
+                    p[1].Value = branchId;
+                    p[2].Value = productId;
+                    p[3].Value = sublineId;
+                    p[4].Value = GetStateIdMapByAbbreviation(stateAbbreviation).Id;
+                    p[5].Value = effectiveDateCyymmdd;
+                    p[6].Value = StoredProcedureTargetSchema;
+                    p[7].Value = jobLibId;
+                },
+                (p, r) =>
+                {
+                    using (r)
+                    {
+                        var readResult = new List<CoverageLimit>();
+                        while (r.Read())
+                        {
+                            readResult.Add(new CoverageLimit
+                            {
+                                CoverageShortName = r.GetString(0).Trim(),
+                                LimitCode = r.GetString(1).Trim(),
+                                Description = r.GetString(2).Trim()
+                            });
+                        }
+                        return readResult;
+                    }
+                });
+
+            var readCoverageLimitResult = from l in result
+                group l by l.CoverageShortName
+                into g
+                select new KeyValuePair<string, IEnumerable<CoverageLimit>>(g.Key, g);
+
+
+            return readCoverageLimitResult;
+        }
+
+        // This method parse the CoverageSaveRequest & returns the Coverages to be Saved
+        private static string BuildSaveCoverageParameter(CoverageSaveRequest saveRequest)
+        {
+            var coverageParameters = new StringBuilder();
+
+            // Base Coverages
+            if (saveRequest.Dwelling != null)
+            {
+                coverageParameters.Append(",CoverASel=" + saveRequest.Dwelling.CoverageSelected.ToSingleCharYesNo());
+                coverageParameters.Append(",CoverALimit=" + saveRequest.Dwelling.SelectedValue.ToValueOrZero());
+            }
+            if (saveRequest.OtherStructures != null)
+            {
+                coverageParameters.Append(",CoverBSel=" +
+                                          saveRequest.OtherStructures.CoverageSelected.ToSingleCharYesNo());
+                coverageParameters.Append(",CoverBLimit=" + saveRequest.OtherStructures.SelectedValue.ToValueOrZero());
+            }
+            if (saveRequest.PersonalProperty != null)
+            {
+                coverageParameters.Append(",CoverCSel=" +
+                                          saveRequest.PersonalProperty.CoverageSelected.ToSingleCharYesNo());
+                coverageParameters.Append(",CoverCLimit=" + saveRequest.PersonalProperty.SelectedValue.ToValueOrZero());
+            }
+            if (saveRequest.LossOfUse != null)
+            {
+                coverageParameters.Append(",CoverDSel=" + saveRequest.LossOfUse.CoverageSelected.ToSingleCharYesNo());
+                coverageParameters.Append(",CoverDLimit=" + saveRequest.LossOfUse.SelectedValue.ToValueOrZero());
+            }
+            if (saveRequest.PersonalLiability != null)
+            {
+                coverageParameters.Append(",CoverESel=" +
+                                          saveRequest.PersonalLiability.CoverageSelected.ToSingleCharYesNo());
+                coverageParameters.Append(",CoverELimit=" +
+                                          saveRequest.PersonalLiability.SelectedValue.ToValueOrZero());
+            }
+            if (saveRequest.MedicalPaymentsToOthers != null)
+            {
+                coverageParameters.Append(",CoverFSel=" +
+                                          saveRequest.MedicalPaymentsToOthers.CoverageSelected.ToSingleCharYesNo());
+                coverageParameters.Append(",CoverFLimit=" +
+                                          saveRequest.MedicalPaymentsToOthers.SelectedValue.ToValueOrZero());
+            }
+
+            // Additional Coverages
+            if (saveRequest.LimitedFungi != null)
+            {
+                coverageParameters.Append(",MoldSel=" + saveRequest.LimitedFungi.CoverageSelected.ToSingleCharYesNo());
+                coverageParameters.Append(",MoldLmt=" + saveRequest.LimitedFungi.SelectedValue.ToValueOrZero());
+            }
+            if (saveRequest.OrdinanceLaw != null)
+            {
+                coverageParameters.Append(",OLCSel=" + saveRequest.OrdinanceLaw.CoverageSelected.ToSingleCharYesNo());
+                coverageParameters.Append(",OLCLmt=" + saveRequest.OrdinanceLaw.SelectedValue.ToValueOrZero());
+            }
+            if (saveRequest.SpecialPersonalProperty != null)
+            {
+                coverageParameters.Append(",sPersonalPropSel=" +
+                                          saveRequest.SpecialPersonalProperty.CoverageSelected.ToSingleCharYesNo());
+            }
+            if (saveRequest.FireDepartmentServiceCharge != null)
+            {
+                coverageParameters.Append(",FireSrvChgSel=" +
+                                          saveRequest.FireDepartmentServiceCharge.CoverageSelected.ToSingleCharYesNo());
+                coverageParameters.Append(",FireSrvChgLmt=" +
+                                          saveRequest.FireDepartmentServiceCharge.SelectedValue.ToValueOrZero());
+            }
+            if (saveRequest.GolfCartLiability != null)
+            {
+                coverageParameters.Append(",GolfcartSel=" +
+                                          saveRequest.GolfCartLiability.CoverageSelected.ToSingleCharYesNo());
+            }
+            if (saveRequest.HomeComputerCoverage != null)
+            {
+                coverageParameters.Append(",ComputerSel=" +
+                                          saveRequest.HomeComputerCoverage.CoverageSelected.ToSingleCharYesNo());
+                coverageParameters.Append(",ComputerLmt=" +
+                                          saveRequest.HomeComputerCoverage.SelectedValue.ToValueOrZero());
+            }
+            if (saveRequest.LimitedHurricane != null)
+            {
+                coverageParameters.Append(",HurricaneEncSel=" +
+                                          saveRequest.LimitedHurricane.CoverageSelected.ToSingleCharYesNo());
+                coverageParameters.Append(",HurricaneEncLmt=" +
+                                          saveRequest.LimitedHurricane.SelectedValue.ToValueOrZero());
+            }
+            if (saveRequest.WaterBackupSumpOverflow != null)
+            {
+                coverageParameters.Append(",WaterOverflowSel=" +
+                                          saveRequest.WaterBackupSumpOverflow.CoverageSelected.ToSingleCharYesNo());
+                coverageParameters.Append(",WaterOverflowLmt=" +
+                                          saveRequest.WaterBackupSumpOverflow.SelectedValue.ToValueOrZero());
+            }
+            if (saveRequest.OtherMembersOfHousehold != null)
+            {
+                coverageParameters.Append(",HouseholdMembersSel=" +
+                                          saveRequest.OtherMembersOfHousehold.CoverageSelected.ToSingleCharYesNo());
+                // Save OtherMembersOfHousehold Details
+                var sequenceNumber = 1;
+                foreach (var item in saveRequest.OtherMembersOfHouseholdDetails)
+                {
+                    coverageParameters.Append(",HHMFName=" + item.FirstName);
+                    coverageParameters.Append(",HHMLName=" + item.LastName);
+                    coverageParameters.Append(",HHMSequence=" + sequenceNumber);
+                    sequenceNumber++;
+                }
+            }
+            if (saveRequest.LimitedDogLiability != null)
+            {
+                coverageParameters.Append(",DogSel=" +
+                                          saveRequest.LimitedDogLiability.CoverageSelected.ToSingleCharYesNo());
+            }
+            if (saveRequest.SinkholeCoverage != null)
+            {
+                coverageParameters.Append(",SinkholeSel=" +
+                                          saveRequest.SinkholeCoverage.CoverageSelected.ToSingleCharYesNo());
+            }
+            if (saveRequest.SinkholeExclusionCoverage != null)
+            {
+                // Do nothing. RPG fills this data based on SinkholeCoverage 
+            }
+            if (saveRequest.OtherStructuresLimitIncreased != null)
+            {
+                coverageParameters.Append(",OtherStructSel=" +
+                                          saveRequest.OtherStructuresLimitIncreased.CoverageSelected
+                                              .ToSingleCharYesNo());
+                coverageParameters.Append(",OtherStructLmt=" +
+                                          saveRequest.OtherStructuresLimitIncreased.SelectedValue.ToValueOrZero());
+            }
+            if (saveRequest.IdentityFraudExpense != null)
+            {
+                coverageParameters.Append(",IDFraudSel=" +
+                                          saveRequest.IdentityFraudExpense.CoverageSelected.ToSingleCharYesNo());
+            }
+            if (saveRequest.ScheduledPersonalProperty != null)
+            {
+                coverageParameters.Append(",SchedPPropSel=" +
+                                          saveRequest.ScheduledPersonalProperty.CoverageSelected.ToSingleCharYesNo());
+                // Save ScheduledPersonalProperty Details
+                var sequenceNumber = 1;
+                foreach (var item in saveRequest.ScheduledPersonalPropertyDetails)
+                {
+                    coverageParameters.Append(",SchedPPropCat=" + item.PropertyCode);
+                    coverageParameters.Append(",SchedPPropDsc=" + item.Description);
+                    coverageParameters.Append(",SchedPPropSeq=" + sequenceNumber);
+                    coverageParameters.Append(",SchedPPropVal=" + item.SelectedValue);
+                    sequenceNumber++;
+                }
+            }
+            if (saveRequest.CoverageCIncreasedSpecialLimits != null)
+            {
+                coverageParameters.Append(",CovCIncSel=" +
+                                          saveRequest.CoverageCIncreasedSpecialLimits.CoverageSelected
+                                              .ToSingleCharYesNo());
+                // Save CoverageCIncreasedSpecialLimits Details
+                var sequenceNumber = 1;
+                foreach (var item in saveRequest.CoverageCIncreasedSpecialLimitsDetails)
+                {
+                    coverageParameters.Append(",CovCPropCat=" + item.PropertyCode);
+                    coverageParameters.Append(",CovCPropDsc=" + item.Description);
+                    coverageParameters.Append(",CovCPropSeq=" + sequenceNumber);
+                    coverageParameters.Append(",CovCPropVal=" + item.SelectedValue);
+                    sequenceNumber++;
+                }
+            }
+            if (saveRequest.PersonalPropertyReplacementCost != null)
+            {
+                coverageParameters.Append(",PersonalPropSel=" +
+                                          saveRequest.PersonalPropertyReplacementCost.CoverageSelected
+                                              .ToSingleCharYesNo());
+            }
+            if (saveRequest.PersonalInjury != null)
+            {
+                coverageParameters.Append(",PersonalInjurySel=" +
+                                          saveRequest.PersonalInjury.CoverageSelected.ToSingleCharYesNo());
+                coverageParameters.Append(",PersonalInjuryLmt=" +
+                                          saveRequest.PersonalInjury.SelectedValue.ToValueOrZero());
+            }
+            if (saveRequest.LossAssessment != null)
+            {
+                coverageParameters.Append(",LossAssessmentSel=" +
+                                          saveRequest.LossAssessment.CoverageSelected.ToSingleCharYesNo());
+            }
+            if (saveRequest.EquipmentBreakdown != null)
+            {
+                coverageParameters.Append(",EquipBreakdownSel=" +
+                                          saveRequest.EquipmentBreakdown.CoverageSelected.ToSingleCharYesNo());
+            }
+            if (saveRequest.UnitOwnersSpecialCoverageA != null)
+            {
+                coverageParameters.Append(",UnitOwnersCovASel=" +
+                                          saveRequest.UnitOwnersSpecialCoverageA.CoverageSelected.ToSingleCharYesNo());
+            }
+            // PHO coverages
+            if (saveRequest.AnimalLiability != null)
+            {
+                coverageParameters.Append(",AnimalLiabilitySel=" +
+                                          saveRequest.AnimalLiability.CoverageSelected.ToSingleCharYesNo());
+                coverageParameters.Append(",AnimalLiabilityLmt=" +
+                                          saveRequest.AnimalLiability.SelectedValue.ToValueOrZero());
+            }
+            if (saveRequest.FoundationAndWaterDamage != null)
+            {
+                coverageParameters.Append(",FoundationH2ODamageSel=" +
+                                          saveRequest.FoundationAndWaterDamage.CoverageSelected.ToSingleCharYesNo());
+                coverageParameters.Append(",FoundationH2ODamageLmt=" +
+                                          saveRequest.FoundationAndWaterDamage.SelectedValue.ToValueOrZero());
+            }
+            if (saveRequest.ResidenceGlass != null)
+            {
+                coverageParameters.Append(",ResidenceGlassSel=" +
+                                          saveRequest.ResidenceGlass.CoverageSelected.ToSingleCharYesNo());
+                coverageParameters.Append(",ResidenceGlassLmt=" +
+                                          saveRequest.ResidenceGlass.SelectedValue.ToValueOrZero());
+            }
+            if (saveRequest.ReplacementCostLossSettlement != null)
+            {
+                coverageParameters.Append(",NonBuildingReplaceSel=" +
+                                          saveRequest.ReplacementCostLossSettlement.CoverageSelected
+                                              .ToSingleCharYesNo());
+            }
+            if (saveRequest.ServiceLineCoverage != null)
+            {
+                coverageParameters.Append(",ServiceLineSel=" +
+                                          saveRequest.ServiceLineCoverage.CoverageSelected.ToSingleCharYesNo());
+            }
+            if (saveRequest.AdditionalReplacementCostProtection != null)
+            {
+                coverageParameters.Append(",ReplaceCostProtectSel=" +
+                                          saveRequest.AdditionalReplacementCostProtection.CoverageSelected
+                                              .ToSingleCharYesNo());
+                coverageParameters.Append(",ReplaceCostProtectLmt=" +
+                                          saveRequest.AdditionalReplacementCostProtection.SelectedValue
+                                              .ToValueOrZero());
+            }
+            if (saveRequest.EnhancedHomePackage != null)
+            {
+                coverageParameters.Append(",EnhancedHomePackageSel=" +
+                                          saveRequest.EnhancedHomePackage.CoverageSelected.ToSingleCharYesNo());
+            }
+
+            return coverageParameters.ToString();
+        }
+
+        /// <summary>
+        ///     Gets the lookup values for "Item" (Property Codes) field in the popover for Scheduled Personal Property and Cov C
+        ///     Increased Limits.
+        /// </summary>
+        /// <param name="companyId">The company identifier.</param>
+        /// <param name="branchId">The branch identifier.</param>
+        /// <param name="productId">The product identifier.</param>
+        /// <param name="sublineId">The subline identifier.</param>
+        /// <param name="stateAbbreviation">The state abbreviation.</param>
+        /// <param name="effectiveDate">The effective date.</param>
+        /// <param name="coverageId">The coverage identifier.</param>
+        /// <returns></returns>
+        private IEnumerable<ControlItem<string>> GetCoverageAdditionalInfoPropertyCodes(string companyId,
+            string branchId,
+            string productId,
+            string sublineId,
+            string stateAbbreviation,
+            DateTime effectiveDate,
+            string coverageId)
+        {
+            var prams = GetProductKeyParameters(companyId, branchId, productId, sublineId, stateAbbreviation);
+            var effectiveDateCyymmdd = effectiveDate.ToCyymmdd();
+            prams.Add(new iDB2Parameter("coverageId", iDB2DbType.iDB2VarChar) {Value = coverageId});
+            prams.Add(new iDB2Parameter("effectiveDateCompare", iDB2DbType.iDB2Numeric) {Value = effectiveDateCyymmdd});
+            prams.Add(new iDB2Parameter("expirationDateCompare",
+                iDB2DbType.iDB2Numeric) {Value = effectiveDateCyymmdd});
+
+            var result = ExecuteReader(
+                "SELECT CSCHPP, CDESC FROM " + StaticDataSchema +
+                ".B04FL701 WHERE CCMPNY=? AND CBRNCH=? AND CPRDCT=? AND CSLOB=? AND CSTATE=? AND CCVSHT=? AND CEFFDT <= ? AND (CEXPDT >= ? OR CEXPDT = 0)",
+                prams,
+                (p, r) =>
+                {
+                    using (r)
+                    {
+                        var readResult = new List<ControlItem<string>>();
+                        while (r.Read())
+                        {
+                            readResult.Add(new ControlItem<string>
+                            {
+                                Id = r.GetString(0).Trim(),
+                                Description = r.GetString(1).Trim()
+                            });
+                        }
+                        return readResult;
+                    }
+                });
+
+            return result;
+        }
+
+        /// <summary>
+        ///     Gets the lookup values for "Items" (Property Codes) and "Values" (Limits) field in the popover for Cov C Increased
+        ///     Limits
+        /// </summary>
+        /// <param name="companyId">The company identifier.</param>
+        /// <param name="branchId">The branch identifier.</param>
+        /// <param name="productId">The product identifier.</param>
+        /// <param name="sublineId">The subline identifier.</param>
+        /// <param name="stateAbbreviation">The state abbreviation.</param>
+        /// <param name="effectiveDate">The effective date.</param>
+        /// <param name="coverageId">The coverage identifier.</param>
+        /// <returns>
+        ///     The lookup values for "Items" (Property Codes) and "Values" (Limits) field in the popover for Cov C Increased
+        ///     Limits.
+        /// </returns>
+        private IEnumerable<PropertyCodeLimit> GetCoverageAdditionalInfoPropertyCodeLimits(string companyId,
+            string branchId,
+            string productId,
+            string sublineId,
+            string stateAbbreviation,
+            DateTime effectiveDate,
+            string coverageId)
+        {
+            var prams = GetProductKeyParameters(companyId, branchId, productId, sublineId, stateAbbreviation);
+            var effectiveDateCyymmdd = effectiveDate.ToCyymmdd();
+            prams.Add(new iDB2Parameter("coverageId", iDB2DbType.iDB2VarChar) {Value = coverageId});
+            prams.Add(new iDB2Parameter("effectiveDateCompare", iDB2DbType.iDB2Numeric) {Value = effectiveDateCyymmdd});
+            prams.Add(new iDB2Parameter("expirationDateCompare",
+                iDB2DbType.iDB2Numeric) {Value = effectiveDateCyymmdd});
+
+            var result = ExecuteReader(
+                "SELECT CSCHPP, CMAXSL, CINCBY FROM " + StaticDataSchema +
+                ".B04FL731 WHERE CCMPNY=? AND CBRNCH=? AND CPRDCT=? AND CSLOB=? AND CSTATE=? AND CCVSHT=? AND CEFFDT <= ? AND (CEXPDT >= ? OR CEXPDT = 0)",
+                prams,
+                (p, r) =>
+                {
+                    using (r)
+                    {
+                        var readResult = new List<PropertyCodeLimit>();
+                        while (r.Read())
+                        {
+                            var tempPropertyCode = r.GetString(0).Trim();
+                            var maximumLimit = r.GetInt32(1);
+                            var limitIncrement = r.GetInt32(2);
+                            // Please note that each row here returns only "Max Limit" & "Limit Incriment"
+                            // We need to generate the dropdown Limits by looping from "Limit Incriment" through "Max Limit" incremented by "Limit Incriment"
+                            var tempLimitOptions = new List<CoverageLimit>();
+                            for (var limit = limitIncrement; limit <= maximumLimit; limit += limitIncrement)
+                            {
+                                tempLimitOptions.Add(new CoverageLimit
+                                {
+                                    LimitCode = limit.ToString(),
+                                    Description = limit.ToString()
+                                });
+                            }
+                            readResult.Add(new PropertyCodeLimit
+                            {
+                                PropertyCode = tempPropertyCode,
+                                LimitOptions = tempLimitOptions
+                            });
+                        }
+                        return readResult;
+                    }
+                });
+
+            return result;
+        }
+
+        // Method returns Package Coverages
+        private IEnumerable<CoveragePackageItem> GetPackageCoverages(string companyId, string branchId, string productId, string sublineId, string stateAbbreviation, DateTime effectiveDate, string packageShortName, List<KeyValuePair<string, IEnumerable<CoverageLimit>>> coverageLimits)
+        {
+            var prams = GetProductKeyParameters(companyId, branchId, productId, sublineId, stateAbbreviation);
+            prams.Add(new iDB2Parameter("packageShortName", iDB2DbType.iDB2VarChar) {Value = packageShortName});
+
+            var result = ExecuteReader(
+                "SELECT AASCCV, SDESC, AOCCOV FROM " +
+                StaticDataSchema + ".BBPFP655" + TableSeperator + StaticDataSchema + ".BCFFP110 " +
+                "WHERE ACMPNY=? AND ABRNCH=? AND APRDCT=? AND ASLOB=? AND ASTATE=? AND ACVSHT=? AND " +
+                "AEXPCC=0 AND AEXPYY=0 AND AEXPMM=0 AND AEXPDD=0 AND " +
+                "SCVSHT=AASCCV AND ACMPNY=SCMPNY AND ABRNCH=SBRNCH AND APRDCT=SPRDCT AND ASLOB=SSLOB ",
+                prams,
+                (p, r) =>
+                {
+                    using (r)
+                    {
+                        var readResult = new List<CoveragePackageItem>();
+                        while (r.Read())
+                        {
+                            readResult.Add(new CoveragePackageItem
+                            {
+                                Id = r.GetSafeString(0),
+                                Description = r.GetSafeString(1),
+                                DefaultValue = DetermineDefaultPackageItemDefaultValue(r.GetSafeString(0), r.GetInt32(2), coverageLimits)
+                            });
+                        }
+                        return readResult;
+                    }
+                });
+
+            return result;
+        }
+
+        /// <summary>
+        /// Finds the default value selection option based on the integer that was in the table
+        /// </summary>
+        /// <param name="coverageCode">Coverage Code.</param>
+        /// <param name="defaultValueInt">The selected integer value for this coverage.</param>
+        /// <param name="coverageLimits">Collection of all coverage limits.</param>
+        /// <returns></returns>
+        private static string DetermineDefaultPackageItemDefaultValue(string coverageCode, int defaultValueInt, IEnumerable<KeyValuePair<string, IEnumerable<CoverageLimit>>> coverageLimits)
+        {
+            var foundLimits = coverageLimits.FirstOrDefault(cl => cl.Key == coverageCode).TryGetValue();
+
+            return foundLimits?.FirstOrDefault(cl => cl.DescriptionAsInteger == defaultValueInt)?.LimitCode ?? defaultValueInt.ToString();
+        }
+    }
+}
+
   
 
 [999.eof]

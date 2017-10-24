@@ -82,9 +82,11 @@ $  - pay
 3w - 3.woodstork
 4  - for
 4p - 4.pelican
+4w - 4.whiteibis
 7  - 711
 a  - arrive
 ab - abron
+ac - att.cell
 af - after.work
 ah - a.home
 ai - auto.ins
@@ -123,6 +125,7 @@ e  - eye dr
 ed - end.day
 em - email
 f  - file
+fg - fight
 fi - find
 fo - food
 fr - fruit
@@ -240,13 +243,13 @@ log
 1017.tue.10 - po.r.x3, w.s8
 1018.wed.09 - chris.tate.pi, jessie.valladares.pi, tl.br.pu.cd$80, po.g20
 1019.thr.08 - w.s8, po.g20
+1020.fri.07 - ^gr, po.g20
+1021.sat.06 - mw@1p, pu.glasses, po.g20
+1022.sun.05 - fg
 
 cal
 ...
-1020.fri.07 - ^gr, 4:30p.df.lt.hd.severn
-1021.sat.06 - oc+bm+ce, mw@1p, po.r, po.g, be.pu.glasses.9-2p
-1022.sun.05 - po.r, po.g
-1023.mon.04 - 7:30a.pu.lt.hd.severn, 9:30a.ins.vertical.mon.meet.cf4.whiteibis, 12p.df.lt.hd.severn, 1p.pu.lt.hd.severn, 1:30p.sh.cf3.ws, 2p.pho.deploy.3w, 3p.pr.re, 3:30p.matt.brown.pi
+1023.mon.04 - 2p.pho.deploy.3w, 3p.pr.re, 3:30p.matt.brown.pi, 4p.oneonone
 1024.tue.03 - [3mo] ^gr, 9a.jessie.valladares.4p, 1p.sm.horizon.planning.3w
 1025.wed.02 - 1p.sr.cf4.egret, 2p.hr.cf3.ws, ca.gm.lm.ud
 1026.thr.01 - 9a.sg.cf3.ws
@@ -340,35 +343,35 @@ day
 45 ... `
 00 .9a `
 15 ... `
-30 ... `
+30 ... ` [ins.vert.mon.meet.4w][1]
 45 ... `
-00 10a `[su][1]
+00 10a `
 15 ... `
-30 (6) `
+30 (6) ` [su][2]
 45 ... `
 00 11a `
 15 ... `
 30 (5) `
 45 ... `
-00 12p ` lu.30m
-15 ... ` |||
-30 (4) ` |||
-45 ... ` |||
-00 .1p `
+00 12p [df.lt.hd.severn][3]
+15 ... |||
+30 (4) |||
+45 ... |||
+00 .1p ` [pu.lt.hd.severn][4]
 15 ... `
 30 (3) `
 45 ... `
-00 .2p `
-15 ... `
-30 (2) `
-45 ... `
-00 .3p `
-15 ... `
-30 (1) `
-45 ... `
-00 .4p `
-15 ... df.lt.hd.severn
-30 [0] lw
+00 .2p `[sh.3w]
+15 ... ` |||
+30 (2) ` |||
+45 ... 
+00 .3p 
+15 ... pr.re.matt.brown
+30 (1) [pi.matt.brown.3d][5]
+45 ... |||
+00 .4p oneonone.3d
+15 ... |||
+30 [0] lw, ca.ac
 45 ... |||
 00 .5p |||
 15 ... |||
@@ -465,9 +468,89 @@ da
   . [line 221]: this.spinner.stop();
   . [line 262]: this.spinner.start();
   . [line 270]: this.spinner.stop();
+. dev local = B1cOPKspb
 
 d3/d3/dist/justfiles/gitjia
 
+dev test quote =  QT 90097395
+                  QT 90097398
+
 in
 ....
+quote.service.ts
+...
+  /**
+   * Update wind mitigation values
+   */
+  /* istanbul ignore next */
+  updateWindMitigationValue(windMitigation: WindMitigation): Promise<any> {
+    let windMitSave = windMitigation;
+    windMitSave.quoteId = this.getCurrentQuote().quoteId;
+    return this.http.put(`${this.apiEndpoint}/quote/windMitigation/`,
+      windMitSave, this.jsonContent)
+      .toPromise();
+  }
+...
 
+
+
+waterBackupSumpOverflowLimit
+:
+{isRequired: null, options: [{id: "5L", description: "$5,000", sequenceNumber: null}], title: null,…}
+canEdit
+:
+true
+canView
+:
+true
+defaultValue
+:
+[]
+hasMultipleSelections
+:
+false
+helpText
+:
+null
+isRequired
+:
+null
+options
+:
+[{id: "5L", description: "$5,000", sequenceNumber: null}]
+0
+:
+{id: "5L", description: "$5,000", sequenceNumber: null}
+description
+:
+"$5,000"
+id
+:
+"5L"
+sequenceNumber
+:
+null
+selectedValue
+:
+["5L"]
+0
+:
+"5L"
+title
+:
+null
+
+. sat 10/28 @ 12:300pd
+  . case id: 100331156016
+
+
+. QuoteStatus.ApprovedByUnderwriter
+. DEV test - QT 90097407 
+. dev test ho3 - 6704 preston - QT 90097408 
+. dev test ho3 - 6704 - QT 90097409
+
+. sqa 42QT90160644 99
+. dev 09QT90097410 99
+. dev 09QT90097411 99
+
+. test - (Tue 10/24/2017 @4:02P)
