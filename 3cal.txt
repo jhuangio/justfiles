@@ -262,8 +262,8 @@ log
 
 cal
 ...
-1025.wed.02 - 1p.sr.cf4.egret, 2p.hr.cf3.ws, ca.gm.lm.ud
-1026.thr.01 - 9a.sg.cf3.ws
+1025.wed.02 - 
+1026.thr.01 - 9a.sg.cf3.ws, ca.gm.lm.ud
 1027.fri.14 - [p], ^g, cb$400, am$552+25lf
 1028.sat.13 -
 1029.sun.12 - *wg.xan.pu
@@ -272,7 +272,7 @@ cal
 1101.wed.09 - 
 1102.thr.08 - 
 1103.fri.07 - bi>open.enroll.11/17
-1104.sat.06 -
+1104.sat.06 - 1:30p-2p dental 
 1105.sun.05 - 
 1106.mon.04 - hc?
 1107.tue.03 -
@@ -337,6 +337,13 @@ cal
 0105.fri.14 - [p] 
 0106.sat.13 - 
 0107.sun.12 - 
+0108.mon.11 - 
+0109.tue.10 - 
+0110.wed.09 - 
+0111.thr.08 - 
+0112.fri.07 - 
+0113.sat.06 - 
+0114.sun.05 -
 
 www
 ...
