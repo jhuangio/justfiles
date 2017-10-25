@@ -16,7 +16,13 @@ act.dd.icons.log.cal.www.uk.day.in
   . fri: 9a-.6p
   . sat: 9a-1p
 ...
-. $230.84
+metlife.dental - (877) 638-3379 pdp plus network www.metlife.com
+charlotte a fowler, dmd - (813) 235-0957
+greenberg dental & ortho tnc
+10041 w hillsborough Ave
+tampa, fl 33613
+...
+. $25
 
 act
 ...
@@ -454,50 +460,31 @@ da
 
 . http://vladikk.com/2017/03/20/tackling-complexity-in-cqrs/
 . https://dzone.com/articles/oracle-coherence-cqc-an-example-of-event-driven-ar
-. ask Danny TimerObservable.create(2000, 2000)
-. keycode - 44 = comma [^,]
-. rJX_wFMab - local test quote 10/15/17
-. dev.test quote - 09 QT90097353 99
-. dev.pho.test - 42 QT 90097359 99
-. dev.pho.test - 42 QT90097362 99
-. dev.pho.test - 42 QT90097363 99
-. dev.pho.test - 42 QT90097375 99
-. navigation.service.ts - updateCanEnable();
-. import {SpinnerService} from '../../core/ux/directive/spinner/spinner.service';
-. constructor(protected spinner: SpinnerService){};
-. this.spinner.start;
-. this.spinner.stop;
-. coverages.components.ts 
-  . [line 164]: this.spinner.start();
-  . [line 219]: this.spinner.start();
-  . [line 221]: this.spinner.stop();
-  . [line 262]: this.spinner.start();
-  . [line 270]: this.spinner.stop();
-. dev local = B1cOPKspb
 
-d3/d3/dist/justfiles/gitjia
-
-dev test quote =  QT 90097395
-                  QT 90097398
+d3/d3/dist/justfiles/gitjia run=".\jj.bat"
 
 . sat 10/28 @ 12:300pd
   . case id: 100331156016
 
 . QuoteStatus.ApprovedByUnderwriter
 
-. DEV test - QT 90097407 
-. dev test ho3 - 6704 preston - QT 90097408 
-. dev test ho3 - 6704 - QT 90097409
 ...
 . sqa 42QT90160644 99 - mahtab bug report
 ...
-. dev 09QT90097410 99
-. dev 09QT90097411 99
-. dev 09QT90097412 99
 
+>>>
 . TROB DEV 09 QT90097413 99
+<<<
 
-. ".\JJ.BAT"
+. bcfp170 stc
+. BCCFP170 stc
+. BCCFP140
 
 in 
 ...
+877-638-3379 pdp plus network www.metlife.com
+charlotte a fowler, dmd
+(813) 235-0957
+greenberg dental & ortho tnc
+10041 w hillsborough Ave
+tampa, fl 33613
