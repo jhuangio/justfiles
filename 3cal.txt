@@ -71,6 +71,8 @@ act
 . d  - hc$50.cat - (Fri 10/13/2017 @8:26A)
 . ca - dt$100 - (Fri 10/13/2017 @8:27A)
 . ins.manny$300
+. ca - ml.dental
+. ca - do.specialist.chest
 
 dd
 ...
@@ -118,6 +120,7 @@ da - data
 dc - document
 df - drop.off
 dm - dev.meet
+do - doctor
 dr - day.rev
 ds - deathstar
 dt - dir.tv
@@ -160,6 +163,7 @@ lu - lunch
 ly - laundry
 m  - mow yard
 me - me.tong
+ml - met.life
 mp - metro.pcs
 mw - mom wh
 mo - mow
