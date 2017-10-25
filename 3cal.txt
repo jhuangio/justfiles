@@ -492,5 +492,7 @@ dev test quote =  QT 90097395
 
 . TROB DEV 09 QT90097413 99
 
+. ".\JJ.BAT"
+
 in 
 ...
