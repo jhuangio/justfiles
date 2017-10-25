@@ -246,11 +246,11 @@ log
 1020.fri.07 - ^gr, po.g20
 1021.sat.06 - mw@1p, pu.glasses, po.g20
 1022.sun.05 - fg
+1023.mon.04 - bi.matt.brown.pi, bi.oneonone
+1024.tue.03 - [3mo] ^gr, bi.final.jessie.valladares
 
 cal
 ...
-1023.mon.04 - 2p.pho.deploy.3w, 3p.pr.re, 3:30p.matt.brown.pi, 4p.oneonone
-1024.tue.03 - [3mo] ^gr, 9a.jessie.valladares.4p, 1p.sm.horizon.planning.3w
 1025.wed.02 - 1p.sr.cf4.egret, 2p.hr.cf3.ws, ca.gm.lm.ud
 1026.thr.01 - 9a.sg.cf3.ws
 1027.fri.14 - [p], ^g, cb$400, am$552+25lf
@@ -475,82 +475,22 @@ d3/d3/dist/justfiles/gitjia
 dev test quote =  QT 90097395
                   QT 90097398
 
-in
-....
-quote.service.ts
-...
-  /**
-   * Update wind mitigation values
-   */
-  /* istanbul ignore next */
-  updateWindMitigationValue(windMitigation: WindMitigation): Promise<any> {
-    let windMitSave = windMitigation;
-    windMitSave.quoteId = this.getCurrentQuote().quoteId;
-    return this.http.put(`${this.apiEndpoint}/quote/windMitigation/`,
-      windMitSave, this.jsonContent)
-      .toPromise();
-  }
-...
-
-
-
-waterBackupSumpOverflowLimit
-:
-{isRequired: null, options: [{id: "5L", description: "$5,000", sequenceNumber: null}], title: null,…}
-canEdit
-:
-true
-canView
-:
-true
-defaultValue
-:
-[]
-hasMultipleSelections
-:
-false
-helpText
-:
-null
-isRequired
-:
-null
-options
-:
-[{id: "5L", description: "$5,000", sequenceNumber: null}]
-0
-:
-{id: "5L", description: "$5,000", sequenceNumber: null}
-description
-:
-"$5,000"
-id
-:
-"5L"
-sequenceNumber
-:
-null
-selectedValue
-:
-["5L"]
-0
-:
-"5L"
-title
-:
-null
-
 . sat 10/28 @ 12:300pd
   . case id: 100331156016
 
-
 . QuoteStatus.ApprovedByUnderwriter
+
 . DEV test - QT 90097407 
 . dev test ho3 - 6704 preston - QT 90097408 
 . dev test ho3 - 6704 - QT 90097409
-
-. sqa 42QT90160644 99
+...
+. sqa 42QT90160644 99 - mahtab bug report
+...
 . dev 09QT90097410 99
 . dev 09QT90097411 99
+. dev 09QT90097412 99
 
-. test - (Tue 10/24/2017 @4:02P)
+. TROB DEV 09 QT90097413 99
+
+in 
+...
