@@ -265,7 +265,7 @@ log
 cal
 ...
 1026.thr.01 - 
-1027.fri.14 - [p], ^g, cb$400, am$552+25lf, ca.gm.lm.ud
+1027.fri.14 - [p], ^g, cb$400, am$552+25lf, ca.gm.lm.ud, fix.iphone7.screen>lw. pay.cat.gw
 1028.sat.13 -
 1029.sun.12 - *wg.xan.pu
 1030.mon.11 -
@@ -350,7 +350,7 @@ www
 ...
 . https://fl-tampa.pogoalerts.net
 
-day
+day - thr - 10/26/17
 ...
 00 .7a `
 15 ... `
