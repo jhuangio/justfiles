@@ -4971,6 +4971,94 @@ if (productId == "PHO")
 
 additional-coverage-input.components.ts 
 ... onlyOneItemInSelection()
+
+dub.$5k.issue
+...
+. dev test - 09 QT 90097426 99
+
+. coverages.component.html [line:91] - added test {{}};
+. coverages.component.ts [line:97] - changed false to '';
+
+<span *ngIf="!coverageLimitOption.canEdit">
+  <span *ngIf="formOption.limitDescription && formField.value">Limit: {{formOption.limitDescription}}<span *ngIf="formOption.deductible">; </span>
+</span>
+<span *ngIf="formOption.deductible && formField.value">Deductible: <span *ngIf="formOption.deductible >= 100">{{formOption.deductible | currency:'USD':true:'1.0'}}</span><span *ngIf="formOption.deductible < 100">{{formOption.deductible}}%</span></span>
+</span>
+
+<span *ngIf="limitField.value">
+  Limit:
+  <span *ngIf="inputType === additionalCoverageInputTypeEnum.selectOption || inputType === additionalCoverageInputTypeEnum.mustMatchLimit">
+    {{coverageLimitOption.getDisplayValue(limitField.value)}}
+  </span>
+  <span *ngIf="inputType === additionalCoverageInputTypeEnum.inputAmount">{{limitField.value | currency:'USD':true:'1.0'}}</span>
+  <span *ngIf="inputType === additionalCoverageInputTypeEnum.calculatedPercent">{{calculateLimitFromInputs() | currency:'USD':true:'1.0'}}</span>
+  <span *ngIf="coverageLimitCalculatePercentFromValue && calculatePercentage(limitField.value) > 0 && inputType !== additionalCoverageInputTypeEnum.calculatedPercent"> - {{calculatePercentage(limitField.value) | currency:'USD':true:'1.0'}}</span>
+  <a class="text-success edit-link" (click)="showPopover()" *ngIf="canShowEdit()" tabindex="0" (keyup.enter)="showPopover()" (keyup.space)="showPopover()">edit</a>
+</span> 
+
+. dev ho3 -  QT 90097429
+. dev pho -  QT 90097430 
+. dev ho3 -  QT 90097433
+. dev pho -  QT 90097434
+. HOADHOC-1961: 
+. int ho3 -  QT 
+. int pho -  QT 90097436
+
+. header.component.scss - [line:7] - change from relative to fixed
+
+scss - vh: 1/100th viewport height
+
+. Luckily, this is isn’t a difficult problem to overcome. The easiest way is to simply set the parent’s overflow property to hidden if the parent should grow along with the content. If it should scroll, set it to scroll.
+
+. navigation.component.scss - [line:16] add - position: relative;
+. styles.scss - [line:7] - add overflow: hidden;
+
+.box { overflow: hidden; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  
 
 [999.eof]
