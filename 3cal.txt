@@ -5,6 +5,7 @@ thr.10/26/17@8:18a
 ...
 . cat.2107093
 . me .2180810
+. gw$215.42
 ...
 . be.westchase - (813) 792-0637
   9912 W Linebaugh Ave.,
@@ -78,8 +79,9 @@ act
 . d  - hc$50.cat - (Fri 10/13/2017 @8:26A)
 . ca - dt$100 - (Fri 10/13/2017 @8:27A)
 . ins.manny$300
-. ca - ml.dental
 . ca - do.specialist.chest
+. sk$150(pd) - (Fri 10/27/2017 @1:22P)
+. ac$385.05(pd) - (Fri 10/27/2017 @9:44A)
 
 dd
 ...
@@ -273,7 +275,7 @@ log
 
 cal
 ...
-1027.fri.14 - [p], ^g, cb$400, am$552+25lf, ca.gm.lm.ud, fix.iphone7.screen>lw. cat$500(pd), ab$150, go.ct.ix.i7$130, d.ad.ah, w.s8, gr, dp.cp, ca.pm
+1027.fri.14 - [p], ^g, am$552+25lf, ca.gm.lm.ud, cat$500(pd), ab$150, go.ct.ix.i7$130, d.ad.ah, w.s8, dp.cp, ca.pm
 1028.sat.13 - gs, po.g..r
 1029.sun.12 - *wg.xan.pu
 1030.mon.11 -
@@ -287,7 +289,7 @@ cal
 1107.tue.03 -
 1108.wed.02 -
 1109.thr.01 - pm.$125+1xint
-1110.fri.14 - [p]
+1110.fri.14 - [p] cb$400, pm$200, wa$100
 1111.sat.13 - 
 1112.sun.12 - 
 1113.mon.11 - 
@@ -370,21 +372,21 @@ day - thr - 10/26/17
 45 ... `
 00 .9a `
 15 ... `
-30 ... 
-45 ... 
-00 10a [su][1]
-15 ... 
-30 (6) 
-45 ... 
-00 11a 
-15 ... 
-30 (5) 
-45 ... 
-00 12p lunch, ca.gm.ud, ca.sk$200, ca.ac$400, ca.tr.ta, ca.tr.cl, ca.tr.br, ca.pm
-15 ... |||
-30 (4) |||
-45 ... |||
-00 .1p 
+30 ... `
+45 ... `
+00 10a `[su][1]
+15 ... `
+30 (6) `
+45 ... `
+00 11a `
+15 ... `
+30 (5) `
+45 ... `
+00 12p `lunch
+15 ... `|||
+30 (4) `|||
+45 ... `|||
+00 .1p `
 15 ... 
 30 (3) 
 45 ... 
@@ -398,7 +400,7 @@ day - thr - 10/26/17
 45 ... 
 00 .4p 
 15 ... 
-30 [0] lw, ca.ac$400, ca.sk$200, ca.gm.ud, ca.tr$300.ta..cl..br, ca.ab
+30 [0] lw, ca.gm.ud, ca.tr$300.ta..cl..br, ca.ab, ca.pm
 45 ... 
 00 .5p 
 15 ... 
@@ -460,6 +462,9 @@ da
     . uat:  http://savuubuntuitlv01:5601/ 
     . prod: http://savpubuntuitlv01:5601/ 
 
+. team city
+  . http://build.bankersinsurance.com:82/login.html
+
 . PRODUCTION ERROR SUMMARY
 ...
 . DATE - 
@@ -474,14 +479,13 @@ d3/d3/dist/justfiles/gitjia run=".\jj.bat"
 
 in 
 ...
-. sk$150 - (Fri 10/27/2017 @9:44A)
-. ac$400 - (Fri 10/27/2017 @9:44A)
-. tr$300 - (Fri 10/27/2017 @9:44A)
-. ab$150 - (Fri 10/27/2017 @9:44A)
-. am$100 - (Fri 10/27/2017 @9:44A)
 . fo$150 - (Fri 10/27/2017 @9:45A)
-. sp$100 - (Fri 10/27/2017 @9:45A)
-. wa$100 - (Fri 10/27/2017 @9:46A)
-. ix$130 - (Fri 10/27/2017 @9:50A)
-. te$150 - (Fri 10/27/2017 @9:50A)
-. dt$100 - (Fri 10/27/2017 @9:50A)
+
+. go.tr$300 - (Fri 10/27/2017 @9:44A)
+. go.ab$150 - (Fri 10/27/2017 @9:44A)
+. go.am$100 - (Fri 10/27/2017 @9:44A)
+. go.ix$130 - (Fri 10/27/2017 @9:50A)
+
+. ca.te($)121.80 - (Fri 10/27/2017 @9:50A)
+. ca.dt($)100 - (Fri 10/27/2017 @9:50A)
+. ca.sp($)100 - (Fri 10/27/2017 @9:45A)
