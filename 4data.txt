@@ -5015,9 +5015,17 @@ scss - vh: 1/100th viewport height
 
 .box { overflow: hidden; }
 
-mp.cn.809327283$30.10/27/17
+randy.mp.cn.809327283$30.10/27/17
 
 app/pos/landing/landing.component.scss - [line:218] - added "overflow: hidden;"
+
+discount-surcharge.component.html
+applicant dob [line:111]
+
+overflow-x:hidden;
+
+styles.css [line:7] - add overflow-x: hidden; overflow-y: hidden;
+
 
 
 

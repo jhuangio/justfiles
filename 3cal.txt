@@ -278,11 +278,11 @@ cal
 1027.fri.14 - [p], ^g, am$552+25lf, ca.gm.lm.ud, cat$500(pd), ab$150, go.ct.ix.i7$130, d.ad.ah, w.s8, dp.cp, ca.pm
 1028.sat.13 - gs, po.g..r
 1029.sun.12 - *wg.xan.pu
-1030.mon.11 -
-1031.tue.10 - ^gr
-1101.wed.09 - 
-1102.thr.08 - 
-1103.fri.07 - bi>open.enroll.11/17
+1030.mon.11 - dr.wr, [10a.su][1], [1:30p.pps.3d][2], [3p.it.4w][3]
+1031.tue.10 - ^gr, [10a.su][1]
+1101.wed.09 - [10a.su][1], [11a.dev.3o][2]
+1102.thr.08 - [10a.su][1], [1p.sh.3o][2]
+1103.fri.07 - bi>open.enroll.11/17, [10a.su][1]
 1104.sat.06 - 1:30p-2p dental 
 1105.sun.05 - 
 1106.mon.04 - hc?
@@ -299,7 +299,7 @@ cal
 1117.fri.07 - 
 1118.sat.06 - 
 1119.sun.05 - 
-1120.mon.04 - 
+1120.mon.04 - bi.jessie.v.1st.day
 1121.tue.03 -
 1122.wed.02 - 
 1123.thr.01 -
