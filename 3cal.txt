@@ -98,6 +98,7 @@ $  - pay
 a  - arrive
 ab - abron
 ac - att.cell
+ad - take.add
 af - after.work
 ah - a.home
 ai - auto.ins
@@ -124,12 +125,14 @@ ch - clean house
 ci - cig
 cl - clearwater
 co - $oh
+cp - cat.poo
 d  - do
 da - data
 dc - document
 df - drop.off
 dm - dev.meet
 do - doctor
+dp - dog.poo
 dr - day.rev
 ds - deathstar
 dt - dir.tv
@@ -149,6 +152,7 @@ gm - gm fin
 gn - good.night
 go - go
 gr - garbage out
+gs - garage.sale
 gw - grow
 hc - haircut
 hd - help.desk
@@ -156,7 +160,7 @@ hl - hyatt.leg
 hr - home.retro
 i  - inbox
 ic - itunes
-ip - interview.phone
+ip - interview.person
 it - in time
 js - javascript
 kl - kitty.l
@@ -260,13 +264,13 @@ log
 1021.sat.06 - mw@1p, pu.glasses, po.g20
 1022.sun.05 - fg
 1023.mon.04 - bi.matt.brown.pi, bi.oneonone
-1024.tue.03 - [3mo] ^gr, bi.final.jessie.valladares
+1024.tue.03 - [3mo] ^gr, bi.final.jessie.valladares(+)
+1026.thr.01 - ip.matt.brown(-)
 
 cal
 ...
-1026.thr.01 - 
-1027.fri.14 - [p], ^g, cb$400, am$552+25lf, ca.gm.lm.ud, fix.iphone7.screen>lw. pay.cat.gw
-1028.sat.13 -
+1027.fri.14 - [p], ^g, cb$400, am$552+25lf, ca.gm.lm.ud, fix.iphone7.screen>lw. cat$500(pd), ab$150, go.citrus.park.ifix.iphone7$130, d.ad.ah, w.s8, gr, dp.cp
+1028.sat.13 - gs, po.g..r
 1029.sun.12 - *wg.xan.pu
 1030.mon.11 -
 1031.tue.10 - ^gr
@@ -354,32 +358,32 @@ day - thr - 10/26/17
 ...
 00 .7a `
 15 ... `
-30 ... ` 
-45 ... ` aw@7:50a
+30 ... ` aw@7:30a
+45 ... ` 
 00 .8a `
 15 ... `
-30 (8) 
-45 ... 
-00 .9a 
-15 ... 
+30 (8) `
+45 ... `
+00 .9a `
+15 ... `
 30 ... 
 45 ... 
-00 10a 
+00 10a [su][1]
 15 ... 
-30 (6) [sg.3w][1]
+30 (6) 
 45 ... 
 00 11a 
 15 ... 
 30 (5) 
 45 ... 
-00 12p lunch.1/2h
+00 12p lunch, ca.gm.ud, ca.sk$200, ca.ac$400, ca.tr.ta, ca.tr.cl, ca.tr.br
 15 ... |||
-30 (4) 
-45 ... 
+30 (4) |||
+45 ... |||
 00 .1p 
 15 ... 
-30 (3) [matt.brown.4t][2]
-45 ... ||
+30 (3) 
+45 ... 
 00 .2p 
 15 ... 
 30 (2) 
@@ -390,37 +394,37 @@ day - thr - 10/26/17
 45 ... 
 00 .4p 
 15 ... 
-30 [0] lw, ca.ac
-45 ... |||
-00 .5p |||
-15 ... |||
-30 ... |||
-45 ... |||
-00 .6p ah
-15 ... |||
-30 ... |||
-45 ... |||
-00 .7p lh.p.r
-15 ... |||
-30 ... |||
-45 ... |||
-00 .8p |||
-15 ... |||
-30 ... p.g
-45 ... |||
-00 .9p |||
-15 ... |||
-30 ... |||
-45 ... px.fr$20
-00 10p w.s8
-15 ... |||
-30 ... |||
-45 ... po.g
-00 11p |||
-15 ... |||
-30 ... |||
-45 ... |||
-00 12a ed
+30 [0] lw, ca.ac$400, ca.sk$200, ca.gm.ud, ca.tr$300.ta..cl..br, ca.ab
+45 ... 
+00 .5p 
+15 ... 
+30 ... 
+45 ... 
+00 .6p 
+15 ... 
+30 ... 
+45 ... 
+00 .7p 
+15 ... 
+30 ... 
+45 ... 
+00 .8p ifix$130.citrus.park
+15 ... 
+30 ... 
+45 ... 
+00 .9p 
+15 ... 
+30 ... 
+45 ... ah.ad
+00 10p w.s8, gr, dp.cp
+15 ... 
+30 ... 
+45 ... 
+00 11p 
+15 ... 
+30 ... 
+45 ... 
+00 12a 
 
 ----------------------------------
 act.dd.icons.log.cal.www.uk.day.in
@@ -435,10 +439,12 @@ ps
 da
 ...
 . PHO test address
+
   . 110 Inner Campus Dr.
   . Austin, TX
 
 . FL HO3 address
+
   . 521 85th Ave. N 
   . St. Pete, FL 33702
 
@@ -459,7 +465,6 @@ da
 . CORRELATION ID - 
 ...
 . DETAILS :
-
 
 d3/d3/dist/justfiles/gitjia run=".\jj.bat"
 
