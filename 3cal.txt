@@ -435,20 +435,13 @@ ps
 da
 ...
 . PHO test address
-
   . 110 Inner Campus Dr.
   . Austin, TX
 
-. quote # - HJnbm7Z3Z
-. quote # - QT 90097275 99
 . FL HO3 address
   . 521 85th Ave. N 
   . St. Pete, FL 33702
-. support rotation
-  . jia - 10/2-10/9
-  . Binish – week of 10/09 – 10/15
-  . Myself – week of 10/16-10/22
-  . Nick – week of 10/23-10/29
+
 . kibana production link
   . http://savpubuntuitlv01:5601/app/kibana#/discover?_g=(refreshInterval:(display:Off,pause:!f,value:0),time:(from:now%2Fw,mode:quick,to:now%2Fw))&_a=(columns:!(host,Level,Name,ContextId,CorrelationId),index:'filebeat-*',interval:auto,query:(query_string:(analyz
   . servers
@@ -457,78 +450,18 @@ da
     . uat:  http://savuubuntuitlv01:5601/ 
     . prod: http://savpubuntuitlv01:5601/ 
 
-
 . PRODUCTION ERROR SUMMARY
 ...
-  . DATE - 
-  . TIMESTAMP - 
-  . # KIBANA ITEMS - 
-  . CONTEXT ID -
-  . CORRELATION ID - 
+. DATE - 
+. TIMESTAMP - 
+. # KIBANA ITEMS - 
+. CONTEXT ID -
+. CORRELATION ID - 
 ...
-  . DETAILS :
+. DETAILS :
 
-. http://vladikk.com/2017/03/20/tackling-complexity-in-cqrs/
-. https://dzone.com/articles/oracle-coherence-cqc-an-example-of-event-driven-ar
 
 d3/d3/dist/justfiles/gitjia run=".\jj.bat"
 
-. sat 10/28 @ 12:300pd
-  . case id: 100331156016
-
-. QuoteStatus.ApprovedByUnderwriter
-
-...
-. sqa 42QT90160644 99 - mahtab bug report
-...
-
->>>
-. TROB DEV 09 QT90097413 99
-<<<
-
-. bcfp170 stc
-. BCCFP170 stc
-. BCCFP140
-
 in 
 ...
-. coverages.component.html [line:91] - added test {{}};
-. coverages.component.ts [line:97] - changed false to '';
-
-<span *ngIf="!coverageLimitOption.canEdit">
-  <span *ngIf="formOption.limitDescription && formField.value">Limit: {{formOption.limitDescription}}<span *ngIf="formOption.deductible">; </span>
-</span>
-<span *ngIf="formOption.deductible && formField.value">Deductible: <span *ngIf="formOption.deductible >= 100">{{formOption.deductible | currency:'USD':true:'1.0'}}</span><span *ngIf="formOption.deductible < 100">{{formOption.deductible}}%</span></span>
-</span>
-
-<span *ngIf="limitField.value">
-  Limit:
-  <span *ngIf="inputType === additionalCoverageInputTypeEnum.selectOption || inputType === additionalCoverageInputTypeEnum.mustMatchLimit">
-    {{coverageLimitOption.getDisplayValue(limitField.value)}}
-  </span>
-  <span *ngIf="inputType === additionalCoverageInputTypeEnum.inputAmount">{{limitField.value | currency:'USD':true:'1.0'}}</span>
-  <span *ngIf="inputType === additionalCoverageInputTypeEnum.calculatedPercent">{{calculateLimitFromInputs() | currency:'USD':true:'1.0'}}</span>
-  <span *ngIf="coverageLimitCalculatePercentFromValue && calculatePercentage(limitField.value) > 0 && inputType !== additionalCoverageInputTypeEnum.calculatedPercent"> - {{calculatePercentage(limitField.value) | currency:'USD':true:'1.0'}}</span>
-  <a class="text-success edit-link" (click)="showPopover()" *ngIf="canShowEdit()" tabindex="0" (keyup.enter)="showPopover()" (keyup.space)="showPopover()">edit</a>
-</span> 
-
-. dev ho3 -  QT 90097429
-. dev pho -  QT 90097430 
-. dev ho3 -  QT 90097433
-. dev pho -  QT 90097434
-. HOADHOC-1961: 
-. int ho3 -  QT 
-. int pho -  QT 90097436
-
-. header.component.scss - [line:7] - change from relative to fixed
-
-scss - vh: 1/100th viewport height
-
-. Luckily, this is isn’t a difficult problem to overcome. The easiest way is to simply set the parent’s overflow property to hidden if the parent should grow along with the content. If it should scroll, set it to scroll.
-
-. navigation.component.scss - [line:16] add - position: relative;
-. styles.scss - [line:7] - add overflow: hidden;
-
-.box { overflow: hidden; }
-
-
