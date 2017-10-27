@@ -441,6 +441,7 @@ ps
 . ng2 - rxjs observables - (Thu 10/12/2017 @8:26A)
 . introduction to regular expression (regex) - josh d - 3h - (Thu 10/12/2017 @8:41A)
 . regular expression fundamentals - juliette r - 2h - (Thu 10/12/2017 @8:42A)
+. js objects and prototypes - jim c - 1h - (Fri 10/27/2017 @3:34P)(15)
 
 da
 ...
