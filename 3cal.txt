@@ -5,7 +5,6 @@ thr.10/26/17@8:18a
 ...
 . cat.2107093
 . me .2180810
-. $34-4-6-3=21-6=15
 ...
 . be.westchase - (813) 792-0637
   9912 W Linebaugh Ave.,
@@ -124,8 +123,10 @@ cg - cho lon good bro
 ch - clean house
 ci - cig
 cl - clearwater
+cn - conf#
 co - $oh
 cp - cat.poo
+ct - citrus.park
 d  - do
 da - data
 dc - document
@@ -159,9 +160,11 @@ hd - help.desk
 hl - hyatt.leg
 hr - home.retro
 i  - inbox
+i7 - iphone7
 ic - itunes
 ip - interview.person
 it - in time
+ix - ifix
 js - javascript
 kl - kitty.l
 l  - leave
@@ -216,6 +219,7 @@ tr - trulieve
 ud - update
 uk - unknown
 w  - walk bebe
+wa - water
 wg - walgreens
 wi - wip
 wm - walmart
@@ -269,7 +273,7 @@ log
 
 cal
 ...
-1027.fri.14 - [p], ^g, cb$400, am$552+25lf, ca.gm.lm.ud, fix.iphone7.screen>lw. cat$500(pd), ab$150, go.citrus.park.ifix.iphone7$130, d.ad.ah, w.s8, gr, dp.cp
+1027.fri.14 - [p], ^g, cb$400, am$552+25lf, ca.gm.lm.ud, fix.iphone7.screen>lw. cat$500(pd), ab$150, go.ct.ix.i7$130, d.ad.ah, w.s8, gr, dp.cp, ca.pm
 1028.sat.13 - gs, po.g..r
 1029.sun.12 - *wg.xan.pu
 1030.mon.11 -
@@ -376,7 +380,7 @@ day - thr - 10/26/17
 15 ... 
 30 (5) 
 45 ... 
-00 12p lunch, ca.gm.ud, ca.sk$200, ca.ac$400, ca.tr.ta, ca.tr.cl, ca.tr.br
+00 12p lunch, ca.gm.ud, ca.sk$200, ca.ac$400, ca.tr.ta, ca.tr.cl, ca.tr.br, ca.pm
 15 ... |||
 30 (4) |||
 45 ... |||
@@ -470,3 +474,14 @@ d3/d3/dist/justfiles/gitjia run=".\jj.bat"
 
 in 
 ...
+. sk$150 - (Fri 10/27/2017 @9:44A)
+. ac$400 - (Fri 10/27/2017 @9:44A)
+. tr$300 - (Fri 10/27/2017 @9:44A)
+. ab$150 - (Fri 10/27/2017 @9:44A)
+. am$100 - (Fri 10/27/2017 @9:44A)
+. fo$150 - (Fri 10/27/2017 @9:45A)
+. sp$100 - (Fri 10/27/2017 @9:45A)
+. wa$100 - (Fri 10/27/2017 @9:46A)
+. ix$130 - (Fri 10/27/2017 @9:50A)
+. te$150 - (Fri 10/27/2017 @9:50A)
+. dt$100 - (Fri 10/27/2017 @9:50A)
