@@ -480,10 +480,6 @@ d3/d3/dist/justfiles/gitjia run=".\jj.bat"
 
 in 
 ...
-. fo$150 - (Fri 10/27/2017 @9:45A)
-
-. go.tr$300 - (Fri 10/27/2017 @9:44A)
-. go.ab$150 - (Fri 10/27/2017 @9:44A)
 . go.am$100 - (Fri 10/27/2017 @9:44A)
 . go.ix$130 - (Fri 10/27/2017 @9:50A)
 
