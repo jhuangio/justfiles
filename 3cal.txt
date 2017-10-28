@@ -489,10 +489,9 @@ in
 . Tr.br$120(pd)
 
 . Sat
+  . Fix$130
   . Tr.br.more?
   . Tr.cw$80
 . Sun
 . Mon
   . Ca.tr.br$80.cdb
-Aaa
-BBB
