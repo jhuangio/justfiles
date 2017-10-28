@@ -504,7 +504,7 @@ Do
 . Ca.gm
 . Go.fx$130.i7
 . Go.am.loan$500
-. Fruits
 . Candy
 . Cat treats
 . Dog treats
+. Order seat covers
