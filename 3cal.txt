@@ -506,5 +506,7 @@ Do
 . Go.am.loan$500
 . Candy
 . Cat treats
-. Dog treats
+. Dog treat
+. Peanut butter bars
+. Noosa
 . Order seat covers
