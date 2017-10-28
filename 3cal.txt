@@ -400,7 +400,7 @@ day - thr - 10/26/17
 45 ... 
 00 .4p 
 15 ... 
-30 [0] lw, ca.gm.ud, ca.tr$300.ta..cl..br, ca.ab, ca.pm
+30 [0] lw, ca.gm.ud, ca.pm
 45 ... 
 00 .5p 
 15 ... 
@@ -495,3 +495,9 @@ in
 . Sun
 . Mon
   . Ca.tr.br$80.cdb
+
+Do
+...
+. Ca.pm
+. Ca.gm
+. Go.fx$130.i7
