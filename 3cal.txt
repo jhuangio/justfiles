@@ -504,9 +504,4 @@ Do
 . Ca.gm
 . Go.fx$130.i7
 . Go.am.loan$500
-. Candy
-. Cat treats
-. Dog treat
-. Peanut butter bars
-. Noosa
 . Order seat covers
