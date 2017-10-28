@@ -502,3 +502,4 @@ Do
 . Ca.pm
 . Ca.gm
 . Go.fx$130.i7
+. Go.am.loan$500
