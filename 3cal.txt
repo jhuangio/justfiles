@@ -1,6 +1,8 @@
-----------------------------------
-act.dd.icons.log.cal.www.uk.day.in
-----------------------------------
+123456789012345678901234567890
+-----------------------------
+act.dd.icons.log.cal.www.uk.
+day.in
+-----------------------------
 thr.10/26/17@8:18a
 ...
 . cat.2107093
@@ -9,7 +11,8 @@ thr.10/26/17@8:18a
 . $206
 . $40.52 - gw
 ...
-. be.westchase - (813) 792-0637
+. be.westchase
+  (813) 792-0637
   9912 W Linebaugh Ave.,
   Tampa, FL 33626
 ...
@@ -19,7 +22,8 @@ thr.10/26/17@8:18a
   . fri: 9a-.6p
   . sat: 9a-1p
 ...
-metlife.dental - (877) 638-3379 pdp plus network www.metlife.com
+metlife.dental
+(877) 638-3379 pdp plus network www.metlife.com
 charlotte a fowler, dmd - (813) 235-0957
 greenberg dental & ortho tnc
 10041 w hillsborough Ave
@@ -47,10 +51,13 @@ act
 . d  - law.chg.name.cat
 . ca - call ch.law.6mon.4/18
 . d  - law.will+
-. g  - wm get new bikes? or get never flat tires (4)
+. g  - wm get new bikes? 
+  or get never flat tires (4)
 . d  - isleepeasy.app order
-. d  - order drdorris.com audio cd
-. d  - find hair place for cat.trim
+. d  - order drdorris.com 
+  audio cd
+. d  - find hair place for 
+  cat.trim
 . sk$150pd1013
 . dt$67
 . gm$300pd1013
@@ -72,7 +79,8 @@ act
 . -101.tepd1013
 . -100.dt 
 . 0000.ba
-. g  - tl$150 - (Fri 10/13/2017 @8:16A)
+. g  - tl$150
+  (Fri 10/13/2017 @8:16A)
 . g  - ab$150 - (Fri 10/13/2017 @8:20A)
 . g  - am$552 - (Fri 10/13/2017 @8:22A)
 . g  - am$500+ - (Fri 10/13/2017 @8:22A)
@@ -133,7 +141,7 @@ cp - cat.poo
 ct - citrus.park
 d  - do
 da - data
-dc - document
+dc - Dunedin.causeway
 df - drop.off
 dm - dev.meet
 do - doctor
@@ -278,7 +286,7 @@ log
 cal
 ...
 1027.fri.14 - [p], ^g, am$552+25lf, ca.gm.lm.ud, cat$500(pd), ab$150, go.ct.ix.i7$130, d.ad.ah, w.s8, dp.cp, ca.pm
-1028.sat.13 - gs, po.g..r
+1028.sat.13 - gs, po.g.dc
 1029.sun.12 - *wg.xan.pu
 1030.mon.11 - dr.wr, [10a.su][1], [1:30p.pps.3d][2], [3p.it.4w][3]
 1031.tue.10 - ^gr, [10a.su][1]
@@ -434,9 +442,8 @@ day - thr - 10/26/17
 45 ... 
 00 12a 
 
-----------------------------------
-act.dd.icons.log.cal.www.uk.day.in
-----------------------------------
+------------------------------act.dd.icons.log.cal.www.uk.day.in
+------------------------------
 
 ps
 ...
@@ -504,4 +511,4 @@ Do
 . Ca.gm
 . Go.am.loan$500
 . Order seat covers
-. Left the house at 10:08 AM Saturday 
+. Setup cb acct 
