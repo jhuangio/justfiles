@@ -1,89 +1,209 @@
-sprint 18 notes 
+dd
 ...
-. t notes - coverage edits
-  . enhance home package
-    . hide results do not allow edits grey them out
-    . lookup values and display values along with greyed out options
-  . other member household
-    . allow for 3 max
-. t notes - pho discounts - xwind
-  . discount question - wind exclusion
-  . notes - derived based on wind exclusion y/n 
-  . disc - WNX
-  . rules - if wind exclusion = y, cannot have wind mit and hail resistant Roof
-  . status - Create edit - if Wind Exclusion = Y, do not allow Hail Resistant Roof (HRR) or Wind Mitigation Discounts (WN1, WN2, WN3)
+@  - at
++  - get
+$  - pay
+3d - 3.deathstar
+3o - 3.osprey
+3w - 3.woodstork
+4  - for
+4p - 4.pelican
+4t - 4.pterodactyl
+4w - 4.whiteibis
+7  - 711
+a  - arrive
+ab - abron
+ac - att.cell
+ad - take.add
+af - after.work
+ah - a.home
+ai - auto.ins
+am - amscot
+ap - amazon.prime
+at - alex.ut
+aw - a.work
+b  - bike
+ba - bal
+bb - best.buys
+be - bright.eyes
+bi - bankers
+bm - bitter.mellon
+br - bradenton
+bs - bi.su
+c# - conf#
+c  - cal
+ca - call
+cb - cho lon bad bro
+cd - cdb
+ce - chinese.eggplant
+cg - cho lon good bro
+ch - clean house
+ci - cig
+cl - clearwater
+cn - conf#
+co - $oh
+cp - cat.poo
+ct - citrus.park
+d  - do
+da - data
+dc - document
+df - drop.off
+dm - dev.meet
+do - doctor
+dp - dog.poo
+dr - day.rev
+ds - deathstar
+dt - dir.tv
+e  - eye dr
+ed - end.day
+em - email
+f  - file
+fg - fight
+fi - find
+fo - food
+fr - fruit
+ft - fight
+g  - gym
+gc - go.cha
+gl - glasses
+gm - gm fin
+gn - good.night
+go - go
+gr - garbage out
+gs - garage.sale
+gw - grow
+hc - haircut
+hd - help.desk
+hl - hyatt.leg
+hr - home.retro
+i  - inbox
+i7 - iphone7
+ic - itunes
+ip - interview.person
+it - in time
+ix - ifix
+js - javascript
+kl - kitty.l
+l  - leave
+lf - late.fee
+lh - l.home
+lm - loss.mit.dept
+lw - l.work
+ln - louie.ny
+lo - loan
+lt - laptop
+lu - lunch
+ly - laundry
+m  - mow yard
+me - me.tong
+ml - met.life
+mp - metro.pcs
+mw - mom wh
+mo - mow
+oc - oceanic
+oh - on.hand
+ol - online
+oo - 1.on.1
+op - onphone
+p  - payday
+pd - paid
+pi - phone.interview
+pm - pawnmax
+po - pokemon
+pr - print
+ps - pluralsight
+pu - pick.up
+px - publix
+r  - raids
+ra - reis auto
+rc - received
+rd - redbox.dvd
+re - resume
+s  - sprint
+s8 - sk8te
+sg - sprint.plan
+sh - sm.horizon.plan
+sk - skyway moto
+sn - sprint.test
+sp - spectrum
+sr - sprint.rev
+st - sub.task
+su - stand.up
+sw - speedway
+t  - today
+te - teco
+ta - tampa
+tr - trulieve
+ud - update
+uk - unknown
+w  - walk bebe
+wa - water
+wg - walgreens
+wi - wip
+wm - walmart
+wp - warby.parker
+wr - week.rev
+ws - woodstork
+zo - zolphram
+zz - zoom.zoom
 
+. sk$150pd1013
+. dt$67
+. gm$300pd1013
+. am$552
+. te$101pd1013
+. ai$300
+. 1900.bal
+. -150.skpd1013
+. -300.gmpd1013
+. -150.tl
+. -000.ai
+. -300.ab
+. -100.am
+. -200.gl
+. -050.hc
+. -300.fo
+. -100.gcpd1013
+. -050.icpd1013
+. -101.tepd1013
+. -100.dt 
+. 0000.ba
+. g  - tl$150 - (Fri 10/13/2017 @8:16A)
+. g  - ab$150 - (Fri 10/13/2017 @8:20A)
+. g  - am$552 - (Fri 10/13/2017 @8:22A)
+. g  - am$500+ - (Fri 10/13/2017 @8:22A)
+. g  - c.sat<4p.tl$150 - (Fri 10/13/2017 @8:25A)
+. g  - c.sat@11a.e$0 - (Fri 10/13/2017 @8:26A)
+. d  - hc$50.cat - (Fri 10/13/2017 @8:26A)
+. ca - dt$100 - (Fri 10/13/2017 @8:27A)
+. ins.manny$300
+. ca - do.specialist.chest
+. sk$150(pd) - (Fri 10/27/2017 @1:22P)
+. ac$385.05(pd) - (Fri 10/27/2017 @9:44A)
+
+. gm.lm - (877) 817-1332
+  . LossPrevExpLn@gmfinancial.com
+  . mon-thr: 9a-9p cst
+  . fri: 9a-.6p
+  . sat: 9a-1p
+
+  . be.westchase - (813) 792-0637
+  9912 W Linebaugh Ave.,
+  Tampa, FL 33626
+
+icons
 ...
+g  >
+ca [  
+d  <
+f  ^
+bi #
 
-. HOADHOC-1629: add ui logic to make credit manditory for certain scenarios - deploy to prod
-
-. HOADHOC-1635: update ui changes with the static changes - deploy to prod 
-
-. HOADHOC-1767: api update to accommodate discount surcharge edit - deploy to prod 
-
-. HOADHOC-1772: update ui and api for coverage edits - to do 
-  1. enhanced home package
-     . Update edit in UI - when EHP coverages grayed, should be checked and display cov limits based on table
-     . Return the default limits based for the certain coverage amounts from the {{BBPFP655}} (already returning other values from the file in the CoverageController). _REMEMBER_ - Will need to map these from the iSeries data to the API data.
-     . In UI when the Enhanced Home Package is selected - instead of graying out the coverage that are part of the package and un-selecting them - they should be selected and the limit values should be set to the new values returned from the {{BBPFP655}} table
-     . When the API saves the data for the coverages to the iSeries in the Coverage Controller - if they select the Enhanced Home package - it will set the values of the Coverages that are part of the package (Additional Replacement Cost, Personal Property Replacement Cost, etc.) to not selected (even though they are selected).
-  2. other members of household - max 3 other residents, 4 or more not allowed 
-     . Update popover-sub-form UI component to have an input of the maximum number of records. Once the user hits the maximum number of inputs hide the Add Item button since the user hit the maximum number of records. 
-
-. HOADHOC-1773: update ui and api to handle the payment plans for pho to display correctly - deploy to prod
-
-. HOADHOC-1807: add logic in api for x-wind - to do
-  . For PHO only:
-    If a user selects X-Wind disable fields (canEdit = false) and set selected value of false (or clear value) for: 
-    Wind Mitigation Discount (and Wind Mitigation Selected Option), Hail Resistant Roof (and Hail Resistant Roof Install Date).
-  . Logic would be in the Quote Aggregate when it sets the Discount/Surcharge (old Policy Modification data).
-
+www
 ...
+. https://fl-tampa.pogoalerts.net
 
-notes
-...
-HomeOwnersApi.iSeries.Web/Controllers/PropertyDetailController.cs 
-HomeOwnersApi.WriteMode/Aggregates/Quote/Quote.cs 
-HomeOwnersApi.WriteMode/Commands/Handlers/SubmitCoverageCommandHandler.cs 
-HomeOwnersApi.WriteModel/Commands/Handlers/SubmitPropertyDetailsCommandHandler.cs 
-
-If Wind Exclusion = y
-
-cannot have
-...
-. wind Mitigation Discount
-. Hail Resistant Roof
-
-kev
-...
-. dynamic comment or text - when does it refresh? t changed text did not refresh when she exited page only refreshed when she changed property details from roof Modification
-. predate - postdate range does not look up on saved quotes with effective dates outside the range of predate - post dates
-
-code 
-...
-.ClearSelectedValue();
-
-if (isPho && XWindModified && XWind = true)
-{
-  PropertyDetail.XWind.CanEdit=false
-}
-
-            if (ProductId == "PHO")
-            {
-              if (XWind = true)
-              {
-                discountSurcharge.HasHailREsistantRoof.SetSelectedValue(false);
-                discountSurcharge.HasWindMitigationDiscount.SetSelectedValue(false);
-	              discountSurcharge.WindMitigationDiscounts.ClearnSelectedValue();
-                discountSurcharge.HailResistantRoofInstallationDate.ClearSelectedValue();
-              }
-
-                discountSurcharge.PriorInsurance.CanView = false;
-                ...
-
-            }
-            else
-            {
-                discountSurcharge.NewHomePurchaseDate.CanView = false;
-                ...
-            }
+. metlife.dental - 
+  . (877)638-3379 
+  . pdp plus network 
+  . www.metlife.com

@@ -1,295 +1,127 @@
-----------------------------------
-act.dd.icons.log.cal.www.uk.day.in
-----------------------------------
-thr.10/26/17@8:18a
+123456789012345678901234567890
+------------------
+act.log.cal.day.in
+------------------
 ...
 . cat.2107093
 . me .2180810
-. gw$215.42
 ...
-. be.westchase - (813) 792-0637
-  9912 W Linebaugh Ave.,
-  Tampa, FL 33626
+. $544
+. gw$9.13
 ...
-. gm.lm - (877) 817-1332
-  . LossPrevExpLn@gmfinancial.com
-  . mon-thr: 9a-9p cst
-  . fri: 9a-.6p
-  . sat: 9a-1p
+. charlotte a fowler dmd
+  . (813) 235-0957
+  . greenberg dental & ortho 
+  . 10041 w hillsborough Ave
+  . tampa, fl 33613
+  . 11/4.sat.1:30a-2p
 ...
-metlife.dental - (877) 638-3379 pdp plus network www.metlife.com
-charlotte a fowler, dmd - (813) 235-0957
-greenberg dental & ortho tnc
-10041 w hillsborough Ave
-tampa, fl 33613
-...
-. $25
 
+123456789012345678901234567890
 act
 ...
 . d  - reg.boat
 . d  - reg.trailer
 . ca - law.update                 
 . d  - law.docs
-. am - $521+25
+. am - $552.11/24
 . cg - $400
 . cb - $375.10/24
 . pm - $150
 . g  - apple store ipad.pro
 . d  - order seatcov
 . $  - cable bill
-. $  - sk300.9/29
-. $  - gm600.9/29
-. d  - coolant rebate
+. $  - sk300.11/15
+. $  - te130.11/15
+. $  - gm400.11/15
 . ca - hl.expire?3/19?
 . d  - law.chg.name.cat
 . ca - call ch.law.6mon.4/18
 . d  - law.will+
-. g  - wm get new bikes? or get never flat tires (4)
+. g  - wm get new bikes? or 
+       . never flat tires 
 . d  - isleepeasy.app order
-. d  - order drdorris.com audio cd
-. d  - find hair place for cat.trim
-. sk$150pd1013
-. dt$67
-. gm$300pd1013
-. am$552
-. te$101pd1013
-. ai$300
-. 1900.bal
-. -150.skpd1013
-. -300.gmpd1013
-. -150.tl
-. -000.ai
-. -300.ab
-. -100.am
-. -200.gl
-. -050.hc
-. -300.fo
-. -100.gcpd1013
-. -050.icpd1013
-. -101.tepd1013
-. -100.dt 
-. 0000.ba
-. g  - tl$150 - (Fri 10/13/2017 @8:16A)
-. g  - ab$150 - (Fri 10/13/2017 @8:20A)
-. g  - am$552 - (Fri 10/13/2017 @8:22A)
-. g  - am$500+ - (Fri 10/13/2017 @8:22A)
-. g  - c.sat<4p.tl$150 - (Fri 10/13/2017 @8:25A)
-. g  - c.sat@11a.e$0 - (Fri 10/13/2017 @8:26A)
-. d  - hc$50.cat - (Fri 10/13/2017 @8:26A)
-. ca - dt$100 - (Fri 10/13/2017 @8:27A)
-. ins.manny$300
-. ca - do.specialist.chest
-. sk$150(pd) - (Fri 10/27/2017 @1:22P)
-. ac$385.05(pd) - (Fri 10/27/2017 @9:44A)
+. d  - order drdorris.com 
+       . audio cd
+. d  - find hair place for 
+       . cat.trim
 
-dd
-...
-@  - at
-+  - get
-$  - pay
-3d - 3.deathstar
-3o - 3.osprey
-3w - 3.woodstork
-4  - for
-4p - 4.pelican
-4t - 4.pterodactyl
-4w - 4.whiteibis
-7  - 711
-a  - arrive
-ab - abron
-ac - att.cell
-ad - take.add
-af - after.work
-ah - a.home
-ai - auto.ins
-am - amscot
-ap - amazon.prime
-at - alex.ut
-aw - a.work
-b  - bike
-ba - bal
-bb - best.buys
-be - bright.eyes
-bi - bankers
-bm - bitter.mellon
-br - bradenton
-bs - bi.su
-c# - conf#
-c  - cal
-ca - call
-cb - cho lon bad bro
-cd - cdb
-ce - chinese.eggplant
-cg - cho lon good bro
-ch - clean house
-ci - cig
-cl - clearwater
-cn - conf#
-co - $oh
-cp - cat.poo
-ct - citrus.park
-d  - do
-da - data
-dc - document
-df - drop.off
-dm - dev.meet
-do - doctor
-dp - dog.poo
-dr - day.rev
-ds - deathstar
-dt - dir.tv
-e  - eye dr
-ed - end.day
-em - email
-f  - file
-fg - fight
-fi - find
-fo - food
-fr - fruit
-ft - fight
-g  - gym
-gc - go.cha
-gl - glasses
-gm - gm fin
-gn - good.night
-go - go
-gr - garbage out
-gs - garage.sale
-gw - grow
-hc - haircut
-hd - help.desk
-hl - hyatt.leg
-hr - home.retro
-i  - inbox
-i7 - iphone7
-ic - itunes
-ip - interview.person
-it - in time
-ix - ifix
-js - javascript
-kl - kitty.l
-l  - leave
-lf - late.fee
-lh - l.home
-lm - loss.mit.dept
-lw - l.work
-ln - louie.ny
-lo - loan
-lt - laptop
-lu - lunch
-ly - laundry
-m  - mow yard
-me - me.tong
-ml - met.life
-mp - metro.pcs
-mw - mom wh
-mo - mow
-oc - oceanic
-oh - on.hand
-ol - online
-op - onphone
-p  - payday
-pd - paid
-pi - phone.interview
-pm - pawnmax
-po - pokemon
-pr - print
-ps - pluralsight
-pu - pick.up
-px - publix
-r  - raids
-ra - reis auto
-rc - received
-rd - redbox.dvd
-re - resume
-s  - sprint
-s8 - sk8te
-sg - sprint.plan
-sh - sm.horizon.plan
-sk - skyway moto
-sn - sprint.test
-sp - spectrum
-sr - sprint.rev
-st - sub.task
-su - stand.up
-sw - speedway
-t  - today
-te - teco
-ta - tampa
-tr - trulieve
-ud - update
-uk - unknown
-w  - walk bebe
-wa - water
-wg - walgreens
-wi - wip
-wm - walmart
-wp - warby.parker
-wr - week.rev
-ws - woodstork
-zo - zolphram
-zz - zoom.zoom
-
-icons
-...
-g  >
-ca [  
-d  <
-f  ^
-bi #
-
+123456789012345678901234567890
 log
 ...
 0919.tue.10 - sk8, wbebe
 0920.wed.09 - *abron, 2pk.ci
-0921.thr.08 - m2raid@7p, sk8, wbebe
+0921.thr.08 - m2raid@7p, sk8, 
+  wbebe
 0922.fri.07 - ^gr, spoke.ln
-0923.sat.06 - mom, got am.lo$500
+0923.sat.06 - mom, 
+  got am.lo$500
 0924.sun.05 - [2mon] ch
 0926.tue.03 - ^gr, wg.x
-0929.fri.14 - [p], gm$600, pd$30.mp.ol.c#797970894, sk.pd$200.op.bal$1800, interviewed.bei.liu
+0929.fri.14 - [p], gm$600, 
+  pd$30.mp.ol.c#797970894, 
+    sk.pd$200.op.bal$1800, 
+      interviewed.bei.liu
 0930.sat.13 - ab$150
 1002.mon.11 - tr$280, zz
 1003.tue.10 - ^gr
-1004.wed.09 - wg.pu.zo, ap.rc.go-cha
+1004.wed.09 - wg.pu.zo, 
+  ap.rc.go-cha
 1005.thr.08 - w, s8
 1008.sun.05 - mo
 1009.mon.04 - ft
 1010.tue.03 - ft, gr
 1011.wed.02 - ft, wg.add.pu
 1012.thr.01 - gn, w, s8
-1013.fri.14 - [p], sk$150pd, te$101pd, gm$300pd, dt$67pd, hc
-1014.sat.13 - eye.dr, ab$150pd, zz, w, s8
+1013.fri.14 - [p], sk$150pd, 
+  te$101pd, gm$300pd, 
+  dt$67pd, hc
+1014.sat.13 - eye.dr, 
+  ab$150pd, zz, w, s8
 1015.sun.12 - zz
 1016.mon.11 - w, s8, zz
 1017.tue.10 - po.r.x3, w.s8
-1018.wed.09 - chris.tate.pi, jessie.valladares.pi, tl.br.pu.cd$80, po.g20
+1018.wed.09 - chris.tate.pi, 
+  jessie.valladares.pi, 
+    tl.br.pu.cd$80, po.g20
 1019.thr.08 - w.s8, po.g20
 1020.fri.07 - ^gr, po.g20
-1021.sat.06 - mw@1p, pu.glasses, po.g20
+1021.sat.06 - mw@1p, 
+  pu.glasses, po.g20
 1022.sun.05 - fg
-1023.mon.04 - bi.matt.brown.pi, bi.oneonone
-1024.tue.03 - [3mo] ^gr, bi.final.jessie.valladares(+)
-1026.thr.01 - bi.ip.matt.brown(-)
+1023.mon.04 - matt.brown.pi, 
+  bi.oneonone
+1024.tue.03 - [3mo] ^gr, 
+  final.jessie.valladares(+)
+1026.thr.01 - ip.matt.brown(-)
+1027.fri.14 - [p], cat$500(pd), 
+  ab$150(pd)
+1028.sat.13 - fx.i7$130(pd)
+1029.sun.12 - fight
 
+123456789012345678901234567890
 cal
 ...
-1027.fri.14 - [p], ^g, am$552+25lf, ca.gm.lm.ud, cat$500(pd), ab$150, go.ct.ix.i7$130, d.ad.ah, w.s8, dp.cp, ca.pm
-1028.sat.13 - gs, po.g..r
-1029.sun.12 - *wg.xan.pu
-1030.mon.11 - dr.wr, [10a.su][1], [1:30p.pps.3d][2], [3p.it.4w][3]
+1030.mon.11 - dr.wr, 
+  [10a.su][1], 
+  [1:30p.pps.3d][2], 
+  [3p.it.4w][3]
+  [4p.oo.3d][4]
 1031.tue.10 - ^gr, [10a.su][1]
-1101.wed.09 - [10a.su][1], [11a.dev.3o][2]
-1102.thr.08 - [10a.su][1], [1p.sh.3o][2]
-1103.fri.07 - bi>open.enroll.11/17, [10a.su][1]
+1101.wed.09 - [10a.su][1], 
+  [11a.dev.3o][2]
+1102.thr.08 - [10a.su][1], 
+  [1p.sh.3o][2]
+1103.fri.07 - bi>open.enroll
+  ends.11/17, [10a.su][1]
 1104.sat.06 - 1:30p-2p dental 
 1105.sun.05 - 
 1106.mon.04 - hc?
 1107.tue.03 -
 1108.wed.02 -
 1109.thr.01 - pm.$125+1xint
-1110.fri.14 - [p] cb$400, pm$200, wa$100
+1110.fri.14 - [p] cb$400, 
+  pm$200, wa$100
 1111.sat.13 - 
 1112.sun.12 - 
 1113.mon.11 - 
@@ -299,7 +131,8 @@ cal
 1117.fri.07 - 
 1118.sat.06 - 
 1119.sun.05 - 
-1120.mon.04 - bi.jessie.v.1st.day
+1120.mon.04 - jessie.v.
+  1st.day
 1121.tue.03 -
 1122.wed.02 - 
 1123.thr.01 -
@@ -356,11 +189,9 @@ cal
 0113.sat.06 - 
 0114.sun.05 -
 
-www
+123456789012345678901234567890
 ...
-. https://fl-tampa.pogoalerts.net
-
-day - thr - 10/26/17
+day.mon.10/30/17
 ...
 00 .7a `
 15 ... `
@@ -370,23 +201,25 @@ day - thr - 10/26/17
 15 ... `
 30 (8) `
 45 ... `
-00 .9a `
-15 ... `
-30 ... `
-45 ... `
-00 10a `[su][1]
-15 ... `
-30 (6) `
-45 ... `
-00 11a `
-15 ... `
-30 (5) `
-45 ... `
-00 12p `lunch
-15 ... `|||
-30 (4) `|||
-45 ... `|||
-00 .1p `
+00 .9a 
+15 ... 
+30 ... 
+45 ... 
+00 10a [su][1]
+15 ... 
+30 (6) 
+45 ... 
+00 11a 
+15 ... 
+30 (5) 
+45 ... 
+00 12p lunch, 
+  ca.gm.ud, go.pm, 
+  ca.wg.my.ad
+15 ... |||
+30 (4) |||
+45 ... |||
+00 .1p 
 15 ... 
 30 (3) 
 45 ... 
@@ -400,7 +233,7 @@ day - thr - 10/26/17
 45 ... 
 00 .4p 
 15 ... 
-30 [0] lw, ca.gm.ud, ca.tr$300.ta..cl..br, ca.ab, ca.pm
+30 [0] lw
 45 ... 
 00 .5p 
 15 ... 
@@ -414,15 +247,15 @@ day - thr - 10/26/17
 15 ... 
 30 ... 
 45 ... 
-00 .8p ifix$130.citrus.park
+00 .8p 
 15 ... 
 30 ... 
 45 ... 
 00 .9p 
 15 ... 
 30 ... 
-45 ... ah.ad
-00 10p w.s8, gr, dp.cp
+45 ... 
+00 10p 
 15 ... 
 30 ... 
 45 ... 
@@ -433,61 +266,8 @@ day - thr - 10/26/17
 00 12a 
 
 ----------------------------------
-act.dd.icons.log.cal.www.uk.day.in
+act.log.cal.day.in
 ----------------------------------
-
-ps
-...
-. ng2 - rxjs observables - (Thu 10/12/2017 @8:26A)
-. introduction to regular expression (regex) - josh d - 3h - (Thu 10/12/2017 @8:41A)
-. regular expression fundamentals - juliette r - 2h - (Thu 10/12/2017 @8:42A)
-. js objects and prototypes - jim c - 1h - (Fri 10/27/2017 @3:34P)(15)
-
-da
-...
-. PHO test address
-
-  . 110 Inner Campus Dr.
-  . Austin, TX
-
-. FL HO3 address
-
-  . 521 85th Ave. N 
-  . St. Pete, FL 33702
-
-. kibana production link
-  . http://savpubuntuitlv01:5601/app/kibana#/discover?_g=(refreshInterval:(display:Off,pause:!f,value:0),time:(from:now%2Fw,mode:quick,to:now%2Fw))&_a=(columns:!(host,Level,Name,ContextId,CorrelationId),index:'filebeat-*',interval:auto,query:(query_string:(analyz
-  . servers
-    . dev:  http://savdubuntuitlv01:5601/app/kibana#/discover?_g=() 
-    . sqa:  http://savsubuntuitlv01:5701/ 
-    . uat:  http://savuubuntuitlv01:5601/ 
-    . prod: http://savpubuntuitlv01:5601/ 
-
-. team city
-  . http://build.bankersinsurance.com:82/login.html
-
-. PRODUCTION ERROR SUMMARY
-...
-. DATE - 
-. TIMESTAMP - 
-. # KIBANA ITEMS - 
-. CONTEXT ID -
-. CORRELATION ID - 
-...
-. DETAILS :
-
-d3/d3/dist/justfiles/gitjia run=".\jj.bat"
 
 in 
 ...
-. fo$150 - (Fri 10/27/2017 @9:45A)
-
-. go.tr$300 - (Fri 10/27/2017 @9:44A)
-. go.ab$150 - (Fri 10/27/2017 @9:44A)
-. go.am$100 - (Fri 10/27/2017 @9:44A)
-. go.ix$130 - (Fri 10/27/2017 @9:50A)
-
-. ca.te($)121.80 - (Fri 10/27/2017 @9:50A)
-. ca.dt($)100 - (Fri 10/27/2017 @9:50A)
-. ca.sp($)100 - (Fri 10/27/2017 @9:45A)
-

@@ -1,5 +1,41 @@
 data
 ...
+
+da
+...
+. PHO test address
+
+  . 110 Inner Campus Dr.
+  . Austin, TX
+
+. FL HO3 address
+
+  . 521 85th Ave. N 
+  . St. Pete, FL 33702
+
+. kibana production link
+  . http://savpubuntuitlv01:5601/app/kibana#/discover?_g=(refreshInterval:(display:Off,pause:!f,value:0),time:(from:now%2Fw,mode:quick,to:now%2Fw))&_a=(columns:!(host,Level,Name,ContextId,CorrelationId),index:'filebeat-*',interval:auto,query:(query_string:(analyz
+  . servers
+    . dev:  http://savdubuntuitlv01:5601/app/kibana#/discover?_g=() 
+    . sqa:  http://savsubuntuitlv01:5701/ 
+    . uat:  http://savuubuntuitlv01:5601/ 
+    . prod: http://savpubuntuitlv01:5601/ 
+
+. team city
+  . http://build.bankersinsurance.com:82/login.html
+
+. PRODUCTION ERROR SUMMARY
+...
+. DATE - 
+. TIMESTAMP - 
+. # KIBANA ITEMS - 
+. CONTEXT ID -
+. CORRELATION ID - 
+...
+. DETAILS :
+
+d3/d3/dist/justfiles/gitjia run=".\jj.bat"
+
 . trulieve bradenton
   . accross from shannon's funeral home
   . 1015 14th St W, Bradenton, FL 34205
