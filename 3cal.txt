@@ -1,18 +1,13 @@
-123456789012345678901234567890
------------------------------
-act.dd.icons.log.cal.www.uk.
-day.in
------------------------------
+----------------------------------
+act.dd.icons.log.cal.www.uk.day.in
+----------------------------------
 thr.10/26/17@8:18a
 ...
 . cat.2107093
 . me .2180810
 . gw$215.42
-. $206
-. $40.52 - gw
 ...
-. be.westchase
-  (813) 792-0637
+. be.westchase - (813) 792-0637
   9912 W Linebaugh Ave.,
   Tampa, FL 33626
 ...
@@ -22,8 +17,7 @@ thr.10/26/17@8:18a
   . fri: 9a-.6p
   . sat: 9a-1p
 ...
-metlife.dental
-(877) 638-3379 pdp plus network www.metlife.com
+metlife.dental - (877) 638-3379 pdp plus network www.metlife.com
 charlotte a fowler, dmd - (813) 235-0957
 greenberg dental & ortho tnc
 10041 w hillsborough Ave
@@ -51,13 +45,10 @@ act
 . d  - law.chg.name.cat
 . ca - call ch.law.6mon.4/18
 . d  - law.will+
-. g  - wm get new bikes? 
-  or get never flat tires (4)
+. g  - wm get new bikes? or get never flat tires (4)
 . d  - isleepeasy.app order
-. d  - order drdorris.com 
-  audio cd
-. d  - find hair place for 
-  cat.trim
+. d  - order drdorris.com audio cd
+. d  - find hair place for cat.trim
 . sk$150pd1013
 . dt$67
 . gm$300pd1013
@@ -79,8 +70,7 @@ act
 . -101.tepd1013
 . -100.dt 
 . 0000.ba
-. g  - tl$150
-  (Fri 10/13/2017 @8:16A)
+. g  - tl$150 - (Fri 10/13/2017 @8:16A)
 . g  - ab$150 - (Fri 10/13/2017 @8:20A)
 . g  - am$552 - (Fri 10/13/2017 @8:22A)
 . g  - am$500+ - (Fri 10/13/2017 @8:22A)
@@ -141,7 +131,7 @@ cp - cat.poo
 ct - citrus.park
 d  - do
 da - data
-dc - Dunedin.causeway
+dc - document
 df - drop.off
 dm - dev.meet
 do - doctor
@@ -281,12 +271,12 @@ log
 1022.sun.05 - fg
 1023.mon.04 - bi.matt.brown.pi, bi.oneonone
 1024.tue.03 - [3mo] ^gr, bi.final.jessie.valladares(+)
-1026.thr.01 - ip.matt.brown(-)
+1026.thr.01 - bi.ip.matt.brown(-)
 
 cal
 ...
 1027.fri.14 - [p], ^g, am$552+25lf, ca.gm.lm.ud, cat$500(pd), ab$150, go.ct.ix.i7$130, d.ad.ah, w.s8, dp.cp, ca.pm
-1028.sat.13 - gs, po.g.dc
+1028.sat.13 - gs, po.g..r
 1029.sun.12 - *wg.xan.pu
 1030.mon.11 - dr.wr, [10a.su][1], [1:30p.pps.3d][2], [3p.it.4w][3]
 1031.tue.10 - ^gr, [10a.su][1]
@@ -410,7 +400,7 @@ day - thr - 10/26/17
 45 ... 
 00 .4p 
 15 ... 
-30 [0] lw, ca.gm.ud, ca.pm
+30 [0] lw, ca.gm.ud, ca.tr$300.ta..cl..br, ca.ab, ca.pm
 45 ... 
 00 .5p 
 15 ... 
@@ -442,8 +432,9 @@ day - thr - 10/26/17
 45 ... 
 00 12a 
 
-------------------------------act.dd.icons.log.cal.www.uk.day.in
-------------------------------
+----------------------------------
+act.dd.icons.log.cal.www.uk.day.in
+----------------------------------
 
 ps
 ...
@@ -489,26 +480,14 @@ d3/d3/dist/justfiles/gitjia run=".\jj.bat"
 
 in 
 ...
+. fo$150 - (Fri 10/27/2017 @9:45A)
+
+. go.tr$300 - (Fri 10/27/2017 @9:44A)
+. go.ab$150 - (Fri 10/27/2017 @9:44A)
 . go.am$100 - (Fri 10/27/2017 @9:44A)
 . go.ix$130 - (Fri 10/27/2017 @9:50A)
 
-. Dt$38.66(pd)
-. Te$121.80on11/11/17
-. Sp$68.93.auto.gw.11/11/17
-. Tr.br$120(pd)
+. ca.te($)121.80 - (Fri 10/27/2017 @9:50A)
+. ca.dt($)100 - (Fri 10/27/2017 @9:50A)
+. ca.sp($)100 - (Fri 10/27/2017 @9:45A)
 
-. Sat
-  . Fix$130
-  . Tr.br.more?
-  . Tr.cw$80
-. Sun
-. Mon
-  . Ca.tr.br$80.cdb
-
-Do
-...
-. Ca.pm
-. Ca.gm
-. Go.am.loan$500
-. Order seat covers
-. Setup cb acct 
