@@ -76,6 +76,7 @@ hc - haircut
 hd - help.desk
 hl - hyatt.leg
 hr - home.retro
+hs - hardeep.singh
 i  - inbox
 i7 - iphone7
 ic - itunes
