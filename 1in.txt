@@ -207,3 +207,57 @@ www
   . (877)638-3379 
   . pdp plus network 
   . www.metlife.com
+
+123456789012345678901234567890
+...
+log
+...
+0919.tue.10 - sk8, wbebe
+0920.wed.09 - *abron, 2pk.ci
+0921.thr.08 - m2raid@7p, sk8, 
+  wbebe
+0922.fri.07 - ^gr, spoke.ln
+0923.sat.06 - mom, 
+  got am.lo$500
+0924.sun.05 - [2mon] ch
+0926.tue.03 - ^gr, wg.x
+0929.fri.14 - [p], gm$600, 
+  pd$30.mp.ol.c#797970894, 
+    sk.pd$200.op.bal$1800, 
+      interviewed.bei.liu
+0930.sat.13 - ab$150
+1002.mon.11 - tr$280, zz
+1003.tue.10 - ^gr
+1004.wed.09 - wg.pu.zo, 
+  ap.rc.go-cha
+1005.thr.08 - w, s8
+1008.sun.05 - mo
+1009.mon.04 - ft
+1010.tue.03 - ft, gr
+1011.wed.02 - ft, wg.add.pu
+1012.thr.01 - gn, w, s8
+1013.fri.14 - [p], sk$150pd, 
+  te$101pd, gm$300pd, 
+  dt$67pd, hc
+1014.sat.13 - eye.dr, 
+  ab$150pd, zz, w, s8
+1015.sun.12 - zz
+1016.mon.11 - w, s8, zz
+1017.tue.10 - po.r.x3, w.s8
+1018.wed.09 - chris.tate.pi, 
+  jessie.valladares.pi, 
+    tl.br.pu.cd$80, po.g20
+1019.thr.08 - w.s8, po.g20
+1020.fri.07 - ^gr, po.g20
+1021.sat.06 - mw@1p, 
+  pu.glasses, po.g20
+1022.sun.05 - fg
+1023.mon.04 - matt.brown.pi, 
+  bi.oneonone
+1024.tue.03 - [3mo] ^gr, 
+  final.jessie.valladares(+)
+1026.thr.01 - ip.matt.brown(-)
+1027.fri.14 - [p], cat$500(pd), 
+  ab$150(pd)
+1028.sat.13 - fx.i7$130(pd)
+1029.sun.12 - fight
