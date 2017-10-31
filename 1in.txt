@@ -3,6 +3,7 @@ dd
 @  - at
 +  - get
 $  - pay
+$c - cash.buy
 3d - 3.deathstar
 3o - 3.osprey
 3w - 3.woodstork
@@ -58,6 +59,10 @@ e  - eye dr
 ed - end.day
 em - email
 f  - file
+f1 - fight.1day
+f2 - fight.2day
+f3 - fight.3day
+fe - fight.end
 fg - fight
 fi - find
 fo - food
@@ -101,6 +106,7 @@ ml - met.life
 mp - metro.pcs
 mw - mom wh
 mo - mow
+mu - made.up
 oc - oceanic
 oh - on.hand
 ol - online
@@ -261,4 +267,5 @@ log
 1027.fri.14 - [p], cat$500(pd), 
   ab$150(pd)
 1028.sat.13 - fx.i7$130(pd)
-1029.sun.12 - fight
+1029.sun.12 - fg
+1030.mon.11 - $c.46, bi.oo, f1.fe

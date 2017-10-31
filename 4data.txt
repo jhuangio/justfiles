@@ -24,6 +24,10 @@ da
 . team city
   . http://build.bankersinsurance.com:82/login.html
 
+. test servers
+  . dev - http://savdubuntuitlv01.big.ad.local:4201/
+  . sqa - http://savsubuntuitlv02.big.ad.local:4202/login;returnUri=%2Fpos
+
 . PRODUCTION ERROR SUMMARY
 ...
 . DATE - 
@@ -33,6 +37,8 @@ da
 . CORRELATION ID - 
 ...
 . DETAILS :
+
+a65969cc-df52-488f-9789-befecef56b06
 
 d3/d3/dist/justfiles/gitjia run=".\jj.bat"
 
@@ -5071,6 +5077,48 @@ Log
 10/28/17 - sat - ifix - $113
 
 10
+
+SAQ ERROR SUMMARY - Ron @ 5:38p Monday 10/30/17
+...
+DATE - Monday 10/30/17
+TIMESTAMP - 5:33p-5:38p
+# KIBANA ITEMS - 
+CONTEXT ID - a65969cc-df52-488f-9789-befecef56b06
+CORRELATION ID - 4eef6378-fbdd-44db-8669-2c603cb570f2
+...
+DETAILS :
+  [01] @5:33:15.952p - Trace: 
+  
+  [02] @5:33:15.952p - Trace: 
+  
+  [3] @5:33:16.952p - Trace: call SQBDCOBJ.BINPSEDRV(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?) - HomeOwnersApi.iSeries.Web
+
+  [4] @5:33:16.952p - Trace: 
+  
+  [5] @5:33:16.952p - 
+  
+  [6] @17:33:22.827p - Trace: External Valuation Service - HomeOwnersApi.Web - request
+
+  [7] @17:33:22.827p - Trace: 
+  
+  [8] @5:33:22.827p - Trace: ICommand - HomeOwnersApi.WriteModel.Commands - HomeOwnersApi.Web - data: {"QuoteId":"2e5ada83-45e8-4531-8f8e-69122c9238dc","YearBuilt":2009,"BuildingTypeId":1,"FoundationTypeId":"CS","SquareFeet":4206,"ConstructionId":1,"GarageSizeId":"2","NumberOfStoriesId":"2","OccupancyId":1,"OccupancyUseId":1,"KitchenSizeId":"L","NumberOfBathroomsId":"3","HasCoveredPorch":false,"CoveredPorchId":0,"HasSwimmingPool":false,"SwimmingPoolSizeId":0,"HasScreenedPool":false,"RoofShapeId":1,"RoofCoveringMaterialId":1,"CreditScoreRangeId":700,"UnitsWithinFirewallId":1,"ScreenedPoolLanaiId":0,"IsXWind":false,"NumberOfMonthsUnoccupied":0,"Id":"00000000-0000-0000-0000-000000000000","ExpectedVersion":0}
+  
+  [9] @5:33:22.827p - Trace: External Valuation Service - HomeOwnersApi.Web 
+  
+  [10] @5:33:22.829p - Trace: valuationReportResponse - PropertyValuationService - HomeOwnersApi.Web - data returned: json result = 52,979 characters text string - source: C:\Octopus\Applications\SQA\HomeOwnersApi.Web\0.1.159-CI\logs\2017-10-30.json
+  
+  [11] @5:33:22.829p - Trace: PUT - http://localhost:8085/api/propertydetail/replacementcost/ - HomeOwnersApi.Web
+  
+  [12] @5:35:02.836p - Trace: PUT - http://localhost:8085/api/propertydetail/ - HomeOwnersApi.Web
+  
+  [13] @5:35:02.836p - Error: DataServiceException - HomeOwnersApi.Infrastructure - HomeOwnersApi.Web - error message: An error occurred in external service 'http://localhost:8085/api/propertydetail/'.
+  
+  [14] @5:35:02.836p - Error: DataServiceException - HomeOwnersApi.Infrastructure - HomeOwnersApi.Web - error stack trace: at HomeOwnersApi.Infrastructure.DataService.HandleException[T](Task`1 task, Uri url) in C:\TeamCity\buildAgent\work\c6b7a3169addb879\HomeOwnersApi.Infrastructure\DataService.cs:line 200 at HomeOwnersApi.Infrastructure.DataService.<>c__DisplayClass10_0`2.<PutAsync>b__0(Task`1 t) in C:\TeamCity\buildAgent\work\c6b7a3169addb879\HomeOwnersApi.Infrastructure\DataService.cs:line 140 at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke() at System.Threading.Tasks.Task.Execute() --- End of stack trace from previous location where exception was thrown --- at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw() at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task) at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult() at HomeOwnersApi.Infrastructure.DataService.<PutAsync>d__10`2.MoveNext() C:\TeamCity\buildAgent\work\c6b7a3169addb879\HomeOwnersApi.Infrastructure\DataService.cs:line 139 --- End of stack trace from previous location where exception was thrown --- at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw() at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task) at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult() at HomeOwnersApi.Infrastructure.Services.PropertyDetailService.<SavePropertyDetail>d__19.MoveNext() in C:\TeamCity\buildAgent\work\c6b7a3169addb879\HomeOwnersApiInfrastructure\Services\PropertyDetailService.cs:line 93 --- End of stack trace from previous location where exception was thrown --- at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw() at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task) at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult() at HomeOwnersApi.WriteModel.Commands.Handlers.SubmitPropertyDetailsCommandHandler.<Handle>d__12 MoveNext() in C:\TeamCity\buildAgent\work\c6b7a3169addb879\HomeOwnersApi.WriteModel\Commands\Handlers\SubmitPropertyDetailsCommandHandler.cs:line 169
+  
+   [15] @5:38:50.744p - Trace: call SQBDCOBJ.BINPSPDRV(?,?,?,?) - HomeOwnersApi.iSeries.Web
+
+
+
 
 
 
