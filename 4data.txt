@@ -5142,12 +5142,26 @@ DETAILS :
 
 
 
+changes to code 10/31/17
+...
+. popover-sub-form.component.html
+  . [line: 103] changed from "> 1" to "0"
 
+. popover-sub-form.components.ts
+  . [line:245] added the following code >>>
+    . if (formArray.length === 0 && !this.formField.disabled) {
+      this.clearSelectedValueForm();
+      this.cancelPopover();
+    }
 
+  private clearSelectedValueForm(): void {
+    const length = this.getListCount(this.selectedValueForm);
 
+    for (let i = 0; i < length; i++) {
+      this.selectedValueForm.removeAt(0);
+    }
 
-
-
+  }
 
 
 

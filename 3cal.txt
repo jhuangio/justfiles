@@ -173,18 +173,18 @@ day.tue.10/31/17
 00 .1p `
 123456789012345678901234567890
 15 ... `
-30 (3) 
-45 ... 
-00 .2p 
-15 ... 
-30 (2) 
-45 ... 
-00 .3p 
-15 ... 
-30 (1) [su][2]
-45 ... 
-00 .4p 
-15 ... 
+30 (3) `
+45 ... `
+00 .2p `
+15 ... `
+30 (2) `
+45 ... `
+00 .3p `
+15 ... `
+30 (1) `[su][2]
+45 ... `
+00 .4p `
+15 ... `
 30 [0] lw
 45 ... 
 00 .5p 
@@ -224,5 +224,7 @@ act.log.cal.day.in
 
 in 
 ...
+. test in >>> sqa - http://savsubuntuitlv02.big.ad.local:4202/login;returnUri=%2Fpos
 . lw.wg.pu.zo
 . tr.t.pu.cd
+. HOADHOC-1986: lender info getting deleted when user go back and return to payment screen
