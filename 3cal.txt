@@ -224,9 +224,13 @@ act.log.cal.day.in
 
 in 
 ...
+
 . payments.component.ts
   . openMortgageModal()
   . *ngIf = "paymentFormData?.isBilledToMortgage?.canEdit"
+  . code change - wed.11/1
+    . [line:726] - add this.saveFormData();
+
 . payments.component.html
   . submitMortgageModal();
   . mortgageForm.valid
