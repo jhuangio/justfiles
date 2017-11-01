@@ -6,8 +6,8 @@ act.log.cal.day.in
 . cat.2107093
 . me .2180810
 ...
-. $488
-. gw$9.13
+. $350(11/1.wed@8:34a)
+. gw$0(x)
 ...
 . charlotte a fowler dmd
   . (813) 235-0957
@@ -224,8 +224,4 @@ act.log.cal.day.in
 
 in 
 ...
-. test in >>> sqa - http://savsubuntuitlv02.big.ad.local:4202/login;returnUri=%2Fpos
-. lw.wg.pu.zo
-. tr.t.pu.cd
-. HOADHOC-1986: lender info getting deleted when user go back and return to payment screen
-. c$
+. test
