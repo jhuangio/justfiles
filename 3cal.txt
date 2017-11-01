@@ -234,4 +234,56 @@ in
 . payments.component.html
   . submitMortgageModal();
   . mortgageForm.valid
-  
+
+this.saveFormData().then(() => {
+      this.formValueUpdated = false;
+
+      this.quoteService.getNotifications().toPromise().then(notification => {
+        this.notificationService.updateNotifications(notification);
+        this.spinner.stop();
+        this.showStopperError = notification.hasNotificationOfType(NotificationType.CannotQuote);
+        this.showstopperErrorStatus = this.notificationService.getShowstopperErrorStatus();
+
+        if (!this.showStopperError) {
+          // Get the updated quote
+          this.quoteService.updateQuote();
+
+          this.submitPaymentSuccess.open('lg');
+          this.analytics.emitEvent('Policy', 'Policy Issued', `Successfully Issued ${this.quoteService.getCurrentQuote().productId} ${this.quoteService.getCurrentQuote().stateAbbreviation} ${this.quoteService.getCurrentQuote().sublineId} Policy`);
+        }
+      }).catch(e => {
+        this.spinner.stop();
+        this.errorService.handleError('Error getting response from payment', e, true);
+      });
+
+    }).catch(e => {
+      this.spinner.stop();
+      this.errorService.handleError('Error Saving payments', e, true);
+    }
+    );
+
+  enforceOneLender() {
+    const formArray = this.mortgageFormLenders;
+    const size = formArray.length;
+    if (size === 0) {
+      this.addNewLender();
+    }
+  }
+
+
+this.saveFormData().then(() => {
+  this.formData.value.lenders = this.mortgageForm.value.lenders;
+})
+
+this.saveFormData().then(() => {
+      this.formData.controls['lenders'].setValue(firstNonNull(this.formData.value.lenders, this.mortgageForm.value.lenders));
+      this.formData.controls['isBilledToMortgage'].setValue(firstNonNull(this.formData.value.isBilledToMortgage, true));
+});
+
+  this.formData.controls['paymentMethod'].valueChanges.subscribe( paymentMethod => {
+      this.updatePaymentMethod(paymentMethod);
+    });
+
+    this.formData.controls['paymentMethod'].updateValueAndValidity();
+
+    
