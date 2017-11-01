@@ -224,3 +224,5 @@ act.log.cal.day.in
 
 in 
 ...
+. openMortgageModal()
+. *ngIf = "paymentFormData?.isBilledToMortgage?.canEdit"
