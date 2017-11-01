@@ -1,6 +1,10 @@
+123456789012345678901234567890
+...
 dd
 ...
 @  - at
+>  - right arrow
+<  - left arror
 +  - get
 $  - pay
 $c - cash.buy
@@ -20,6 +24,7 @@ af - after.work
 ah - a.home
 ai - auto.ins
 am - amscot
+ao - appointment
 ap - amazon.prime
 at - alex.ut
 aw - a.work
@@ -31,7 +36,10 @@ bi - bankers
 bm - bitter.mellon
 br - bradenton
 bs - bi.su
+bt - big.table
 c# - conf#
+c$ - count$
+123456789012345678901234567890
 c  - cal
 ca - call
 cb - cho lon bad bro
@@ -41,13 +49,16 @@ cg - cho lon good bro
 ch - clean house
 ci - cig
 cl - clearwater
+cm - cat.mae
 cn - conf#
-co - $oh
 cp - cat.poo
 ct - citrus.park
 d  - do
+d1 - date
 da - data
 dc - document
+dd - data.dictionary
+de - dentist
 df - drop.off
 dm - dev.meet
 do - doctor
@@ -58,6 +69,7 @@ dt - dir.tv
 e  - eye dr
 ed - end.day
 em - email
+en - end
 f  - file
 f1 - fight.1day
 f2 - fight.2day
@@ -70,6 +82,7 @@ fr - fruit
 ft - fight
 g  - gym
 gc - go.cha
+ge - get
 gl - glasses
 gm - gm fin
 gn - good.night
@@ -88,11 +101,13 @@ ic - itunes
 ip - interview.person
 it - in time
 ix - ifix
+jc - jia.cat
 js - javascript
 kl - kitty.l
 l  - leave
 lf - late.fee
 lh - l.home
+li - linked.in
 lm - loss.mit.dept
 lw - l.work
 ln - louie.ny
@@ -107,7 +122,12 @@ mp - metro.pcs
 mw - mom wh
 mo - mow
 mu - made.up
+n  - new
+nt - nathan
+nx - next
 oc - oceanic
+oe - open.enrollment
+of - office
 oh - on.hand
 ol - online
 oo - 1.on.1
@@ -126,7 +146,9 @@ ra - reis auto
 rc - received
 rd - redbox.dvd
 re - resume
+rr - red.robin
 s  - sprint
+se - send
 s8 - sk8te
 sg - sprint.plan
 sh - sm.horizon.plan
@@ -151,6 +173,8 @@ wm - walmart
 wp - warby.parker
 wr - week.rev
 ws - woodstork
+x  - done
+yb - ybor
 zo - zolphram
 zz - zoom.zoom
 
@@ -269,3 +293,4 @@ log
 1028.sat.13 - fx.i7$130(pd)
 1029.sun.12 - fg
 1030.mon.11 - $c.46, bi.oo, f1.fe
+1031.tue.10 - ^gr(x), wg.pu.zo(x), tr.t.pu.cd$80(d), po.yb(x)
