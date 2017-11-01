@@ -33,10 +33,13 @@ ba - bal
 bb - best.buys
 be - bright.eyes
 bi - bankers
+bk - black
+bl - blue
 bm - bitter.mellon
 br - bradenton
 bs - bi.su
 bt - big.table
+by - berry
 c# - conf#
 c$ - count$
 123456789012345678901234567890
@@ -53,6 +56,7 @@ cm - cat.mae
 cn - conf#
 cp - cat.poo
 ct - citrus.park
+cy - candy
 d  - do
 d1 - date
 da - data
@@ -98,6 +102,8 @@ hs - hardeep.singh
 i  - inbox
 i7 - iphone7
 ic - itunes
+id - index.cards
+in - in
 ip - interview.person
 it - in time
 ix - ifix
@@ -123,6 +129,8 @@ mw - mom wh
 mo - mow
 mu - made.up
 n  - new
+no - no
+ns - nos
 nt - nathan
 nx - next
 oc - oceanic
@@ -148,6 +156,7 @@ rd - redbox.dvd
 re - resume
 rr - red.robin
 s  - sprint
+s$ - shop.list
 se - send
 s8 - sk8te
 sg - sprint.plan
@@ -167,6 +176,7 @@ ud - update
 uk - unknown
 w  - walk bebe
 wa - water
+we - white.energy
 wg - walgreens
 wi - wip
 wm - walmart
@@ -175,6 +185,7 @@ wr - week.rev
 ws - woodstork
 x  - done
 yb - ybor
+ze - zero
 zo - zolphram
 zz - zoom.zoom
 
