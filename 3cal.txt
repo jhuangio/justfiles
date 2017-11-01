@@ -153,14 +153,14 @@ day.tue.10/31/17
 00 .8a `
 15 ... `
 30 (8) `
-45 ... 
-00 .9a 
-15 ... 
-30 ... 
-45 ... 
-00 10a [su][1]
-15 ... 
-30 (6) 
+45 ... `
+00 .9a `
+15 ... `
+30 ... `
+45 ... `
+00 10a `[su][1]
+15 ... `
+30 (6) `
 45 ... 
 00 11a 
 15 ... 
@@ -224,5 +224,10 @@ act.log.cal.day.in
 
 in 
 ...
-. openMortgageModal()
-. *ngIf = "paymentFormData?.isBilledToMortgage?.canEdit"
+. payments.component.ts
+  . openMortgageModal()
+  . *ngIf = "paymentFormData?.isBilledToMortgage?.canEdit"
+. payments.component.html
+  . submitMortgageModal();
+  . mortgageForm.valid
+  
