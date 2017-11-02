@@ -15,8 +15,9 @@ da
 
 . kibana production link
   . http://savpubuntuitlv01:5601/app/kibana#/discover?_g=(refreshInterval:(display:Off,pause:!f,value:0),time:(from:now%2Fw,mode:quick,to:now%2Fw))&_a=(columns:!(host,Level,Name,ContextId,CorrelationId),index:'filebeat-*',interval:auto,query:(query_string:(analyz
-  . servers
+  . kibana servers
     . dev:  http://savdubuntuitlv01:5601/app/kibana#/discover?_g=() 
+    . dev:  http://savdubuntuitlv01:5601/
     . sqa:  http://savsubuntuitlv01:5701/ 
     . uat:  http://savuubuntuitlv01:5601/ 
     . prod: http://savpubuntuitlv01:5601/ 
@@ -42,9 +43,19 @@ a65969cc-df52-488f-9789-befecef56b06
 
 d3/d3/dist/justfiles/gitjia run=".\jj.bat"
 
+co
+...
+. clinique/zo 
+  . 11a-6p
+  . 240 1st ave s.
+  . st. petersburg, fl 33701
+  . (800) 639-8904
+
 . trulieve bradenton
   . accross from shannon's funeral home
   . 1015 14th St W, Bradenton, FL 34205
+
+. 
 
 journal
 ...
@@ -5163,7 +5174,86 @@ changes to code 10/31/17
 
   }
 
+11/2/17 blob
+...
 
+. payments.component.ts
+  . openMortgageModal()
+  . *ngIf = "paymentFormData?.isBilledToMortgage?.canEdit"
+  . code change - wed.11/1
+    . [line:726] - add this.saveFormData();
+
+. payments.component.html
+  . submitMortgageModal();
+  . mortgageForm.valid
+
+this.saveFormData().then(() => {
+      this.formValueUpdated = false;
+
+      this.quoteService.getNotifications().toPromise().then(notification => {
+        this.notificationService.updateNotifications(notification);
+        this.spinner.stop();
+        this.showStopperError = notification.hasNotificationOfType(NotificationType.CannotQuote);
+        this.showstopperErrorStatus = this.notificationService.getShowstopperErrorStatus();
+
+        if (!this.showStopperError) {
+          // Get the updated quote
+          this.quoteService.updateQuote();
+
+          this.submitPaymentSuccess.open('lg');
+          this.analytics.emitEvent('Policy', 'Policy Issued', `Successfully Issued ${this.quoteService.getCurrentQuote().productId} ${this.quoteService.getCurrentQuote().stateAbbreviation} ${this.quoteService.getCurrentQuote().sublineId} Policy`);
+        }
+      }).catch(e => {
+        this.spinner.stop();
+        this.errorService.handleError('Error getting response from payment', e, true);
+      });
+
+    }).catch(e => {
+      this.spinner.stop();
+      this.errorService.handleError('Error Saving payments', e, true);
+    }
+    );
+
+  enforceOneLender() {
+    const formArray = this.mortgageFormLenders;
+    const size = formArray.length;
+    if (size === 0) {
+      this.addNewLender();
+    }
+  }
+
+
+this.saveFormData().then(() => {
+  this.formData.value.lenders = this.mortgageForm.value.lenders;
+})
+
+this.saveFormData().then(() => {
+      this.formData.controls['lenders'].setValue(firstNonNull(this.formData.value.lenders, this.mortgageForm.value.lenders));
+      this.formData.controls['isBilledToMortgage'].setValue(firstNonNull(this.formData.value.isBilledToMortgage, true));
+});
+
+  this.formData.controls['paymentMethod'].valueChanges.subscribe( paymentMethod => {
+      this.updatePaymentMethod(paymentMethod);
+    });
+
+    this.formData.controls['paymentMethod'].updateValueAndValidity();
+
+SQA ERROR Analysis: Danny's error
+...
+DATE - 11/2/17
+TIMESTAMP - 8:05:05.594a - 8:05:06.763a
+# KIBANA ITEMS - 6
+CONTEXT ID - b71021a7-115e-4bf6-98e1-a1a1ad6afb0b
+CORRELATION ID - b46c65a6-f2c5-4c44-a05c-167fd161930f
+...
+DETAILS
+...
+01. 8:05:05.594a: Trace - PUT - http://localhost:8085/api/propertydetail/addressverification/ - HomeOwnersApi.Web
+02. 8:05:05.594a: Trace - ICommand - HomeOwnersApi.WriteModel.Commands - HomeOwnersApi.Web
+03. 8:05:05.594a: Trace - RouteValueDictionary - Microsoft.AspNetCore.Routing - HomeOwnersApi.Web
+04. 8:05:05.594a: Trace - HomeOwnersApi.Web
+05. 8:05:05.594a: Error - DataServiceException - HomeOwnersApi.Infrastructure - HomeOwnersApi.Web -at HomeOwnersApi.Infrastructure.Services.CreditScoreService.<PostAsync>d__12.MoveNext() in C:\TeamCity\buildAgent\work\c6b7a3169addb879\HomeOwnersApi.Infrastructure\Services\CreditScoreService.cs:line 278 - at HomeOwnersApi.Infrastructure.Services.CreditScoreService.<GetCreditScore>d__7.MoveNext() in \HomeOwnersApi.Infrastructure\Services\CreditScoreService.cs:line 59 - at HomeOwnersApi.WriteModel.Services.LexisNexisCreditReportService.<RunAndUpdateCredit>d__3.MoveNext() in \HomeOwnersApi.WriteModel\Services\LexisNexisCreditReportService.cs:line 55 - at HomeOwnersApi.WriteModel.Commands.Handlers.SubmitApplicantInformationCommandHandler.<Handle>d__7.MoveNext() in \HomeOwnersApi.WriteModel\Commands\Handlers\SubmitApplicantInformationCommandHandler.cs:line 185
+06. 08:05:06.763a: Trace - call SQBDCOBJ.BINPSSMRTY(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?) - HomeOwnersApi.iSeries.Web
 
 
 

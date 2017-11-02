@@ -26,7 +26,9 @@ ai - auto.ins
 am - amscot
 ao - appointment
 ap - amazon.prime
+as - apple.store
 at - alex.ut
+au - audio.cd
 aw - a.work
 b  - bike
 ba - bal
@@ -36,6 +38,7 @@ bi - bankers
 bk - black
 bl - blue
 bm - bitter.mellon
+bo - boat
 br - bradenton
 bs - bi.su
 bt - big.table
@@ -54,10 +57,12 @@ ci - cig
 cl - clearwater
 cm - cat.mae
 cn - conf#
+co - contact
 cp - cat.poo
 ct - citrus.park
 cy - candy
-d  - do
+cz - clinique.zo
+d  - day.rev
 d1 - date
 da - data
 dc - document
@@ -65,25 +70,29 @@ dd - data.dictionary
 de - dentist
 df - drop.off
 dm - dev.meet
-do - doctor
+do - do
 dp - dog.poo
-dr - day.rev
+dr - doctor
 ds - deathstar
 dt - dir.tv
 e  - eye dr
+eb - ebay
 ed - end.day
 em - email
 en - end
+ex - expire
 f  - file
 f1 - fight.1day
 f2 - fight.2day
 f3 - fight.3day
+fc - fclose
 fe - fight.end
 fg - fight
 fi - find
 fo - food
 fr - fruit
 ft - fight
+fz - foamaclense
 g  - gym
 gc - go.cha
 ge - get
@@ -100,6 +109,7 @@ hl - hyatt.leg
 hr - home.retro
 hs - hardeep.singh
 i  - inbox
+i2 - ipad.pro
 i7 - iphone7
 ic - itunes
 id - index.cards
@@ -120,6 +130,7 @@ ln - louie.ny
 lo - loan
 lt - laptop
 lu - lunch
+lw - lawyer
 ly - laundry
 m  - mow yard
 me - me.tong
@@ -129,22 +140,26 @@ mw - mom wh
 mo - mow
 mu - made.up
 n  - new
+nc - name.chg
+nf - never.flat
 no - no
 ns - nos
 nt - nathan
 nx - next
 oc - oceanic
+od - order
 oe - open.enrollment
 of - office
 oh - on.hand
 ol - online
 oo - 1.on.1
 op - onphone
+or - or
 p  - payday
 pd - paid
 pi - phone.interview
 pm - pawnmax
-po - pokemon
+po - pokemon.go
 pr - print
 ps - pluralsight
 pu - pick.up
@@ -154,31 +169,39 @@ ra - reis auto
 rc - received
 rd - redbox.dvd
 re - resume
+rg - register
 rr - red.robin
 s  - sprint
 s$ - shop.list
+sa - start
+sc - seat.cover
 se - send
 s8 - sk8te
 sg - sprint.plan
 sh - sm.horizon.plan
 sk - skyway moto
 sn - sprint.test
+so - shoulder
 sp - spectrum
 sr - sprint.rev
 st - sub.task
 su - stand.up
 sw - speedway
 t  - today
+t2 - tires
 te - teco
 ta - tampa
+ti - trailer
 tr - trulieve
 ud - update
 uk - unknown
-w  - walk bebe
+w  - week.rev
 wa - water
+wb - walk.bebe
 we - white.energy
 wg - walgreens
 wi - wip
+wl - will
 wm - walmart
 wp - warby.parker
 wr - week.rev
@@ -305,3 +328,12 @@ log
 1029.sun.12 - fg
 1030.mon.11 - $c.46, bi.oo, f1.fe
 1031.tue.10 - ^gr(x), wg.pu.zo(x), tr.t.pu.cd$80(d), po.yb(x)
+1101.wed.09 - zz, po.r, w, s8
+
+act
+...
+. am - $552.11/24
+. $  - cable bill
+. $  - sk300.11/15
+. $  - te130.11/15
+. $  - gm400.11/15

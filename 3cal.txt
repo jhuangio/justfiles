@@ -2,60 +2,53 @@
 ------------------
 act.log.cal.day.in
 ------------------
-...
+
 . cat.2107093
 . me .2180810
-...
+
 . $350(11/1.wed@8:34a)
 . gw$0(x)
-...
+
 . charlotte a fowler dmd
   . (813) 235-0957
   . greenberg dental & ortho 
   . 10041 w hillsborough Ave
   . tampa, fl 33613
   . 11/4.sat.1:30a-2p
-...
+
+123456789012345678901234567890
 
 act
 ...
-. d  - reg.boat
-. d  - reg.trailer
-. ca - law.update                 
-. d  - law.docs
-. am - $552.11/24
-. cg - $400
-. cb - $375.10/24
-. pm - $150
-. g  - apple store ipad.pro
-. d  - order seatcov
-. $  - cable bill
-. $  - sk300.11/15
-. $  - te130.11/15
+. as.i2
+. cb$375.10/24
+. cg$400
+. cm.hc
+. cm.fi.so.do
+. eb$50.od.sc
+. hl.ca.ex?3/1/19?
+. lw.cm.nc
+. lw.dc.pr
+. lw.ud.fc
+. lw.do.wl
+. pm$150.111017
+. rg.bo
+. rg.ti
+. s$.ol.drdorris.com.au
+. s$.ol.isleepeasy.app
+. s$.wm.b.nf.t2
+
 123456789012345678901234567890
-. $  - gm400.11/15
-. ca - hl.expire?3/19?
-. d  - law.chg.name.cat
-. ca - call ch.law.6mon.4/18
-. d  - law.will+
-. g  - wm get new bikes? or 
-       . never flat tires 
-. d  - isleepeasy.app order
-. d  - order drdorris.com 
-       . audio cd
-. d  - find hair place for 
-       . cat.trim
 
 bi.oe: 11/3 - 11/17
 
 cal
 ...
-1101.wed.09 - 
-1102.thr.08 - dr/wr
-1103.fri.07 - bi.oe.start
+1102.thr.08 - 
+1103.fri.07 - d.w
 1104.sat.06 - 1:30p-2p.de
 1105.sun.05 - 
-1106.mon.04 - hc?
+1106.mon.04 - hc?, bi.oe.sa
 1107.tue.03 -
 1108.wed.02 -
 1109.thr.01 - 
@@ -144,7 +137,7 @@ cal
 0119.fri.14 - [p]
 
 ...
-day.tue.10/31/17
+day.wed.110217
 ...
 00 .7a `
 15 ... `
@@ -160,13 +153,13 @@ day.tue.10/31/17
 45 ... `
 00 10a `[su][1]
 15 ... `
-30 (6) `
+30 (6) 
 45 ... 
 00 11a 
 15 ... 
 30 (5) 
 45 ... 
-00 12p lunch, ca.cm@12p, c$, jc
+00 12p lunch, ca.cm@12p, jc, ca.cz.fz$50
 15 ... |||
 30 (4) |||
 45 ... |||
@@ -224,66 +217,4 @@ act.log.cal.day.in
 
 in 
 ...
-
-. payments.component.ts
-  . openMortgageModal()
-  . *ngIf = "paymentFormData?.isBilledToMortgage?.canEdit"
-  . code change - wed.11/1
-    . [line:726] - add this.saveFormData();
-
-. payments.component.html
-  . submitMortgageModal();
-  . mortgageForm.valid
-
-this.saveFormData().then(() => {
-      this.formValueUpdated = false;
-
-      this.quoteService.getNotifications().toPromise().then(notification => {
-        this.notificationService.updateNotifications(notification);
-        this.spinner.stop();
-        this.showStopperError = notification.hasNotificationOfType(NotificationType.CannotQuote);
-        this.showstopperErrorStatus = this.notificationService.getShowstopperErrorStatus();
-
-        if (!this.showStopperError) {
-          // Get the updated quote
-          this.quoteService.updateQuote();
-
-          this.submitPaymentSuccess.open('lg');
-          this.analytics.emitEvent('Policy', 'Policy Issued', `Successfully Issued ${this.quoteService.getCurrentQuote().productId} ${this.quoteService.getCurrentQuote().stateAbbreviation} ${this.quoteService.getCurrentQuote().sublineId} Policy`);
-        }
-      }).catch(e => {
-        this.spinner.stop();
-        this.errorService.handleError('Error getting response from payment', e, true);
-      });
-
-    }).catch(e => {
-      this.spinner.stop();
-      this.errorService.handleError('Error Saving payments', e, true);
-    }
-    );
-
-  enforceOneLender() {
-    const formArray = this.mortgageFormLenders;
-    const size = formArray.length;
-    if (size === 0) {
-      this.addNewLender();
-    }
-  }
-
-
-this.saveFormData().then(() => {
-  this.formData.value.lenders = this.mortgageForm.value.lenders;
-})
-
-this.saveFormData().then(() => {
-      this.formData.controls['lenders'].setValue(firstNonNull(this.formData.value.lenders, this.mortgageForm.value.lenders));
-      this.formData.controls['isBilledToMortgage'].setValue(firstNonNull(this.formData.value.isBilledToMortgage, true));
-});
-
-  this.formData.controls['paymentMethod'].valueChanges.subscribe( paymentMethod => {
-      this.updatePaymentMethod(paymentMethod);
-    });
-
-    this.formData.controls['paymentMethod'].updateValueAndValidity();
-
-    
+. clinique/zo < 6p (800) 639-8904 - 240 1st ave s., st. petersburg, fl 33701
