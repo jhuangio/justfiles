@@ -215,6 +215,10 @@ day.wed.110217
 act.log.cal.day.in
 ------------------
 
+lt
+...
+. Ctrl+G - goto line# vc
+
 in 
 ...
 . clinique/zo < 6p (800) 639-8904 - 240 1st ave s., st. petersburg, fl 33701

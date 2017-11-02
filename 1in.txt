@@ -128,6 +128,7 @@ lm - loss.mit.dept
 lw - l.work
 ln - louie.ny
 lo - loan
+ls - lessons
 lt - laptop
 lu - lunch
 lw - lawyer
@@ -172,6 +173,7 @@ re - resume
 rg - register
 rr - red.robin
 s  - sprint
+s2 - sample.code
 s$ - shop.list
 sa - start
 sc - seat.cover
@@ -195,6 +197,7 @@ ti - trailer
 tr - trulieve
 ud - update
 uk - unknown
+vc - vs.code
 w  - week.rev
 wa - water
 wb - walk.bebe

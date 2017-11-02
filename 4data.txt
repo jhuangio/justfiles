@@ -5271,6 +5271,103 @@ DETAILS
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+this.formData.lenders
+this.formData.hasMortgage
+this.formData.isBilledToMortgage
+
+lenders: this.fb.array([])
+hasMortgage: null
+isBilledToMortgage: null
+
+this.mortgageForm.hasMortgage
+this.mortgageForm.isBilledToMortgage
+this.mortgageForm.lenders
+
+lenders: this.fb.array([])
+hasMortgage: [unll, Validators.required]
+isBilledToMortgage: [null, Validators.required]
+
+this.canCancelMortgage = false;
+
+s2
+...
+if (this.formData.controls['paymentMethod'].value === this.paymentMethodType.escrow) {
+  this.formData.controls['paymentMethod'].setValue(this.paymentMethodType.creditCard);
+  this.formData.controls['paymentMethod'].updateValueAndValidity();
+}
+
+if (this.paymentPlans) {
+  this.paymentPlans.map(plan => plan.canSelect = true);
+}
+
+updateHasMortgage(newValue: boolean) {
+  if (this.paymentFormData.hasMortgage.canEdit) {
+    this.mortgageForm.controls['hasMortgage'].setValue(newValue);
+    this.mortgageForm.controls['hasMortgage'].updateValueAndValidity();
+  }
+}
+
+get mortgageFormLenders(): FormArray {
+  return <FormArray> this.mortgageForm.controls['lenders'];
+}
+
+this.formData.patchValue({
+  hasMortgage: firstNonEmptyOrNull(this.paymentFormData.hasMortgage.value, true),
+  isBilledToMortgage: this.paymentFormData.isBilledToMortgage.value,
+});
+
+selectedValueForm
+
+    // Handle to only allow billed to insured if no mortgage
+    this.mortgageForm.controls['hasMortgage'].valueChanges.subscribe( hasMortgage => {
+      if (hasMortgage === true) {
+        this.mortgageForm.controls['isBilledToMortgage'].setValue(true);
+        this.mortgageForm.controls['isBilledToMortgage'].enable();
+        this.enforceOneLender();
+      } else {
+        this.mortgageForm.controls['isBilledToMortgage'].setValue(false);
+        this.mortgageForm.controls['isBilledToMortgage'].disable();
+        this.clearFormArray(this.mortgageForm.controls['lenders']);
+      }
+      this.mortgageForm.controls['isBilledToMortgage'].updateValueAndValidity();
+    });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  
 
 [999.eof]
