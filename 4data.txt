@@ -39,7 +39,22 @@ da
 ...
 . DETAILS :
 
-a65969cc-df52-488f-9789-befecef56b06
+dev.deploy
+...
+. commit
+. merge
+. team city - auto build
+. deploy to int
+. test in dev
+. deploy to sqa
+. test in sqa
+. jira - move Ticket
+. jira - change title
+. jira - comment
+. jira - change hours remaining
+. jira - assign to mahtab
+. change branch to develop
+. pull changes
 
 d3/d3/dist/justfiles/gitjia run=".\jj.bat"
 

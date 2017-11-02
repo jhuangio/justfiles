@@ -153,16 +153,16 @@ day.wed.110217
 45 ... `
 00 10a `[su][1]
 15 ... `
-30 (6) 
-45 ... 
-00 11a 
-15 ... 
-30 (5) 
-45 ... 
-00 12p lunch, ca.cm@12p, jc, ca.cz.fz$50
-15 ... |||
-30 (4) |||
-45 ... |||
+30 (6) `
+45 ... `
+00 11a `
+15 ... `
+30 (5) `
+45 ... `
+00 12p `lunch, ca.cm@12p jc
+15 ... `|||
+30 (4) `|||
+45 ... `|||
 00 .1p 
 123456789012345678901234567890
 15 ... 
@@ -178,8 +178,8 @@ day.wed.110217
 45 ... 
 00 .4p 
 15 ... 
-30 [0] lw, ca.cm@4:30p, jc
-45 ... 
+30 [0] lw, ca.cm@4:30p, jc, go.cz.fz$52
+45 ... go.wg
 00 .5p 
 15 ... 
 30 ... 
@@ -222,3 +222,4 @@ lt
 in 
 ...
 . clinique/zo < 6p (800) 639-8904 - 240 1st ave s., st. petersburg, fl 33701
+. wg - small zip bags, tooth picks, baby eczema lotion large, alum foil, index cards - (Thu 11/2/2017 @12:41P)
