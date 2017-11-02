@@ -6,7 +6,7 @@ act.log.cal.day.in
 . cat.2107093
 . me .2180810
 
-. $350(11/1.wed@8:34a)
+. $157(thr.110217)
 . gw$0(x)
 
 . charlotte a fowler dmd
@@ -218,8 +218,15 @@ act.log.cal.day.in
 lt
 ...
 . Ctrl+G - goto line# vc
+. currentQuote.productId
 
 in 
 ...
 . clinique/zo < 6p (800) 639-8904 - 240 1st ave s., st. petersburg, fl 33701
 . wg - small zip bags, tooth picks, baby eczema lotion large, alum foil, index cards - (Thu 11/2/2017 @12:41P)
+      if ((this.currentQuote.productId === 'PHO' && this.formData.controls['isMultiPolicyDiscount'].dirty === false)) {
+        alert('clean');
+        this.formData.controls['isMultiPolicyDiscount'].setValue(true);
+        this.formData.value.isPreferredBuilder=true;
+      }
+      

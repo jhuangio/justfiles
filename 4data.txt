@@ -5362,11 +5362,66 @@ selectedValueForm
     });
 
 
+HOADHOC-1992: discount and surcharge - auot select 2 discounts for pho
+...
+
+discountSurchargeFormData: DiscountSurchargeFormControl = new DiscountSurchargeFormControl({});
+
+this.formData = this.fb.group({
+
+      isMultiPolicyDiscount: [''],
+
+      isPreferredBuilder: [''],
+
+      >>> line: 198 <<<
+
+      [attr.checked]
+
+      >>> line: 128 <<<
+
+    });
 
 
+        this.formData.controls['priorCarrierId'].setValue(null);
+        this.formData.controls['priorCarrier'].clearValidators();
+        this.formData.controls['priorCarrier'].clearValidators();
+        this.formData.controls['newHomePurchaseDate'].updateValueAndValidity();
+        this.formData.controls['newHomePurchaseDate'].setValidators([Validators.required, BfcValidator.dateValidator, BfcValidator.dateStringBeforeDate(this.currentQuote.effectiveDate)])
+        this.mortgageForm.controls['isBilledToMortgage'].setValue(true);
 
+import {HomeownersQuote} from '../models/homeowners-quote.model';
 
+discount-surcharge.component.ts
+...
 
+line: 1 - add - "Input"
+line: 6 - add - import {HomeownersQuote} from '../../models/homeowners-quote.model';
+line: 37 - add - jPHO: string;
+line: 36 - insert - @Input() product: string;
+line: 200 - insert - jPHOCheck(quote: HomeownersQuote) { return this.quote.productId; }
+
+discount-surcharge.component.html
+...
+line
+
+import {HomeownersQuote} from '../../models/homeowners-quote.model';
+
+navigation.service.ts
+    if (quote.productId === 'PHO') {
+      this.updateVisible(NavigationType.windMitigation, false);
+      this.updateEnabled(NavigationType.windMitigation, false);
+    }
+
+homeowners-quote.model.ts
+
+  setCurrentQuote(quote: HomeownersQuote) {
+    this.quote.next(quote);
+    if (this.environmentService.env.saveQuoteLocal) {
+      localStorage.setItem(environment.localStorageKeys.currentQuoteKey, JSON.stringify(quote));
+    }
+  }
+
+  this.currentQuote.productId
 
 
 
