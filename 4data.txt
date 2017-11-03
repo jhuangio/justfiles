@@ -5498,6 +5498,573 @@ mod.001.110317@1025a
 . line: 659 - added line >>>
   . this.clearFormArray(this.mortgageForm.controls['lenders']);
 . line: 838 - changed "mortgageForm" to "formData"
+. line: 838 - add if statement >>>
+
+html
+...
+. line: 7 - add >>>
+
+applicants.component.ts
+...
+
+line: 48 >>> 
+  . jCommaInField = false;
+
+line: 479 >>>
+  . if (event.keyCode === 44) {
+    this.jCommaInField = true;
+    return false;
+  }
+
+applicants.component.html
+...
+
+jCommaInField;
+
+line: 237 >>>
+line: 250 >>>
+line: 336 >>>
+line: 347 >>>
+line: 360 >>> . 
+line: 460 >>>
+
+addressLine1
+
+aplicants.component.ts
+
+jCommaInField;
+
+line: 48 >>>
+
+line: 479 >>>
+
+jTestForBlur()
+
+
+this.mailingAddress.controls['addressLine1'].setValue();
+
+1. Property Detail - Initial Create
+2. Property Detail - Address Change
+3. Applicant - Mailing Address Change
+4. Applicant - Additional Applicant Create
+5. Applicant - Additional Applicant Change
+
+this.address.address1
+
+this.address.controls['address1'].setValue(returnPropertyDetail.propertyAddress.address1.firstSelectedValue);
+
+HOADHOC-1992
+...
+
+property-detail.component.ts
+...
+
+. jComaInField
+  . line: 042 - jCommaInField
+  . line: 483 - jCommaInField
+  . line: 486 - jCommaInField
+  . line: 490 - jCommaInField
+  . line: 598 - jCommaInField
+
+. jTestForComma
+  . line: 481
+
+. jTestForBlur
+  . line: 489
+
+property-detail.component.html
+...
+
+. jCommaInField
+  . line: 238 - jCommaInField
+  . line: 246 - jCommaInField
+  . line: 292 - jCommaInField
+
+. jTestForComma
+  . line: 260
+
+. jTestForBlur
+  . line: 261
+
+applicants.component.ts
+...
+
+. jCommaInField
+  . line: 048 - jCommaInField
+  . line: 481
+  . line: 484
+  . line: 488
+  . line: 569
+  . line: 592
+
+. jTestForComma
+  . line: 479
+
+. jTestForBlur
+  . line: 487
+
+applicants.component.html
+...
+
+. jCommaInField
+  . line: 237 
+  . line: 250 
+  . line: 337
+  . line: 348
+  . line: 361
+  . line: 462 
+
+. jTestForComma
+  . line: 263
+  . line: 401
+
+. jTestForBlur
+  . line: 264
+  . line: 402
+
+PRODUCTION ERROR SUMMARY
+...
+DATE - 
+TIMESTAMP - 
+# KIBANA ITEMS - 
+CONTEXT ID -
+CORRELATION ID - 
+...
+. DETAILS :
+
+1. PRODUCTION ERROR SUMMARY
+...
+DATE - 11/3/17
+TIMESTAMP - 11:23:33.802	
+# KIBANA ITEMS - 
+CONTEXT ID - 4962ce82-1c6e-40ad-83ad-bf85f1434e54
+CORRELATION ID - ee4359a5-6451-4977-9248-d1c50e39c010
+...
+. DETAILS :
+
+2. PRODUCTION ERROR SUMMARY (2)
+...
+DATE - 11/3/17
+TIMESTAMP - 11:23:33.802	
+# KIBANA ITEMS - 
+CONTEXT ID - 4962ce82-1c6e-40ad-83ad-bf85f1434e54
+CORRELATION ID - 30df84c5-6420-49b5-82ca-95421a776fb9
+...
+. DETAILS :
+
+3. PRODUCTION ERROR SUMMARY
+...
+DATE - 11/3/17
+TIMESTAMP - 11:23:33.802	
+# KIBANA ITEMS - 
+CONTEXT ID - 4962ce82-1c6e-40ad-83ad-bf85f1434e54
+CORRELATION ID - ee4359a5-6451-4977-9248-d1c50e39c010
+...
+. DETAILS :
+
+4. PRODUCTION ERROR SUMMARY (2)
+...
+DATE - 11/3/17
+TIMESTAMP - 11:06:19.296	
+# KIBANA ITEMS - 
+CONTEXT ID - fce767a6-8f6b-4581-b0e8-d5abce657c5e
+CORRELATION ID - 2fde40dc-7f2e-49c1-86d3-72b2fee501b4
+...
+. DETAILS :
+
+5. PRODUCTION ERROR SUMMARY (2)
+...
+DATE - 11/3/17
+TIMESTAMP - 11:05:03.255
+# KIBANA ITEMS - 
+CONTEXT ID - f9e84765-5f6a-4b49-88f4-8a5cb4e2a089
+CORRELATION ID - 0bdf1bd0-fac4-49ea-8003-431c5036bd7d
+...
+. DETAILS :
+
+6. PRODUCTION ERROR SUMMARY (2)
+...
+DATE - 11/3/17
+TIMESTAMP - 11:03:28.199
+# KIBANA ITEMS - 
+CONTEXT ID - 4962ce82-1c6e-40ad-83ad-bf85f1434e54
+CORRELATION ID - ee4359a5-6451-4977-9248-d1c50e39c010
+...
+. DETAILS :
+
+7. PRODUCTION ERROR SUMMARY (2)
+...
+DATE - 11/3/17
+TIMESTAMP - 11:01:39.173
+# KIBANA ITEMS - 
+CONTEXT ID - 4962ce82-1c6e-40ad-83ad-bf85f1434e54
+CORRELATION ID - 	30df84c5-6420-49b5-82ca-95421a776fb9
+...
+. DETAILS :
+
+8. PRODUCTION ERROR SUMMARY
+...
+DATE - 11/3/17
+TIMESTAMP - 10:59:44.157
+# KIBANA ITEMS - 
+CONTEXT ID - 4962ce82-1c6e-40ad-83ad-bf85f1434e54
+CORRELATION ID - 0cc145f2-8ecb-405e-b4a5-929ae4181b7c
+...
+. DETAILS :
+
+1. PRODUCTION ERROR SUMMARY
+...
+DATE - 11/2/17
+TIMESTAMP - 17:02:07.623
+# KIBANA ITEMS - 
+CONTEXT ID - 49e8eaf1-440c-44ee-b6a3-c7585cf562b9
+CORRELATION ID - bfe01ad6-c7a9-4b51-9e5b-6c248cc2a473
+...
+. DETAILS :
+
+2. PRODUCTION ERROR SUMMARY
+...
+DATE - 11/2/17
+TIMESTAMP - 17:01:35.595	
+# KIBANA ITEMS - 
+CONTEXT ID - 49e8eaf1-440c-44ee-b6a3-c7585cf562b9
+CORRELATION ID - 95b92bb0-2450-49b5-9d12-492bb59014e7
+...
+. DETAILS :
+
+3. PRODUCTION ERROR SUMMARY
+...
+DATE - 11/2/17
+TIMESTAMP - 14:55:55.407
+# KIBANA ITEMS - 
+CONTEXT ID - 87a03546-cf2c-49d7-918a-6305807cafd8
+CORRELATION ID - 78a3d832-c220-4ca7-adf5-cc080979b835
+...
+. DETAILS :
+
+4. PRODUCTION ERROR SUMMARY
+...
+DATE - 11/2/17
+TIMESTAMP - 14:54:03.645
+# KIBANA ITEMS - 
+CONTEXT ID - 	b7e565b5-281e-41b8-8cf4-7ac0fce6cd4e
+CORRELATION ID - 270e26a7-142c-482f-9275-2ba39d65ce63
+...
+. DETAILS :
+
+5. PRODUCTION ERROR SUMMARY
+...
+DATE - 11/2/17
+TIMESTAMP - 14:47:22.470
+# KIBANA ITEMS - 
+CONTEXT ID - 5375dc7c-558f-44da-a434-f11905ed796b
+CORRELATION ID - a77f0c68-646e-4904-8f22-0298d0fa212c
+...
+. DETAILS :
+
+6. PRODUCTION ERROR SUMMARY
+...
+DATE - 11/2/17
+TIMESTAMP - 14:47:19.467
+# KIBANA ITEMS - 
+CONTEXT ID - 5375dc7c-558f-44da-a434-f11905ed796b
+CORRELATION ID - e60261c3-a9c1-4672-abf9-9ce73f961bed
+...
+. DETAILS :
+
+7. PRODUCTION ERROR SUMMARY
+...
+DATE - 11/2/17
+TIMESTAMP - 14:46:54.463
+# KIBANA ITEMS - 
+CONTEXT ID - 5375dc7c-558f-44da-a434-f11905ed796b
+CORRELATION ID - fbcb84fc-8659-4d5a-8144-df570f9da016
+...
+. DETAILS :
+
+8. PRODUCTION ERROR SUMMARY
+...
+DATE - 11/2/17
+TIMESTAMP - 14:43:10.774
+# KIBANA ITEMS - 
+CONTEXT ID - 5375dc7c-558f-44da-a434-f11905ed796b
+CORRELATION ID - a82f7840-724f-424b-b92c-7f1f280918fe
+...
+. DETAILS :
+
+9. PRODUCTION ERROR SUMMARY
+...
+DATE - 11/2/17
+TIMESTAMP - 14:43:05.762
+# KIBANA ITEMS - 
+CONTEXT ID - 5375dc7c-558f-44da-a434-f11905ed796b
+CORRELATION ID - 52bcab92-67c9-4d7f-9380-eeb9a78868a6
+...
+. DETAILS :
+
+10. PRODUCTION ERROR SUMMARY
+...
+DATE - 11/2/17
+TIMESTAMP - 14:42:14.735	
+# KIBANA ITEMS - 
+CONTEXT ID - 	86112355-e58b-41ff-bc54-5abac48ae21c
+CORRELATION ID - 23d6f82f-2215-4e67-898e-d014cf0b0678
+...
+. DETAILS :
+
+11. PRODUCTION ERROR SUMMARY
+...
+DATE - 11/2/17
+TIMESTAMP - 14:41:59.731	
+# KIBANA ITEMS - 
+CONTEXT ID - 5375dc7c-558f-44da-a434-f11905ed796b
+CORRELATION ID - e103b948-d3b3-4779-8616-4fb440ac3450
+...
+. DETAILS :
+
+12. PRODUCTION ERROR SUMMARY
+...
+DATE - 11/2/17
+TIMESTAMP - 14:41:55.718	SA
+# KIBANA ITEMS - 
+CONTEXT ID - 86112355-e58b-41ff-bc54-5abac48ae21c
+CORRELATION ID - 1523a566-f86f-4eab-ad66-a2fae7428e73
+...
+. DETAILS :
+
+13. PRODUCTION ERROR SUMMARY
+...
+DATE - 11/2/17
+TIMESTAMP - 14:41:40.702	
+# KIBANA ITEMS - 
+CONTEXT ID - 5375dc7c-558f-44da-a434-f11905ed796b
+CORRELATION ID - ccfcdef1-cc72-404f-a457-bb4cfb3efbc2
+...
+. DETAILS :
+
+14. PRODUCTION ERROR SUMMARY
+...
+DATE - 11/2/17
+TIMESTAMP - 14:41:16.648
+# KIBANA ITEMS - 
+CONTEXT ID - 86112355-e58b-41ff-bc54-5abac48ae21c
+CORRELATION ID - 04ea35af-96e3-4c1d-a17f-2e61210b363d
+...
+. DETAILS :
+
+15. PRODUCTION ERROR SUMMARY (4)
+...
+DATE - 11/2/17
+TIMESTAMP - 01:00:12.730	
+# KIBANA ITEMS - 
+CONTEXT ID - 34c4ea53-770c-44ab-8328-8d94dd656947
+CORRELATION ID - 	8d12df8f-14f3-43bf-9eb4-cbf6e088b40b
+...
+. DETAILS :
+
+1. PRODUCTION ERROR SUMMARY (3)
+...
+DATE - 11/1/17
+TIMESTAMP - 12:59:13.006	
+# KIBANA ITEMS - 
+CONTEXT ID - 0492b5f5-4e60-4046-a6db-25781ce0c5ac
+CORRELATION ID - cb79e432-da19-42d6-93fe-2555717b1ae2
+...
+. DETAILS :
+
+2. PRODUCTION ERROR SUMMARY (3)
+...
+DATE - 11/1/17
+TIMESTAMP - 12:57:44.986
+# KIBANA ITEMS - 
+CONTEXT ID - 5daf7932-371a-4550-87ef-55d4688fa7b0
+CORRELATION ID - bdf05540-d307-4a49-8099-f59e201facdb
+...
+. DETAILS :
+
+3. PRODUCTION ERROR SUMMARY (3) 
+...
+DATE - 11/1/17
+TIMESTAMP - 12:55:45.952	
+# KIBANA ITEMS - 
+CONTEXT ID - 	fa8cbac7-c660-40db-aca5-471219cf1df3
+CORRELATION ID - 9b5a320a-9d2d-45e6-a566-5b2c732d30b1
+...
+. DETAILS :
+
+4. PRODUCTION ERROR SUMMARY (3)
+...
+DATE - 11/1/17
+TIMESTAMP - 12:54:31.939
+# KIBANA ITEMS - 
+CONTEXT ID - 2ed6de3c-de13-4788-a1ac-6ad3b0d57aeb
+CORRELATION ID - 5cc53f37-9a8a-43d3-a305-354646b32104
+...
+. DETAILS :
+
+5. PRODUCTION ERROR SUMMARY (3)
+...
+DATE - 11/1/17
+TIMESTAMP - 12:51:22.892	
+# KIBANA ITEMS - 
+CONTEXT ID - 	7e941dd9-8052-4c42-9bb2-01ef464b3648
+CORRELATION ID - 48faf1d1-efeb-473c-bc47-0d02b396c09e
+...
+. DETAILS :
+
+1. PRODUCTION ERROR SUMMARY (3)
+...
+DATE - 10/31/17
+TIMESTAMP - 13:37:24.261
+# KIBANA ITEMS - 
+CONTEXT ID - e4a91b47-9c4d-4801-abd6-4c3bdd956b5d
+CORRELATION ID - a3228eaa-97da-4fd4-a8f9-9d9e63488998
+...
+. DETAILS :
+
+2. PRODUCTION ERROR SUMMARY (3)
+...
+DATE - 10/31/17
+TIMESTAMP - 13:31:44.222	
+# KIBANA ITEMS - 
+CONTEXT ID - 21a58665-8fe2-48f5-8ef9-565513b7dc44
+CORRELATION ID - 4cd6e1dc-f45d-4d75-bb4d-dc603ddcff9c
+...
+. DETAILS :
+
+
+3. PRODUCTION ERROR SUMMARY (3) 
+...
+DATE - 10/31/17
+TIMESTAMP - 13:31:09.217
+# KIBANA ITEMS - 
+CONTEXT ID - efad096f-c8db-4569-af77-5fdff492781a
+CORRELATION ID - 	e07b48b6-077b-4e4f-b969-e1beda4be5fb
+...
+. DETAILS :
+
+
+4. PRODUCTION ERROR SUMMARY (9)
+...
+DATE - 10/31/17
+TIMESTAMP - 13:19:09.955
+# KIBANA ITEMS - 
+CONTEXT ID - f086ce6d-710e-420e-aff0-b5d2e6a9e5f7
+CORRELATION ID - a4199c79-cb84-44f5-8ecb-7813c2bd04ce
+...
+. DETAILS :
+
+
+5. PRODUCTION ERROR SUMMARY (3)
+...
+DATE - 10/31/17
+TIMESTAMP - 13:16:12.919
+# KIBANA ITEMS - 
+CONTEXT ID - 9bce3849-ede6-4cde-b22a-3d4297d891e5
+CORRELATION ID - 4c661e88-816e-4b47-a0f0-ffb2275f3dbf
+...
+. DETAILS :
+
+
+6. PRODUCTION ERROR SUMMARY (3)
+...
+DATE - 10/31/17
+TIMESTAMP - 13:15:37.912
+# KIBANA ITEMS - 
+CONTEXT ID - 758c9124-40cb-41d7-b599-29286ba01a7a
+CORRELATION ID - 	3eb9af2b-6128-4fef-abfa-e08d0887e9d1
+...
+. DETAILS :
+
+
+7. PRODUCTION ERROR SUMMARY (3)
+...
+DATE - 10/31/17
+TIMESTAMP - 13:14:22.907	
+# KIBANA ITEMS - 
+CONTEXT ID - 2776ff4d-c7e7-4f3a-b2fe-25b3fb8a7643
+CORRELATION ID - 8a41bb4f-1f8a-46b2-9e7c-27d2b8452d05
+...
+. DETAILS :
+
+
+8. PRODUCTION ERROR SUMMARY (3)
+...
+DATE - 10/31/17
+TIMESTAMP - 13:14:07.905
+# KIBANA ITEMS - 
+CONTEXT ID - e79c41ca-2326-4d5a-8984-7201ea3c7a4a
+CORRELATION ID - 059ca934-d874-4233-80c9-98888712f9ef
+...
+. DETAILS :
+
+
+9. PRODUCTION ERROR SUMMARY
+...
+DATE - 10/31/17
+TIMESTAMP - 06:44:26.367
+# KIBANA ITEMS - 
+CONTEXT ID - b04e088e-d4ab-4e51-ac3c-0da57a3526df
+CORRELATION ID - ffb6e614-be4c-4169-b7a5-284a2a1c42b9
+...
+. DETAILS :
+
+
+1. PRODUCTION ERROR SUMMARY
+...
+DATE - 10/30/17
+TIMESTAMP - 13:26:08.227	
+# KIBANA ITEMS - 
+CONTEXT ID - 	cc73978f-1a99-4611-8d10-bc646999736d
+CORRELATION ID - 98d0bdc3-5eb5-4377-aa2c-e524fb30cac8
+...
+. DETAILS :
+
+2. PRODUCTION ERROR SUMMARY
+...
+DATE - 10/30/17
+TIMESTAMP -  12:05:32.920 - 
+# KIBANA ITEMS - 15
+CONTEXT ID - 67ab35ba-a74b-44cc-8999-2338e4ee1764
+CORRELATION ID - 76bf16c4-ff01-4fba-bae3-fd731774688a
+...
+DETAILS :
+01. 12:05:32.920 - trace - RouteValueDictionary - Microsoft.AspNetCore.Routing - HomeOwnersApi.Web
+02. 12:05:32.920 - Trace - ICommand - HomeOwnersApi.WriteModel.Commands - HomeOwnersApi.Web
+03. 12:05:34.920 - Trace - PUT - http://localhost:8085/api/propertydetail/addressverification/ - HomeOwnersApi.Web
+04. 12:05:35.921 - Trace - PUT - http://localhost:8085/api/rate/rerun/101948/3000/0/HO/HO3/2017-10-31/09QT92280710 99 - HomeOwnersApi.Web
+05. 12:05:35.921 - Trace - PUT - http://localhost:8085/api/rate/full/101948/3000/0/HO/HO3/2017-10-31/09QT92280710 99 - HomeOwnersApi.Web
+06. 12:05:35.921 - Trace - PUT - http://localhost:8085/api/applicant -HomeOwnersApi.Web
+07. 12:05:35.921 - Trace - GET - http://localhost:8085/api/deductible/3000/0/HO/HO3/FL/2017-10-31/09QT92280710 99 - HomeOwnersApi.Web
+08. 12:05:36.921 - Error - ConcurrencyException - CQRSlite.Domain.Exception - HomeOwnersApi.Web - A different version than expected was found in aggregate e0296dfb-44f3-4f33-a498-ce452d712d5c
+09. 12:05:38.406 - Trace - call BDCOBJ.BINPSPDRV(?,?,?,?) - HomeOwnersApi.iSeries.Web
+10. 12:05:38.406 - Trace - call BDCOBJ.BINPSPDRV(?,?,?,?) - HomeOwnersApi.iSeries.Web
+11. 12:05:38.406 - Trace - call BDCOBJ.BINPSPDRV(?,?,?,?) - HomeOwnersApi.iSeries.Web
+12. 12:05:38.406 - Trace - call BDCOBJ.BINPSPDRV(?,?,?,?) - HomeOwnersApi.iSeries.Web
+13. 12:05:38.406 - Trace - SELECT TYPE, MINIMUM FROM BDCAPP.B04IP610 , BDCSTC.B04FP090 WHERE TCMPNY=? AND TBRNCH=? AND TPRDCT=? AND TSLOB=? AND TPOLST=? AND TPOLNO=? AND TPOLCD=? AND TPOLOC=? AND TCMPNY = CMPNY AND TBRNCH = BRNCH AND TPRDCT = PRDCT AND TSLOB = SLOB AND TPOLST = STATE AND EXPDT = 0 AND TERRITORY = TTERR - HomeOwnersApi.iSeries.Web
+14. 12:05:38.406 - Trace - SELECT RSEQNO, RDESC5, RCVDED, RWRTPR, RTLFEE, RTLAMT, DCVSHT, DRFLAT, DOFLAT, DOPRCT FROM BDCAPP.B04IPQRT , BDCSTC.BCFFP300 WHERE RCMPNY=? AND RBRNCH=? AND RPRDCT=? AND RSLOB=? AND RPOLST=? AND RPOLNO=? AND DCMPNY=RCMPNY AND DBRNCH=RBRNCH AND DPRDCT=RPRDCT AND DSLOB=RSLOB AND DSTATE=RPOLST AND DEXPCC=0 AND DEXPYY=0 AND DEXPMM=0 AND DEXPDD=0 AND DCVDED=RCVDED AND (DCVSHT=? OR DCVSHT=?) - HomeOwnersApi.iSeries.Web
+15. 12:05:38.406 - Trace - call BDCOBJ.BINPSSMRTY(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?) - HomeOwnersApi.iSeries.Web
+
+1. PRODUCTION ERROR SUMMARY 
+...
+DATE - 10/29/17
+TIMESTAMP - 20:52:45.800 - 20:52:44.798
+# KIBANA ITEMS - 3
+CONTEXT ID - 	b5ea218f-1281-4d5a-a5c5-bd6a9ee65f11
+CORRELATION ID - 55c7d35b-f67b-43ed-a6db-cd73bfc06177
+...
+DETAILS :
+01. 20:52:44.798 - trace - ICommand - HomeOwnersApi.WriteModel.Commands - HomeOwnersApi.Web
+02. 20:52:44.798 - trace - RouteValueDictionary - Microsoft.AspNetCore.Routing - HomeOwnersApi.Web
+03. 20:52:45.800 - error - ConcurrencyException - CQRSlite.Domain.Exception - HomeOwnersApi.Web - A different version than expected was found in aggregate 9d00caaf-6d57-453d-b003-b9ea300021ce
+
+
+
+
+
+
+
+
 
 
 

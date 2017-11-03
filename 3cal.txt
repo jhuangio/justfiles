@@ -220,6 +220,7 @@ lt
 . Ctrl+G - goto line# vc
 . currentQuote.productId
 . jepsic
+. {{currentPage?.title}}
 
 in 
 ...
