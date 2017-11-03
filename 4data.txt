@@ -5423,6 +5423,45 @@ homeowners-quote.model.ts
 
   this.currentQuote.productId
 
+fri.110317@0822a
+...
+
+multiPolicyDiscountDefault
+
+bool? multiPolicyDiscountDefault
+
+policyModification.MultiPolicyDiscount.SetDefaultValue(multiPolicyDiscountDefault);
+
+policyModification.MultiPolicyDiscount.SetSelectedValue(multiPolicyDiscount);
+
+ var dateOfBirthChanged = applicantDateOfBirth !=
+                                            policyModification.ApplicantDateOfBirth.SelectedValue.FirstOrDefault();
+
+/// <param name="preferredBuilderDefault">The preferred builder default.</param>
+
+bool? preferredBuilderDefault,
+
+policyModification.PreferredBuilder.SetDefaultValue(preferredBuilderDefault)
+
+ discountSurcharge.PreferredBuilder.CanEdit = false;
+                    discountSurcharge.PreferredBuilder.CanView = false;
+
+quote.cs mods
+...
+
+line: 2729 - added following:
+
+                discountSurcharge.PreferredBuilder.SetDefaultValue(true);
+                discountSurcharge.PreferredBuilder.SetSelectedValue(true);
+
+      if ((this.currentQuote.productId === 'PHO' && this.formData.controls['isMultiPolicyDiscount'].dirty === false)) {
+        alert('clean');
+        this.formData.controls['isMultiPolicyDiscount'].setValue(true);
+        this.formData.value.isPreferredBuilder=true;
+      }
+      
+
+
 
 
 

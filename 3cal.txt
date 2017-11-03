@@ -222,11 +222,14 @@ lt
 
 in 
 ...
-. clinique/zo < 6p (800) 639-8904 - 240 1st ave s., st. petersburg, fl 33701
-. wg - small zip bags, tooth picks, baby eczema lotion large, alum foil, index cards - (Thu 11/2/2017 @12:41P)
-      if ((this.currentQuote.productId === 'PHO' && this.formData.controls['isMultiPolicyDiscount'].dirty === false)) {
-        alert('clean');
-        this.formData.controls['isMultiPolicyDiscount'].setValue(true);
-        this.formData.value.isPreferredBuilder=true;
-      }
-      
+. wg - tooth picks, index cards, vita c - (Thu 11/2/2017 @12:41P)
+. team city - http://build.bankersinsurance.com:82/login.html - (Fri 11/3/2017 @8:58A)
+. deploy to dev -  - (Fri 11/3/2017 @8:59A)
+. deploy to dev -  - (Fri 11/3/2017 @8:59A)
+. dev deploy - http://savdubuntuitlv01.big.ad.local:4201/ - (Fri 11/3/2017 @8:59A)
+. test in dev for both pho and ho2 - (Fri 11/3/2017 @8:59A)
+. sqa deploy - http://savsubuntuitlv02.big.ad.local:4202/login;returnUri=%2Fpos - (Fri 11/3/2017 @9:00A)
+. sqa test - (Fri 11/3/2017 @9:00A)
+. move ticket - (Fri 11/3/2017 @9:00A)
+. change title and time remaining to 2h - (Fri 11/3/2017 @9:00A)
+. assign to mahtab - (Fri 11/3/2017 @9:01A)
