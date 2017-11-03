@@ -225,3 +225,9 @@ in
 ...
 . wg - tooth picks, index cards, vita c - (Thu 11/2/2017 @12:41P)
 . c$ - (Fri 11/3/2017 @9:12A)
+. test in dev - pho and ho3 - http://savdubuntuitlv01.big.ad.local:4201/ - (Fri 11/3/2017 @12:25P)
+. test in sqa - ho3 and pho - http://savsubuntuitlv02.big.ad.local:4202/login;returnUri=%2Fpos - (Fri 11/3/2017 @12:26P)
+. jira - move ticket - (Fri 11/3/2017 @12:26P)
+. jira - change title - (Fri 11/3/2017 @12:27P)
+. jira - remaining hours to 2h - (Fri 11/3/2017 @12:27P)
+. jira - assign to mahtab - (Fri 11/3/2017 @12:27P)

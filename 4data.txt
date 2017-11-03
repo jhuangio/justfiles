@@ -5460,6 +5460,47 @@ line: 2729 - added following:
         this.formData.value.isPreferredBuilder=true;
       }
       
+fri.110317@1009a
+...
+feature/pho-lender-info-cleared-bug
+...
+
+...
+>>> payments.component.html
+...
+
+*ngIf="paymentFormData?.isBilledToMortgage?.canEdit"
+
+<span *ngIf="formData.controls['isBilledToMortgage'].value === true">{{displayLenderName()}}
+
+ (click)="openMortgageModal()"
+
+...
+>>> payments.component.ts
+...
+
+displayLenderName();
+
+openMortgageModal()
+
+shouldOpenMortgageModalOnOpen;
+
+line: 262
+line: 635
+
+openMortgageModal();
+
+line: 635
+
+mod.001.110317@1025a
+...
+. line: 637 - commented out line for test
+. line: 659 - added line >>>
+  . this.clearFormArray(this.mortgageForm.controls['lenders']);
+. line: 838 - changed "mortgageForm" to "formData"
+
+
+
 
 
 
