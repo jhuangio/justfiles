@@ -80,6 +80,7 @@ eb - ebay
 ed - end.day
 em - email
 en - end
+ep - eat.only
 ex - expire
 f  - file
 f1 - fight.1day
@@ -181,6 +182,7 @@ se - send
 s8 - sk8te
 sg - sprint.plan
 sh - sm.horizon.plan
+si - stk.in
 sk - skyway moto
 sn - sprint.test
 so - shoulder
@@ -331,7 +333,8 @@ log
 1029.sun.12 - fg
 1030.mon.11 - $c.46, bi.oo, f1.fe
 1031.tue.10 - ^gr(x), wg.pu.zo(x), tr.t.pu.cd$80(d), po.yb(x)
-1101.wed.09 - zz, po.r, w, s8
+1101.wed.09 - zz.ep.si, po.r, w, s8
+1102.thr.08 - cz.pu.fz$52(pd), zz.ep
 
 act
 ...

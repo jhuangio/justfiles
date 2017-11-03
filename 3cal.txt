@@ -44,7 +44,7 @@ bi.oe: 11/3 - 11/17
 
 cal
 ...
-1102.thr.08 - 
+
 1103.fri.07 - d.w
 1104.sat.06 - 1:30p-2p.de
 1105.sun.05 - 
@@ -137,7 +137,7 @@ cal
 0119.fri.14 - [p]
 
 ...
-day.wed.110217
+day.fri.110317
 ...
 00 .7a `
 15 ... `
@@ -151,15 +151,15 @@ day.wed.110217
 15 ... `
 30 ... `
 45 ... `
-00 10a `[su][1]
-15 ... `
-30 (6) `
-45 ... `
-00 11a `
-15 ... `
-30 (5) `
-45 ... `
-00 12p `lunch, ca.cm@12p jc
+00 10a [su][1]
+15 ... 
+30 (6) 
+45 ... 
+00 11a
+15 ... 
+30 (5) 
+45 ... 
+00 12p `lunch, ca.cm@12p jc, c$
 15 ... `|||
 30 (4) `|||
 45 ... `|||
@@ -178,8 +178,8 @@ day.wed.110217
 45 ... 
 00 .4p 
 15 ... 
-30 [0] lw, ca.cm@4:30p, jc, go.cz.fz$52
-45 ... go.wg
+30 [0] lw, ca.cm@4:30p, jc
+45 ... 
 00 .5p 
 15 ... 
 30 ... 
@@ -219,17 +219,9 @@ lt
 ...
 . Ctrl+G - goto line# vc
 . currentQuote.productId
+. jepsic
 
 in 
 ...
 . wg - tooth picks, index cards, vita c - (Thu 11/2/2017 @12:41P)
-. team city - http://build.bankersinsurance.com:82/login.html - (Fri 11/3/2017 @8:58A)
-. deploy to dev -  - (Fri 11/3/2017 @8:59A)
-. deploy to dev -  - (Fri 11/3/2017 @8:59A)
-. dev deploy - http://savdubuntuitlv01.big.ad.local:4201/ - (Fri 11/3/2017 @8:59A)
-. test in dev for both pho and ho2 - (Fri 11/3/2017 @8:59A)
-. sqa deploy - http://savsubuntuitlv02.big.ad.local:4202/login;returnUri=%2Fpos - (Fri 11/3/2017 @9:00A)
-. sqa test - (Fri 11/3/2017 @9:00A)
-. move ticket - (Fri 11/3/2017 @9:00A)
-. change title and time remaining to 2h - (Fri 11/3/2017 @9:00A)
-. assign to mahtab - (Fri 11/3/2017 @9:01A)
+. c$ - (Fri 11/3/2017 @9:12A)

@@ -27,7 +27,7 @@ da
 
 . test servers
   . dev - http://savdubuntuitlv01.big.ad.local:4201/
-  . sqa - http://savsubuntuitlv02.big.ad.local:4202/login;returnUri=%2Fpos
+  http://savsubuntuitlv02.big.ad.local:4202/login;returnUri=%2Fpos
 
 . PRODUCTION ERROR SUMMARY
 ...
