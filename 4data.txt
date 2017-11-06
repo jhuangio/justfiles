@@ -45,15 +45,15 @@ Myself – week of 11/13-11/19
 Nick – week of 11/20 -11/26
 
 . unit testing
-  . git - commit
-  . bb - merge
-  . tc - auto build
-  . git - switch to develop, pull update(s)
-  . tc
-    . manual build dev 
-    . manual build sqa
+  .. git - commit
+  .. bb - merge
+  .. tc - auto build
+  .. git - switch to develop, pull update(s)
+  .. tc
+    .. manual build dev 
+    .. manual build sqa
   . test
-    . dev
+    .. dev
     . sqa
   . jira
     . move ticket
@@ -6140,11 +6140,11 @@ error-today
    at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
    at HomeOwnersApi.WriteModel.Commands.Handlers.CreateQuoteCommandHandler.<Handle>d__6.MoveNext() in C:\TeamCity\buildAgent\work\2e1ce2f29b77b03e\HomeOwnersApi.WriteModel\Commands\Handlers\CreateQuoteCommandHandler.cs:line 117
 
+*ngIf="paymentFormData?.isBilledToMortgage?.canEdit"
 
 
 
-
-
+mortgageFormLenders.controls.length
 
 
 
