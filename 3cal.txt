@@ -175,7 +175,7 @@ day.mon.110617
 45 ... 
 00 .4p [oo.3d][4]
 15 ... |||
-30 [0] lw, ca.cm@4:30p, jc
+30 [0] lw, ca.cm@4:30p, jc, pm.s3
 45 ... 
 00 .5p 
 15 ... 
@@ -229,3 +229,4 @@ in
 . ca.dentist.next.thr.time? - (Mon 11/6/2017 @8:14A)
 . ca.dentist.surgeon.appt - (Mon 11/6/2017 @8:14A)
 . ca.dentist.root.canal.dr - (Mon 11/6/2017 @8:14A)
+. go.pm.s3>lw - (Mon 11/6/2017 @12:45P)

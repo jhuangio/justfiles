@@ -6083,6 +6083,25 @@ DETAILS :
 kibana
 ...
 
+C:\Octopus\Applications\SQA\HomeOwnersApi.Web\0.1.164-CI\logs\2017-11-06.json
+
+error-today
+...
+http://savpubuntuitlv01:5601/app/kibana#/discover/72b97c10-c309-11e7-9762-69e9075a8e79?_g=(refreshInterval:(display:Off,pause:!f,value:0),time:(from:now%2Fd,mode:quick,to:now%2Fd))&_a=(columns:!(host,Level,Name,ContextId,CorrelationId),filters:!(),index:'filebeat-*',interval:auto,query:(query_string:(analyze_wildcard:!t,query:Error)),sort:!('@timestamp',desc))
+
+error-today-correlation-id
+...
+http://savpubuntuitlv01:5601/app/kibana#/discover/72b97c10-c309-11e7-9762-69e9075a8e79?_g=(refreshInterval:(display:Off,pause:!f,value:0),time:(from:now%2Fd,mode:quick,to:now%2Fd))&_a=(columns:!(host,Level,Name,ContextId,CorrelationId),filters:!(),index:'filebeat-*',interval:auto,query:(query_string:(analyze_wildcard:!t,query:Error)),sort:!('@timestamp',desc))
+
+737e9103-e1ae-41ab-9db0-f9fed5a67b4d
+
+_search?q=*&pretty'
+
+http://savpubuntuitlv01:5601/app/kibana#/discover/_search?q=*&pretty'
+
+error-today
+...
+. http://savpubuntuitlv01:5601/app/kibana#/discover/72b97c10-c309-11e7-9762-69e9075a8e79?_g=()&_a=(columns:!(host,Level,Name,ContextId,CorrelationId),filters:!(),index:'filebeat-*',interval:auto,query:(query_string:(analyze_wildcard:!t,query:Error)),sort:!('@timestamp',desc))
 
 
 
@@ -6092,11 +6111,34 @@ kibana
 
 
 
-
-
-
-
-
+   at Elasticsearch.Net.RequestPipeline.BadResponse[TReturn](ElasticsearchResponse`1& response, RequestData data, List`1 pipelineExceptions) in c:\Projects\elastic\net-5\src\Elasticsearch.Net\Transport\Pipeline\RequestPipeline.cs:line 501
+   at Elasticsearch.Net.Transport`1.<RequestAsync>d__15`1.MoveNext() in c:\Projects\elastic\net-5\src\Elasticsearch.Net\Transport\Transport.cs:line 171
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nest.ElasticClient.<Nest-IHighLevelToLowLevelDispatcher-DispatchAsync>d__261`4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at HomeOwnersApi.WriteModel.EventStore.ElasticEventStore.<Save>d__13.MoveNext() in C:\TeamCity\buildAgent\work\2e1ce2f29b77b03e\HomeOwnersApi.WriteModel\EventStore\ElasticEventStore.cs:line 86
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at CQRSlite.Domain.Repository.<Save>d__4`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at CQRSlite.Cache.CacheRepository.<Save>d__6`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at CQRSlite.Domain.Session.<Commit>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at HomeOwnersApi.WriteModel.Commands.Handlers.CreateQuoteCommandHandler.<Handle>d__6.MoveNext() in C:\TeamCity\buildAgent\work\2e1ce2f29b77b03e\HomeOwnersApi.WriteModel\Commands\Handlers\CreateQuoteCommandHandler.cs:line 117
 
 
 

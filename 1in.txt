@@ -175,6 +175,7 @@ rg - register
 rr - red.robin
 s  - sprint
 s2 - sample.code
+s3 - st.pete
 s$ - shop.list
 sa - start
 sc - seat.cover
