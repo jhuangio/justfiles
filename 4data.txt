@@ -22,11 +22,11 @@ da
     . uat:  http://savuubuntuitlv01:5601/ 
     . prod: http://savpubuntuitlv01:5601/ 
 
-. team city
-  . http://build.bankersinsurance.com:82/login.html
+. team city - http://build.bankersinsurance.com:82/login.html
 
 . test servers
   . dev - http://savdubuntuitlv01.big.ad.local:4201/
+  . sqa - http://savsubuntuitlv02.big.ad.local:4202/
   http://savsubuntuitlv02.big.ad.local:4202/login;returnUri=%2Fpos
 
 . PRODUCTION ERROR SUMMARY
@@ -6080,7 +6080,8 @@ DETAILS :
 02. 20:52:44.798 - trace - RouteValueDictionary - Microsoft.AspNetCore.Routing - HomeOwnersApi.Web
 03. 20:52:45.800 - error - ConcurrencyException - CQRSlite.Domain.Exception - HomeOwnersApi.Web - A different version than expected was found in aggregate 9d00caaf-6d57-453d-b003-b9ea300021ce
 
-
+kibana
+...
 
 
 
