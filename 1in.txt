@@ -199,6 +199,11 @@ ti - trailer
 tr - trulieve
 ud - update
 uk - unknown
+v1 - visit.1
+v2 - visit.2
+v3 - visit.3
+v4 - visit.4
+v5 - visit.5
 vc - vs.code
 w  - week.rev
 wa - water
@@ -335,6 +340,7 @@ log
 1031.tue.10 - ^gr(x), wg.pu.zo(x), tr.t.pu.cd$80(d), po.yb(x)
 1101.wed.09 - zz.ep.si, po.r, w, s8
 1102.thr.08 - cz.pu.fz$52(pd), zz.ep
+1104.sat.06 - de.v1
 
 act
 ...

@@ -39,6 +39,28 @@ da
 ...
 . DETAILS :
 
+Jia – Please monitor emails and Production Kibana logs looking for errors this week…please check emails during the day and early evenings… 11/1 – 11/8
+Binish – week of 11/9 – 11/12
+Myself – week of 11/13-11/19
+Nick – week of 11/20 -11/26
+
+. unit testing
+  . git - commit
+  . bb - merge
+  . tc - auto build
+  . git - switch to develop, pull update(s)
+  . tc
+    . manual build dev 
+    . manual build sqa
+  . test
+    . dev
+    . sqa
+  . jira
+    . move ticket
+    . change title
+    . change remaining to 1h or 2h
+    . assign to mahtab
+
 dev.deploy
 ...
 . commit

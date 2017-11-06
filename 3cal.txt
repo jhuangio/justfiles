@@ -44,12 +44,8 @@ bi.oe: 11/3 - 11/17
 
 cal
 ...
-
-1103.fri.07 - d.w
-1104.sat.06 - 1:30p-2p.de
-1105.sun.05 - 
-1106.mon.04 - hc?, bi.oe.sa
-1107.tue.03 -
+1106.mon.04 - 
+1107.tue.03 - bi.oe.sa, d.w
 1108.wed.02 -
 1109.thr.01 - 
   pm$160, 
@@ -57,6 +53,7 @@ cal
   ca.dr.hs.nx.ao.d1?
 123456789012345678901234567890
 1110.fri.14 - [p] 
+  hc$20,
   cb$400, 
   pm$160, 
   wa$100, 
@@ -66,7 +63,7 @@ cal
 1113.mon.11 - 
 1114.tue.10 - 
 1115.wed.09 - [1.gm$342.10]
-1116.thr.08 - bi.oe.en>1d
+1116.thr.08 - bi.oe.en>1d, go.de
 1117.fri.07 - bi.oe.en
 1118.sat.06 - 
 1119.sun.05 - 
@@ -137,7 +134,7 @@ cal
 0119.fri.14 - [p]
 
 ...
-day.fri.110317
+day.mon.110617
 ...
 00 .7a `
 15 ... `
@@ -147,11 +144,11 @@ day.fri.110317
 15 ... `
 30 (8) `
 45 ... `
-00 .9a `
+00 .9a `[su][1]
 15 ... `
 30 ... `
 45 ... `
-00 10a [su][1]
+00 10a `
 15 ... 
 30 (6) 
 45 ... 
@@ -159,25 +156,25 @@ day.fri.110317
 15 ... 
 30 (5) 
 45 ... 
-00 12p `lunch, ca.cm@12p jc, c$
-15 ... `|||
-30 (4) `|||
-45 ... `|||
-00 .1p 
+00 12p lunch, ca.cm@12p jc, c$
+15 ... |||
+30 (4) |||
+45 ... |||
+00 .1p [sh.3w][2]
 123456789012345678901234567890
-15 ... 
-30 (3) 
-45 ... 
-00 .2p 
-15 ... 
+15 ... |||
+30 (3) |||
+45 ... |||
+00 .2p |||
+15 ... |||
 30 (2) 
 45 ... 
 00 .3p 
 15 ... 
-30 (1) [su][2]
+30 (1) [su][3]
 45 ... 
-00 .4p 
-15 ... 
+00 .4p [oo.3d][4]
+15 ... |||
 30 [0] lw, ca.cm@4:30p, jc
 45 ... 
 00 .5p 
@@ -211,6 +208,10 @@ day.fri.110317
 45 ... 
 00 12a 
 
+s$
+...
+wg - tooth picks, index cards
+
 ------------------
 act.log.cal.day.in
 ------------------
@@ -224,20 +225,7 @@ lt
 
 in 
 ...
-. wg - tooth picks, index cards, vita c - (Thu 11/2/2017 @12:41P)
-. unit testing
-  . git - commit
-  . bb - merge
-  . tc - auto build
-  . git - switch to develop, pull update(s)
-  . tc
-    . manual build dev 
-    . manual build sqa
-  . test
-    . dev
-    . sqa
-  . jira
-    . move ticket
-    . change title
-    . change remaining to 1h or 2h
-    . assign to mahtab
+. wg - tooth picks, index cards- (Thu 11/2/2017 @12:41P)
+. ca.dentist.next.thr.time? - (Mon 11/6/2017 @8:14A)
+. ca.dentist.surgeon.appt - (Mon 11/6/2017 @8:14A)
+. ca.dentist.root.canal.dr - (Mon 11/6/2017 @8:14A)
