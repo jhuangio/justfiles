@@ -6,7 +6,7 @@ act.log.cal.day.in
 . cat.2107093
 . me .2180810
 
-. $157(thr.110217)
+. $49(tue.11/7/17.2)
 . gw$0(x)
 
 . charlotte a fowler dmd
