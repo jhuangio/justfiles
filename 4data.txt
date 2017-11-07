@@ -14,8 +14,10 @@ da
   . St. Pete, FL 33702
 
 . kibana production link
+
   . http://savpubuntuitlv01:5601/app/kibana#/discover?_g=(refreshInterval:(display:Off,pause:!f,value:0),time:(from:now%2Fw,mode:quick,to:now%2Fw))&_a=(columns:!(host,Level,Name,ContextId,CorrelationId),index:'filebeat-*',interval:auto,query:(query_string:(analyz
   . kibana servers
+
     . dev:  http://savdubuntuitlv01:5601/app/kibana#/discover?_g=() 
     . dev:  http://savdubuntuitlv01:5601/
     . sqa:  http://savsubuntuitlv01:5701/ 
@@ -25,8 +27,10 @@ da
 . team city - http://build.bankersinsurance.com:82/login.html
 
 . test servers
+
   . dev - http://savdubuntuitlv01.big.ad.local:4201/
   . sqa - http://savsubuntuitlv02.big.ad.local:4202/
+
   http://savsubuntuitlv02.big.ad.local:4202/login;returnUri=%2Fpos
 
 . PRODUCTION ERROR SUMMARY
@@ -79,6 +83,10 @@ dev.deploy
 . pull changes
 
 d3/d3/dist/justfiles/gitjia run=".\jj.bat"
+
+bi.pr 
+...
+. bfcbbiso1 on bhpprintwv01
 
 co
 ...
@@ -6142,14 +6150,55 @@ error-today
 
 *ngIf="paymentFormData?.isBilledToMortgage?.canEdit"
 
-
-
 mortgageFormLenders.controls.length
 
+kibana
+...
+. built with node
+. free
+. charts
 
+CORRELATION ID: 32135078-2511-4a33-a935-090fb42cfd17 | CONTEXT ID: 621accd3-3f30-41b0-a7ac-e144050626ca
 
+   at HomeOwnersApi.Infrastructure.DataService.HandleException[T](Task`1 task, Uri url) in C:\TeamCity\buildAgent\work\2e1ce2f29b77b03e\HomeOwnersApi.Infrastructure\DataService.cs:line 200
 
+   at HomeOwnersApi.Infrastructure.DataService.<>c__DisplayClass10_0`2.<PutAsync>b__0(Task`1 t) in C:\TeamCity\buildAgent\work\2e1ce2f29b77b03e\HomeOwnersApi.Infrastructure\DataService.cs:line 140
 
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+
+   at System.Threading.Tasks.Task.Execute()
+
+--- End of stack trace from previous location where exception was thrown ---
+
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+
+   at HomeOwnersApi.Infrastructure.DataService.<PutAsync>d__10`2.MoveNext() in C:\TeamCity\buildAgent\work\2e1ce2f29b77b03e\HomeOwnersApi.Infrastructure\DataService.cs:line 139
+
+--- End of stack trace from previous location where exception was thrown ---
+
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+
+   at HomeOwnersApi.Infrastructure.Services.PaymentService.<SavePaymentDetails>d__3.MoveNext() in C:\TeamCity\buildAgent\work\2e1ce2f29b77b03e\HomeOwnersApi.Infrastructure\Services\PaymentService.cs:line 39
+
+--- End of stack trace from previous location where exception was thrown ---
+
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+
+   at HomeOwnersApi.WriteModel.Commands.Handlers.SubmitPaymentCommandHandler.<Handle>d__13.MoveNext() in C:\TeamCity\buildAgent\work\2e1ce2f29b77b03e\HomeOwnersApi.WriteModel\Commands\Handlers\SubmitPaymentCommandHandler.cs:line 102
+
+PUT - http://localhost:8085/api/exposure/101886/3000/0/HO/HO3/2017-11-06/09QT92291550 99/DRP00000000003087929
  
 
 [999.eof]

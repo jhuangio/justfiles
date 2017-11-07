@@ -44,9 +44,8 @@ bi.oe: 11/3 - 11/17
 
 cal
 ...
-
-1107.tue.03 - bi.oe.sa, d.w
-1108.wed.02 -
+1107.tue.03 - 
+1108.wed.02 - bi.oe.sa, d.w
 1109.thr.01 - 
   pm$160, 
   wg.my.ad.df, 
@@ -54,6 +53,7 @@ cal
 123456789012345678901234567890
 1110.fri.14 - [p] 
   hc$20,
+  be.cm.n.gl$250
   cb$400, 
   pm$160, 
   wa$100, 
@@ -64,7 +64,9 @@ cal
 1113.mon.11 - 
 1114.tue.10 - 
 1115.wed.09 - [1.gm$342.10]
-1116.thr.08 - bi.oe.en>1d, go.de
+1116.thr.08 - 
+  bi.oe.en>1d, 
+  go.de
 1117.fri.07 - bi.oe.en
 1118.sat.06 - 
 1119.sun.05 - 
@@ -74,7 +76,8 @@ cal
 1121.tue.03 -
 1122.wed.02 - 
 1123.thr.01 -
-1124.fri.14 - [4mon][P] am$552
+1124.fri.14 - [4mon][P] 
+  am$552
 1125.sat.13 - 
 1126.sun.12 - 
 1127.mon.11 - 
@@ -139,8 +142,8 @@ day.mon.110617
 ...
 00 .7a `
 15 ... `
-30 ... ` aw@7:40a
-45 ... ` 
+30 ... `aw@7:35a
+45 ... `
 00 .8a `
 15 ... `
 30 (8) `
@@ -161,18 +164,18 @@ day.mon.110617
 15 ... `|||
 30 (4) `|||
 45 ... `|||
-00 .1p [sh.3w][2]
+00 .1p `
 123456789012345678901234567890
-15 ... |||
-30 (3) |||
-45 ... |||
-00 .2p |||
-15 ... |||
+15 ... `
+30 (3) 
+45 ... 
+00 .2p 
+15 ... 
 30 (2) 
 45 ... 
 00 .3p 
 15 ... 
-30 (1) [su][3]
+30 (1) [su][2]
 45 ... 
 00 .4p [oo.3d][4]
 15 ... |||
@@ -224,10 +227,41 @@ lt
 . jepsic
 . {{currentPage?.title}}
 
+gym
+...
+abc.pizza.next.to.reis.auto.15
+above.all.cuts.mural.smoke.shop.sheldon.07
+arbors.countryway.fountain.mom.brown.apt.04
+arbor.water.fountain.my.old.apt.memorial.18
+baylife.cross.church.next.to.smoke.shop.06
+baywater.fountain.01
+buddhist.wate.prayer.statue.viet.temple.12
+chapel.in.the.pines.kelly.rd.19
+chase.memorial.center.statue. memorial.7-11.25
+fountain.square.next.to.lake.pillars.28
+gamestop.hilllsb.memorial.09
+highwoods.waterfall.new.corp.building.memorial.24
+hope.gospel.church.korean.sawyer.17
+jackson.spring.park.08
+lake.pillars.memorial.near.expressway.27
+levis.the.swordfish.tgif.03
+marsupial.a.la.carte.fountain.dana.shores.23
+pam.callahan.nature.preserve.memorial.near.kelly.21
+please.wash.me.mural.sawyer.16
+reformed.cross.hillsb.webb.10
+starbucks.super.target.02
+sweetwater.park.next.to.old.condo.22
+tampa.elite.sports.academy.05
+tokyo.carp.fountain.888.sushi.11
+town.n.country.library.13
+us.post.office.tnc.14
+well.of.life.church.entrance.domino.pizza.memorial.20
+west.bay.fountain.near.our.house.rode.bike.thru.26
+
 in 
 ...
 . wg - tooth picks, index cards- (Thu 11/2/2017 @12:41P)
 . ca.dentist.next.thr.time? - (Mon 11/6/2017 @8:14A)
 . ca.dentist.surgeon.appt - (Mon 11/6/2017 @8:14A)
 . ca.dentist.root.canal.dr - (Mon 11/6/2017 @8:14A)
-. go.pm.s3>lw - (Mon 11/6/2017 @12:45P)
+. centralized logging with the elastic stack: getting started - jp t - 2h
