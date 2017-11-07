@@ -114,6 +114,7 @@ i2 - ipad.pro
 i7 - iphone7
 ic - itunes
 id - index.cards
+ii - ipad2
 in - in
 ip - interview.person
 it - in time
@@ -342,6 +343,7 @@ log
 1101.wed.09 - zz.ep.si, po.r, w, s8
 1102.thr.08 - cz.pu.fz$52(pd), zz.ep
 1104.sat.06 - de.v1
+1106.mon.04 - pm.df.ii.1204
 
 act
 ...
