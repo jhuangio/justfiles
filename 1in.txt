@@ -8,12 +8,13 @@ dd
 +  - get
 $  - pay
 $c - cash.buy
-3d - 3.deathstar
+3d - 3.dstar
 3o - 3.osprey
-3w - 3.woodstork
+3w - 3.woodstk
 4  - for
-4p - 4.pelican
-4t - 4.pterodactyl
+4e - 4.egret
+4p - 4.pelic
+4t - 4.ptero
 4w - 4.whiteibis
 7  - 711
 a  - arrive
@@ -81,6 +82,7 @@ ed - end.day
 em - email
 en - end
 ep - eat.only
+et - extend.to
 ex - expire
 f  - file
 f1 - fight.1day
@@ -198,6 +200,7 @@ t2 - tires
 te - teco
 ta - tampa
 ti - trailer
+to - to
 tr - trulieve
 ud - update
 uk - unknown
