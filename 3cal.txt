@@ -267,6 +267,19 @@ us.post.office.tnc.14
 well.of.life.church.domino.memorial.20
 west.bay.fountain.near.house.rode.bike.thru.26
 
+bi 
+...
+. HOADHOC-1886: PHO - HELP TEXT FOR PROPERTY DETAILS
+  . status: in progress
+  . start: 11/9/17
+  . end:
+  . comment: 
+. HOADHOC-2061: PHO - LENDER DATA NOT PASSING TO BACKEND
+  . status: todo
+  . start:
+  . end:
+  . comment:
+
 in 
 ...
 . wg - tooth picks, index cards- (Thu 11/2/2017 @12:41P)
