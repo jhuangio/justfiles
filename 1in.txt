@@ -347,6 +347,7 @@ log
 1102.thr.08 - cz.pu.fz$52(pd), zz.ep
 1104.sat.06 - de.v1
 1106.mon.04 - pm.df.ii.1204
+1108.wed.02 - po.g20
 
 act
 ...

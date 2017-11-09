@@ -1,0 +1,22 @@
+KIBANA PRODUCTION ERROR ANALYSIT
+DATE: 11/6/17
+TIME: 5:07P-5:08P
+CONTEXT ID: 3d9f5e67-21d7-427b-b602-2ac35e500d67
+...
+CORRELATION ID: e2f1391a-b78d-4fb7-8e25-4e3a01e126d3
+...
+01. TIME: 5:07P - TRACE: RouteValueDictionary - Microsoft.AspNetCore.Routing - HomeOwnersApi.Web
+    . DATA: {"action":"PutPropertyDetail","controller":"Quote"}
+02. TIME: 5:07P - TRACE: ICommand - HomeOwnersApi.WriteModel.Commands - HomeOwnersApi.Web
+    . DATA: {"QuoteId":"1420940b-2c94-4c9f-badd-1a001fd9f0b7","YearBuilt":2002,"BuildingTypeId":4,"FoundationTypeId":"","SquareFeet":828,"ConstructionId":3,"GarageSizeId":"","NumberOfStoriesId":"1","OccupancyId":1,"OccupancyUseId":1,"KitchenSizeId":"","NumberOfBathroomsId":"","HasCoveredPorch":null,"CoveredPorchId":null,"HasSwimmingPool":null,"SwimmingPoolSizeId":null,"HasScreenedPool":null,"RoofShapeId":4,"RoofCoveringMaterialId":10,"CreditScoreRangeId":700,"UnitsWithinFirewallId":null,"ScreenedPoolLanaiId":null,"IsXWind":false,"NumberOfMonthsUnoccupied":null,"Id":"00000000-0000-0000-0000-000000000000","ExpectedVersion":0}
+03. TIME: K:
+
+discount-surcharge-components.ts 
+...
+line: 144 add >>>
+. 
+
+this.formData.controls['isMultiPolicyDiscount'].valueChanges.subscribe(isMultiPolicyDiscount => {
+    if (this.formData.controls['isMultiPolicyDiscount'].)
+})
+

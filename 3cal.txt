@@ -44,8 +44,6 @@ bi.oe: 11/3 - 11/17
 
 cal
 ...
-1107.tue.03 - 
-1108.wed.02 - bi.oe.sa, d.w
 1109.thr.01 - 
   pm$160, 
   wg.my.ad.df, 
@@ -61,7 +59,7 @@ cal
   gm$342.01
 1111.sat.13 - 
 1112.sun.12 - 
-1113.mon.11 - 
+1113.mon.11 - bi.oe.sa, d.w
 1114.tue.10 - 
 1115.wed.09 - [1.gm$342.10]
 1116.thr.08 - 
@@ -136,6 +134,16 @@ cal
 0117.wed.02 - 
 0118.thr.01 - 
 0119.fri.14 - [p]
+0120.sat.13 - 
+0121.sun.12 - 
+0122.mon.11 - 
+0123.tue.10 - 
+0124.wed.09 - [6mon]
+0125.thr.08 - 
+0126.fri.07 - 
+0127.sat.06 - 
+0128.sun.05 - 
+0129.mon.04 - 
 
 ...
 day.mon.110617
@@ -264,4 +272,3 @@ in
 . ca.dentist.next.thr.time? - (Mon 11/6/2017 @8:14A)
 . ca.dentist.surgeon.appt - (Mon 11/6/2017 @8:14A)
 . ca.dentist.root.canal.dr - (Mon 11/6/2017 @8:14A)
-. ca.wa.et>11/10/17 - (Wed 11/8/2017 @8:42A)

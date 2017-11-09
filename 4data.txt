@@ -49,21 +49,21 @@ Myself – week of 11/13-11/19
 Nick – week of 11/20 -11/26
 
 . unit testing
-  ... git - commit
-  ... bb - merge
-  ... tc - auto build
-  ... git - switch to develop, pull update(s)
-  .. tc
-    .. manual build dev 
-    .. manual build sqa
-  . test
-    .. dev
-    . sqa
-  . jira
-    . move ticket
-    . change title
-    . change remaining to 1h or 2h
-    . assign to mahtab
+. git - commit
+. bb - merge
+. tc - auto build
+. git - switch to develop, pull update(s)
+. tc
+. manual build dev 
+. manual build sqa
+. test
+. dev
+. sqa
+. jira
+. move ticket
+. change title
+. change remaining to 1h or 2h
+. assign to mahtab
 
 dev.deploy
 ...
@@ -6206,5 +6206,26 @@ geolocate_precision=city
 plus4_code
 
 6: POLICY NUMBER - 
+
+. at CQRSlite.Domain.AggregateRoot.LoadFromHistory(IEnumerable`1 history)
+. at CQRSlite.Domain.Repository.<LoadAggregate>d__6`1.MoveNext()
+. at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+. at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+. at CQRSlite.Cache.CacheRepository.<Get>d__7`1.MoveNext()
+. at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+. at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+. at CQRSlite.Domain.Session.<Get>d__4`1.MoveNext()
+. at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+. at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+. at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+. at HomeOwnersApi.WriteModel.Commands.Handlers.LoadQuoteCommandHandler.<Handle>d__4.MoveNext() in \HomeOwnersApi.WriteModel\Commands\Handlers\LoadQuoteCommandHandler.cs:line 63
+
+at IBM.Data.DB2.iSeries.iDB2Exception.throwDcException(MpDcErrorInfo mpEI, MPConnection conn), at IBM.Data.DB2.iSeries.iDB2Command.reportDCError(Int32 rc), at IBM.Data.DB2.iSeries.iDB2Command.execute(), at IBM.Data.DB2.iSeries.iDB2Command.ExecuteNonQuery(), at HomeOwnersApi.iSeries.Web.Controllers.ControllerBase.ExecuteNonQuery[T](String commandText, Action`1 mapParameters, Func`3 mapResult) in > \HomeOwnersApi.iSeries.Web\Controllers\ControllerBase.cs:line 209
+
+888>>>
+
+at IBM.Data.DB2.iSeries.iDB2Exception.throwDcException(MpDcErrorInfo mpEI, MPConnection conn), at IBM.Data.DB2.iSeries.iDB2Command.reportDCError(Int32 rc), at IBM.Data.DB2.iSeries.iDB2Command.execute(), at IBM.Data.DB2.iSeries.iDB2Command.ExecuteNonQuery(), at HomeOwnersApi.iSeries.Web.Controllers.ControllerBase.ExecuteNonQuery[T](String commandText, Action`1 mapParameters, Func`3 mapResult) in \HomeOwnersApi.iSeries.Web\Controllers\ControllerBase.cs:line 215, at HomeOwnersApi.iSeries.Web.Controllers.ControllerBase.CommonDriverStoredProcedure(String parameterString) in \HomeOwnersApi.iSeries.Web\Controllers\ControllerBase.cs:line 420, at HomeOwnersApi.iSeries.Web.Controllers.PropertyDetailController.SavePropertyDetails(PropertyDetailSelection request) in \HomeOwnersApi.iSeries.Web\Controllers\PropertyDetailController.cs:line 740, at lambda_method(Closure , Object , Object[] ), at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters), at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+
+at HomeOwnersApi.Infrastructure.DataService.<PutAsync>d__10`2.MoveNext() in \HomeOwnersApi.Infrastructure\DataService.cs:line 148, at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw(), at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task), at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult(), at HomeOwnersApi.Infrastructure.Services.PropertyDetailService.<SavePropertyDetail>d__19.MoveNext() in \HomeOwnersApi.Infrastructure\Services\PropertyDetailService.cs:line 93, at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw(), at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task), at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult(), at HomeOwnersApi.WriteModel.Commands.Handlers.SubmitPropertyDetailsCommandHandler.<Handle>d__12.MoveNext() in \HomeOwnersApi.WriteModel\Commands\Handlers\SubmitPropertyDetailsCommandHandler.cs:line 169
 
 [999.eof]
