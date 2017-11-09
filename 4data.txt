@@ -88,6 +88,10 @@ bi.pr
 ...
 . bfcbbiso1 on bhpprintwv01
 
+www 
+...
+. tave seah - emergent task planner - http://davidseah.com/node/the-emergent-task-planner/
+
 co
 ...
 . clinique/zo 
@@ -6227,5 +6231,67 @@ at IBM.Data.DB2.iSeries.iDB2Exception.throwDcException(MpDcErrorInfo mpEI, MPCon
 at IBM.Data.DB2.iSeries.iDB2Exception.throwDcException(MpDcErrorInfo mpEI, MPConnection conn), at IBM.Data.DB2.iSeries.iDB2Command.reportDCError(Int32 rc), at IBM.Data.DB2.iSeries.iDB2Command.execute(), at IBM.Data.DB2.iSeries.iDB2Command.ExecuteNonQuery(), at HomeOwnersApi.iSeries.Web.Controllers.ControllerBase.ExecuteNonQuery[T](String commandText, Action`1 mapParameters, Func`3 mapResult) in \HomeOwnersApi.iSeries.Web\Controllers\ControllerBase.cs:line 215, at HomeOwnersApi.iSeries.Web.Controllers.ControllerBase.CommonDriverStoredProcedure(String parameterString) in \HomeOwnersApi.iSeries.Web\Controllers\ControllerBase.cs:line 420, at HomeOwnersApi.iSeries.Web.Controllers.PropertyDetailController.SavePropertyDetails(PropertyDetailSelection request) in \HomeOwnersApi.iSeries.Web\Controllers\PropertyDetailController.cs:line 740, at lambda_method(Closure , Object , Object[] ), at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters), at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
 
 at HomeOwnersApi.Infrastructure.DataService.<PutAsync>d__10`2.MoveNext() in \HomeOwnersApi.Infrastructure\DataService.cs:line 148, at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw(), at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task), at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult(), at HomeOwnersApi.Infrastructure.Services.PropertyDetailService.<SavePropertyDetail>d__19.MoveNext() in \HomeOwnersApi.Infrastructure\Services\PropertyDetailService.cs:line 93, at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw(), at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task), at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult(), at HomeOwnersApi.WriteModel.Commands.Handlers.SubmitPropertyDetailsCommandHandler.<Handle>d__12.MoveNext() in \HomeOwnersApi.WriteModel\Commands\Handlers\SubmitPropertyDetailsCommandHandler.cs:line 169
+
+poc 
+...
+. 4 types of cards 
+  . record card
+    . diary 
+    . note 
+    . account 
+    . health 
+    . weather 
+    . cook 
+    . any record 
+    . appointments 
+    . notes to follow up on 
+    . etc 
+  . discover card
+    . this from my brain, mind, spirit 
+    . anything emerge from inside me 
+    . my ideas
+  . GTD card 
+  . cite card
+    . other's ideas
+    . a book - author, year, page(s)
+
+
+
+
+
+. PROPERTY DETAILS Page
+  . occupancy field
+  . occupancyUse field
+  . pho only?
+  . applicant page run credit popup example
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 [999.eof]
