@@ -48,9 +48,9 @@ Binish – week of 11/9 – 11/12
 Myself – week of 11/13-11/19
 Nick – week of 11/20 -11/26
 
-. unit testing
-. git - commit
-. bb - merge
+.. unit testing
+.. git - commit
+.. bb - merge
 . tc - auto build
 . git - switch to develop, pull update(s)
 . tc
@@ -104,7 +104,18 @@ co
   . accross from shannon's funeral home
   . 1015 14th St W, Bradenton, FL 34205
 
-. 
+. 4 guys auto shop
+  . (813) 515-7732
+  . 13950 N Florida Ave.
+  . Tampa, FL
+
+. charlotte a fowler dmd
+  . (813) 235-0957
+  . greenberg dental & ortho 
+  . 10041 w hillsborough Ave
+  . tampa, fl 33613
+  . 11/4.sat.1:30a-2p
+  . 11/16.thr.5:45p.$67.80
 
 journal
 ...
@@ -6255,16 +6266,93 @@ poc
     . other's ideas
     . a book - author, year, page(s)
 
-
-
-
-
 . PROPERTY DETAILS Page
   . occupancy field
   . occupancyUse field
-  . pho only?
   . applicant page run credit popup example
 
+jira commits 
+...
+. 1629 - add ui logic to make credit manditory for certain scenarios - 8/23/17
+. 1635 - update ui changes with the static changes
+. 1767 - api update to accommodate discount surcharge edit
+. 1772 - update ui and api for coverage edits - 9/19/17
+. 1773 - update ui and api to handle the payment plans for pho to display correctly - 9/6/17
+. 1807 - add logic in api for x-wind
+. 2061 - pho lender issue
+. 1886 - help text for property details
+
+wip 
+... 
+
+applicants.component.ts
+...
+. @ViewChild('noRunCreditPopover')
+noRunCreditPopover: PopoverDirective;
+. this.noRunCreditPopover.show();
+. popoverOpen(): boolean {
+    return (this.noEmailPopover && this.noEmailPopover.isOpen) || (this.noRunCreditPopover && this.noRunCreditPopover.isOpen);
+  }
+. this.popoverAsModalHelper.reEnableAllOtherInputs();
+. this.noRunCreditPopover.hide();
+
+applicants.component.html
+...
+.    <fieldset class="float-right layout-one-right">
+          <legend
+              [popover]="noRunCreditTemplate"
+              placement="top"
+              trigger=""
+              #noRunCreditPopover="bs-popover"
+	            (onShown)="showNoEmail()"
+	            container="body"
+          ><span>4. Run Credit</span></legend>
+
+HOADHOC-1886: PHO - Help Text for Property Details 
+...
+. Acceptance Criteria
+  . Seasonal Help Text: "Property is occupied at least 3 continuous months out of the year"
+  . Secondary Help Text: "Property is occupied at least 3 months out of the year - non-continuous"
+
+
+
+import {correctPopoverLeft} from '../../core/ux/popover-correction';
+
+
+  @ViewChild('noRunCreditPopover')
+  noRunCreditPopover: PopoverDirective;
+
+    popoverOpen(): boolean {
+    return (this.noEmailPopover && this.noEmailPopover.isOpen) || (this.noRunCreditPopover && this.noRunCreditPopover.isOpen);
+  }
+
+  this.noRunCreditPopover.hide();
+
+
+  html:
+
+  <!-- START No Run Credit Popover -->
+<ng-template #noRunCreditTemplate>
+  <h2 class="popover-sub-heading">Please Confirm</h2>
+  <div class="no-run-credit-content" align="center">
+    If you choose "No" to Run with Credit, you will not be<br>eligible to receive a policy.<br><br><br>
+  </div>
+  <div class="popover-footer-float-right">
+    <button class="btn btn-success" (click)="setRunCreditPopover()">Yes, Run With Credit</button>
+    <button class="btn btn-success" (click)="setNoRunCreditPopover()">Don't Run With Credit</button>
+  </div>
+</ng-template>
+<!-- END of No Run Credit Popover -->
+
+<div [ngClass]="popoverOpen() ? 'popover-disabled-background': ''"></div>
+
+fri - 11/10 notes 
+...
+
+. glyphicons-exclamation-sign
+
+
+ 
 
 
 

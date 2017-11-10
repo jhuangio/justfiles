@@ -1,4 +1,3 @@
-123456789012345678901234567890
 ------------------
 act.log.cal.day.in
 ------------------
@@ -6,17 +5,22 @@ act.log.cal.day.in
 . cat.2107093
 . me .2180810
 
-. $49(tue.11/7/17.2)
-. gw$0(x)
+fri.11/10
+...
+. c$0
+. g$0
 
-. charlotte a fowler dmd
-  . (813) 235-0957
-  . greenberg dental & ortho 
-  . 10041 w hillsborough Ave
-  . tampa, fl 33613
-  . 11/4.sat.1:30a-2p
+bi.oe: 11/3 - 11/17
 
-123456789012345678901234567890
+ac
+be
+dt 
+gm.447693292
+pm 
+sp 
+sk 
+te 
+wa.4836200000
 
 act
 ...
@@ -38,28 +42,21 @@ act
 . s$.ol.isleepeasy.app
 . s$.wm.b.nf.t2
 
-123456789012345678901234567890
-
-bi.oe: 11/3 - 11/17
-
 cal
 ...
-1109.thr.01 - 
-  pm$160, 
-  wg.my.ad.df, 
-  ca.dr.hs.nx.ao.d1?
-123456789012345678901234567890
 1110.fri.14 - [p] 
-  hc$20,
-  be.cm.n.gl$250
   cb$400, 
   pm$160, 
   wa$100, 
   pm$300,
-  gm$342.01
-1111.sat.13 - 
+  gm$342.01,
+  wg.my.ad.df,
+  wg.myad.pu,
+  ca.dr.hs.nx.ao.d1?,
+  go.tr.ta.pu$250
+1111.sat.13 - bi.aw@8am, pm>lw.pu$300, hc$20, be.df.cm.gl
 1112.sun.12 - 
-1113.mon.11 - bi.oe.sa, d.w
+1113.mon.11 - bi.oe.sa, d.w, hc$20
 1114.tue.10 - 
 1115.wed.09 - [1.gm$342.10]
 1116.thr.08 - 
@@ -295,3 +292,4 @@ in
 . do.dog.box
 . walk.sk8.bebe
 . garbage.out
+. bi.move.sqa.mon.am.1886

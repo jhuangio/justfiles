@@ -3,8 +3,8 @@
 dd
 ...
 @  - at
->  - right arrow
-<  - left arror
+>  - to
+<  - from
 +  - get
 $  - pay
 $c - cash.buy
@@ -45,7 +45,7 @@ bs - bi.su
 bt - big.table
 by - berry
 c# - conf#
-c$ - count$
+c$ - cash.bal
 123456789012345678901234567890
 c  - cal
 ca - call
@@ -95,8 +95,10 @@ fi - find
 fo - food
 fr - fruit
 ft - fight
+fw - forward
 fz - foamaclense
 g  - gym
+g$ - grow.bal
 gc - go.cha
 ge - get
 gl - glasses
@@ -161,6 +163,7 @@ oo - 1.on.1
 op - onphone
 or - or
 p  - payday
+p$ - pay$
 pd - paid
 pi - phone.interview
 pm - pawnmax
@@ -182,6 +185,7 @@ s3 - st.pete
 s$ - shop.list
 sa - start
 sc - seat.cover
+sd - dr.singh
 se - send
 s8 - sk8te
 sg - sprint.plan
@@ -267,9 +271,40 @@ zz - zoom.zoom
   . fri: 9a-.6p
   . sat: 9a-1p
 
-  . be.westchase - (813) 792-0637
-  9912 W Linebaugh Ave.,
-  Tampa, FL 33626
+. be.westchase - (813) 792-0637
+  . 9912 W Linebaugh Ave.,
+  . Tampa, FL 33626
+
+p$
+
+. ac
+  . 10/27 - pd$385.05
+
+. be
+
+. dt
+  . c#769540498
+  . 11/10 - ca.dt.fw>11/24
+
+. gm
+  . 11/10 - fw>11/24
+
+. pm
+
+. sd
+
+. sp
+  . 11/11 - auto.pd$68.93
+
+. sk
+  . 10/13 - pd$150
+  . 10/27 - pd$150
+  . 11/10 - pd$100
+
+. te
+  . 10/13 - pd$101
+
+. wa
 
 icons
 ...
