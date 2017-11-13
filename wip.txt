@@ -1,0 +1,31 @@
+Discounts - PHO
+...
+. formData.newHomePurchaseDate
+. dateStringBeforeDate()
+. BfcValidator
+  . BfcValidator.dateStringBeforeDate(this.currentQuote.effectiveDate)
+. dateValidator
+. BfcValidator
+. from api?
+  . discountSurchargeFormData.newHomePurchaseDate.valueOrEmptyString
+. bfc-validators.ts
+
+import {Validators, ValidatorFn, AbstractControl} from '@angular/forms';
+import {BfcDateFormatter} from './bfc-date-formatter';
+
+  static dateStringBeforeDate(maxDate = new Date()): ValidatorFn {
+    return (control: AbstractControl): {[key: string]: any} => {
+      const input = control.value;
+      const dateInput = BfcDateFormatter.dateOrNull(input);
+      const isValid = (dateInput === null || dateInput < maxDate);
+      if (!isValid) {
+        return {'maxDate': {maxDate}};
+      } else {
+        return null;
+      }
+    };
+  }
+
+discount-surcharge.component.ts
+...
+. line: 9 - [edit] add "ValidatorFn"

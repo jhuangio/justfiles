@@ -277,6 +277,18 @@ bi
   . end:
   . comment:
 
+kibana
+...
+. http://savpubuntuitlv01:5601/app/kibana#/discover?_g=()&_a=(columns:!(Level,CorrelationId,Name,Nameslpace,Assembly,ErrorMessage,Data,ErrorStackTrace),filters:!(),index:'filebeat-*',interval:auto,query:(query_string:(analyze_wildcard:!t,query:'2595fec3-bac9-4662-869f-19dfea0b4874')),sort:!('@timestamp',desc))
+
+css - flexbox
+...
+. container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
 in 
 ...
 . wg - tooth picks, index cards- (Thu 11/2/2017 @12:41P)
@@ -293,29 +305,11 @@ in
 . walk.sk8.bebe
 . garbage.out
 . bi.move.sqa.mon.am.1886
-
-. mb
-...
-  . 1 - tgif super target
-  . 2 - arbor fountain mom b apt
-  . 3 - baybridge park main entrance
-
-instinct.g 
-...
-  . 01 - highwoods waterfall
-  . 02 - reading on a  log oldsmar post office
-  . 03 - bayside community church near 580
-  . 04 - little free library near safety.h downtown
-  . 05 - eve and her apple - mcmullen.b near ruth eckard south of it
-  . 06 - oldsmar flea mkt
-  
-
-cat.g 
-...
-  . 01 - tampa shores church
-  . 02 - softball field - ppark
-  . 03 - double slide command structure - ppark
-  . 04 - ppark 
-  . 05 - invaders are taking over - ppark
-  . 06 - oldsmar boat ramp
-  . 07 - oldsmar christian
+. pr.dd - (Mon 11/13/2017 @8:42A)
+. n1.us.t - (Mon 11/13/2017 @8:43A)
+. bi.tc.dy.sq - (Mon 11/13/2017 @8:47A)
+. HOADHOC-2063: New Home Purchase logic not working as expected
+  . The new home purchase logic is not working as needed. 
+  . 1. If I select a date in the future I get a message that future dating is not allowed. 
+       . However if I am quoting ahead of a closing I need to ability to enter a date in the future. 
+  . 2. Also if I put the purchase date the same as the effective date, I am not able to continue because I don't get a green continue.

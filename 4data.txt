@@ -48,9 +48,9 @@ Binish – week of 11/9 – 11/12
 Myself – week of 11/13-11/19
 Nick – week of 11/20 -11/26
 
-.. unit testing
-.. git - commit
-.. bb - merge
+. unit testing
+. git - commit
+. bb - merge
 . tc - auto build
 . git - switch to develop, pull update(s)
 . tc
@@ -103,19 +103,6 @@ co
 . trulieve bradenton
   . accross from shannon's funeral home
   . 1015 14th St W, Bradenton, FL 34205
-
-. 4 guys auto shop
-  . (813) 515-7732
-  . 13950 N Florida Ave.
-  . Tampa, FL
-
-. charlotte a fowler dmd
-  . (813) 235-0957
-  . greenberg dental & ortho 
-  . 10041 w hillsborough Ave
-  . tampa, fl 33613
-  . 11/4.sat.1:30a-2p
-  . 11/16.thr.5:45p.$67.80
 
 journal
 ...
@@ -6103,145 +6090,6 @@ DETAILS :
 02. 20:52:44.798 - trace - RouteValueDictionary - Microsoft.AspNetCore.Routing - HomeOwnersApi.Web
 03. 20:52:45.800 - error - ConcurrencyException - CQRSlite.Domain.Exception - HomeOwnersApi.Web - A different version than expected was found in aggregate 9d00caaf-6d57-453d-b003-b9ea300021ce
 
-kibana
-...
-
-C:\Octopus\Applications\SQA\HomeOwnersApi.Web\0.1.164-CI\logs\2017-11-06.json
-
-error-today
-...
-http://savpubuntuitlv01:5601/app/kibana#/discover/72b97c10-c309-11e7-9762-69e9075a8e79?_g=(refreshInterval:(display:Off,pause:!f,value:0),time:(from:now%2Fd,mode:quick,to:now%2Fd))&_a=(columns:!(host,Level,Name,ContextId,CorrelationId),filters:!(),index:'filebeat-*',interval:auto,query:(query_string:(analyze_wildcard:!t,query:Error)),sort:!('@timestamp',desc))
-
-error-today-correlation-id
-...
-http://savpubuntuitlv01:5601/app/kibana#/discover/72b97c10-c309-11e7-9762-69e9075a8e79?_g=(refreshInterval:(display:Off,pause:!f,value:0),time:(from:now%2Fd,mode:quick,to:now%2Fd))&_a=(columns:!(host,Level,Name,ContextId,CorrelationId),filters:!(),index:'filebeat-*',interval:auto,query:(query_string:(analyze_wildcard:!t,query:Error)),sort:!('@timestamp',desc))
-
-737e9103-e1ae-41ab-9db0-f9fed5a67b4d
-
-_search?q=*&pretty'
-
-http://savpubuntuitlv01:5601/app/kibana#/discover/_search?q=*&pretty'
-
-error-today
-...
-. http://savpubuntuitlv01:5601/app/kibana#/discover/72b97c10-c309-11e7-9762-69e9075a8e79?_g=()&_a=(columns:!(host,Level,Name,ContextId,CorrelationId),filters:!(),index:'filebeat-*',interval:auto,query:(query_string:(analyze_wildcard:!t,query:Error)),sort:!('@timestamp',desc))
-
-
-
-
-
-
-
-
-
-   at Elasticsearch.Net.RequestPipeline.BadResponse[TReturn](ElasticsearchResponse`1& response, RequestData data, List`1 pipelineExceptions) in c:\Projects\elastic\net-5\src\Elasticsearch.Net\Transport\Pipeline\RequestPipeline.cs:line 501
-   at Elasticsearch.Net.Transport`1.<RequestAsync>d__15`1.MoveNext() in c:\Projects\elastic\net-5\src\Elasticsearch.Net\Transport\Transport.cs:line 171
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at Nest.ElasticClient.<Nest-IHighLevelToLowLevelDispatcher-DispatchAsync>d__261`4.MoveNext()
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
-   at HomeOwnersApi.WriteModel.EventStore.ElasticEventStore.<Save>d__13.MoveNext() in C:\TeamCity\buildAgent\work\2e1ce2f29b77b03e\HomeOwnersApi.WriteModel\EventStore\ElasticEventStore.cs:line 86
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at CQRSlite.Domain.Repository.<Save>d__4`1.MoveNext()
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at CQRSlite.Cache.CacheRepository.<Save>d__6`1.MoveNext()
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at CQRSlite.Domain.Session.<Commit>d__6.MoveNext()
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
-   at HomeOwnersApi.WriteModel.Commands.Handlers.CreateQuoteCommandHandler.<Handle>d__6.MoveNext() in C:\TeamCity\buildAgent\work\2e1ce2f29b77b03e\HomeOwnersApi.WriteModel\Commands\Handlers\CreateQuoteCommandHandler.cs:line 117
-
-*ngIf="paymentFormData?.isBilledToMortgage?.canEdit"
-
-mortgageFormLenders.controls.length
-
-kibana
-...
-. built with node
-. free
-. charts
-
-CORRELATION ID: 32135078-2511-4a33-a935-090fb42cfd17 | CONTEXT ID: 621accd3-3f30-41b0-a7ac-e144050626ca
-
-   at HomeOwnersApi.Infrastructure.DataService.HandleException[T](Task`1 task, Uri url) in C:\TeamCity\buildAgent\work\2e1ce2f29b77b03e\HomeOwnersApi.Infrastructure\DataService.cs:line 200
-
-   at HomeOwnersApi.Infrastructure.DataService.<>c__DisplayClass10_0`2.<PutAsync>b__0(Task`1 t) in C:\TeamCity\buildAgent\work\2e1ce2f29b77b03e\HomeOwnersApi.Infrastructure\DataService.cs:line 140
-
-   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
-
-   at System.Threading.Tasks.Task.Execute()
-
---- End of stack trace from previous location where exception was thrown ---
-
-   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
-
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-
-   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
-
-   at HomeOwnersApi.Infrastructure.DataService.<PutAsync>d__10`2.MoveNext() in C:\TeamCity\buildAgent\work\2e1ce2f29b77b03e\HomeOwnersApi.Infrastructure\DataService.cs:line 139
-
---- End of stack trace from previous location where exception was thrown ---
-
-   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
-
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-
-   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
-
-   at HomeOwnersApi.Infrastructure.Services.PaymentService.<SavePaymentDetails>d__3.MoveNext() in C:\TeamCity\buildAgent\work\2e1ce2f29b77b03e\HomeOwnersApi.Infrastructure\Services\PaymentService.cs:line 39
-
---- End of stack trace from previous location where exception was thrown ---
-
-   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
-
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-
-   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
-
-   at HomeOwnersApi.WriteModel.Commands.Handlers.SubmitPaymentCommandHandler.<Handle>d__13.MoveNext() in C:\TeamCity\buildAgent\work\2e1ce2f29b77b03e\HomeOwnersApi.WriteModel\Commands\Handlers\SubmitPaymentCommandHandler.cs:line 102
-
-PUT - http://localhost:8085/api/exposure/101886/3000/0/HO/HO3/2017-11-06/09QT92291550 99/DRP00000000003087929
- 
-lenderForm.value.city = numbers?
-smartyStreets
-geolocate_precision=city
-plus4_code
-
-6: POLICY NUMBER - 
-
-. at CQRSlite.Domain.AggregateRoot.LoadFromHistory(IEnumerable`1 history)
-. at CQRSlite.Domain.Repository.<LoadAggregate>d__6`1.MoveNext()
-. at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
-. at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-. at CQRSlite.Cache.CacheRepository.<Get>d__7`1.MoveNext()
-. at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
-. at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-. at CQRSlite.Domain.Session.<Get>d__4`1.MoveNext()
-. at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
-. at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-. at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
-. at HomeOwnersApi.WriteModel.Commands.Handlers.LoadQuoteCommandHandler.<Handle>d__4.MoveNext() in \HomeOwnersApi.WriteModel\Commands\Handlers\LoadQuoteCommandHandler.cs:line 63
-
-at IBM.Data.DB2.iSeries.iDB2Exception.throwDcException(MpDcErrorInfo mpEI, MPConnection conn), at IBM.Data.DB2.iSeries.iDB2Command.reportDCError(Int32 rc), at IBM.Data.DB2.iSeries.iDB2Command.execute(), at IBM.Data.DB2.iSeries.iDB2Command.ExecuteNonQuery(), at HomeOwnersApi.iSeries.Web.Controllers.ControllerBase.ExecuteNonQuery[T](String commandText, Action`1 mapParameters, Func`3 mapResult) in > \HomeOwnersApi.iSeries.Web\Controllers\ControllerBase.cs:line 209
-
-888>>>
-
-at IBM.Data.DB2.iSeries.iDB2Exception.throwDcException(MpDcErrorInfo mpEI, MPConnection conn), at IBM.Data.DB2.iSeries.iDB2Command.reportDCError(Int32 rc), at IBM.Data.DB2.iSeries.iDB2Command.execute(), at IBM.Data.DB2.iSeries.iDB2Command.ExecuteNonQuery(), at HomeOwnersApi.iSeries.Web.Controllers.ControllerBase.ExecuteNonQuery[T](String commandText, Action`1 mapParameters, Func`3 mapResult) in \HomeOwnersApi.iSeries.Web\Controllers\ControllerBase.cs:line 215, at HomeOwnersApi.iSeries.Web.Controllers.ControllerBase.CommonDriverStoredProcedure(String parameterString) in \HomeOwnersApi.iSeries.Web\Controllers\ControllerBase.cs:line 420, at HomeOwnersApi.iSeries.Web.Controllers.PropertyDetailController.SavePropertyDetails(PropertyDetailSelection request) in \HomeOwnersApi.iSeries.Web\Controllers\PropertyDetailController.cs:line 740, at lambda_method(Closure , Object , Object[] ), at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters), at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
-
-at HomeOwnersApi.Infrastructure.DataService.<PutAsync>d__10`2.MoveNext() in \HomeOwnersApi.Infrastructure\DataService.cs:line 148, at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw(), at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task), at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult(), at HomeOwnersApi.Infrastructure.Services.PropertyDetailService.<SavePropertyDetail>d__19.MoveNext() in \HomeOwnersApi.Infrastructure\Services\PropertyDetailService.cs:line 93, at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw(), at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task), at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult(), at HomeOwnersApi.WriteModel.Commands.Handlers.SubmitPropertyDetailsCommandHandler.<Handle>d__12.MoveNext() in \HomeOwnersApi.WriteModel\Commands\Handlers\SubmitPropertyDetailsCommandHandler.cs:line 169
 
 poc 
 ...
@@ -6265,119 +6113,6 @@ poc
   . cite card
     . other's ideas
     . a book - author, year, page(s)
-
-. PROPERTY DETAILS Page
-  . occupancy field
-  . occupancyUse field
-  . applicant page run credit popup example
-
-jira commits 
-...
-. 1629 - add ui logic to make credit manditory for certain scenarios - 8/23/17
-. 1635 - update ui changes with the static changes
-. 1767 - api update to accommodate discount surcharge edit
-. 1772 - update ui and api for coverage edits - 9/19/17
-. 1773 - update ui and api to handle the payment plans for pho to display correctly - 9/6/17
-. 1807 - add logic in api for x-wind
-. 2061 - pho lender issue
-. 1886 - help text for property details
-
-wip 
-... 
-
-applicants.component.ts
-...
-. @ViewChild('noRunCreditPopover')
-noRunCreditPopover: PopoverDirective;
-. this.noRunCreditPopover.show();
-. popoverOpen(): boolean {
-    return (this.noEmailPopover && this.noEmailPopover.isOpen) || (this.noRunCreditPopover && this.noRunCreditPopover.isOpen);
-  }
-. this.popoverAsModalHelper.reEnableAllOtherInputs();
-. this.noRunCreditPopover.hide();
-
-applicants.component.html
-...
-.    <fieldset class="float-right layout-one-right">
-          <legend
-              [popover]="noRunCreditTemplate"
-              placement="top"
-              trigger=""
-              #noRunCreditPopover="bs-popover"
-	            (onShown)="showNoEmail()"
-	            container="body"
-          ><span>4. Run Credit</span></legend>
-
-HOADHOC-1886: PHO - Help Text for Property Details 
-...
-. Acceptance Criteria
-  . Seasonal Help Text: "Property is occupied at least 3 continuous months out of the year"
-  . Secondary Help Text: "Property is occupied at least 3 months out of the year - non-continuous"
-
-
-
-import {correctPopoverLeft} from '../../core/ux/popover-correction';
-
-
-  @ViewChild('noRunCreditPopover')
-  noRunCreditPopover: PopoverDirective;
-
-    popoverOpen(): boolean {
-    return (this.noEmailPopover && this.noEmailPopover.isOpen) || (this.noRunCreditPopover && this.noRunCreditPopover.isOpen);
-  }
-
-  this.noRunCreditPopover.hide();
-
-
-  html:
-
-  <!-- START No Run Credit Popover -->
-<ng-template #noRunCreditTemplate>
-  <h2 class="popover-sub-heading">Please Confirm</h2>
-  <div class="no-run-credit-content" align="center">
-    If you choose "No" to Run with Credit, you will not be<br>eligible to receive a policy.<br><br><br>
-  </div>
-  <div class="popover-footer-float-right">
-    <button class="btn btn-success" (click)="setRunCreditPopover()">Yes, Run With Credit</button>
-    <button class="btn btn-success" (click)="setNoRunCreditPopover()">Don't Run With Credit</button>
-  </div>
-</ng-template>
-<!-- END of No Run Credit Popover -->
-
-<div [ngClass]="popoverOpen() ? 'popover-disabled-background': ''"></div>
-
-fri - 11/10 notes 
-...
-
-. glyphicons-exclamation-sign
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

@@ -43,6 +43,7 @@ bo - boat
 br - bradenton
 bs - bi.su
 bt - big.table
+bu - build
 by - berry
 c# - conf#
 c$ - cash.bal
@@ -76,6 +77,8 @@ dp - dog.poo
 dr - doctor
 ds - deathstar
 dt - dir.tv
+dv - dev
+dy - deploy
 e  - eye dr
 eb - ebay
 ed - end.day
@@ -100,6 +103,7 @@ fz - foamaclense
 g  - gym
 g$ - grow.bal
 gc - go.cha
+gd - gym.data
 ge - get
 gl - glasses
 gm - gm fin
@@ -140,6 +144,7 @@ lu - lunch
 lw - lawyer
 ly - laundry
 m  - mow yard
+ma - manual
 me - me.tong
 ml - met.life
 mp - metro.pcs
@@ -147,6 +152,7 @@ mw - mom wh
 mo - mow
 mu - made.up
 n  - new
+n1 - note
 nc - name.chg
 nf - never.flat
 no - no
@@ -195,19 +201,23 @@ sk - skyway moto
 sn - sprint.test
 so - shoulder
 sp - spectrum
+sq - sqa
 sr - sprint.rev
 st - sub.task
 su - stand.up
 sw - speedway
 t  - today
 t2 - tires
-te - teco
 ta - tampa
+tc - team.city
+te - teco
 ti - trailer
 to - to
 tr - trulieve
+tt - test
 ud - update
 uk - unknown
+us - use
 v1 - visit.1
 v2 - visit.2
 v3 - visit.3
@@ -278,33 +288,35 @@ zz - zoom.zoom
 p$
 
 . ac
-  . 10/27 - pd$385.05
+  . 10/27/17 - pd$385.05
 
 . be
 
 . dt
   . c#769540498
-  . 11/10 - ca.dt.fw>11/24
+  . 11/10/17 - ca.dt.fw>11/24
 
 . gm.447693292
-  . 11/10 - fw>11/24
+  . 11/10/17 - fw>11/24
 
 . pm
 
 . sd
 
 . sp
-  . 11/11 - auto.pd$68.93
+  . 11/11/17 - auto.pd$68.93
 
 . sk
-  . 10/13 - pd$150
-  . 10/27 - pd$150
-  . 11/10 - pd$100
+  . 10/13/17 - pd$150
+  . 10/27/17 - pd$150
+  . 11/10/17 - pd$100
 
 . te
-  . 10/13 - pd$101
+  . 10/13/17 - pd$101
+  . 11/11/17 - PD$122C#270570648052
 
 . wa
+  . 11/10/17 - c#17111022403707$70
 
 icons
 ...
