@@ -1,0 +1,16 @@
+:tiger: raid: 
+:weight_lifter::skin-tone-5: **gym: Upper Tampa Bay Trail Town of Citrus Park**
+:alarm_clock: hard-drop:
+:alarm_clock: despawn:
+:thumbsup: confirmed?: 
+:earth_americas: https://goo.gl/maps/4Ht77iLzR3R2
+:clown: *tag @me if joining*
+
+Full Command List
+!setup - Used with GPS coords. GymHuntrBot watches this location.
+!level - Used to filter which level raids GymHuntrBot will alert you to.
+!filter - Used to filter which Pokémon GymHuntrBot will alert you to.
+!radius- Used to change the radius of how far GymHuntrBot will alert you.
+!start - Starts GymHuntrBot. It will start sending scan data.
+!stop - Stops GymHuntrBot. It will stop sending scan data.
+!info - Shows the location, filters and status of GymHuntrBot.                                                    

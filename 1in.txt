@@ -1,4 +1,3 @@
-123456789012345678901234567890
 ...
 dd
 ...
@@ -8,15 +7,8 @@ dd
 +  - get
 $  - pay
 $c - cash.buy
-3d - 3.dstar
-3o - 3.osprey
-3w - 3.woodstk
 4  - for
-4e - 4.egret
-4p - 4.pelic
-4t - 4.ptero
-4w - 4.whiteibis
-7  - 711
+7  - 7-11
 a  - arrive
 ab - abron
 ac - att.cell
@@ -47,10 +39,10 @@ bu - build
 by - berry
 c# - conf#
 c$ - cash.bal
-123456789012345678901234567890
 c  - cal
 ca - call
 cb - cho lon bad bro
+cc - conf.code
 cd - cdb
 ce - chinese.eggplant
 cg - cho lon good bro
@@ -58,9 +50,8 @@ ch - clean house
 ci - cig
 cl - clearwater
 cm - cat.mae
-cn - conf#
 co - contact
-cp - cat.poo
+cp - cat.p
 ct - citrus.park
 cy - candy
 cz - clinique.zo
@@ -71,15 +62,13 @@ dc - document
 dd - data.dictionary
 de - dentist
 df - drop.off
-dm - dev.meet
 do - do
-dp - dog.poo
+dp - dog.p
 dr - doctor
 ds - deathstar
 dt - dir.tv
 dv - dev
-dy - deploy
-e  - eye dr
+e  - eye.dr
 eb - ebay
 ed - end.day
 em - email
@@ -115,7 +104,6 @@ gw - grow
 hc - haircut
 hd - help.desk
 hl - hyatt.leg
-hr - home.retro
 hs - hardeep.singh
 i  - inbox
 i2 - ipad.pro

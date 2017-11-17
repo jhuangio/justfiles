@@ -10,8 +10,8 @@ fri.11/10
 . c$0
 . g$0
 
-bi.oe: 11/3 - 11/17
-
+cc
+...
 ac
 be
 dt 
@@ -41,37 +41,26 @@ act
 . s$.ol.drdorris.com.au
 . s$.ol.isleepeasy.app
 . s$.wm.b.nf.t2
+. hc$20
+. ca.dr.singh
 
 cal
 ...
 1110.fri.14 - [p] 
-  cb$400, 
-  pm$160, 
-  wa$100, 
-  pm$300,
-  gm$342.01,
-  wg.my.ad.df,
-  wg.myad.pu,
-  ca.dr.hs.nx.ao.d1?,
-  go.tr.ta.pu$250
-1111.sat.13 - bi.aw@8am, pm>lw.pu$300, hc$20, be.df.cm.gl
+1111.sat.13 - 
 1112.sun.12 - 
-1113.mon.11 - bi.oe.sa, d.w, hc$20
+1113.mon.11 - 
 1114.tue.10 - 
 1115.wed.09 - [1.gm$342.10]
 1116.thr.08 - 
-  bi.oe.en>1d, 
-  go.de
-1117.fri.07 - bi.oe.en
+1117.fri.07 - <today>
 1118.sat.06 - 
 1119.sun.05 - 
-1120.mon.04 - 
-  jessie.v.
-  1st.day
+1120.mon.04 - bi.jesse
 1121.tue.03 -
 1122.wed.02 - 
 1123.thr.01 -
-1124.fri.14 - [4mon][P] 
+1124.fri.14 - [4mon][P] last.pay
   am$552
 1125.sat.13 - 
 1126.sun.12 - 
@@ -232,37 +221,6 @@ lt
 . jepsic
 . {{currentPage?.title}}
 . excel.view.tab.split.command
-
-gym
-...
-abc.pizza.15
-above.all.cuts.smoke.sheldon.07
-arbors.countryway.fountain.mom.brown.apt.04
-arbor.water.fountain.my.old.apt.memorial.18
-baylife.cross.church.next.to.smoke.06
-baywater.fountain.01
-buddhist.water.prayer.viet.temple.12
-chapel.in.the.pines.kelly.19
-chase.memorial.center.memorial.7-11.25
-fountain.square.>.lake.pillars.28
-gamestop.hilllsb.memorial.09
-highwoods.waterfall.new.corp.bldg.memorial.24
-hope.gospel.church.korean.sawyer.17
-jackson.spring.sk8.park.08
-lake.pillars.memorial.near.exp.way.27
-levis.the.swordfish.tgif.03
-marsupial.a.la.carte.fountain.dana.shores.23
-pam.callahan.memorial.kelly.21
-please.wash.me.mural.sawyer.16
-reformed.cross.hillsb.webb.10
-starbucks.super.target.02
-sweetwater.park.next.to.old.condo.22
-tampa.elite.sports.sheldon.05
-tokyo.carp.fountain.888.sushi.11
-town.n.country.library.13
-us.post.office.tnc.14
-well.of.life.church.domino.memorial.20
-west.bay.fountain.near.house.rode.bike.thru.26
 
 bi 
 ...

@@ -1,0 +1,39 @@
+scans
+...
+
+tnc 
+!setup 27.986445,-82.565161
+
+tyrone mall
+!setup 27.793065,-82.733891
+
+. south tampa
+!setup 27.894137,-82.512104
+
+. super target
+!setup 28.015065,-82.614748
+
+. oldsmar
+!setup 28.031364,-82.668151
+
+philippe park
+!setup 28.007617,-82.680163
+
+safety harbor
+!setup 27.990696,-82.694741
+
+:tiger: raid: 
+:weight_lifter::skin-tone-5: **gym: Mrs Hook**
+:alarm_clock: hard-drop:
+:alarm_clock: despawn:
+:thumbsup: confirmed?: 
+:earth_americas: https://goo.gl/maps/J5MUuT2CDiN2
+:clown: *tag @me if joining*
+
+:tiger: raid: 
+:weight_lifter::skin-tone-5: gym: Mrs Hook
+:alarm_clock: hard-drop:
+:alarm_clock: despawn:
+:thumbsup: confirmed?: 
+:earth_americas: https://goo.gl/maps/J5MUuT2CDiN2
+:clown: *tag @me if joining
