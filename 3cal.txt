@@ -314,3 +314,4 @@ in
        . However if I am quoting ahead of a closing I need to ability to enter a date in the future. 
   . 2. Also if I put the purchase date the same as the effective date, I am not able to continue because I don't get a green continue.
 testaaa
+koa
