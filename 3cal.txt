@@ -233,3 +233,4 @@ in
 . hc$20
 . boost.mobile
 . call.walgreens
+. df.dry.cleaning
