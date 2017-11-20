@@ -1,0 +1,3 @@
+devop
+...
+. Created automation and deployment templates for relational and nosql databases (standalone and RDS), including MSSQL, Mysql, MongoDB, Redis and Neo4j.

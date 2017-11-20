@@ -3,7 +3,7 @@ dd
 ...
 @  - at
 >  - to
-<  - from
+<  - from, back
 +  - get
 $  - pay
 $c - cash.buy
@@ -24,6 +24,7 @@ at - alex.ut
 au - audio.cd
 aw - a.work
 b  - bike
+b1 - boost
 ba - bal
 bb - best.buys
 be - bright.eyes
@@ -40,6 +41,7 @@ by - berry
 c# - conf#
 c$ - cash.bal
 c  - cal
+c1 - adobe.cc
 ca - call
 cb - cho lon bad bro
 cc - conf.code
@@ -53,6 +55,7 @@ cm - cat.mae
 co - contact
 cp - cat.p
 ct - citrus.park
+cx - closed
 cy - candy
 cz - clinique.zo
 d  - day.rev
@@ -105,8 +108,10 @@ hc - haircut
 hd - help.desk
 hl - hyatt.leg
 hs - hardeep.singh
+hy - hays
 i  - inbox
 i2 - ipad.pro
+i6 - iphone6
 i7 - iphone7
 ic - itunes
 id - index.cards
@@ -120,6 +125,7 @@ js - javascript
 kl - kitty.l
 l  - leave
 lf - late.fee
+lg - lib.gulf[27.803827,-82.801179]
 lh - l.home
 li - linked.in
 lm - loss.mit.dept
@@ -141,8 +147,10 @@ mo - mow
 mu - made.up
 n  - new
 n1 - note
+n2 - nicole.gary
 nc - name.chg
 nf - never.flat
+ng - angular
 no - no
 ns - nos
 nt - nathan
@@ -391,3 +399,7 @@ act
 . $  - sk300.11/15
 . $  - te130.11/15
 . $  - gm400.11/15
+
+. ca.dentist.next.thr.time? - (Mon 11/6/2017 @8:14A)
+. ca.dentist.surgeon.appt - (Mon 11/6/2017 @8:14A)
+. ca.dentist.root.canal.dr - (Mon 11/6/2017 @8:14A)

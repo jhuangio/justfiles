@@ -95,3 +95,11 @@ this.popoverAsModalHelper.disableAllOtherInputs();
   . occupancy field
   . occupancyUse field
   . applicant page run credit popup example
+
+kibana
+...
+. http://savpubuntuitlv01:5601/app/kibana#/discover?_g=()&_a=(columns:!(Level,CorrelationId,Name,Nameslpace,Assembly,ErrorMessage,Data,ErrorStackTrace),filters:!(),index:'filebeat-*',interval:auto,query:(query_string:(analyze_wildcard:!t,query:'2595fec3-bac9-4662-869f-19dfea0b4874')),sort:!('@timestamp',desc))
+
+. currentQuote.productId
+. {{currentPage?.title}}
+

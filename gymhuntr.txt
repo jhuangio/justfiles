@@ -1,11 +1,65 @@
 scans
 ...
 
+citrus park
+!setup 28.068675,-82.57764
+
+cypress point
+!setup 27.950541,-82.545574
+
+clearwater beach
+!setup 27.977477,-82.82453
+
+oldsmar
+!setup 28.031364,-82.668151
+
+tnc 1
+!setup 27.986445,-82.565161
+
+tnc 2
+!setup 28.015065,-82.614748
+
+westchase
+!setup 28.043171,-82.598939
+
+ybor
+!setup 27.961124,-82.438966
+
 tnc 
 !setup 27.986445,-82.565161
 
 tyrone mall
 !setup 27.793065,-82.733891
+
+safety-harbor-marina
+!setup 27.991639,-82.692113
+
+safety-harbor-philippe-park
+!setup 28.007617,-82.680163
+
+tnc
+
+sweetwater
+!setup 27.986078,-82.556735
+
+abc
+!setup 27.99632,-82.563565
+
+above.all.cuts
+!setup 28.012867,-82.582822
+
+harbor
+!setup 28.021059,-82.624468
+
+st.pete
+
+tyrone.mall
+!setup 27.79459,-82.734935
+
+mew2 scans
+
+starbucks-carrollwood
+!setup 28.088703,-82.5036
 
 . south tampa
 !setup 27.894137,-82.512104
@@ -23,17 +77,12 @@ safety harbor
 !setup 27.990696,-82.694741
 
 :tiger: raid: 
-:weight_lifter::skin-tone-5: **gym: Mrs Hook**
+:weight_lifter::skin-tone-5: **gym: Green Iguana - South Tampa**
 :alarm_clock: hard-drop:
 :alarm_clock: despawn:
 :thumbsup: confirmed?: 
-:earth_americas: https://goo.gl/maps/J5MUuT2CDiN2
-:clown: *tag @me if joining*
+:earth_americas: https://goo.gl/maps/Q5iJ9rTe6cM2
+:tiger: *tag @me if joining*
 
-:tiger: raid: 
-:weight_lifter::skin-tone-5: gym: Mrs Hook
-:alarm_clock: hard-drop:
-:alarm_clock: despawn:
-:thumbsup: confirmed?: 
-:earth_americas: https://goo.gl/maps/J5MUuT2CDiN2
-:clown: *tag @me if joining
+Green Iguana South Tampa
+27.889306,-82.480624
