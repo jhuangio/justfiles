@@ -230,6 +230,6 @@ in
 . ge.c1<
 . go.b1.i6
 . em.hy.n2
-  . 1 - .net
-  . 2 - ng4
-  . 3 - devop
+. hc$20
+. boost.mobile
+. call.walgreens

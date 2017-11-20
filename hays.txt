@@ -1,3 +1,25 @@
-devop
+nicolle.gary@hays.com
 ...
-. Created automation and deployment templates for relational and nosql databases (standalone and RDS), including MSSQL, Mysql, MongoDB, Redis and Neo4j.
+
+Hi Nicole,
+
+Thanks for getting back with me so fast on open positions.  
+
+FYI - I was at Bankers Insurance from 7/24/17 - 11/13/17.  I was required to come in Saturday 11/11/17 for final production move of the PHO Quote System I worked on fixing bugs and adding enhancements for 3 months.  I was let go without warning on Monday, after the production move work day Saturday without pay.  I really believe my position was a contract to perm position but they structured it as per because they knew I was considering other offers at the time.  
+
+Per our telephone conversation today, I added the following Bankers Insurance bullets for you to add to my current resume >>> 
+
+01. Analyzed and solved front end Angular 4 and back end .NET Core Web API and iSeries CQRS Kilbana/Elasticsearch errors on the Production, QA and Dev servers.
+
+02. Instrumental to the success of the New PHO Quote System release by successfully delivering bux fixes and backlog feature solutions in five Agile Sprints using JIRA, Confluence, TeamCity, BitBucket/SourceTree, and Octapus to move task from Angular 4 front end development, .NET Core Web API, .NET Core iSeries API CQRS GIT Version Control CI deployemnt to Docker containers for Elasticsearch.
+
+03. Developed New Innovative Angular 4 Feature Solutions using Visual Studio Code, GIT, Angular CLI, *ngIf/*ngFor, PhotoShop/Illustrator, D3, CSS3, Flexbox, Bootstrap, Material Design, HTML5 templates, Rxjs Observables, and Reactive Form Validators to deliver responsive, user friendly form solutions praised by the Business Owner. 
+
+Please email me after you receive this to confirm.
+
+If you need anything else, please let me know.
+
+Thank you for your help and I look forward to 1st Interviews in the near future.
+
+Jia Huang
+cell: (813) 415-5571
