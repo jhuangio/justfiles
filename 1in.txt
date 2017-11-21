@@ -117,6 +117,7 @@ ic - itunes
 id - index.cards
 ii - ipad2
 in - in
+io - interview.phone
 ip - interview.person
 it - in time
 ix - ifix

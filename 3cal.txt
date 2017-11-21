@@ -8,7 +8,7 @@ act.log.cal.day.in
 fri.11/10
 ...
 . c$0
-. g$0
+. g$40.51
 
 cc
 ...
@@ -48,17 +48,17 @@ cal
 ...
 1110.fri.14 - [p] 
 1111.sat.13 - bi.worked.sat
-1113.mon.11 - bi.last.day
-1115.wed.09 - [1.gm$342.10]
-1116.thr.08 - 
-1117.fri.07 - 
-1118.sat.06 - 
-1119.sun.05 - f1.left@10p?
-1120.mon.04 - f1.go.back@8p
-1121.tue.03 -
+1113.mon.11 - [0] bi.last.day
+1115.wed.09 - [1]
+1116.thr.08 - [2]
+1117.fri.07 - [3]
+1118.sat.06 - [4]
+1119.sun.05 - [5] f1.left@10p?
+1120.mon.04 - [6] f1.go.back@8p
+1121.tue.03 - [7] <today>, io.raymond.james@1p
 1122.wed.02 - de@11:30a.c$70
 1123.thr.01 - lg.cx, mw@1p
-1124.fri.14 - [4mon][P] last.pay, lg.cx
+1124.fri.14 - [4mon][P] last.pay, lg.cx, [1.gm$342.10]
   am$552
 1125.sat.13 - 
 1126.sun.12 - 
@@ -69,7 +69,7 @@ cal
 1201.fri.07 - 
 1202.sat.06 - 
 1203.sun.05 - 
-1204.mon.04 - pm.pu.ii$100
+1204.mon.04 - 
 1205.tue.03 - 
 1206.wed.02 - 
 1207.thr.01 - 
@@ -230,9 +230,9 @@ in
 . ge.c1<
 . go.b1.i6
 . em.hy.n2
-. hc$20
-. boost.mobile
 . call.walgreens
 . df.dry.cleaning
 . clean.car
 . Jennifer Catalano - 727-567-1272
+. epick.tong.scrap
+. go.wg.df.add.script+xan
