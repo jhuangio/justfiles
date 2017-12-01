@@ -108,9 +108,11 @@ journal
 ...
 2017
 ...
+. 12/5/16 - first day and last day @ convergys
 . 02/21/17 - first day @ cardinals
 . 06/30/17 - last day @ cardinals
 . 07/24/17 - first day @ bankers
+. 11/13/17 - last day @ bankers
 
 js
 ...
@@ -6185,7 +6187,31 @@ need
 . orange butterfly
 . mackrel 123
 
+ss 
+...
+Located in: Fountain Square II
+Address: 4925 Independence Pkwy, Tampa, FL 33634
+Hours: Open today · 7:30AM–4:30PM
+Phone: (800) 772-1213
 
+Tampa Bay Workforce Alliance in Riverview
+2.9 
+ (16) · Employment Agency
+12.4 mi · Tampa, FL
+(813) 930-7400
+Open until 5:00 PM
+
+CareerSource Tampa Bay  
+Employment center in Tampa, Florida
+Address: 9215 N Florida Ave, Tampa, FL 33612
+Hours: Open today · 8AM–7PM
+Phone: (813) 930-7400
+
+unemployment
+...
+m-f: 8a-.5p
+800.204.2418
+floridajobs.org
 
 
 

@@ -76,7 +76,7 @@ cal
 1208.fri.14 - [p]
 1209.sat.13 - 
 1210.sun.12 - 
-1211.mon.11 - 
+1211.mon.11 - submit 1st request for payment
 1212.tue.10 - 
 1213.wed.09 - 
 1214.thr.08 - 
@@ -86,7 +86,7 @@ cal
 1218.mon.04 - 
 1219.tue.03 -
 1220.wed.02 - 
-1221.thr.01 - 
+1221.thr.01 - do.leave.house@10:15a, go@11:15a.ss.office
 1222.fri.14 - [p]
 1223.sat.13 - 
 1224.sun.12 - [5mon]
@@ -231,32 +231,89 @@ in
 . Jennifer Catalano - 727-567-1272
 . epick.tong.scrap
 . go.b21.shakes
+. careersource.tampa.bay
+. att$25
+. jennifer email
 
-ss 
+Hi Nicole,
+
+Thanks for getting back with me so fast on open positions.  
+
+FYI - I was at Bankers Insurance from 7/24/17 - 11/13/17.  I was required to come in Saturday 11/11/17 for final production move of the PHO Quote System I worked on fixing bugs and adding enhancements for 3 months.  I was let go without warning on Monday, after the production move work day Saturday without pay.  I really believe my position was a contract to perm position but they structured it as per because they knew I was considering other offers at the time.  
+
+From 7/24/17 - 11/13/17 I did a project for Bankers Insurance Contract by Hays.
+
+Per our telephone conversation today, I added the following Bankers Insurance bullets for you to add to my current resume >>> 
+
+Attached you will find me recent resume not including my 3 months project with Bankers Insurance from 7/24/17 -  11/13/17.
+
+The reason I could not include that in my current resume is because i did not have room to include my 30 years work history on one page : )
+
+Please add the following bullets from Bankers Insurance - Angular 4 Software Engineer from 7/24/17 - 11/13/17 >>>
+
+01. Analyzed and solved front end Angular 4 and back end .NET Core Web API and iSeries CQRS Kilbana/Elasticsearch errors on the Production, QA and Dev servers.
+
+02. Instrumental to the success of the New PHO Quote System release by successfully delivering bux fixes and backlog feature solutions in five Agile Sprints using JIRA, Confluence, TeamCity, BitBucket/SourceTree, and Octapus to move task from Angular 4 front end development, .NET Core Web API, .NET Core iSeries API CQRS GIT Version Control CI deployemnt to Docker containers for Elasticsearch.
+
+03. Developed New Innovative Angular 4 Feature Solutions using Visual Studio Code, GIT, Angular CLI, *ngIf/*ngFor, PhotoShop/Illustrator, D3, CSS3, Flexbox, Bootstrap, Material Design, HTML5 templates, Rxjs Observables, and Reactive Form Validators to deliver responsive, user friendly form solutions praised by the Business Owner. 
+
+Thank you for your cooperation and I look forward to moving on to the next step in the process.
+
+Jia Huang
+cell: (813) 415-5571
+email: jiahuangsp2010@gmail.com
+
+Senior Software Engineer with over 30 years of technical experience in web and application development, UI/UX design.
+
+Shaun McNicholas
+Technology Executive with over 30 years of management experience in web and application development, UI/UX design.
+Current: Chief Technology Officer at Bloom Intelligence
+(727) 877-8181
+
+Bankers Financial Corporation
+Address: 11101 Roosevelt Blvd N, St. Petersburg, FL 33716
+(800) 627-0000
+
+Your Reemployment Assistance Program (RAP) claim has been submitted. 
+Time and date submitted: 12/1/2017 3:35:51 PM
+
 ...
-Located in: Fountain Square II
-Address: 4925 Independence Pkwy, Tampa, FL 33634
-Hours: Open today · 7:30AM–4:30PM
-Phone: (800) 772-1213
 
-Tampa Bay Workforce Alliance in Riverview
-2.9 
- (16) · Employment Agency
-12.4 mi · Tampa, FL
-(813) 930-7400
-Open until 5:00 PM
+Management and Teamwork
+Which project on your resume did you like most and why?
+My favorite project was a Lotus Notes to SharePoint 2010 conversion project which I built from scratch using SharePoint Document Library and Word 2010 templates as forms.  This design linked Word Form fields to SharePoint Metadata Columns easily delivering a robust custom application in 4 weeks.
 
-CareerSource Tampa Bay  
-WebsiteDirections
-3.1
-17 Google reviews
-Employment center in Tampa, Florida
-Address: 9215 N Florida Ave, Tampa, FL 33612
-Hours: Open today · 8AM–7PM
-Phone: (813) 930-7400
+Which project on your resume did you like least and why?
+I like my last project at Bankers Insurance the least because it was a massive Angular 4 project created by an outside consulting firm in 6 months and I was hired to fixed the Angular 4 front end and .NET Core Web API bugs.  Fixing bugs is not as fun as creating new solutions. 
 
-unemployment
-...
-m-f: 8a-.5p
-800.204.2418
-floridajobs.org
+
+What is your experience working on a development team? What was your development
+process? (Looking for mention of pm, qa, testing/unit testing)
+Over the past 20 years of custom application development, I have worked as my own PM, Dev, and QA on smaller SDLC projects to just working on Angular 4 front end development on larger 
+Agile projects with 2 week sprints.  In all the projects, I pride myself as a true professional delivering innovative, user friendly solutions that have been unit tested to insure zero bugs in production.  When in a QA role, I create detailed test scripts that any user can participate in testing and does not require only SME testing.  When Unit Testing, I stress test each feature and try to break the system.   I also, use a technique called "Backwards Chaining" to develop user friend custom solutions from scratch.  For example, if a user currently has a manual Excel spreadsheet process that is print friendly, I will start with that print output and build the solution to generate the identical output, if possible.  Depending on if the project is Waterfall, locking down requirements up front is key and any scope change that will increase timelines requires signoff to proceed.  For Agile projects, realistic expectations must be set from the project start as to capacity and which stories or backlog features can be done.  I have also mentored many junior developers as I like to share my knowledge and expertise freely to build stronger teams.
+
+What is your experience with leading (a project/ team)? What were your biggest challenges and
+how did you approach them?
+I have led many project teams before Agile was popular.  Before Agile we managed development team using RAD/JAD (Rapid Application Development/Joint Application Development) and delivered custom SDLC projects in 4 weeks with 4 weekly JAD sessions with users and business owners to fine tune the solution.  If the change requests did not add time, we would accomodate the requests each week.  
+
+
+What is your experience with troubleshooting your application, and what is your process?
+For my Angular 4 projects, I build small components following Angular 4 Best Practices of keeping a maximum of 400 lines of code per component.  If it gets larger than 400, the component must be split.  For web applications, I trap for HTTP errors.  For initial setup prior to accessing real REST endpoints for JSON data, I use mock JSON data to test.  With Angular 4, you unit test as you go and you can also test for lint errors.  For backend data tests from a real data source, I use Chrome Dev and view the Network results to see what was returned from the server.  For HTML5 and CSS3 tests, I unit test as I go from Visual Studio Code to Chrome Browser and make adjustments and tweaks as I go.
+
+
+[If many short time frames] Why such short timeframes at each job? 
+Sometimes I prefer short contract to hire positions just to make sure it's a good long term fit for both.  Sometimes, what is advertised is not what is expected.  I have had contracts that was advertised as strictly Angular 4 front end positions with some .NET core which resulted in expectations of additional DevOp responsibilities on the weekend to monitor production logs.  
+
+
+[If long time at current job] Why are you looking for a new opportunity?
+Personal
+Do you have any projects that you work on in your personal time?  I do not work on any professional consulting projects on the side.  If hired I would give my 100% full time attention and focus to the employer.  Howerver, I do enjoy learning to be a better Angular 4 Software Engineer each day.  I am always striving to learn the lastest front end library/framework.  I try to build one new thing a day with new technology or concepts.  I continue to improve my Javascript Functionl Programming and Curry skills.  I enjoy designing svg graphic logos with script only.  I like to work with D3 JS library for building custom dashboards with dynamic svg charts.  I run a private Discord server for my friends and family to share images.  On this server I work with the Discord.js library to create custom BOTS to generate dynamic content based on rules.
+
+
+What is something you failed at? How did you fix the problem or did you abort?
+I do not recall failing at anything I attemped as far as programming features and solutions goes.  I never give up so I will dig and dig on google until I find a solution.  If I cannot find the solution online, I will tinker and test over and over until I find the solution.  There are many different ways to solve a problem.  Sometimes the answers comes when you step back and think out of the box.  
+
+What do you enjoy most about development?  
+I get great personal satisfaction from creating a soltuion from scratch using the right tools for the project and seeing the delivered solution used daily by satisfied end users pleased with my custom solution.
+
+. NewJob8270!!
