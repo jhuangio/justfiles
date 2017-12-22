@@ -5,6 +5,8 @@ act.log.cal.day.in
 . cat.2107093
 . me .2180810
 
+Client ID: JXgmhGHw4LGbBx4YYHDWHWgX8zBRB9XA
+
 fri.11/10
 ...
 . c$0
@@ -374,3 +376,5 @@ Sorry about Monday, I was all booked up, end of year is a flurry of activity. I 
 kind regards,
 
 GC
+
+https://partners.uber.com/i/jiah599ue

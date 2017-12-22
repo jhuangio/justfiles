@@ -6405,50 +6405,58 @@ street address: website name/URL or email address: 5015 South Florida Ave | Thir
 Result of your search: waiting  
 Type of work sought: Software Engineer
 
-
-Gabriel Castillo
-Talent Acquisition Manager
-gabriel.castillo@tekkfusion.com
-
 002
 ...
-Date of contact: 
-Method of contact: 
-Business name: 
-telephone number: 
-street address: website name/URL or email address: 
-Result of your search: 
-Type of work sought: 
+Date of contact: 12/12/2017
+Method of contact: Internet
+Business name: TekkFusion
+telephone number: (877) 404-8355
+street address: website name/URL or email address: http://www.tekkfusion.com
+Result of your search: Gabriel Castillo
+Type of work sought: Sr. Developer
 
 003
 ...
-Date of contact: 
-Method of contact: 
-Business name: 
-telephone number: 
-street address: website name/URL or email address: 
+Date of contact: 12/12/2017
+Method of contact: Internet   
+Business name: Princeton Information
+telephone number: 201-479-9017
+street address: website name/URL or email address: http://www.princetoninformation.com/
 Result of your search: 
-Type of work sought: 
+Type of work sought: Project Manager in Tampa
+
+Nitu
+Technical Recruiter
+Y&L Consulting, Inc.
+A YASH Technologies Company
+210 239 0319/ 210 340 0098*1201
+nitu.kalra@ylconsulting.com
+
 
 004 
 ...
-Date of contact: 
-Method of contact: 
-Business name: 
-telephone number: 
-street address: website name/URL or email address: 
+Date of contact: 12/12/2017
+Method of contact: internet
+Business name: Y&L Consulting, Inc.
+telephone number: 866-366-2099
+street address: website name/URL or email address: http://ylconsulting.com
 Result of your search: 
-Type of work sought:
+Type of work sought: Front End Developer
+
+	
+Integrations Developer
+Ashley Furniture Industries · Tampa, FL, US
+In 
 
 005
 ...
-Date of contact: 
-Method of contact: 
-Business name: 
-telephone number: 
-street address: website name/URL or email address: 
+Date of contact: 12/12/2017
+Method of contact: internet
+Business name: Ashley Furniture Industries · Tampa
+telephone number: (727) 803-0015
+street address: website name/URL or email address: http://www.ashleyfurniture.com/
 Result of your search: 
-Type of work sought: 
+Type of work sought: Integrations Developer
 
 12/17-12/23
 
@@ -6502,5 +6510,6 @@ street address: website name/URL or email address:
 Result of your search: 
 Type of work sought: 
 
+Client ID: JXgmhGHw4LGbBx4YYHDWHWgX8zBRB9XA
 
 [999.eof]
