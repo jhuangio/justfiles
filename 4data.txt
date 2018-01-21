@@ -6548,7 +6548,59 @@ street address: website name/URL or email address: kforce.com
 Result of your search: waiting
 Type of work sought: Sr. Front End 
 
-12/24-
+12/24-12/30
+
+001 
+...
+Date of contact: 12/27/2017
+Method of contact: internet
+Business name: appleone employment service tampa
+telephone number: 813-269-7000
+street address: website name/URL or email address: www.appleone.com
+Result of your search: waiting
+Type of work sought: software engineer
+
+002
+...
+Date of contact: 12/30/17
+Method of contact: internet
+Business name: johnson search international (jsi)
+telephone number: 
+street address: website name/URL or email address: www.jsi-inc.com
+Result of your search: waiting
+Type of work sought: digital front end developer
+
+003
+...
+Date of contact: 12/29/2017
+Method of contact: internet
+Business name: nicopure labs
+telephone number: 727-372-1188
+street address: website name/URL or email address: www.nicopure.com
+Result of your search: waiting
+Type of work sought: front end developers
+
+004 
+...
+Date of contact: 12/28/2017
+Method of contact: internet
+Business name: high point solutions
+telephone number: 
+street address: website name/URL or email address: www.highpointsolutions.com
+Result of your search: waiting
+Type of work sought: ux/ui developer
+
+005
+...
+Date of contact: 12/27/2017
+Method of contact: internet 
+Business name: career experts
+telephone number: 727-209-4599
+street address: website name/URL or email address: www.careerexperts.jobs
+Result of your search: waiting
+Type of work sought: senior software engineer
+
+1/7/2018
 
 001 
 ...
@@ -6598,7 +6650,7 @@ Business name:
 telephone number: 
 street address: website name/URL or email address: 
 Result of your search: 
-Type of work sought: 
+Type of work sought:
 
 Client ID: JXgmhGHw4LGbBx4YYHDWHWgX8zBRB9XA
 
