@@ -1,1 +1,0 @@
-. excel.view.tab.split.command
